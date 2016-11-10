@@ -483,12 +483,6 @@ h3 {
     margin: 0px 30px;
 }
 
-.icon {
-    width: 20px;
-    background-size: cover;
-    display: inline-block;
-    margin-right: 15px;
-}
 
 #jsi {
     background-image:url('/static/images/jsi_icon.png');
@@ -628,11 +622,13 @@ h3 {
 }
 
 .icon {
+  display: inline-block;
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: contain;
   background-position: center center;
   width: 100%;
   margin-right: 0px;
+
 }
 
 .icon-left {
@@ -657,8 +653,6 @@ h3 {
 }
 
 .partner-row {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 35px;
 }
 
@@ -680,7 +674,8 @@ h3 {
 }
 
 .partner-btn {
-  margin-top: 10px;
+  margin-top: 30px;
+  text-align:center;
 }
 
 .content-row {
@@ -784,6 +779,14 @@ nav ul > li.footer-glyphicon > a {
         margin-top: 70px;
       }
 
+#mc_embed_signup {
+  text-align: center;
+}
+
+#mc_embed_signup input[type=email] {
+  height: 48px;
+    border-radius: 16px;
+}
 
 @media only screen and (max-width : 1020px) {
     #banner-content {
@@ -814,7 +817,6 @@ nav ul > li.footer-glyphicon > a {
 
 @media only screen and (max-width : 767px) {
     #faces {
-        background:url('/static/images/homepage_faces_no_overlay.png');
         width:100%;
         background-size: cover;
         position: relative;
@@ -829,16 +831,6 @@ nav ul > li.footer-glyphicon > a {
 
     }
 
-    #faces:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background-image: linear-gradient(to left, #1e6566, #c14d00);
-      opacity: .25;
-    }
 
     .title-fragment {
         display: block;
@@ -879,6 +871,7 @@ nav ul > li.footer-glyphicon > a {
 
     .quote-no-marks {
       margin-top: 0px;
+      margin-left: 0px;
     }
 
     #how-it-works-sections, #why-callisto-sections {
@@ -941,5 +934,135 @@ nav ul > li.footer-glyphicon > a {
     margin-top:25px;
   }
 
+  #hiw-row {
+    display: inherit;
+  }
+  .explanation {
+    min-height: 0px;
+  }
+
+  .because-caret {
+    margin-bottom: 0px;
+  }
+
+  .hiw-column {
+    margin-bottom: 50px;
+  }
+
+  .partner-btn {
+    text-align: center;
+  }
+
+  .partner-column:not(:first-child) {
+    margin-top: 70px;
+  }
+
+#press {
+  min-height: 143px;
+  border-bottom: 1px solid #d2d4d4;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #FFFFFF),
+    color-stop(1, #F1F7F7)
+  );
+  background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #F1F7F7 100%);
+  background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #F1F7F7 100%);
+  background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #F1F7F7 100%);
+  background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #F1F7F7 100%);
+  background-image: linear-gradient(to bottom, #FFFFFF 0%, #F1F7F7 100%);
+}
+
+#press>div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#press a {
+  margin: 55px 10px 0px 10px;
+}
+
+#press a:hover, #press a:focus {
+  border-bottom: 2px solid #3e99aa !important;
+}
+
+  .carousel-inner>.item img {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 6px;
+    padding-top: 12px;
+  }
+
+  .carousel-inner>.item {
+    height: 70px;
+  }
+
+  #press {
+    min-height: 70px;
+    max-height: 70px;
+  }
+
+  #press.row {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #press a {
+    margin: inherit;
+  }
+
+  #press .btn {
+    margin-top: 10px;
+    width: auto;
+  }
+
+  #press .item>a {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  #press a {
+    border-bottom: 2px solid transparent;
+    margin-bottom: 6px;
+  }
+
+  #press #carousel-press .btn.btn-default {
+    border-bottom: 3px solid;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .carousel-control {
+    background: none !important;
+    color: #99a2a3;
+    text-shadow: none;
+    top: 22px;
+  }
+
+  .carousel-inner>.item.active>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel-inner>.item.next.left>a, .carousel-inner>.item.prev.right>a {
+    display: flex;
+    align-items: center;
+ }
+
+  #carousel-press > a.carousel-control {
+    border: none !important;
+  }
+
+  .carousel-control:focus, .carousel-control:hover {
+    color: inherit;
+    text-decoration: none;
+    filter: alpha(opacity=90);
+    outline: 0;
+    opacity: .9;
+  }
 }
 
