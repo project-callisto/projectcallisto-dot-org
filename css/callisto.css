@@ -167,9 +167,8 @@ nav ul > li > a {
     }
 
     .footer .navbar-nav {
-        float: right;
+        float: left;
         margin: 0;
-        margin-right: -17px;
     }
 }
 
@@ -331,6 +330,17 @@ h1 {
   width: 80%;
 }
 
+#donate-banner #banner-content {
+  position: inherit;
+  padding: 5% 0%;
+}
+
+     
+#donate-banner #banner-content .subheader {
+          width: 80%;
+      }
+
+
 
 h1 {
   font-size: 48px;
@@ -374,8 +384,8 @@ h1 {
 }
 
 .quote-no-marks {
-  margin-top: 24px;
   margin-bottom: 59px;
+  margin-top:0px;
   left: 0px;
   margin-right: 0px;
   font-style: inherit;
@@ -386,6 +396,10 @@ h1 {
   color: #f7f7f7;
   margin-top: 51px;
   margin-bottom: 0px;
+}
+
+.quote-no-marks h2 {
+  margin-bottom: 24px;
 }
 
 .quote-attribution {
@@ -529,134 +543,6 @@ h3 {
 #closer a {
     margin-top: 35px;
     margin-bottom: 50px;
-}
-
-@media only screen and (max-width : 1020px) {
-    #banner-content {
-        top: 10%;
-        left: 10%
-    }
-
-    .hiw-or {
-        margin: 0px 15px;
-    }
-
-    .wuc-section {
-        margin: 0px 10px;
-    }
-
-}
-
-@media only screen and (max-width : 900px) {
-    .subheader {
-        width:100%;
-    }
-}
-
-.wuc-section >div:first-child {
- -webkit-flex:1 0 auto;
-}
-
-@media only screen and (max-width : 767px) {
-    #faces {
-        background:url('/static/images/homepage_faces_no_overlay.png');
-        width:100%;
-        background-size: cover;
-        position: relative;
-        padding-bottom: 0;
-    }
-
-    #banner-content {
-      position: inherit;
-      padding: 70px 32px;
-      left: 0;
-      width: 100%;
-
-    }
-
-    #faces:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background-image: linear-gradient(to left, #1e6566, #c14d00);
-      opacity: .25;
-    }
-
-    .title-fragment {
-        display: block;
-    }
-
-    .quote {
-        padding: 0px 16px;
-    }
-
-    .quote > .row {
-        display: flex;
-        justify-content: center;
-    }
-
-    .quote-mark-right {
-        margin-left: 12px;
-        margin-right: 0;
-        float: none;
-        margin-top: 45px;
-    }
-
-    .quote-mark-left {
-        margin-left: 0;
-        margin-right: 12px;
-        float: none;
-        margin-top: 45px;
-    }
-
-    .quote-mark-right {
-        flex-shrink: 0;
-    }
-
-    .quote-content {
-        left: 0;
-        margin-top: 60px;
-        margin-right:0;
-    }
-
-    #how-it-works-sections, #why-callisto-sections {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 38px;
-        margin-bottom: 51px;
-    }
-
-    .hiw-or {
-        margin: 43px 0px;
-    }
-
-    .hiw-section {
-        max-width: none;
-        margin: 0px 50px;
-    }
-
-    .quote-attribution {
-        margin-bottom: 60px;
-    }
-
-    h2 {
-        margin-top: 51px;
-    }
-
-    .wuc-section {
-        margin-bottom: 21px;
-    }
-
-    #banner-content {
-        text-align: center;
-    }
-
-    #how-it-works {
-        padding: 0 10px;
-    }
 }
 
 #faces {
@@ -846,6 +732,9 @@ p {
 #donate-banner {
     background-image:url('../images/donate-header.png');
     background-position:bottom;
+    overflow: auto;
+      padding-bottom: 0;
+
 }
 
 #donate-cta-row > div+div {
@@ -854,6 +743,7 @@ p {
 
 #donate-cta-row p {
     margin-bottom: 31px;
+        min-height: 93px;
 }
 
 #donate-cta-row {
@@ -880,3 +770,174 @@ nav ul > li.footer-glyphicon > a {
 .footer-heading {
   left: 17px;
 }
+
+      #guidestar-logo {
+        float: left;
+        height: 48px;
+      }
+
+      #guidestar-text {
+        line-height: 48px;
+    padding-left: 15px;
+    float: left;
+      }
+
+      #guidestar {
+        margin-top: 70px;
+      }
+
+
+@media only screen and (max-width : 1020px) {
+    #banner-content {
+        top: 10%;
+        left: 10%
+    }
+
+
+    .hiw-or {
+        margin: 0px 15px;
+    }
+
+    .wuc-section {
+        margin: 0px 10px;
+    }
+
+}
+
+@media only screen and (max-width : 900px) {
+    .subheader, #donate-banner #banner-content .subheader{
+        width:100%;
+    }
+}
+
+.wuc-section >div:first-child {
+ -webkit-flex:1 0 auto;
+}
+
+@media only screen and (max-width : 767px) {
+    #faces {
+        background:url('/static/images/homepage_faces_no_overlay.png');
+        width:100%;
+        background-size: cover;
+        position: relative;
+        padding-bottom: 0;
+    }
+
+    #banner-content, #donate-banner #banner-content {
+      position: inherit;
+      padding: 70px 32px;
+      left: 0;
+      width: 100%;
+
+    }
+
+    #faces:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(to left, #1e6566, #c14d00);
+      opacity: .25;
+    }
+
+    .title-fragment {
+        display: block;
+    }
+
+    .quote {
+        padding: 0px 16px;
+    }
+
+    .quote > .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .quote-mark-right {
+        margin-left: 12px;
+        margin-right: 0;
+        float: none;
+        margin-top: 45px;
+    }
+
+    .quote-mark-left {
+        margin-left: 0;
+        margin-right: 12px;
+        float: none;
+        margin-top: 45px;
+    }
+
+    .quote-mark-right {
+        flex-shrink: 0;
+    }
+
+    .quote-content {
+        left: 0;
+        margin-top: 60px;
+        margin-right:0;
+    }
+
+    .quote-no-marks {
+      margin-top: 0px;
+    }
+
+    #how-it-works-sections, #why-callisto-sections {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 38px;
+        margin-bottom: 51px;
+    }
+
+    .hiw-or {
+        margin: 43px 0px;
+    }
+
+    .hiw-section {
+        max-width: none;
+        margin: 0px 50px;
+    }
+
+    .quote-attribution {
+        margin-bottom: 60px;
+    }
+
+    h2 {
+        margin-top: 51px;
+    }
+
+    .wuc-section {
+        margin-bottom: 21px;
+    }
+
+    #banner-content {
+        text-align: center;
+    }
+
+    #how-it-works {
+        padding: 0 10px;
+    }
+
+
+  #donate-cta-row > div+div {
+      border-left: none;
+      margin-top:71px;
+  }
+
+  #guidestar-text {
+    line-height: inherit;
+    padding-left: inherit;
+  }
+
+  #guidestar-logo {
+    margin-bottom: 15px;
+    height: inherit;
+  }
+
+  #donate-cta-row p {
+        min-height: inherit;
+}
+
+}
+
