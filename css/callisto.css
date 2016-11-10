@@ -683,8 +683,8 @@ h3 {
 }
 
 #hiw-banner {
-    background-image:url('../images/hiw-header.png');
-    background-position:0% 15%;
+    background-image:url('../images/donate-header.png');
+    background-position:bottom;
 }
 
 .banner {
