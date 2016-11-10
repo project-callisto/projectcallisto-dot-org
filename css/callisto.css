@@ -313,7 +313,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-#faces, #donate-banner {
+#faces, #donate-banner, #hiw-banner {
     background-color: black;
     width:100%;
     padding-bottom: 44%;
@@ -788,6 +788,10 @@ nav ul > li.footer-glyphicon > a {
     border-radius: 16px;
 }
 
+#features li {
+  font-size: 21px;
+}
+
 @media only screen and (max-width : 1020px) {
     #banner-content {
         top: 10%;
@@ -816,7 +820,7 @@ nav ul > li.footer-glyphicon > a {
 }
 
 @media only screen and (max-width : 767px) {
-    #faces {
+    #faces, #hiw-banner {
         width:100%;
         background-size: cover;
         position: relative;
