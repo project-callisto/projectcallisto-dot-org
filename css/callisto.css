@@ -97,7 +97,6 @@ nav ul > li > a {
 
 .footer-content {
     border-top: solid 2px #979797;
-    margin-top: 100px;
     padding: 15px 0px;
     display: flex;
 }
@@ -317,7 +316,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-#faces {
+#faces, #donate-banner {
     background-color: black;
     width:100%;
     padding-bottom: 44%;
@@ -332,9 +331,6 @@ h1 {
   width: 80%;
 }
 
-#nav-border{
-    display:none;
-}
 
 h1 {
   font-size: 48px;
@@ -375,6 +371,21 @@ h1 {
   margin-bottom: 15px;
   left: -70px;
   margin-right: -70px;
+}
+
+.quote-no-marks {
+  margin-top: 24px;
+  margin-bottom: 59px;
+  left: 0px;
+  margin-right: 0px;
+  font-style: inherit;
+  text-align: left;
+}
+
+.quote h2 {
+  color: #f7f7f7;
+  margin-top: 51px;
+  margin-bottom: 0px;
 }
 
 .quote-attribution {
@@ -761,7 +772,7 @@ h3 {
     justify-content: space-between;
 }
 
-#partner-row {
+.partner-row {
     display: flex;
     justify-content: space-between;
     margin-bottom: 35px;
@@ -790,4 +801,82 @@ h3 {
 
 .content-row {
   padding-bottom: 75px;
+}
+
+#hiw-banner {
+    background-image:url('../images/hiw-header.png');
+    background-position:0% 15%;
+}
+
+.banner {
+    min-height: 300px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 0px;
+}
+
+
+.banner-container{
+    display: flex;
+    align-items: center;
+}
+
+.section_subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #575757;
+}
+
+.header_text h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 3px;
+  color: #fff;
+  text-align: left;
+}
+
+p {
+  font-size:21px;
+}
+
+#donate-banner {
+    background-image:url('../images/donate-header.png');
+    background-position:bottom;
+}
+
+#donate-cta-row > div+div {
+    border-left: 1px solid #bbb;
+}
+
+#donate-cta-row p {
+    margin-bottom: 31px;
+}
+
+#donate-cta-row {
+    margin-bottom:26px;
+}
+
+.footer .navbar-nav>li {
+  float: none;
+}
+
+.footer nav ul > li > a {
+  text-align: left;
+}
+
+.footer .footer-glyphicon {
+  float:left !important;
+  margin-top: 5px;
+}
+
+nav ul > li.footer-glyphicon > a {
+  font-size: 24px;
+}
+
+.footer-heading {
+  left: 17px;
 }
