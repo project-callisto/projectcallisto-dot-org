@@ -124,7 +124,6 @@ nav ul > li > a {
     color: #585858;
     display: inline-block;
     margin-left: 25px;
-    margin-top: 15px;
 }
 
 .footer-content a[href^="tel:"] {
@@ -155,7 +154,6 @@ nav ul > li > a {
 /* sm (tablet) & smaller screens */
 @media only screen and (max-width : 992px) {
     .copyright {
-        padding-top: 25px;
         display: inline-block;
         float: right;
     }
@@ -190,7 +188,7 @@ nav ul > li > a {
     }
 
     #id_header ul > li > a {
-        text-align: left;
+        text-align: center;
     }
 
     #id_header .navbar-nav {
@@ -937,7 +935,11 @@ nav ul > li.footer-glyphicon > a {
 
   #donate-cta-row p {
         min-height: inherit;
-}
+  }
+
+  .copyright {
+    margin-top:25px;
+  }
 
 }
 
