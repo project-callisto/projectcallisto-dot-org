@@ -788,8 +788,19 @@ nav ul > li.footer-glyphicon > a {
     border-radius: 16px;
 }
 
-#features li {
+li {
   font-size: 21px;
+}
+
+#meet-the-team li {
+  list-style:none;
+}
+
+hr { 
+  border: 0; 
+  height: 2px; 
+  background-color: #979797; 
+  width: 90%;
 }
 
 @media only screen and (max-width : 1020px) {
