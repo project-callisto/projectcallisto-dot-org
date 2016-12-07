@@ -23,6 +23,93 @@ html {
     margin-right: 6.8181818181%; <!-- 1.5 / 22 -->
 }
 
+.form-row textarea {
+  border-radius: 16px;
+}
+
+.form-row input[type=text], .footer input[type=email] {
+  height: 48px;
+  border-radius: 16px;
+}
+
+.form-row .form-group {
+  margin-bottom: 8px;
+}
+
+.form-row .form-control, .footer .form-control {
+  font-size: 18px;
+}
+
+.checkbox-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.form-row .checkbox {
+  padding-top:0;
+}
+
+.form-row .form-control:focus, #suggest .form-control:focus, #fundraise .form-control:focus, .form-row textarea:focus {
+  border: 2px solid #3997a9;
+  text-indent: 0px;
+  background-image:none;
+}
+
+.form-row input[type=text], .form-row input[type=email], .form-row textarea {
+  background-position: 20px 15px;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 2s;
+  transition: all 0.2s;
+}
+
+#suggest input[type=text], #suggest input[type=email], #suggest textarea {
+  text-indent: 35px;
+  }
+
+input#Field1 {
+  background-image: url('../images/suggest_school_icon.png');
+}
+
+input#Field105 {
+  background-image: url('../images/suggest_name_icon.png');
+}
+
+input#Field106 {
+  background-image: url('../images/suggest_email_icon.png');
+}
+
+input#Field108 {
+  background-image: url('../images/suggest_title_icon.png');
+}
+
+textarea#Field110 {
+  background-image: url('../images/suggest_help_icon.png');
+  padding-top: 12px;
+}
+
+.form-row .btn {
+  margin-top:34px;
+}
+
+.community-icon {
+  color: black;
+  font-size: 60px;
+  padding: 0px 8px;
+}
+
+a.community-icon:hover {
+  text-decoration: none;
+}
+
+#stay-in-touch #mc_embed_signup {
+  margin-top: 30px;
+  margin-bottom: 75px;
+}
+
+
 @media only screen and (min-width : 768px) {
     .col-sm-after-1-half-offset {
         margin-right: 6.8181818181%; <!-- 1.5 / 22 -->
@@ -831,6 +918,23 @@ hr {
 }
 
 @media only screen and (max-width : 767px) {
+
+    .checkbox-row {
+    display: block;
+  }
+
+  .checkbox-row > div {
+    float: left;
+    margin-left: 15px;
+  }
+
+/* placeholder doesn't indent properly on mobile Safari */
+  textarea#Field110 {
+    background-image: none;
+    padding-top: 12px;
+    text-indent: 0;
+  }
+
     #faces, #hiw-banner {
         width:100%;
         background-size: cover;
@@ -1080,4 +1184,5 @@ hr {
     opacity: .9;
   }
 }
+
 
