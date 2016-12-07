@@ -527,6 +527,7 @@ h2 {
   color: #222222;
   margin-top: 45px;
   margin-bottom: 34px;
+  font-size:32px;
 }
 
 #how-it-works-sections, #why-callisto-sections {
@@ -688,7 +689,7 @@ h3 {
 }
 
 .explanation {
-  min-height: 75px;
+  min-height: 125px;
   display: block;
   margin-bottom: 20px;
 }
@@ -728,6 +729,11 @@ h3 {
   font-weight: 600;
   text-transform: uppercase;
   color: #3997a9;
+}
+
+.front-page h3, .front-page .h3 {
+  text-transform: none;
+  font-size: 20px;
 }
 
 #how_it_works_grid h3 {
