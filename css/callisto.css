@@ -50,10 +50,10 @@ html {
   padding-top:0;
 }
 
-.form-row .form-control:focus, #suggest .form-control:focus, #fundraise .form-control:focus, .form-row textarea:focus {
+.form-row .form-control:focus, #suggest .form-control:focus, #demo .form-control:focus, #fundraise .form-control:focus, .form-row textarea:focus {
   border: 2px solid #3997a9;
   text-indent: 0px;
-  background-image:none;
+  background-image:none !important;
 }
 
 .form-row input[type=text], .form-row input[type=email], .form-row textarea {
@@ -69,19 +69,19 @@ html {
   text-indent: 35px;
   }
 
-input#Field1 {
+input#Field1, #demo input#Field3 {
   background-image: url('../images/suggest_school_icon.png');
 }
 
-input#Field105 {
+input#Field105, #demo input#Field1 {
   background-image: url('../images/suggest_name_icon.png');
 }
 
-input#Field106 {
+input#Field106, #demo input#Field6 {
   background-image: url('../images/suggest_email_icon.png');
 }
 
-input#Field108 {
+input#Field108, #demo input#Field2 {
   background-image: url('../images/suggest_title_icon.png');
 }
 
