@@ -237,6 +237,14 @@ nav ul > li > a {
     }
 }
 
+/* sm (tablet) & bigger screens */
+@media only screen and (min-width : 768px) {
+    .partner-row {
+      display: flex;
+      justify-content: center;
+    }
+}
+
 
 /* sm (tablet) & smaller screens */
 @media only screen and (max-width : 992px) {
