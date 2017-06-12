@@ -26,11 +26,11 @@ p.pre-bullet {
 
 h1 {
   margin-top: 15px;
-  font-size: 24px;
-  font-weight: 600;
-  text-align: center;
-  color: #585858;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
   margin-bottom:5px;
+  color: #ffffff;
 }
 
 h2 {
@@ -258,80 +258,6 @@ a.community-icon:hover {
     color: inherit;
 }
 
-/* sm (tablet) screens only */
-@media only screen and (max-width : 992px) and (min-width : 768px){
-    #id_header ul > li >a {
-        position: relative;
-        display: block;
-        padding: 10px 6px;
-    }
-
-    #callisto {
-       font-size: 18px;
-    }
-}
-
-/* md (laptop) & bigger screens */
-@media only screen and (min-width : 992px) {
-    .footer .navbar-nav {
-        width: 80%;
-    }
-}
-
-/* sm (tablet) & bigger screens */
-@media only screen and (min-width : 768px) {
-    .partner-row {
-      display: flex;
-      justify-content: center;
-    }
-}
-
-
-/* sm (tablet) & smaller screens */
-@media only screen and (max-width : 992px) {
-    .copyright {
-        display: inline-block;
-        float: right;
-    }
-
-    .hotline {
-        float: right;
-        text-align: right;
-        font-size: 13px;
-    }
-
-    .footer .navbar-nav {
-        float: left;
-        margin: 0;
-    }
-}
-
-/* xs (phone) screens */
-@media only screen and (max-width : 768px) {
-    .hotline {
-        clear: both;
-        text-align: left;
-        margin-left: 0px;
-        font-size: 13px;
-        float: left;
-    }
-
-    .copyright {
-        clear: both;
-        text-align: left;
-        margin-left: 0px;
-        float: left;
-    }
-
-    #id_header ul > li > a {
-        text-align: center;
-    }
-
-    #id_header .navbar-nav {
-        padding-top: 2px;
-        padding-bottom: 2px;
-    }
-}
 
 .footer .row {
     width: 100%;
@@ -404,7 +330,11 @@ a.community-icon:hover {
 
 .dark-blue-btn {
     background-color: #055f71;
-    text-transform:capitalize;
+}
+
+a.dark-blue-btn:hover {
+    color: #ffffff;
+    background-color: #057389;
 }
 
 .light-blue-btn {
@@ -414,6 +344,10 @@ a.community-icon:hover {
       font-weight: 600;
       text-align: center;
       color: #ffffff;
+}
+a.light-blue-btn:hover {
+  color: #ffffff;
+  background-color: #0172aa;
 }
 
 .visible-xs-block .banner {
@@ -483,14 +417,6 @@ a.community-icon:hover {
           width: 80%;
       }
 
-
-
-h1 {
-  font-size: 48px;
-  font-weight: 700;
-  color: #ffffff;
-  text-align: left;
-}
 
 .subheader {
   font-size: 21px;
@@ -916,6 +842,82 @@ hr {
   background-color: #979797; 
   width: 90%;
 }
+
+/* sm (tablet) screens only */
+@media only screen and (max-width : 992px) and (min-width : 768px){
+    #id_header ul > li >a {
+        position: relative;
+        display: block;
+        padding: 10px 6px;
+    }
+
+    #callisto {
+       font-size: 18px;
+    }
+}
+
+/* md (laptop) & bigger screens */
+@media only screen and (min-width : 992px) {
+    .footer .navbar-nav {
+        width: 80%;
+    }
+}
+
+/* sm (tablet) & bigger screens */
+@media only screen and (min-width : 768px) {
+    .partner-row {
+      display: flex;
+      justify-content: center;
+    }
+}
+
+
+/* sm (tablet) & smaller screens */
+@media only screen and (max-width : 992px) {
+    .copyright {
+        display: inline-block;
+        float: right;
+    }
+
+    .hotline {
+        float: right;
+        text-align: right;
+        font-size: 13px;
+    }
+
+    .footer .navbar-nav {
+        float: left;
+        margin: 0;
+    }
+}
+
+/* xs (phone) screens */
+@media only screen and (max-width : 768px) {
+    .hotline {
+        clear: both;
+        text-align: left;
+        margin-left: 0px;
+        font-size: 13px;
+        float: left;
+    }
+
+    .copyright {
+        clear: both;
+        text-align: left;
+        margin-left: 0px;
+        float: left;
+    }
+
+    #id_header ul > li > a {
+        text-align: center;
+    }
+
+    #id_header .navbar-nav {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+}
+
 
 @media only screen and (max-width : 1020px) {
     #banner-content {
