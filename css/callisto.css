@@ -16,8 +16,12 @@ html {
 }
 
 p {
-    margin-bottom: 35px;
-    font-size: 18px;
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+p.pre-bullet {
+  margin-bottom: 12px;
 }
 
 h1 {
@@ -38,10 +42,15 @@ h2 {
   font-size:32px;
 }
 
-h3 {
+h3, .h3 {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #3997a9;
+}
+
+.front-page h3, .front-page .h3 {
+  text-transform: none;
   font-size: 20px;
-  font-weight: 700;
-  color: #585858;
 }
 
 
@@ -755,34 +764,8 @@ h1 {
   background-position: left center;
 }
 
- h3,.h3 {
-  font-size: 24px;
-  margin-bottom: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #3997a9;
-}
-
-.front-page h3, .front-page .h3 {
-  text-transform: none;
-  font-size: 20px;
-}
-
-#how_it_works_grid h3 {
-  margin-top: 26px;
-}
-
-#hiw-row {
-    display: flex;
-    justify-content: space-between;
-}
-
 .partner-row {
     margin-bottom: 35px;
-}
-
-#how_it_works_grid {
-  margin-top: 50px;
 }
 
 .content-row { 
