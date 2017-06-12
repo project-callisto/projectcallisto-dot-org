@@ -168,7 +168,6 @@ a.community-icon:hover {
 }
 
 
-
 #top:focus {
     outline: none;
 }
@@ -305,7 +304,6 @@ a.community-icon:hover {
 }
 
 
-
 .subheader {
   font-size: 14px;
   font-weight: 400;
@@ -328,12 +326,15 @@ a.community-icon:hover {
       color: #ffffff;
 }
 
+a.btn:hover {
+  color: #ffffff;
+}
+
 .dark-blue-btn {
     background-color: #055f71;
 }
 
-a.dark-blue-btn:hover {
-    color: #ffffff;
+.dark-blue-btn:hover {
     background-color: #057389;
 }
 
@@ -345,8 +346,8 @@ a.dark-blue-btn:hover {
       text-align: center;
       color: #ffffff;
 }
-a.light-blue-btn:hover {
-  color: #ffffff;
+
+.light-blue-btn:hover {
   background-color: #0172aa;
 }
 
@@ -658,7 +659,7 @@ a.light-blue-btn:hover {
 }
 
 .explanation {
-  min-height: 125px;
+  min-height: 80px;
   display: block;
   margin-bottom: 20px;
 }
