@@ -804,7 +804,17 @@ h3 {
     background-position:bottom;
 }
 
+#what-banner {
+    background-image:url('../images/donate-header.png');
+    background-position:bottom;
+}
+
 #about-banner {
+    background-image:url('../images/donate-header.png');
+    background-position:bottom;
+}
+
+#involved-banner {
     background-image:url('../images/donate-header.png');
     background-position:bottom;
 }
