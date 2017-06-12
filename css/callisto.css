@@ -416,6 +416,22 @@ h1 {
     position: relative;
 }
 
+.banner-index {
+    background-color: black;
+    width:100%;
+    padding-bottom: 44%;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-med-height {
+    background-color: black;
+    width:100%;
+    padding-bottom: 30%;
+    background-size: cover;
+    position: relative;
+}
+
 #banner-content {
   position: absolute;
   top: 25%;
@@ -784,6 +800,11 @@ h3 {
 }
 
 #hiw-banner {
+    background-image:url('../images/donate-header.png');
+    background-position:bottom;
+}
+
+#about-banner {
     background-image:url('../images/donate-header.png');
     background-position:bottom;
 }
