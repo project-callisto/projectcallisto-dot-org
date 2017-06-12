@@ -658,6 +658,19 @@ a.btn:hover {
   margin-bottom: 20px;
 }
 
+#hiw-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#how_it_works_grid h3 {
+  margin-top: 26px;
+}
+
+#how_it_works_grid {
+  margin-top: 50px;
+}
+
 .explanation {
   min-height: 80px;
   display: block;
@@ -785,6 +798,26 @@ a.btn:hover {
 
 #donate-cta-row {
     margin-bottom:26px;
+}
+
+#donate-banner-content {
+    max-width:800px;
+    top:12%;
+}
+
+#give-now {
+  background-color: #f09559;
+  box-shadow: 0px;
+}
+
+.donate-glyphicon {
+  font-size: 32px;
+  padding: 5px 15px;
+  margin: auto 6px;
+}
+
+#facebook-share {
+  padding: 5px 20px;
 }
 
 .footer .navbar-nav>li {
