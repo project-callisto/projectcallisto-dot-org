@@ -324,7 +324,7 @@ a.community-icon:hover {
       color: #ffffff;
 }
 
-a.btn:visited, a.btn:hover, a.btn:focus {
+a.btn:visited, a.btn:hover, a.btn:focus, a.btn:active {
   color: #ffffff;
 }
 
@@ -812,7 +812,7 @@ a.btn:visited, a.btn:hover, a.btn:focus {
 }
 
 .give-now-btn:hover {
-  background-color: #ef8c4a;
+  background-color: #e5803d;
 }
 
 .donate-glyphicon {
