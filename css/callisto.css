@@ -664,6 +664,11 @@ a.btn:visited, a.btn:hover, a.btn:focus, a.btn:active {
     justify-content: space-between;
 }
 
+#how-it-works h3, #supporters h3 {
+  color: #222;
+  font-weight: 500;
+}
+
 #how_it_works_grid h3 {
   margin-top: 26px;
 }
