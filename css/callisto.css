@@ -39,7 +39,7 @@ h2 {
   font-size:32px;
 }
 
-h3, .h3 {
+h3 {
   font-weight: 600;
   text-transform: uppercase;
   color: #3997a9;
@@ -105,9 +105,6 @@ hr {
 
 .mainbody {
     flex: 1 0 auto;
-}
-
-.mainbody, .banner {
     background-color: #fff;
 }
 
@@ -120,11 +117,6 @@ hr {
   margin-right: 0px;
 
 }
-
-.icon-left {
-  background-position: left center;
-}
-
 
 
 /* Buttons */
@@ -152,26 +144,6 @@ a.btn:visited, a.btn:hover, a.btn:focus, a.btn:active {
     box-shadow: 0 2px 0 0 #034957;
 }
 
-.light-blue-btn {
-    padding: 9px 32px 11px;
-    background-color: #005e8d;
-    box-shadow: 0 2px 0 0 #034957;
-      font-size: 16px;
-      font-weight: 600;
-      text-align: center;
-      color: #ffffff;
-}
-
-.light-blue-btn:hover {
-  background-color: #0172aa;
-}
-
-.perp-btn {
-  border-radius: 4px;
-  background-color: #005e8d;
-  box-shadow: 0 2px 0 0 #034957;
-  margin-bottom: 20px;
-}
 
 
 /* Nav and footer */
@@ -222,12 +194,12 @@ nav ul > li > a {
     align-items: center;
 }
 
-#nav-border {
+/*#nav-border {
     border-style: solid;
     border-width: 2px;
     border-image-source: linear-gradient(90deg, #ffae78, #6ad0d4);
     border-image-slice: 1;
-}
+}*/
 
 .footer-content {
     border-top: solid 2px #979797;
@@ -282,9 +254,9 @@ nav ul > li > a {
   flex-shrink: 0;
 }
 
-#facebook-share {
+/*#facebook-share {
   padding: 5px 20px;
-}
+}*/
 
 .footer .navbar-nav>li {
   float: none;
@@ -317,16 +289,27 @@ nav ul > li.footer-glyphicon > a {
   line-height: 1.3;
 }
 
-.banner {
+/*.banner {
     padding-bottom: 20px;
     border-bottom: solid 2px #dfdfdf;
 }
 
-.visible-xs-block .banner {
-    border-bottom: none;
+.banner {
+    min-height: 300px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 0px;
 }
 
-#faces, #donate-banner, #hiw-banner {
+.visible-xs-block .banner {
+    border-bottom: none;
+}*/
+
+#faces, #donate-banner, /*#hiw-banner*/ {
     background-color: black;
     width:100%;
     padding-bottom: 44%;
@@ -374,18 +357,8 @@ nav ul > li.footer-glyphicon > a {
   padding: 11px 40px 13px;
 }
 
-.banner {
-    min-height: 300px;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: #fff;
-    padding-bottom: 0px;
-}
 
-.banner-container{
+/*.banner-container{
     display: flex;
     align-items: center;
 }
@@ -394,7 +367,7 @@ nav ul > li.footer-glyphicon > a {
     font-size: 20px;
     font-weight: 500;
     color: #575757;
-}
+}*/
 
 
 /* Quoteblock */
