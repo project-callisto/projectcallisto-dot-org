@@ -319,7 +319,6 @@ a.community-icon:hover {
 .btn {
       padding: 15px 30px;
       border-radius: 4px;
-      box-shadow: 0 2px 0 0 #034957;
       font-size: 18px;
       font-weight: 600;
       text-align: center;
@@ -332,15 +331,18 @@ a.btn:hover {
 
 .dark-blue-btn {
     background-color: #055f71;
+    box-shadow: 0 2px 0 0 #034957;
 }
 
 .dark-blue-btn:hover {
     background-color: #057389;
+    box-shadow: 0 2px 0 0 #034957;
 }
 
 .light-blue-btn {
     padding: 9px 32px 11px;
     background-color: #005e8d;
+    box-shadow: 0 2px 0 0 #034957;
       font-size: 16px;
       font-weight: 600;
       text-align: center;
@@ -805,7 +807,7 @@ a.btn:hover {
     top:12%;
 }
 
-.give-now {
+.give-now-btn {
   background-color: #f09559;
   box-shadow: 0px #ffffff;
 }
