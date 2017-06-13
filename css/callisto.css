@@ -800,14 +800,14 @@ a.btn:hover {
     margin-bottom:26px;
 }
 
-#donate-banner-content {
+.donate-banner-content {
     max-width:800px;
     top:12%;
 }
 
-#give-now {
+.give-now {
   background-color: #f09559;
-  box-shadow: 0px;
+  box-shadow: 0px #ffffff;
 }
 
 .donate-glyphicon {
