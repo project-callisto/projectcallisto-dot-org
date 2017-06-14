@@ -333,7 +333,15 @@ nav ul > li.footer-glyphicon > a {
     position: relative;
 }
 
-#banner-content {
+.banner-big-height {
+  background-color: black;
+    width:100%;
+    padding-bottom: 44%;
+    background-size: cover;
+    position: relative;
+}
+
+#banner-content, .banner-content {
   position: absolute;
   top: 25%;
   left: 12.5%;
@@ -651,12 +659,29 @@ textarea#Field110 {
 
 /* What We Do page styling */
 #what-banner {
-    background-image:url('../images/donate-header.png');
+    /* background-image:url('../images/What_We_Do_1.jpg'); */
+    background-image:url('../images/What_We_do_2.jpg'); 
     background-position:bottom;
+}
+
+#what-banner .title-fragment, #what-banner .subheader {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3px 5px;
 }
 
 
 /* Who We Are page styling */
+#who-banner {
+  background-image:url('../images/Who_We_Are.jpg'); 
+  background-position:bottom;
+}
+
+#who-banner .title-fragment, #who-banner .subheader {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3px 5px;
+  width: 100%;
+}
+
 #meet-the-team li {
   list-style:none;
 }
@@ -665,8 +690,13 @@ textarea#Field110 {
 /* Get Involved page styling */
 
 #involved-banner {
-    background-image:url('../images/donate-header.png');
+    background-image:url('../images/Get_Involved_2.jpg');
     background-position:bottom;
+}
+
+#involved-banner .title-fragment, #involved-banner .subheader {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3px 5px;
 }
 
 .community-icon {
@@ -684,6 +714,24 @@ a.community-icon:hover {
 }
 
 
+/* Partner With Us page styling */
+#partner-banner {
+  background-image:url('../images/Partner_With_Us.jpg'); 
+  background-position:bottom;
+  height: 100%;
+}
+
+#partner-banner #banner-content {
+  top: 15%;
+}
+
+#partner-banner .title-fragment, #partner-banner .subheader {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3px 5px;
+  width: 100%;
+}
+
+
 /* Donate */
 
 #donate-banner #banner-content {
@@ -695,8 +743,15 @@ a.community-icon:hover {
   width: 80%;
 }
 
+#donate-banner .title-fragment, #donate-banner .subheader {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3px 5px;
+  width: 100%;
+}
+
 #donate-banner {
-    background-image:url('../images/donate-header.png');
+    /*background-image:url('../images/donate-header.png');*/
+    background-image:url('../images/Donate.jpg');
     background-position:bottom;
     overflow: auto;
       padding-bottom: 0;
