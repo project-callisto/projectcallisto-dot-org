@@ -146,11 +146,13 @@ a.btn:visited, a.btn:hover, a.btn:focus, a.btn:active {
 }
 
 .light-blue-btn {
-	height: 59px;
-	width: 292px;
-	border-radius: 5px;
 	background-color: #1BA3B7;
-	box-shadow: inset 0 -2px 0 0 rgba(0,0,0,0.5);
+  box-shadow: 0 2px 0 0 #10717f;
+}
+
+.light-blue-btn:hover {
+  background-color: #138596;
+  box-shadow: 0 2px 0 0 #10717f;
 }
 
 
@@ -366,7 +368,7 @@ nav ul > li.footer-glyphicon > a {
   width: 62.5%
 }
 
-#banner-btn {
+.banner-btn {
   font-size: 21px;
   font-weight: 500;
   color: #ffffff;
