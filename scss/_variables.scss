@@ -1,0 +1,118 @@
+$box-shadow-main: 0 20px 40px 0 rgba(34, 35, 40, .1);
+$box-shadow-main-footer: 0 20px 40px 20px rgba(34, 35, 40, .2);
+$card-style-header-margin: 55px;
+
+$primary-title-color: #385C6C;
+$primary-text-color: #1C2E36;
+
+// screen widths
+$max-width-xs: 650px;
+$max-width-sm: 768px;
+$max-width-md: 1200px;
+
+$min-width-sm: $max-width-xs;
+$min-width-md: $max-width-sm;
+$min-width-lg: $max-width-md;
+
+// fonts
+$font-sans: 'Open Sans', Helvetica, 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif;
+$font-main: 'Montserrat', 'Open Sans', sans-serif;
+
+// colors - rules
+$color-gray: #979797;
+$color-gray-light: #f1f1f1;
+$color-gray-lighter: #dfdfdf;
+$color-gray-medium: #bbb;
+$color-gray-dark: #585858;
+$color-gray-main: #0e687a;
+
+$color-button-background-dark: #055f71;
+$color-gray-main-new: #a4b3b7;
+
+$color-cyan: #6ad0d4;
+$color-cyan-dark: #309da1;
+$color-cyan-strong: #2b9dd6;
+
+$color-blue-bright: #007edb;
+$color-blue-medium: #06748a;
+$color-blue-dark: #005e8d;
+$color-blue-deep: #103536;
+$color-blue-deeper: #00758f;
+$color-blue-button: #009ab0;
+
+$color-peach: #ffae78;
+$color-orange: #833500;
+$color-callisto-logo: #1c2e36;
+
+$color-dark-red: #a94442;
+$color-light-yellow: #ffe07a;
+
+$color-border-grey: #dfe4ee;
+$color-border-grey2: #e6edef;
+
+$color-background-grey: #f8f9f9;
+$color-shadow-gray: rgba(204, 204, 204, .5);
+$color-dark-grey: #4b4b4b;
+$color-box: rgba(0, 0, 0, .12);
+$color-box2: rgba(0, 0, 0, .24);
+$color-transparent: rgba(0, 0, 0, .2);
+
+$color-dark-grey: #4a4a4a;
+$color-white: #fff;
+$color-black: #000;
+
+// colors - specific purpose
+
+$color-button-outline: $color-peach;
+$color-button-background-light: $color-blue-dark;
+$color-button-background-med: $color-blue-medium;
+
+$color-body-gradient-1: $color-cyan;
+$color-body-gradient-2: $color-peach;
+$color-input-bg: $color-gray-light;
+$color-input-shadow: $color-shadow-gray;
+
+$color-nav-bg: $color-gray-light;
+$color-nav-border: $color-gray-medium;
+$color-nav-icon-unfilled: $color-gray-lighter;
+
+$color-dashboard-gradient-1: $color-cyan-strong;
+$color-dashboard-gradient-2: $color-peach;
+$color-dashboard-gradient-3: $color-cyan;
+$color-dashboard-gradient-4: $color-light-yellow;
+$color-dashboard-outline: $color-gray-medium;
+
+$color-flatpages-divider: $color-gray-medium;
+$color-flatpages-nav-dark: $color-cyan-dark;
+$color-flatpages-nav-light: rgba($color-flatpages-nav-dark, .3);
+
+$color-text-anchors: $color-blue-dark;
+$color-text-faded: $color-gray-dark;
+$color-text-required: $color-blue-bright;
+
+$color-message-error: $color-dark-red;
+$color-message-success: $color-cyan-strong;
+
+$color-banner: $color-gray-lighter;
+$color-footer-bar: $color-gray;
+$color-footer-links: #4a4a4a;
+
+$color-homepage-quote-bg: $color-cyan-dark;
+$color-homepage-banner-bg-1: rgba($color-blue-deep, .6);
+$color-homepage-banner-bg-2: rgba($color-orange, .6);
+
+$color-footer-border-top: rgba($color-gray-main-new, .5);
+$color-input-focus: #F1F3F4;
+
+@mixin underline-hover($bg-color, $padding-value) {
+  // Need a variable for this color //
+  background-color: $bg-color;
+  bottom: -2px;
+  content: '';
+  display: block;
+  height: 2px;
+  position: absolute;
+
+  // 30px should be a variable for the padding of the nav item //
+  width: calc(100% - #{$padding-value});
+}
