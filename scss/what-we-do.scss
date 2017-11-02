@@ -3,3 +3,10 @@
 .what-we-do-header {
   background-image: url('../../images/Assets/Whatwedo_headerimage.png');
 }
+
+.our-approach {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 60px $container-padding-lg;
+}
