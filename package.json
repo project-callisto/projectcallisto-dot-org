@@ -1,0 +1,20 @@
+{
+  "name": "project_c_backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css/static"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/Ariel_D/project_c_backup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Ariel_D/project_c_backup#readme",
+  "dependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
