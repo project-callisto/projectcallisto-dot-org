@@ -1,1 +1,41 @@
 @import '_variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,500i,700');
+
+body {
+  font-family: $font-main;
+}
+
+.main-header {
+  align-items: flex-start;
+  color: $color-white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  height: 377px;
+  padding: 60px 115px;
+  width: 100%;
+}
+
+.main-header h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.main-header p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+  width: 572px;
+}
+
+.gradient-button {
+  background: linear-gradient(130.96deg, $color-blue-button 0%, $color-blue-deeper 100%);
+  border-radius: 50px;
+  border: 0;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 13px 26px;
+  text-transform: uppercase;
+  width: 300px;
+}
