@@ -1,5 +1,18 @@
 @import 'main.scss';
 
+p {
+  color: $primary-text-color;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+section {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 .what-we-do-header {
   background-image: url('../../images/Assets/Whatwedo_headerimage.png');
   background-size: cover;
@@ -17,4 +30,18 @@
   background-image: url('../../images/Assets/QuotePattern_background.png');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.callisto-campus b {
+  color: $color-blue-bold-items;
+}
+
+.callisto-campus p {
+  font-family: $font-sans;
+  text-align: left;
+}
+
+.callisto-campus .value-prop-item {
+  display: flex;
+  flex-direction: row;
 }

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,500i,700");
 body {
-  font-family: "Montserrat", "Open Sans", sans-serif; }
+  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-size: 16px; }
 
 h3 {
   color: #385C6C;
@@ -10,6 +11,9 @@ h3 {
   margin-top: 0;
   text-align: center;
   text-transform: none; }
+
+section p {
+  text-align: center; }
 
 .main-header {
   align-items: flex-start;
@@ -27,6 +31,7 @@ h3 {
   font-weight: 500; }
 
 .main-header p {
+  color: #fff;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.4;
