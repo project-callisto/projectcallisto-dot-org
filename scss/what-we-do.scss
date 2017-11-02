@@ -2,6 +2,8 @@
 
 .what-we-do-header {
   background-image: url('../../images/Assets/Whatwedo_headerimage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .our-approach {
@@ -9,4 +11,10 @@
   display: flex;
   flex-direction: column;
   padding: 60px $container-padding-lg;
+}
+
+.quote-section {
+  background-image: url('../../images/Assets/QuotePattern_background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }

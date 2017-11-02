@@ -2,6 +2,13 @@
 body {
   font-family: "Montserrat", "Open Sans", sans-serif; }
 
+h3 {
+  color: #385C6C;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: none; }
+
 .main-header {
   align-items: flex-start;
   color: #fff;
@@ -37,10 +44,17 @@ section {
   padding: 60px 197px; }
 
 .what-we-do-header {
-  background-image: url("../../images/Assets/Whatwedo_headerimage.png"); }
+  background-image: url("../../images/Assets/Whatwedo_headerimage.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .our-approach {
   align-items: center;
   display: flex;
   flex-direction: column;
   padding: 60px 197px; }
+
+.quote-section {
+  background-image: url("../../images/Assets/QuotePattern_background.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
