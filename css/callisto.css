@@ -535,21 +535,14 @@ textarea#Field110 {
 
 /* Homepage */
 
-.front-page h3, .front-page .h3 {
-  text-transform: none;
-  font-size: 20px;
-}
+
 
 #school-logo {
     width: 70px;
     float: left;
 }
 
-#faces {
-    background:url('../images/jess_ted.png');
-    background-position:center;
-    background-size: cover;
-    }
+
 
 #faces:before {
   content: '';

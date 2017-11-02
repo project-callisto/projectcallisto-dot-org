@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,500i,700");
+.home-header {
+  background: url("../../images/Assets/Homepage_headerimage.png");
+  background-position: bottom;
+  background-size: cover;
+  height: 515px;
+  padding-bottom: 120px; }
+
+.press {
+  padding: 0; }
+
+#how-it-works .hiw-section {
+  font-size: .9em;
+  font-weight: 400;
+  line-height: 1.2;
+  max-width: 250px; }
+
+#how-it-works .icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  margin-bottom: 10px; }
+
+#how-it-works #match-icon {
+  height: 110px;
+  margin-top: -10px; }
+
+#how-it-works #record-icon, #how-it-works #report-icon {
+  margin-right: -10px; }
+
+#how-it-works .section-title {
+  margin-bottom: 15px; }
+
+#record-icon {
+  background-image: url("../../images/Assets/record-icon.svg"); }
+
+#match-icon {
+  background-image: url("../../images/Assets/match-icon.svg"); }
+
+#report-icon {
+  background-image: url("../../images/Assets/report-icon.svg"); }
+
+#stats {
+  background-color: #f8f9f9;
+  text-align: center; }
+  #stats li {
+    float: left;
+    list-style-type: none;
+    padding: 15px;
+    width: 33%; }
