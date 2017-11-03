@@ -70,8 +70,9 @@ section {
   .main-header p {
     font-size: 16px;
     width: auto; }
-  .main-header button {
+  .main-header a {
     align-self: center;
+    display: block;
     margin-bottom: 26px; }
   .gradient-button {
     font-size: 15px;
