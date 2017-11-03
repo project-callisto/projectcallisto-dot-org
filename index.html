@@ -34,11 +34,37 @@
   </head>
   <body>
     <a href="#maincontent" class="sr-only sr-only-focusable" id="skip-link">Skip to main content</a>
+    <nav class="navbar header-nav" id="id_header">
+             <div class="navbar-header">
+                 <a class="navbar-brand" href="/">
+                    <img src="images/callisto_logo.png" class="img-responsive callisto-logo" alt="Callisto Logo" aria-hidden="true"/>
+                    <span id="callisto">Callisto</span>
+                </a>
+                <button type="button" class="navbar-close hidden close" id="navbar-close">
+                    <span class="sr-only">Close navigation</span>
+                    <span>&times;</span>
+                </button>
+            </div>
+            <ul class="nav navbar-nav navbar-right" id="navbar-dropdown">
+                <!-- Need the right link for this one  -->
+                <li><a href="/help-a-friend">WHAT WE DO</a></li>
+                <li class="dropdown">
+                    <a href="/learn-and-support">
+                        WHO WE ARE
+                    </a>
+                </li>
+                <li><a href="/help-a-friend">GET INVOLVED</a></li>
+                <li><a class="gradient-button" id="nav-btn" href="/help-a-friend">DONE</a></li>
+
+            </ul>
+        </nav>
 
     <header class="main-header home-header">
-      <h2>Callisto: Tech to combat sexual assault</h3>
-      <p>We create technology to combat sexual assault, empower survivors, and advance justice.</p>
-      <button class="gradient-button"><a href="https://www.projectcallisto.org/what-we-do/Callisto_Year_2_highres.pdf" target="_blank">Read About Our Impact</a></button>
+      <div class="banner-contents">
+        <h2>Callisto: Tech to combat sexual assault</h3>
+        <p>We create technology to combat sexual assault, empower survivors, and advance justice.</p>
+        <button class="gradient-button"><a href="https://www.projectcallisto.org/what-we-do/Callisto_Year_2_highres.pdf" target="_blank">Read About Our Impact</a></button>
+      </div>
     </header>
 
 
@@ -63,8 +89,8 @@
                    -->
 <section class="press">
 
-        <div class="row text-center hidden-xs" id="press">
-          <div class="hidden-xs col-lg-22 col-lg-offset-1">
+        <div class="row text-center " id="press">
+          <div class="col-sm-24 ">
              <span class="sr-only">Press on Callisto from: </span>
              <a href="https://www.ted.com/talks/jessica_ladd_the_reporting_system_that_sexual_assault_survivors_want" class="press_link" target="_blank"><img src="images/ted_bw.png" class="img-responsive" alt="TED"/></a>
              <a href="http://www.nytimes.com/2015/11/15/technology/the-war-on-campus-sexual-assault-goes-digital.html" class="press_link" target="_blank"><img src="images/nyt.png" class="img-responsive" alt="The New York Times"/></a>
@@ -94,7 +120,7 @@
             <p>Callisto is a non-profit organization that develops technology designed to combat sexual assault and harassment. Our online systems are designed to empower survivors to pursue their desired outcomes and detect repeat offenders. Its flagship online system, Callisto Campus, provides three options:</p>
           </div>
 
-        <div id="how-it-works-sections" class="clearfix">
+        <div id="how-it-works-sections" >
             <div class="hiw-section">
                 <div class="section-title">
                     <div class="icon" id="record-icon" aria-hidden="true"></div>
@@ -127,13 +153,15 @@
     </section>
 
 <section id="ted-talk">
+      <div>
         <p>In November 2018, Callisto announced its plans to begin developing a system to detect repeat offenders in professional industries.</p>
         <button class="gradient-button">Watch our Ted Talk</button>
-</section>
 
-  <section id="stats" class="clearfix">
+      </section>
+
+  <section id="stats">
     <h3>Our Impact</h3>
-    <div>
+    <div class="stats-sections">
     <ul>
       <li>
         <img src="images/Assets/5xstaticon.svg" />
@@ -171,8 +199,8 @@
 
 <section  id="stay-updated">
   <h3 class="text-center">Stay Updated</h3>
-  <div class="row">
-    <div class="col-md-8 col-md-offset-8 col-sm-12 col-sm-offset-6 col-xs-20 col-xs-offset-2">
+  <div class="row input-sec">
+    <div class="">
 <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup">
 <form action="//sexualhealthinnovations.us5.list-manage.com/subscribe/post?u=0bfd132ff567d742957320c11&amp;id=cb70e39814" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -186,10 +214,38 @@
     <div class="response" id="mce-success-response" style="display:none"></div>
   </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0bfd132ff567d742957320c11_cb70e39814" tabindex="-1" value=""></div>
-    <div class="partner-btn"><input type="submit" value="Sign Me Up" name="subscribe" id="mc-embedded-subscribe" class="gradient-button"></div>
+    <div class="partner-btn"><input type="submit" value="SIGN ME UP" name="subscribe" id="mc-embedded-subscribe" class="gradient-button"></div>
     </div>
 </form>
+</div>
+</div>
+</div>
 </section>
+
+<div class="footer">
+                <nav class="navbar" id="id_footer">
+                    <div class="footer-content">
+                        <img src="images/callisto_logo.png" class="img-responsive callisto-logo" alt="Callisto Logo" aria-hidden="true"/>
+                        <ul class="footer-nav nav navbar-nav">
+                            <li><a href="/about/">What We Do</a></li>
+                            <li><a href="/about/contact-us/">Who We Are</a></li>
+                            <li><a href="/help-a-friend">Get Involved</a></li>
+                            <li><a href="/about/our-policies/#privacy-policy">Donate</a></li>
+                            <li><a href="/about/our-policies/#terms-of-service">Contact Us</a></li>
+                            <li><a href="/about/our-policies/#terms-of-service">Our Blog</a></li>
+                            <li><a href="/about/our-policies/#terms-of-service">Press</a></li>
+                        </ul>
+                        <div class="footer-copyright">
+                            <div>
+                                For immediate help, contact the National Sexual Assault Hotline<br/>
+                                <a href="tel:+18006564673">1-800-656-4673</a> <span aria-hidden="true">|</span> Free. Confidential. 24/7
+                            </div>
+
+                        </div>
+                        <div class="copyright">Copyright &#169; 2017 Callisto</div>
+                    </div>
+                </nav>
+            </div>
 
 <!--End mc_embed_signup-->
     </div>

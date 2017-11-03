@@ -1,11 +1,294 @@
 @import '_variables.scss';
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,500i,700');
 
+html {
+  
+}
 body {
   font-family: $font-main;
   font-size: 16px;
 }
 
+////////////////////HEADER//////////////////////////
+nav {
+  background-color: $color-white;
+  box-shadow: $box-shadow-main;
+  display: flex;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+
+  ul > li > a {
+    color: $color-gray-main;
+    font-weight: 500;
+    text-align: right;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      background-color: $color-white;
+    }
+  }
+}
+
+#nav-btn {
+  height: 32px;
+  width: 120px;
+  text-align: center;
+  padding-top: 4px;
+}
+
+.nav > li > a {
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px;
+  padding-bottom: 0;
+  padding-top: 0;
+
+  &:hover,
+  &:focus {
+    background-color: transparent;
+    outline: none;
+    text-decoration: none;
+
+    &::after {
+      @include underline-hover($color-gray-main, 30px);
+    }
+  }
+}
+
+
+.navbar-right {
+  align-items: center;
+  clear: both;
+  display: flex;
+  white-space: nowrap;
+
+  li {
+    margin-left: 30px;
+    margin-right: 0;
+  }
+}
+
+
+.navbar-brand {
+  align-items: center;
+  display: flex;
+  outline: 0;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+#id_header .navbar-left {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: $color-white;
+  box-shadow: $box-shadow-main-footer;
+}
+
+.footer-content {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 36px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.footer-content .nav {
+  margin: 0 auto;
+}
+
+.footer-content .navbar-nav > li > a {
+  color: $color-callisto-logo;
+  font-size: 14px;
+  padding: 0 17px;
+
+  &:hover {
+    &::after {
+      background-color: $color-callisto-logo;
+    }
+  }
+}
+
+#id_footer {
+  border: 0;
+  box-shadow: none;
+}
+
+.footer-content .footer-copyright {
+  align-items: flex-start;
+  border-top: 1px solid $color-footer-border-top;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 30px;
+  padding: 20px 0 30px;
+  width: 100%;
+
+  div {
+    width: 80%;
+
+    div {
+      float: right;
+    }
+  }
+
+  img {
+    margin-right: 30px;
+  }
+
+  span {
+    margin-left: auto;
+  }
+}
+
+.footer-nav {
+  li {
+    padding-left: 35px;
+  }
+}
+
+.copyright {
+  float: right;
+}
+
+.footer-nav {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  padding-left: 36px;
+  width: 100%;
+}
+
+.footer-content a[href^='tel:'] {
+  color: inherit;
+}
+
+.footer .row {
+  width: 100%;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: $color-black;
+}
+
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+
+  button {
+    padding: 10px;
+
+    &:hover, &:active, &:focus {
+      outline: 6px auto $color-button-outline;
+    }
+  }
+}
+
+
+.callisto-logo {
+  margin-left: 15px;
+  float: left;
+  height: 45px;
+  width: 45px;
+}
+
+.dark-blue-btn {
+  background-color: $color-button-background-dark;
+  text-transform: capitalize;
+}
+
+#callisto {
+  color: $color-callisto-logo;
+  float: left;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 2.1px;
+  margin-left: 7px;
+  margin-top: 0;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.header-nav {
+  align-items: center;
+  background-color: $color-white;
+  display: flex;
+  padding: 17px 32px;
+
+  .footer-content {
+    display: none;
+  }
+
+}
+
+
+#nav-border {
+  border-image-slice: 1;
+  border-image-source: linear-gradient(90deg, $color-peach, $color-cyan);
+  border-style: solid;
+  border-width: 2px;
+}
+
+@media (min-width: $max-width-xs) {
+  .navbar {
+    align-items: center;
+    display: flex;
+  }
+
+  .navbar-right {
+    margin-left: auto;
+  }
+
+}
+
+@media only screen and (max-width: $max-width-sm) {
+  .footer .navbar-nav {
+    margin: 0 auto;
+    white-space: nowrap;
+  }
+
+  // html {
+  //   font-size: 16px;
+  // }
+
+  #mainbody-container nav {
+    padding: 0;
+  }
+
+  .navbar-brand {
+    margin-top: .5rem;
+  }
+
+  .navbar-right {
+    li {
+      margin-left: 18px;
+    }
+  }
+
+
+  .footer {
+  .navbar-nav {
+    position: relative;
+  }
+}
+}
 h3 {
   color: $primary-title-color;
   font-size: 32px;
@@ -76,7 +359,7 @@ section p {
   letter-spacing: 1px;
   padding: 13px 39px;
   text-transform: uppercase;
-  width: 300px;
+
   a {
     color: white;
   }
@@ -128,3 +411,4 @@ section {
     padding: 13px 21px;
   }
 }
+
