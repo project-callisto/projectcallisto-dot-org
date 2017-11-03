@@ -1,126 +1,12 @@
 @import '_variables.scss';
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,500i,700');
 
-html {
-  
-}
 body {
   font-family: $font-main;
   font-size: 16px;
 }
 
 ////////////////////HEADER//////////////////////////
-nav {
-  background-color: $color-white;
-  box-shadow: $box-shadow-main;
-  display: flex;
-  left: 0;
-  position: relative;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-
-  ul > li > a {
-    color: $color-gray-main;
-    font-weight: 500;
-    text-align: right;
-    text-decoration: none;
-
-    &:hover,
-    &:focus {
-      background-color: $color-white;
-    }
-  }
-}
-
-#nav-btn {
-  height: 32px;
-  width: 120px;
-  text-align: center;
-  padding-top: 4px;
-}
-
-.nav > li > a {
-  display: inline-block;
-  font-size: 14px;
-  padding: 10px;
-  padding-bottom: 0;
-  padding-top: 0;
-
-  &:hover,
-  &:focus {
-    background-color: transparent;
-    outline: none;
-    text-decoration: none;
-
-    &::after {
-      @include underline-hover($color-gray-main, 30px);
-    }
-  }
-}
-
-
-.navbar-right {
-  align-items: center;
-  clear: both;
-  display: flex;
-  white-space: nowrap;
-
-  li {
-    margin-left: 30px;
-    margin-right: 0;
-  }
-}
-
-
-.navbar-brand {
-  align-items: center;
-  display: flex;
-  outline: 0;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: none;
-  }
-}
-
-#id_header .navbar-left {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer {
-  background-color: $color-white;
-  box-shadow: $box-shadow-main-footer;
-}
-
-.footer-content {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 30px 36px;
-  width: 100%;
-  justify-content: flex-end;
-}
-
-.footer-content .nav {
-  margin: 0 auto;
-}
-
-.footer-content .navbar-nav > li > a {
-  color: $color-callisto-logo;
-  font-size: 14px;
-  padding: 0 17px;
-
-  &:hover {
-    &::after {
-      background-color: $color-callisto-logo;
-    }
-  }
-}
 
 #id_footer {
   border: 0;

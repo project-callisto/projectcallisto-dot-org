@@ -179,195 +179,36 @@ h3{
   }
 @media (max-width: $max-width-sm)  {
 
+  #press {
+    display: none;
+  }
+
+  #ted-talk p {
+    padding: 0;
+  }
+
   #how-it-works .extra {
     padding: 0;
 }
 
-  .header-nav {
-    padding: 0;
-  }
 
-  .navbar-header {
-    align-items: center;
-    display: flex;
-    padding: 0 15px 10px;
-  }
-
-  .navbar-toggle .icon-bar + .icon-bar {
-    margin-top: 8px;
-  }
-
-  .navbar-toggle .icon-bar {
-    background-color: $color-dark-grey;
-    height: 3px;
-    width: 28px;
-  }
-
-  .navbar-toggle {
-    margin-bottom: 0;
-   }
-
-  #navbar-open,
-  #navbar-close {
-    font-size: 34px;
-    margin-left: auto;
-  }
-
-  #navbar-close {
-    margin: 0;
-    margin-left: auto;
-    padding: 0;
-  }
-
-  .navbar-right:not(.open) {
-    display: none;
-  }
-
-  #id_header ul > li > a {
-    text-align: left;
-  }
-
-  #id_header .navbar-nav {
-    padding-bottom: 2px;
-    padding-top: 2px;
-  }
-
-  #mainbody-container nav {
-    align-items: baseline;
-    padding: 0;
-    transition: height .3s ease-in-out;
-
-    .footer-content {
-      display: block;
-      flex-direction: row;
-    }
-
-    banner-contents {
-      flex-direction: column;
-    }
-
-    &.open {
-      flex-direction: column;
-
-      #id_login,
-      #id_logout,
-      #id_signup {
-        text-transform: uppercase;
-        width: 100%;
-      }
-
-      #id_signup {
-        margin: 18px auto 0;
-        padding: 7px;
-        width: 240px;
-      }
-
-      #id_login {
-        border: 0;
-        margin: 18px 0 30px;
-        margin-top: 18px;
-        text-align: center;
-      }
-
-      li {
-        font-size: 14px;
-        padding: 5px 20px;
-      }
-
-      ul {
-        background-color: $color-white;
-        display: block;
-        margin-top: 0;
-        position: absolute;
-        top: 100%;
-        width: 100%;
-        z-index: 100;
-
-        li {
-          border-bottom: 1px solid $color-border-grey;
-          margin: 0;
-          margin-bottom: 0;
-        }
-
-        li a {
-          font-size: 14px;
-          font-weight: 500;
-          padding: 0;
-        }
-      }
-
-      .dropdown {
-        background-color: $color-white;
-        padding: 0;
-
-        ul {
-          display: none;
-        }
-
-        li {
-          border: 0;
-          border-bottom: 1px solid $color-border-grey;
-          padding: 4px 38px 3px;
-        }
-
-        > a {
-          padding: 5px 20px;
-          width: 100%;
-        }
-
-        a::after {
-          display: none;
-        }
-
-        &.open ul {
-          display: block;
-        }
-
-        &.open:not(:last-child) {
-          border: 0;
-        }
-
-      }
-
-      .dropdown-menu {
-        border: 0;
-        box-shadow: none;
-        float: none;
-        left: 0;
-        margin: 0;
-        margin-top: 0;
-        padding: 0;
-        position: relative;
-        right: 0;
-        transform: none;
-      }
-
-      .footer .navbar-nav {
-        margin-bottom: 0;
-        text-align: center;
-      }
-
-      .footer-content {
-        a {
-          color: $color-dark-grey;
-        }
-
-        &.no-border {
-          border: 0;
-        }
-
-      }
-    }
-  }
+  .img-responsive {
+    display: block;
+    height: auto;
+}
 
     .banner-contents {
-      margin-top: -100px;
+      margin-bottom: 200px;
+      width: 250px;
+      text-align: center;
     }
     .main-header {
 
       padding: 0;
 
-
+      a {
+        margin: 0;
+      }
       h2 {
         margin-top: 0;
         font-size: 25px;
@@ -381,8 +222,10 @@ h3{
 }
 
     #how-it-works .how-intro {
-      padding: 0;
+      padding: 40px 0 0;
     }
+    #stay-updated {
+    background-size: 200px;}
 
 
 
