@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,500i,700");
+@import "_variables.scss";
+
+section {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+h3{
+  width: 100%;
+  text-align: center;
+}
+
+.home-header {
+    background: url('../../images/Assets/Homepage_headerimage.png');
+    background-position: center;
+    background-size: cover;
+    height: 515px;
+    padding-bottom: 120px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: 60px $container-padding-lg;
+    }
+
+    .press {
+      padding: 0;
+    }
+    #press {
+      width: 100%;
+    }
+
+    #how-it-works {
+      padding: 0;
+
+      .how-intro {
+        padding: 60px 300px 0;
+      }
+      .extra {
+        padding: 30px 345px;
+      }
+      #how-it-works-sections {
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-around;
+        // margin-left: auto;
+        // margin-right: auto;
+        // max-width: 1200px;
+
+      }
+
+    .hiw-section {
+      font-size: .9em;
+      font-weight: 400;
+      line-height: 1.2;
+      max-width: 250px;
+      margin: 20px 60px 0;
+
+      div {
+        display: block;
+      }
+      p {
+        font-weight: 600;
+      }
+
+    }
+
+    .section-title {
+      margin-bottom: 15px;
+    }
+
+    .icon {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 100px;
+      margin-bottom: 10px;
+      margin-right: -10px;
+    }
+    h4 {
+      width: 100%;
+    }
+
+    #match-icon {
+      height: 110px;
+      margin-top: -10px;
+    }
+
+    #record-icon, #report-icon {
+      margin-right: -10px;
+    }
+
+    .section-title {
+      margin-bottom: 15px;
+    }
+  }
+
+  #record-icon {
+  background-image: url('../../images/Assets/record-icon.svg');
+}
+
+#match-icon {
+  background-image: url('../../images/Assets/match-icon.svg');
+}
+
+#report-icon {
+  background-image: url('../../images/Assets/report-icon.svg');
+}
+
+#ted-talk {
+  background-image: url("../../images/Assets/Homepage_patternbackground.png");
+  background-repeat: none;
+  background-size: cover;
+  height: 300px;
+
+  p {
+    font-size: 20px;
+    padding: 20px 200px 0;
+  }
+
+}
+#stats {
+    background-color: $color-background-grey;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+
+    h3 {
+      margin: 0 auto;
+    }
+
+    li {
+      float: left;
+      list-style-type: none;
+      padding: 15px;
+      width: 33%;
+    }
+    p {
+      padding: 0 15px;
+    }
+  }
+
+  .stats-sections {
+    margin-top:20px;
+  }
+
+  #our-supporters {
+    	background-color: #F8F9F9;
+  }
+
+  #our-partners {
+
+    img {
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    button {
+      margin: 0 auto;
+    }
+  }
+
+  #stay-updated {
+    background: url('../../images/closer_background.png');
+  background-position: right 0 top 0;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  height: 400px;
+  }
+
+  #mc-embedded-subscribe {
+      width: 300px;
+  }
+
+  .input-sec {
+    margin: 0 auto;
+  }
+@media (max-width: $max-width-sm)  {
+
+  #press {
+    display: none;
+  }
+
+  #ted-talk p {
+    padding: 0;
+  }
+
+  #how-it-works .extra {
+    padding: 0;
+}
+
+
+  .img-responsive {
+    display: block;
+    height: auto;
+}
+
+    .banner-contents {
+      margin-bottom: 200px;
+      width: 250px;
+      text-align: center;
+    }
+    .main-header {
+
+      padding: 0;
+
+      a {
+        margin: 0;
+      }
+      h2 {
+        margin-top: 0;
+        font-size: 25px;
+      }
+    }
+
+   #stats li {
+    display: block;
+    float: none;
+    width: 100%;
+}
+
+    #how-it-works .how-intro {
+      padding: 40px 0 0;
+    }
+    #stay-updated {
+    background-size: 200px;}
+
+
+
+  }

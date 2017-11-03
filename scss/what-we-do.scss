@@ -1,0 +1,121 @@
+@import 'main.scss';
+
+p {
+  color: $primary-text-color;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.6;
+}
+b {
+  font-weight: 500;
+}
+
+#first-quote {
+  height: 305px;
+}
+section {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
+
+.what-we-do-header {
+  background-image: url('../../images/Assets/Whatwedo_headerimage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.our-approach {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 60px $container-padding-lg;
+}
+
+.our-approach p {
+  margin-bottom: 30px;
+}
+
+.callisto-campus {
+  padding: 44px $container-padding-lg;
+}
+
+.callisto-campus article > b {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.callisto-campus b {
+  color: $color-blue-bold-items;
+}
+
+.callisto-campus p {
+  font-family: $font-sans;
+  text-align: left;
+}
+
+.callisto-campus .value-prop-item {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+}
+
+.callisto-campus .value-prop-item img {
+  margin-right: 25px;
+  width: 106px;
+}
+
+.callisto-campus b {
+  display: block;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
+.expansion p {
+  line-height: 26px;
+}
+
+@media (max-width: $max-width-sm) {
+  .our-approach {
+    padding: 30px $container-padding-sm;
+  }
+
+  .callisto-campus {
+    padding: 20px $container-padding-sm;
+  }
+
+  .callisto-campus .value-prop-item {
+    b {
+      text-align: center;
+    }
+
+    img {
+      align-self: center;
+      margin-bottom: 8px;
+      margin-right: 0;
+    }
+
+    flex-direction: column;
+  }
+
+  .callisto-campus .value-prop-item p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .quote-section {
+    font-size: 18px;
+
+    blockquote {
+      font-size: 16px;
+      padding: 0;
+    }
+
+    span {
+      font-size: 14px;
+    }
+  }
+}

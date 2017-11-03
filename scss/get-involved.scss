@@ -1,0 +1,53 @@
+@import 'main.scss';
+
+.get-involved-header {
+  background-image: url('../../images/Assets/Getinvolved_headerimage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  a {
+    text-align: center;
+    width: 300px;
+  }
+}
+input, textarea {
+  width: 465px;
+  margin: 0 auto;
+}
+
+.become-partner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  p {
+    color: $primary-text-color;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+.contact-form {
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 82px;
+
+    input,
+    textarea {
+      border: 1.5px solid #385C6C;
+      border-radius: 4px;
+      padding: 10px 16px;
+    }
+
+    input {
+      margin-bottom: 30px;
+    }
+
+    button {
+      margin-top: 30px;
+    }
+  }
+}
