@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,500i,700");
 body {
-  font-family: "Montserrat", "Open Sans", sans-serif; }
+  font-family: "Montserrat", "Open Sans", sans-serif;
+  font-size: 16px; }
 
 h3 {
   color: #385C6C;
@@ -15,11 +16,13 @@ h4 {
   color: #385C6C;
   font-weight: 500; }
 
-p {
-  font-size: 16px; }
+section p {
+  font-size: 16px;
+  text-align: center; }
 
 .main-header {
   align-items: flex-start;
+  background-position: center;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -34,6 +37,7 @@ p {
   font-weight: 500; }
 
 .main-header p {
+  color: #fff;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.4;
@@ -43,15 +47,42 @@ p {
   background: linear-gradient(130.96deg, #009ab0 0%, #00758f 100%);
   border-radius: 50px;
   border: 0;
-  color: white;
+  color: #fff;
   font-weight: 500;
   letter-spacing: 1px;
-  padding: 13px 26px;
+  padding: 13px 39px;
   text-transform: uppercase;
   width: 300px; }
   .gradient-button a {
     color: white; }
 
+.gradient-button:hover,
+.gradient-button:focus {
+  color: #fff; }
+
 section {
   padding: 60px 197px;
   text-align: center; }
+
+@media (max-width: 768px) {
+  section {
+    padding: 50px 20px; }
+  h3 {
+    font-size: 25px; }
+  .main-header {
+    flex-direction: column;
+    height: 372px;
+    padding: 0 20px; }
+  .main-header h2 {
+    font-size: 25px;
+    margin-bottom: 6px; }
+  .main-header p {
+    font-size: 16px;
+    width: auto; }
+  .main-header a {
+    align-self: center;
+    display: block;
+    margin-bottom: 26px; }
+  .gradient-button {
+    font-size: 15px;
+    padding: 13px 21px; } }

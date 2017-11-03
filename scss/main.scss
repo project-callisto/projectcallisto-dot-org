@@ -3,6 +3,7 @@
 
 body {
   font-family: $font-main;
+  font-size: 16px;
 }
 
 h3 {
@@ -20,12 +21,14 @@ h4 {
   font-weight: 500;
 }
 
-p {
+section p {
   font-size: 16px;
+  text-align: center;
 }
 
 .main-header {
   align-items: flex-start;
+  background-position: center;
   color: $color-white;
   display: flex;
   flex-direction: column;
@@ -42,6 +45,7 @@ p {
 }
 
 .main-header p {
+  color: $color-white;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.4;
@@ -52,19 +56,60 @@ p {
   background: linear-gradient(130.96deg, $color-blue-button 0%, $color-blue-deeper 100%);
   border-radius: 50px;
   border: 0;
-  color: white;
+  color: $color-white;
   font-weight: 500;
   letter-spacing: 1px;
-  padding: 13px 26px;
+  padding: 13px 39px;
   text-transform: uppercase;
   width: 300px;
-
   a {
     color: white;
   }
 }
 
+.gradient-button:hover,
+.gradient-button:focus {
+  color: $color-white;
+}
+
 section {
   padding: 60px $container-padding-lg;
   text-align: center;
+}
+
+@media (max-width: $max-width-sm) {
+  section {
+    padding: 50px $container-padding-sm;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .main-header {
+    flex-direction: column;
+    height: 372px;
+    padding: 0 20px;
+  }
+
+  .main-header h2 {
+    font-size: 25px;
+    margin-bottom: 6px;
+  }
+
+  .main-header p {
+    font-size: 16px;
+    width: auto;
+  }
+
+  .main-header a {
+    align-self: center;
+    display: block;
+    margin-bottom: 26px;
+  }
+
+  .gradient-button {
+    font-size: 15px;
+    padding: 13px 21px;
+  }
 }
