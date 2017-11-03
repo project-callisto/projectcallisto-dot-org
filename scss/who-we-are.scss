@@ -1,0 +1,56 @@
+@import 'main.scss';
+
+.who-we-are-header {
+  background-image: url('../../images/Assets/Whoweare_headerimage.png');
+}
+
+.our-history p {
+  color: $primary-text-color;
+  font-family: $font-sans;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.our-team {
+  background-color: rgba(218, 226, 224, .2);
+}
+
+.our-team ul {
+  list-style-type: none;
+  padding: 0;
+
+  li {
+    color: $primary-text-color;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+}
+
+.our-team h4 {
+  color: $color-blue-bold-items;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+.wwa-section {
+  padding: 50px 114px;
+
+  p {
+    font-family: "Open Sans";
+    font-size: 16px;
+    text-align: left;
+  }
+}
+
+.contact {
+  p {
+    margin-bottom: 16px;
+  }
+}
+
+hr {
+  background-color: #D6E1E4;
+  height: 1px;
+}

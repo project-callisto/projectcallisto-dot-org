@@ -7,17 +7,12 @@ h3 {
   color: #385C6C;
   font-size: 32px;
   font-weight: 500;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   margin-top: 0;
   text-align: center;
   text-transform: none; }
 
-h4 {
-  color: #385C6C;
-  font-weight: 500; }
-
 section p {
-  font-size: 16px;
   text-align: center; }
 
 .main-header {
@@ -64,18 +59,14 @@ section p {
   font-weight: 500;
   letter-spacing: 1px;
   padding: 13px 39px;
-  text-transform: uppercase;
-  width: 300px; }
-  .gradient-button a {
-    color: white; }
+  text-transform: uppercase; }
 
 .gradient-button:hover,
 .gradient-button:focus {
   color: #fff; }
 
 section {
-  padding: 60px 197px;
-  text-align: center; }
+  padding: 60px 197px; }
 
 @media (max-width: 768px) {
   section {
@@ -99,3 +90,44 @@ section {
   .gradient-button {
     font-size: 15px;
     padding: 13px 21px; } }
+
+.who-we-are-header {
+  background-image: url("../../images/Assets/Whoweare_headerimage.png"); }
+
+.our-history p {
+  color: #1C2E36;
+  font-family: "Open Sans", Helvetica, "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 26px; }
+
+.our-team {
+  background-color: rgba(218, 226, 224, 0.2); }
+
+.our-team ul {
+  list-style-type: none;
+  padding: 0; }
+  .our-team ul li {
+    color: #1C2E36;
+    font-size: 16px;
+    margin-top: 15px; }
+
+.our-team h4 {
+  color: #2B4A59;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  text-transform: uppercase; }
+
+.wwa-section {
+  padding: 50px 114px; }
+  .wwa-section p {
+    font-family: "Open Sans";
+    font-size: 16px;
+    text-align: left; }
+
+.contact p {
+  margin-bottom: 16px; }
+
+hr {
+  background-color: #D6E1E4;
+  height: 1px; }

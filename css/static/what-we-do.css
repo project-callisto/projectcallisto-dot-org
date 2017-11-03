@@ -43,6 +43,19 @@ section p {
   line-height: 1.4;
   width: 572px; }
 
+.quote-section {
+  background-image: url("../../images/Assets/QuotePattern_background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-weight: 300;
+  line-height: 31px;
+  text-align: center; }
+
+.quote-section span {
+  font-size: 1em;
+  font-weight: 500; }
+
 .gradient-button {
   background: linear-gradient(130.96deg, #009ab0 0%, #00758f 100%);
   border-radius: 50px;
@@ -112,19 +125,6 @@ section {
 
 .our-approach p {
   margin-bottom: 30px; }
-
-.quote-section {
-  background-image: url("../../images/Assets/QuotePattern_background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  font-weight: 300;
-  line-height: 31px;
-  text-align: center; }
-
-.quote-section span {
-  font-size: 1em;
-  font-weight: 500; }
 
 .callisto-campus {
   padding: 44px 197px; }
