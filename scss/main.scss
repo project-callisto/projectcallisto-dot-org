@@ -49,16 +49,11 @@ section p {
   background: linear-gradient(130.96deg, $color-blue-button 0%, $color-blue-deeper 100%);
   border-radius: 50px;
   border: 0;
-  color: white;
+  color: $color-white;
   font-weight: 500;
   letter-spacing: 1px;
-  padding: 13px 26px;
+  padding: 13px 39px;
   text-transform: uppercase;
-  width: 300px;
-  
-  a {
-    color: white;
-  }
 }
 
 section {

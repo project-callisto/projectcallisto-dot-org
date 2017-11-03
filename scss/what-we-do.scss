@@ -13,6 +13,7 @@ section {
   flex-wrap: wrap;
   flex-direction: column;
 }
+
 .what-we-do-header {
   background-image: url('../../images/Assets/Whatwedo_headerimage.png');
   background-size: cover;
@@ -26,10 +27,32 @@ section {
   padding: 60px $container-padding-lg;
 }
 
+.our-approach p {
+  margin-bottom: 30px;
+}
+
 .quote-section {
   background-image: url('../../images/Assets/QuotePattern_background.png');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  font-weight: 300;
+  line-height: 31px;
+  text-align: center;
+}
+
+.quote-section span {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.callisto-campus {
+  padding: 44px $container-padding-lg;
+}
+
+.callisto-campus article > b {
+  display: block;
+  margin-bottom: 30px;
 }
 
 .callisto-campus b {
@@ -42,6 +65,22 @@ section {
 }
 
 .callisto-campus .value-prop-item {
+  align-items: flex-start;
   display: flex;
   flex-direction: row;
+}
+
+.callisto-campus .value-prop-item img {
+  margin-right: 25px;
+  width: 106px;
+}
+
+.callisto-campus b {
+  display: block;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
+.expansion p {
+  line-height: 26px;
 }

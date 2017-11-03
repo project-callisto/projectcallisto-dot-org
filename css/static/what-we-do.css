@@ -41,14 +41,11 @@ section p {
   background: linear-gradient(130.96deg, #009ab0 0%, #00758f 100%);
   border-radius: 50px;
   border: 0;
-  color: white;
+  color: #fff;
   font-weight: 500;
   letter-spacing: 1px;
-  padding: 13px 26px;
-  text-transform: uppercase;
-  width: 300px; }
-  .gradient-button a {
-    color: white; }
+  padding: 13px 39px;
+  text-transform: uppercase; }
 
 section {
   padding: 60px 197px; }
@@ -76,10 +73,28 @@ section {
   flex-direction: column;
   padding: 60px 197px; }
 
+.our-approach p {
+  margin-bottom: 30px; }
+
 .quote-section {
   background-image: url("../../images/Assets/QuotePattern_background.png");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-position: center;
+  background-repeat: no-repeat;
+  font-weight: 300;
+  line-height: 31px;
+  text-align: center; }
+
+.quote-section span {
+  font-size: 1em;
+  font-weight: 500; }
+
+.callisto-campus {
+  padding: 44px 197px; }
+
+.callisto-campus article > b {
+  display: block;
+  margin-bottom: 30px; }
 
 .callisto-campus b {
   color: #2B4A59; }
@@ -89,5 +104,18 @@ section {
   text-align: left; }
 
 .callisto-campus .value-prop-item {
+  align-items: flex-start;
   display: flex;
   flex-direction: row; }
+
+.callisto-campus .value-prop-item img {
+  margin-right: 25px;
+  width: 106px; }
+
+.callisto-campus b {
+  display: block;
+  margin-bottom: 14px;
+  text-transform: uppercase; }
+
+.expansion p {
+  line-height: 26px; }
