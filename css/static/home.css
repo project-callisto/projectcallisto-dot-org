@@ -1,36 +1,50 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,500i,700");
 .home-header {
   background: url("../../images/Assets/Homepage_headerimage.png");
-  background-position: bottom;
+  background-position: center;
   background-size: cover;
   height: 515px;
-  padding-bottom: 120px; }
+  padding-bottom: 120px;
+  padding-left: 200px; }
 
 .press {
   padding: 0; }
 
-#how-it-works .hiw-section {
-  font-size: .9em;
-  font-weight: 400;
-  line-height: 1.2;
-  max-width: 250px; }
-
-#how-it-works .icon {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100px;
-  margin-bottom: 10px; }
-
-#how-it-works #match-icon {
-  height: 110px;
-  margin-top: -10px; }
-
-#how-it-works #record-icon, #how-it-works #report-icon {
-  margin-right: -10px; }
-
-#how-it-works .section-title {
-  margin-bottom: 15px; }
+#how-it-works {
+  padding: 0; }
+  #how-it-works .how-intro {
+    padding: 60px 300px 0; }
+  #how-it-works .extra {
+    padding: 30px 345px; }
+  #how-it-works #how-it-works-sections {
+    display: flex;
+    justify-content: space-around; }
+  #how-it-works .hiw-section {
+    font-size: .9em;
+    font-weight: 400;
+    line-height: 1.2;
+    max-width: 250px;
+    margin: 20px 25px 0; }
+    #how-it-works .hiw-section div {
+      display: block; }
+  #how-it-works .section-title {
+    margin-bottom: 15px; }
+  #how-it-works .icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-right: -10px; }
+  #how-it-works h4 {
+    width: 100%; }
+  #how-it-works #match-icon {
+    height: 110px;
+    margin-top: -10px; }
+  #how-it-works #record-icon, #how-it-works #report-icon {
+    margin-right: -10px; }
+  #how-it-works .section-title {
+    margin-bottom: 15px; }
 
 #record-icon {
   background-image: url("../../images/Assets/record-icon.svg"); }
@@ -41,11 +55,38 @@
 #report-icon {
   background-image: url("../../images/Assets/report-icon.svg"); }
 
+#ted-talk {
+  background-image: url("../../images/Assets/Homepage_patternbackground.png");
+  background-repeat: none;
+  background-size: cover;
+  height: 300px; }
+  #ted-talk p {
+    font-size: 20px;
+    padding: 20px 200px 0; }
+
 #stats {
   background-color: #f8f9f9;
-  text-align: center; }
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0; }
   #stats li {
     float: left;
     list-style-type: none;
     padding: 15px;
     width: 33%; }
+  #stats p {
+    padding: 0 15px; }
+
+#our-supporters {
+  background-color: #F8F9F9; }
+
+#stay-updated {
+  background: url("../../images/closer_background.png");
+  background-position: right 0 top 0;
+  background-repeat: no-repeat;
+  background-size: 439px;
+  height: 400px; }
+
+@media only screen and (max-width: 650px) {
+  .main-header {
+    padding: 0; } }

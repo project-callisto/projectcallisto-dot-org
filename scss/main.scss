@@ -9,10 +9,19 @@ h3 {
   color: $primary-title-color;
   font-size: 32px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-top: 0;
   text-align: center;
   text-transform: none;
+}
+
+h4 {
+  color: #385C6C;
+  font-weight: 500;
+}
+
+p {
+  font-size: 16px;
 }
 
 .main-header {
@@ -49,7 +58,7 @@ h3 {
   padding: 13px 26px;
   text-transform: uppercase;
   width: 300px;
-  
+
   a {
     color: white;
   }
@@ -57,4 +66,5 @@ h3 {
 
 section {
   padding: 60px $container-padding-lg;
+  text-align: center;
 }

@@ -6,10 +6,17 @@ h3 {
   color: #385C6C;
   font-size: 32px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-top: 0;
   text-align: center;
   text-transform: none; }
+
+h4 {
+  color: #385C6C;
+  font-weight: 500; }
+
+p {
+  font-size: 16px; }
 
 .main-header {
   align-items: flex-start;
@@ -46,7 +53,8 @@ h3 {
     color: white; }
 
 section {
-  padding: 60px 197px; }
+  padding: 60px 197px;
+  text-align: center; }
 
 .what-we-do-header {
   background-image: url("../../images/Assets/Whatwedo_headerimage.png");

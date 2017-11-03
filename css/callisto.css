@@ -817,20 +817,9 @@ a.community-icon:hover {
    text-align: center;
 }
 
-#how-it-works-intro {
-    font-size: 20px;
-    color: #585858;
-    line-height: 1.3;
-}
 
-#how-it-works-sections, #why-callisto-sections {
-    display: flex;
-    justify-content: center;
-    margin-top: 52px;
-    margin-bottom: 65px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
+
+
 
 .hiw-section {
   max-width: 195px;
