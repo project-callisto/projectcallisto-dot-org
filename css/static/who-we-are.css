@@ -7,12 +7,17 @@ h3 {
   color: #385C6C;
   font-size: 32px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-top: 0;
   text-align: center;
   text-transform: none; }
 
+h4 {
+  color: #385C6C;
+  font-weight: 500; }
+
 section p {
+  font-size: 16px;
   text-align: center; }
 
 .main-header {
@@ -59,14 +64,18 @@ section p {
   font-weight: 500;
   letter-spacing: 1px;
   padding: 13px 39px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  width: 300px; }
+  .gradient-button a {
+    color: white; }
 
 .gradient-button:hover,
 .gradient-button:focus {
   color: #fff; }
 
 section {
-  padding: 60px 197px; }
+  padding: 60px 197px;
+  text-align: center; }
 
 @media (max-width: 768px) {
   section {
