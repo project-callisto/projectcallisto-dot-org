@@ -84,3 +84,45 @@ section {
 .expansion p {
   line-height: 26px;
 }
+
+@media (max-width: $max-width-sm) {
+  .our-approach {
+    padding: 30px $container-padding-sm;
+  }
+
+  .callisto-campus {
+    padding: 20px $container-padding-sm;
+  }
+
+  .callisto-campus .value-prop-item {
+    b {
+      text-align: center;
+    }
+
+    img {
+      align-self: center;
+      margin-bottom: 8px;
+      margin-right: 0;
+    }
+
+    flex-direction: column;
+  }
+
+  .callisto-campus .value-prop-item p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .quote-section {
+    font-size: 18px;
+
+    blockquote {
+      font-size: 16px;
+      padding: 0;
+    }
+
+    span {
+      font-size: 14px;
+    }
+  }
+}

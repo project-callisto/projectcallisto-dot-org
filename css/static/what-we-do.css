@@ -17,6 +17,7 @@ section p {
 
 .main-header {
   align-items: flex-start;
+  background-position: center;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -47,8 +48,34 @@ section p {
   padding: 13px 39px;
   text-transform: uppercase; }
 
+.gradient-button:hover,
+.gradient-button:focus {
+  color: #fff; }
+
 section {
   padding: 60px 197px; }
+
+@media (max-width: 768px) {
+  section {
+    padding: 50px 20px; }
+  h3 {
+    font-size: 25px; }
+  .main-header {
+    flex-direction: column;
+    height: 372px;
+    padding: 0 20px; }
+  .main-header h2 {
+    font-size: 25px;
+    margin-bottom: 6px; }
+  .main-header p {
+    font-size: 16px;
+    width: auto; }
+  .main-header button {
+    align-self: center;
+    margin-bottom: 26px; }
+  .gradient-button {
+    font-size: 15px;
+    padding: 13px 21px; } }
 
 p {
   color: #1C2E36;
@@ -119,3 +146,27 @@ section {
 
 .expansion p {
   line-height: 26px; }
+
+@media (max-width: 768px) {
+  .our-approach {
+    padding: 30px 20px; }
+  .callisto-campus {
+    padding: 20px 20px; }
+  .callisto-campus .value-prop-item {
+    flex-direction: column; }
+    .callisto-campus .value-prop-item b {
+      text-align: center; }
+    .callisto-campus .value-prop-item img {
+      align-self: center;
+      margin-bottom: 8px;
+      margin-right: 0; }
+  .callisto-campus .value-prop-item p {
+    font-size: 16px;
+    text-align: center; }
+  .quote-section {
+    font-size: 18px; }
+    .quote-section blockquote {
+      font-size: 16px;
+      padding: 0; }
+    .quote-section span {
+      font-size: 14px; } }
