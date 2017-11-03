@@ -3,6 +3,136 @@ body {
   font-family: "Montserrat", "Open Sans", sans-serif;
   font-size: 16px; }
 
+p {
+  font-family: "Open Sans"; }
+
+.nav-button {
+  background: linear-gradient(130.96deg, #009ab0 0%, #00758f 100%);
+  border-radius: 50px;
+  border: 0;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  text-transform: uppercase;
+  margin-top: 7px; }
+  .nav-button a {
+    color: white; }
+
+#id_footer {
+  border: 0;
+  box-shadow: none; }
+
+.footer-content .footer-copyright {
+  align-items: flex-start;
+  border-top: 1px solid rgba(164, 179, 183, 0.5);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 30px;
+  padding: 20px 0 30px;
+  width: 100%; }
+  .footer-content .footer-copyright div {
+    width: 80%; }
+    .footer-content .footer-copyright div div {
+      float: right; }
+  .footer-content .footer-copyright img {
+    margin-right: 30px; }
+  .footer-content .footer-copyright span {
+    margin-left: auto; }
+
+.footer-nav li {
+  padding-left: 35px; }
+
+.copyright {
+  float: right; }
+
+.footer-nav {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  padding-left: 36px;
+  width: 100%; }
+
+.footer-content a[href^='tel:'] {
+  color: inherit; }
+
+.footer .row {
+  width: 100%; }
+
+.navbar-toggle .icon-bar {
+  background-color: #000; }
+
+.navbar {
+  height: 80px;
+  border-radius: 0;
+  margin-bottom: 0; }
+  .navbar button {
+    padding: 10px; }
+    .navbar button:hover, .navbar button:active, .navbar button:focus {
+      outline: 6px auto #ffae78; }
+
+.callisto-logo {
+  margin-left: 15px;
+  float: left;
+  height: 45px;
+  width: 45px; }
+
+.dark-blue-btn {
+  background-color: #055f71;
+  text-transform: capitalize; }
+
+#callisto {
+  color: #1c2e36;
+  float: left;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 2.1px;
+  margin-left: 7px;
+  margin-top: 0;
+  outline: none;
+  text-transform: uppercase; }
+
+.header-nav {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  padding: 17px 32px; }
+  .header-nav .footer-content {
+    display: none; }
+
+#nav-border {
+  border-image-slice: 1;
+  border-image-source: linear-gradient(90deg, #ffae78, #6ad0d4);
+  border-style: solid;
+  border-width: 2px; }
+
+@media (min-width: 650px) {
+  .navbar {
+    align-items: center;
+    display: flex; }
+  .navbar-right {
+    margin-left: auto; }
+    .navbar-right li {
+      padding: 0 10px; } }
+
+@media only screen and (max-width: 768px) {
+  .footer .navbar-nav {
+    margin: 0 auto;
+    white-space: nowrap; }
+  #mainbody-container nav {
+    padding: 0; }
+  .navbar-brand {
+    margin-top: .5rem; }
+  .navbar-right li {
+    margin-left: 18px; }
+  .footer .navbar-nav {
+    position: relative; } }
+
 h3 {
   color: #385C6C;
   font-size: 32px;
@@ -64,8 +194,7 @@ section p {
   font-weight: 500;
   letter-spacing: 1px;
   padding: 13px 39px;
-  text-transform: uppercase;
-  width: 300px; }
+  text-transform: uppercase; }
   .gradient-button a {
     color: white; }
 
@@ -101,7 +230,8 @@ section {
     padding: 13px 21px; } }
 
 .who-we-are-header {
-  background-image: url("../../images/Assets/Whoweare_headerimage.png"); }
+  background-image: url("../../images/Assets/Whoweare_headerimage.png");
+  padding: 0 115px 60px; }
 
 .our-history p {
   color: #1C2E36;

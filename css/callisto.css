@@ -156,7 +156,9 @@ a.btn:visited, a.btn:hover, a.btn:focus, a.btn:active {
 
 
 /* Nav and footer */
-
+.footer {
+  margin-top: 90px;
+}
 nav, footer {
     background-color: #fff;
 }
@@ -169,14 +171,14 @@ nav ul > li > a {
 }
 
 #brand_link img {
-    width: 28px;
-    height: 28px;
+    width: 47px;
+    height: auto;
     float: left;
 }
 
 #callisto {
     float: left;
-    margin-top: 0px;
+    margin-top: 9px !important;
     margin-left: 10px;
     font-size: 21px;
     font-weight: 500;
@@ -186,6 +188,7 @@ nav ul > li > a {
 }
 
 .navbar-right {
+  background-color: white;
     clear: both;
 }
 

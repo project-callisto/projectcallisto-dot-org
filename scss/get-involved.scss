@@ -2,11 +2,17 @@
 
 .get-involved-header {
   background-image: url('../../images/Assets/Getinvolved_headerimage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 
   a {
     text-align: center;
     width: 300px;
   }
+}
+input, textarea {
+  width: 465px;
+  margin: 0 auto;
 }
 
 .become-partner {

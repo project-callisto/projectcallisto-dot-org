@@ -47,6 +47,8 @@ h3 {
     margin: 20px 60px 0; }
     #how-it-works .hiw-section div {
       display: block; }
+    #how-it-works .hiw-section p {
+      font-weight: 600; }
   #how-it-works .section-title {
     margin-bottom: 15px; }
   #how-it-works .icon {
