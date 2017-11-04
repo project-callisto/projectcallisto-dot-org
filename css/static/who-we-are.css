@@ -6,6 +6,9 @@ body {
 p {
   font-family: "Open Sans"; }
 
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: #fff; }
+
 .nav-button {
   background: linear-gradient(130.96deg, #009ab0 0%, #00758f 100%);
   border-radius: 50px;
@@ -192,8 +195,10 @@ section p {
   border: 0;
   color: #fff;
   font-weight: 500;
+  min-width: 300px;
   letter-spacing: 1px;
   padding: 13px 39px;
+  text-align: center;
   text-transform: uppercase; }
   .gradient-button a {
     color: white; }
@@ -240,7 +245,8 @@ section {
   line-height: 26px; }
 
 .our-team {
-  background-color: rgba(218, 226, 224, 0.2); }
+  background-color: rgba(218, 226, 224, 0.2);
+  text-align: left; }
 
 .our-team ul {
   list-style-type: none;
@@ -269,4 +275,5 @@ section {
 
 hr {
   background-color: #D6E1E4;
-  height: 1px; }
+  height: 1px;
+  margin: 0 auto; }

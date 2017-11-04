@@ -6,6 +6,9 @@ body {
 p {
   font-family: "Open Sans"; }
 
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: #fff; }
+
 .nav-button {
   background: linear-gradient(130.96deg, #009ab0 0%, #00758f 100%);
   border-radius: 50px;
@@ -192,8 +195,10 @@ section p {
   border: 0;
   color: #fff;
   font-weight: 500;
+  min-width: 300px;
   letter-spacing: 1px;
   padding: 13px 39px;
+  text-align: center;
   text-transform: uppercase; }
   .gradient-button a {
     color: white; }
@@ -264,4 +269,5 @@ input, textarea {
   .contact-form form input {
     margin-bottom: 30px; }
   .contact-form form button {
-    margin-top: 30px; }
+    margin-top: 30px;
+    width: 100%; }

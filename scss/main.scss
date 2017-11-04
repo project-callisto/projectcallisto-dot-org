@@ -10,6 +10,13 @@ p {
   font-family: "Open Sans";
 }
 
+.nav > li > a {
+  &:hover,
+  &:focus {
+    background-color: $color-white;
+  }
+}
+
 ////////////////////HEADER//////////////////////////
 
 .nav-button {
@@ -268,8 +275,10 @@ section p {
   border: 0;
   color: $color-white;
   font-weight: 500;
+  min-width: 300px;
   letter-spacing: 1px;
   padding: 13px 39px;
+  text-align: center;
   text-transform: uppercase;
 
   a {
