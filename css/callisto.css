@@ -1,6 +1,7 @@
 /* General styling */
 
 body {
+    background-image: linear-gradient(to top, #6ad0d4, #ffae78);
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
@@ -53,10 +54,10 @@ li {
   font-size: 18px;
 }
 
-hr {
-  border: 0;
-  height: 2px;
-  background-color: #979797;
+hr { 
+  border: 0; 
+  height: 2px; 
+  background-color: #979797; 
   width: 90%;
 }
 
@@ -84,7 +85,7 @@ hr {
     margin-right: 0px;
 }
 
-.content-row {
+.content-row { 
   padding: 30px 0px 75px 0px;
 }
 
@@ -156,29 +157,27 @@ a.btn:visited, a.btn:hover, a.btn:focus, a.btn:active {
 
 
 /* Nav and footer */
-.footer {
-  margin-top: 90px;
-}
+
 nav, footer {
     background-color: #fff;
 }
 
 nav ul > li > a {
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 400;
     text-align: right;
-    color: #0E687A;
+    color: #111111;
 }
 
 #brand_link img {
-    width: 47px;
-    height: auto;
+    width: 28px;
+    height: 28px;
     float: left;
 }
 
 #callisto {
     float: left;
-    margin-top: 9px !important;
+    margin-top: 0px;
     margin-left: 10px;
     font-size: 21px;
     font-weight: 500;
@@ -188,7 +187,6 @@ nav ul > li > a {
 }
 
 .navbar-right {
-  background-color: white;
     clear: both;
 }
 
@@ -538,14 +536,21 @@ textarea#Field110 {
 
 /* Homepage */
 
-
+.front-page h3, .front-page .h3 {
+  text-transform: none;
+  font-size: 20px;
+}
 
 #school-logo {
     width: 70px;
     float: left;
 }
 
-
+#faces {
+    background:url('../images/jess_ted.png');
+    background-position:center;
+    background-size: cover;
+    }
 
 #faces:before {
   content: '';
@@ -665,7 +670,7 @@ textarea#Field110 {
 /* What We Do page styling */
 #what-banner {
     /* background-image:url('../images/What_We_Do_1.jpg'); */
-    background-image:url('../images/What_We_do_2.jpg');
+    background-image:url('../images/What_We_do_2.jpg'); 
     background-position:bottom;
 }
 
@@ -677,7 +682,7 @@ textarea#Field110 {
 
 /* Who We Are page styling */
 #who-banner {
-  background-image:url('../images/Who_We_Are.jpg');
+  background-image:url('../images/Who_We_Are.jpg'); 
   background-position:bottom;
 }
 
@@ -721,7 +726,7 @@ a.community-icon:hover {
 
 /* Partner With Us page styling */
 #partner-banner {
-  background-image:url('../images/Partner_With_Us.jpg');
+  background-image:url('../images/Partner_With_Us.jpg'); 
   background-position:bottom;
   height: 100%;
 }
@@ -743,7 +748,7 @@ a.community-icon:hover {
   position: inherit;
   padding: 5% 0%;
 }
-
+     
 #donate-banner #banner-content .subheader {
   width: 80%;
 }
@@ -820,9 +825,20 @@ a.community-icon:hover {
    text-align: center;
 }
 
+#how-it-works-intro {
+    font-size: 20px;
+    color: #585858;
+    line-height: 1.3;
+}
 
-
-
+#how-it-works-sections, #why-callisto-sections {
+    display: flex;
+    justify-content: center;
+    margin-top: 52px;
+    margin-bottom: 65px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 .hiw-section {
   max-width: 195px;
@@ -1140,7 +1156,9 @@ a.community-icon:hover {
         margin-bottom: 60px;
     }
 
-
+    h2 {
+        margin-top: 51px;
+    }
 
     .wuc-section {
         margin-bottom: 21px;
