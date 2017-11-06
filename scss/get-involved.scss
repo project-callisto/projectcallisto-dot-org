@@ -5,6 +5,10 @@
   background-size: cover;
   background-repeat: no-repeat;
 
+  p {
+    width: 440px;
+  }
+
   a {
     text-align: center;
     width: 300px;
@@ -48,6 +52,25 @@ input, textarea {
 
     button {
       margin-top: 30px;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: $max-width-xs) {
+  .get-involved-header {
+    p {
+      width: auto;
+    }
+  }
+
+  .contact-form {
+    form {
+      padding: 0;
+    }
+
+    input,
+    textarea {
       width: 100%;
     }
   }

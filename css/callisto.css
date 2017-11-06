@@ -1014,6 +1014,21 @@ a.community-icon:hover {
         padding-top: 2px;
         padding-bottom: 2px;
     }
+
+    .footer {
+      margin-top: 0;
+    }
+
+    .footer-content {
+      border: 0;
+      margin: 0;
+    }
+
+    .copyright {
+      border-top: 1px solid rgba(164, 179, 183, .2);
+      line-height: 26px;
+      padding: 16px 20px 20px;
+    }
 }
 
 

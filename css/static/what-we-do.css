@@ -70,13 +70,13 @@ p {
 .navbar-toggle .icon-bar {
   background-color: #000; }
 
-.navbar {
+#id_header {
   height: 80px;
   border-radius: 0;
   margin-bottom: 0; }
-  .navbar button {
+  #id_header button {
     padding: 10px; }
-    .navbar button:hover, .navbar button:active, .navbar button:focus {
+    #id_header button:hover, #id_header button:active, #id_header button:focus {
       outline: 6px auto #ffae78; }
 
 .callisto-logo {
@@ -114,28 +114,6 @@ p {
   border-style: solid;
   border-width: 2px; }
 
-@media (min-width: 650px) {
-  .navbar {
-    align-items: center;
-    display: flex; }
-  .navbar-right {
-    margin-left: auto; }
-    .navbar-right li {
-      padding: 0 10px; } }
-
-@media only screen and (max-width: 768px) {
-  .footer .navbar-nav {
-    margin: 0 auto;
-    white-space: nowrap; }
-  #mainbody-container nav {
-    padding: 0; }
-  .navbar-brand {
-    margin-top: .5rem; }
-  .navbar-right li {
-    margin-left: 18px; }
-  .footer .navbar-nav {
-    position: relative; } }
-
 h3 {
   color: #385C6C;
   font-size: 32px;
@@ -156,6 +134,7 @@ section p {
 .main-header {
   align-items: flex-start;
   background-position: center;
+  background-repeat: no-repeat;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -167,7 +146,8 @@ section p {
 
 .main-header h2 {
   font-size: 40px;
-  font-weight: 500; }
+  font-weight: 500;
+  margin-bottom: 16px; }
 
 .main-header p {
   color: #fff;
@@ -184,6 +164,9 @@ section p {
   font-weight: 300;
   line-height: 31px;
   text-align: center; }
+
+.quote-section blockquote {
+  padding: 0; }
 
 .quote-section span {
   font-size: 1em;
@@ -211,7 +194,51 @@ section {
   padding: 60px 197px;
   text-align: center; }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+  .footer .navbar-nav {
+    margin: 0 auto;
+    white-space: nowrap; }
+  #mainbody-container nav {
+    padding: 0; }
+  .navbar-brand {
+    margin-top: .5rem; }
+  .navbar-right li {
+    margin-left: 18px; }
+  .footer .navbar-nav {
+    position: relative; } }
+
+@media (max-width: 650px) {
+  .navbar {
+    align-items: center;
+    display: flex; }
+  .navbar-right {
+    background-color: #fff;
+    height: 100vh;
+    left: -1%;
+    margin: 0;
+    margin-left: auto;
+    position: absolute;
+    top: 100%;
+    width: 102%; }
+    .navbar-right li {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      margin-left: 0;
+      padding: 0 10px; }
+      .navbar-right li a {
+        text-align: left !important; }
+      .navbar-right li.donate-li {
+        bottom: 18%;
+        border-bottom: 0;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -18%);
+        width: 240px; }
+      .navbar-right li .nav-button {
+        margin-top: 32px;
+        text-align: center !important; }
+  .navbar-left {
+    position: relative;
+    width: 100%; }
   section {
     padding: 50px 20px; }
   h3 {
@@ -225,14 +252,20 @@ section {
     margin-bottom: 6px; }
   .main-header p {
     font-size: 16px;
+    margin-bottom: 32px;
     width: auto; }
   .main-header a {
     align-self: center;
     display: block;
-    margin-bottom: 26px; }
+    margin-bottom: 26px;
+    width: 100%; }
   .gradient-button {
     font-size: 15px;
-    padding: 13px 21px; } }
+    min-width: auto;
+    padding: 13px 21px; }
+  .footer-social {
+    font-size: 24px;
+    margin: 8px 0; } }
 
 p {
   color: #1C2E36;
@@ -264,6 +297,7 @@ section {
   padding: 60px 197px; }
 
 .our-approach p {
+  line-height: 26px;
   margin-bottom: 30px; }
 
 .callisto-campus {
