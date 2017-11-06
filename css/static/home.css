@@ -140,6 +140,16 @@ h3 {
     display: block;
     float: none;
     width: 100%; }
+  .input-sec {
+    margin: 0;
+    width: 100%; }
+    .input-sec #mc_embed_signup {
+      width: 100%; }
+      .input-sec #mc_embed_signup .form-control {
+        border: 1.5px solid #385C6C;
+        border-radius: 4px; }
+      .input-sec #mc_embed_signup #mc-embedded-subscribe {
+        width: 100%; }
   #how-it-works .how-intro {
     padding: 40px 20px 0; }
   #stay-updated {
