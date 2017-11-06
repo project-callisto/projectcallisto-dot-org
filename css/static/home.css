@@ -10,15 +10,7 @@ h3 {
   text-align: center; }
 
 .home-header {
-  background: url("../../images/Assets/Homepage_headerimage.png");
-  background-position: center;
-  background-size: cover;
-  height: 515px;
-  padding-bottom: 120px;
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  padding: 60px 197px; }
+  background: url("../../images/Assets/Homepage_headerimage.png"); }
 
 .press {
   padding: 0; }
@@ -63,7 +55,8 @@ h3 {
   #how-it-works #match-icon {
     height: 110px;
     margin-top: -10px; }
-  #how-it-works #record-icon, #how-it-works #report-icon {
+  #how-it-works #record-icon,
+  #how-it-works #report-icon {
     margin-right: -10px; }
   #how-it-works .section-title {
     margin-bottom: 15px; }
@@ -103,6 +96,8 @@ h3 {
 
 .stats-sections {
   margin-top: 20px; }
+  .stats-sections ul {
+    padding-left: 0; }
 
 #our-supporters {
   background-color: #F8F9F9; }
@@ -133,7 +128,7 @@ h3 {
   #ted-talk p {
     padding: 0; }
   #how-it-works .extra {
-    padding: 0; }
+    padding: 0 20px; }
   .img-responsive {
     display: block;
     height: auto; }
@@ -141,18 +136,11 @@ h3 {
     margin-bottom: 200px;
     width: 250px;
     text-align: center; }
-  .main-header {
-    padding: 0; }
-    .main-header a {
-      margin: 0; }
-    .main-header h2 {
-      margin-top: 0;
-      font-size: 25px; }
   #stats li {
     display: block;
     float: none;
     width: 100%; }
   #how-it-works .how-intro {
-    padding: 40px 0 0; }
+    padding: 40px 20px 0; }
   #stay-updated {
     background-size: 200px; } }
