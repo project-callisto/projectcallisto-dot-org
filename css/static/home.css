@@ -10,7 +10,18 @@ h3 {
   text-align: center; }
 
 .home-header {
-  background: url("../../images/Assets/Homepage_headerimage.png"); }
+  background-image: url("../../images/Assets/Homepage_headerimage.png");
+  background-size: cover;
+  background-position: center top;
+  height: 520px;
+  padding: 125px 20px 0px;
+  justify-content: flex-start; }
+
+.home-header h2 {
+  font-size: 30px; }
+
+.home-header p {
+  font-size: 18px; }
 
 .press {
   padding: 0; }
@@ -21,9 +32,9 @@ h3 {
 #how-it-works {
   padding: 0; }
   #how-it-works .how-intro {
-    padding: 60px 300px 0; }
+    padding: 60px 0 25px; }
   #how-it-works .extra {
-    padding: 30px 345px; }
+    padding: 30px; }
   #how-it-works #how-it-works-sections {
     justify-content: space-around;
     margin-left: auto;
@@ -128,7 +139,7 @@ h3 {
   #ted-talk p {
     padding: 0; }
   #how-it-works .extra {
-    padding: 0 20px; }
+    padding: 40px 20px; }
   .img-responsive {
     display: block;
     height: auto; }

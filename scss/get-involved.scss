@@ -14,6 +14,12 @@
     width: 300px;
   }
 }
+
+.submit-button {
+  max-width: 465px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
 input, textarea {
   width: 465px;
   margin: 0 auto;
@@ -32,6 +38,11 @@ input, textarea {
     line-height: 26px;
   }
 }
+
+// .quote-section {
+//   height: 300px;
+//   background-position: bottom;
+// }
 
 .contact-form {
   form {

@@ -6,6 +6,13 @@ body {
 p {
   font-family: "Open Sans"; }
 
+main-header p, header p {
+  font-family: "Montserrat"; }
+
+.content {
+  max-width: 630px;
+  margin: 0 auto; }
+
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: #fff; }
 
@@ -51,7 +58,8 @@ p {
   padding-left: 35px; }
 
 .copyright {
-  float: right; }
+  float: right;
+  padding-right: 25px; }
 
 .footer-nav {
   align-items: center;
@@ -213,7 +221,7 @@ section {
     display: flex; }
   .navbar-right {
     background-color: #fff;
-    height: 100vh;
+    height: 600px;
     left: -1%;
     margin: 0;
     margin-left: auto;
@@ -270,7 +278,8 @@ section {
 
 .who-we-are-header {
   background-image: url("../../images/Assets/Whoweare_headerimage.png");
-  padding: 0 115px 60px; }
+  padding: 0 115px 60px;
+  background-size: cover; }
 
 .our-history p {
   color: #1C2E36;

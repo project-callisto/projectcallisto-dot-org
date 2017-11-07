@@ -10,6 +10,14 @@ p {
   font-family: "Open Sans";
 }
 
+main-header p, header p {
+  font-family: "Montserrat";
+}
+.content {
+  max-width: 630px;
+  margin: 0 auto;
+}
+
 .nav > li > a {
   &:hover,
   &:focus {
@@ -79,6 +87,7 @@ p {
 
 .copyright {
   float: right;
+  padding-right:25px;
 }
 
 .footer-nav {
@@ -295,7 +304,7 @@ section {
 
   .navbar-right {
     background-color: $color-white;
-    height: 100vh;
+    height: 600px;
     left: -1%;
     margin: 0;
     margin-left: auto;

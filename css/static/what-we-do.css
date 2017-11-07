@@ -6,6 +6,13 @@ body {
 p {
   font-family: "Open Sans"; }
 
+main-header p, header p {
+  font-family: "Montserrat"; }
+
+.content {
+  max-width: 630px;
+  margin: 0 auto; }
+
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: #fff; }
 
@@ -51,7 +58,8 @@ p {
   padding-left: 35px; }
 
 .copyright {
-  float: right; }
+  float: right;
+  padding-right: 25px; }
 
 .footer-nav {
   align-items: center;
@@ -213,7 +221,7 @@ section {
     display: flex; }
   .navbar-right {
     background-color: #fff;
-    height: 100vh;
+    height: 600px;
     left: -1%;
     margin: 0;
     margin-left: auto;
@@ -277,14 +285,18 @@ p {
 b {
   font-weight: 500; }
 
-#first-quote {
-  height: 305px; }
-
 section {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column; }
+
+article b {
+  text-align: left; }
+
+.quote-section {
+  height: 300px;
+  background-position: bottom; }
 
 .what-we-do-header {
   background-image: url("../../images/Assets/Whatwedo_headerimage.png");
@@ -349,7 +361,15 @@ section {
     font-size: 16px;
     text-align: center; }
   .quote-section {
-    font-size: 18px; }
+    font-size: 18px;
+    background-image: url("../../images/Assets/QuotePattern_background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: 300;
+    line-height: 31px;
+    text-align: center;
+    height: 500px; }
     .quote-section blockquote {
       font-size: 16px;
       padding: 0; }

@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,500i,700");
 @import "_variables.scss";
+
+
 section {
   align-items: center;
   display: flex;
@@ -13,8 +15,22 @@ h3 {
 }
 
 .home-header {
-  background: url('../../images/Assets/Homepage_headerimage.png');
+  background-image: url('../../images/Assets/Homepage_headerimage.png');
+  background-size: cover;
+  background-position: center top;
+  height: 520px;
+  padding: 125px 20px 0px;
+  justify-content: flex-start;
 }
+
+.home-header h2 {
+  font-size: 30px;
+}
+
+.home-header p {
+  font-size: 18px;
+}
+
 
 .press {
   padding: 0;
@@ -28,11 +44,11 @@ h3 {
   padding: 0;
 
   .how-intro {
-    padding: 60px 300px 0;
+    padding: 60px 0 25px;
   }
 
   .extra {
-    padding: 30px 345px;
+    padding: 30px;
   }
 
   #how-it-works-sections {
@@ -181,7 +197,7 @@ h3 {
   }
 
   #how-it-works .extra {
-    padding: 0 20px;
+    padding: 40px 20px;
   }
 
   .img-responsive {
