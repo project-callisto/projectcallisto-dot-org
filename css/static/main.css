@@ -266,4 +266,16 @@ section {
   .gradient-button {
     font-size: 15px;
     min-width: auto;
-    padding: 13px 21px; } }
+    padding: 13px 21px; }
+  .footer {
+    padding: 0; }
+  .top_nav ul {
+    margin-left: 0; }
+  .top_nav img {
+    display: none; }
+  .footer_links {
+    padding-left: 0; }
+    .footer_links li {
+      text-align: left;
+      display: block;
+      padding: 0; } }

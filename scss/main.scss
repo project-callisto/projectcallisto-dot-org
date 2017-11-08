@@ -378,4 +378,30 @@ section {
   }
 
 
+  ////////////////mobile footer/////////////////
+
+  .footer {
+    padding: 0;
+  }
+  .top_nav {
+    ul {
+      margin-left: 0;
+    }
+
+    img {
+      display: none;
+    }
+
+  }
+
+  .footer_links {
+    padding-left: 0;
+    li {
+      text-align: left;
+      display: block;
+      padding: 0;
+    }
+  }
+
+
 }
