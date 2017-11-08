@@ -13,7 +13,7 @@ h3 {
 }
 
 .home-header {
-  background: url('../../images/Assets/Homepage_headerimage.png');
+  background-image: url('../../images/Assets/Homepage_headerimage.png');
 }
 
 .press {
@@ -25,14 +25,11 @@ h3 {
 }
 
 #how-it-works {
-  padding: 0;
+  padding: 50px 0;
 
-  .how-intro {
-    padding: 60px 300px 0;
-  }
-
-  .extra {
-    padding: 30px 345px;
+  & > p,
+  .how-intro > p {
+    padding: 0 197px;
   }
 
   #how-it-works-sections {
@@ -107,10 +104,9 @@ h3 {
   background-image: url("../../images/Assets/Homepage_patternbackground.png");
   background-repeat: none;
   background-size: cover;
-  height: 300px;
+
   p {
     font-size: 20px;
-    padding: 20px 200px 0;
   }
 }
 
