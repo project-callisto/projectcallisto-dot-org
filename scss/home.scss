@@ -41,14 +41,16 @@ h3 {
 }
 
 #how-it-works {
-  padding: 0;
+  padding: 50px;
 
   .how-intro {
     padding: 60px 0 25px;
   }
 
-  .extra {
-    padding: 30px;
+  & > p,
+    .how-intro > p {
+    padding: 0 197px;
+   }
   }
 
   #how-it-works-sections {
@@ -123,10 +125,10 @@ h3 {
   background-image: url("../../images/Assets/Homepage_patternbackground.png");
   background-repeat: none;
   background-size: cover;
-  height: 300px;
+
   p {
     font-size: 20px;
-    padding: 20px 200px 0;
+
   }
 }
 

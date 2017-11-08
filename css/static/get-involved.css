@@ -143,13 +143,14 @@ section p {
   align-items: flex-start;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-end;
   height: 377px;
-  padding: 60px 115px;
+  padding: 0 0 60px 115px;
   width: 100%; }
 
 .main-header h2 {
@@ -169,6 +170,7 @@ section p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  flex-wrap: nowrap;
   font-weight: 300;
   line-height: 31px;
   text-align: center; }
