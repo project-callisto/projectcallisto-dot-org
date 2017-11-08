@@ -30,51 +30,6 @@ main-header p, header p {
   .nav-button a {
     color: white; }
 
-#id_footer {
-  border: 0;
-  box-shadow: none; }
-
-.footer-content .footer-copyright {
-  align-items: flex-start;
-  border-top: 1px solid rgba(164, 179, 183, 0.5);
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  font-size: 16px;
-  line-height: 1.6;
-  margin-top: 30px;
-  padding: 20px 0 30px;
-  width: 100%; }
-  .footer-content .footer-copyright div {
-    width: 80%; }
-    .footer-content .footer-copyright div div {
-      float: right; }
-  .footer-content .footer-copyright img {
-    margin-right: 30px; }
-  .footer-content .footer-copyright span {
-    margin-left: auto; }
-
-.footer-nav li {
-  padding-left: 35px; }
-
-.copyright {
-  float: right;
-  padding-right: 25px; }
-
-.footer-nav {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  height: 45px;
-  padding-left: 36px;
-  width: 100%; }
-
-.footer-content a[href^='tel:'] {
-  color: inherit; }
-
-.footer .row {
-  width: 100%; }
-
 .navbar-toggle .icon-bar {
   background-color: #000; }
 
@@ -204,8 +159,48 @@ section {
   padding: 60px 197px;
   text-align: center; }
 
+.footer {
+  padding: 20px 70px; }
+
+.top_nav {
+  display: block;
+  margin-bottom: 20px; }
+  .top_nav img {
+    float: left;
+    margin: -11px 0 0 0; }
+  .top_nav ul {
+    margin-left: 110px; }
+
+.bottom_nav {
+  padding-top: 20px;
+  border-top: 1px solid #A4B3B7; }
+
+.float_left {
+  float: left; }
+  .float_left p {
+    font-size: 16px;
+    margin-bottom: 0; }
+
+.float_right {
+  float: right; }
+  .float_right p {
+    font-size: 16px; }
+
+.footer_links li {
+  display: inline-block;
+  padding: 0 32px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500; }
+
+.footer-icon {
+  width: 25px;
+  display: inline;
+  float: right;
+  margin: 5px; }
+
 @media only screen and (max-width: 768px) {
-  .footer .navbar-nav {
+  .navbar-nav {
     margin: 0 auto;
     white-space: nowrap; }
   #mainbody-container nav {
@@ -213,9 +208,7 @@ section {
   .navbar-brand {
     margin-top: .5rem; }
   .navbar-right li {
-    margin-left: 18px; }
-  .footer .navbar-nav {
-    position: relative; } }
+    margin-left: 18px; } }
 
 @media (max-width: 650px) {
   .navbar {
@@ -273,10 +266,7 @@ section {
   .gradient-button {
     font-size: 15px;
     min-width: auto;
-    padding: 13px 21px; }
-  .footer-social {
-    font-size: 24px;
-    margin: 8px 0; } }
+    padding: 13px 21px; } }
 
 .who-we-are-header {
   background-image: url("../../images/Assets/Whoweare_headerimage.png");

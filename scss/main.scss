@@ -45,68 +45,6 @@ main-header p, header p {
 
   }
 
-#id_footer {
-  border: 0;
-  box-shadow: none;
-}
-
-.footer-content .footer-copyright {
-  align-items: flex-start;
-  border-top: 1px solid $color-footer-border-top;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  font-size: 16px;
-  line-height: 1.6;
-  margin-top: 30px;
-  padding: 20px 0 30px;
-  width: 100%;
-
-  div {
-    width: 80%;
-
-    div {
-      float: right;
-    }
-  }
-
-  img {
-    margin-right: 30px;
-  }
-
-  span {
-    margin-left: auto;
-  }
-}
-
-.footer-nav {
-  li {
-    padding-left: 35px;
-  }
-}
-
-.copyright {
-  float: right;
-  padding-right:25px;
-}
-
-.footer-nav {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  height: 45px;
-  padding-left: 36px;
-  width: 100%;
-}
-
-.footer-content a[href^='tel:'] {
-  color: inherit;
-}
-
-.footer .row {
-  width: 100%;
-}
-
 .navbar-toggle .icon-bar {
   background-color: $color-black;
 }
@@ -266,8 +204,71 @@ section {
   text-align: center;
 }
 
+.footer {
+    padding: 20px 70px;
+
+}
+
+.bottom_nav, .top_nav {
+
+}
+
+.top_nav {
+  display: block;
+  margin-bottom: 20px;
+
+  img {
+    float:left;
+    margin: -11px 0 0 0;
+  }
+
+  ul {
+  margin-left: 110px;
+
+  }
+}
+
+.bottom_nav {
+  padding-top: 20px;
+  border-top: 1px solid #A4B3B7;
+}
+.float_left {
+  float: left;
+  p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+}
+
+.float_right {
+  float: right;
+  p {
+    font-size: 16px;
+  }
+}
+
+.footer_links {
+  li {
+    display: inline-block;
+    padding: 0 32px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+.footer-icons {
+
+}
+.footer-icon {
+  width: 25px;
+  display: inline;
+  float: right;
+  margin: 5px;
+}
+
 @media only screen and (max-width: $max-width-sm) {
-  .footer .navbar-nav {
+ .navbar-nav {
     margin: 0 auto;
     white-space: nowrap;
   }
@@ -287,13 +288,6 @@ section {
   .navbar-right {
     li {
       margin-left: 18px;
-    }
-  }
-
-
-  .footer {
-    .navbar-nav {
-      position: relative;
     }
   }
 }
@@ -383,8 +377,5 @@ section {
     padding: 13px 21px;
   }
 
-  .footer-social {
-    font-size: 24px;
-    margin: 8px 0;
-  }
+
 }
