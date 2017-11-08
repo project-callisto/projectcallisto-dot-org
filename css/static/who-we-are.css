@@ -2,6 +2,8 @@
 body {
   font-family: "Montserrat", "Open Sans", sans-serif;
   font-size: 16px; }
+  body.locked {
+    overflow: hidden; }
 
 p {
   font-family: "Open Sans"; }
@@ -215,7 +217,6 @@ section {
     display: flex; }
   .navbar-right {
     background-color: #fff;
-    height: 100vh;
     left: -1%;
     margin: 0;
     margin-left: auto;
@@ -229,11 +230,8 @@ section {
       .navbar-right li a {
         text-align: left !important; }
       .navbar-right li.donate-li {
-        bottom: 18%;
         border-bottom: 0;
-        left: 50%;
-        position: absolute;
-        transform: translate(-50%, -18%);
+        margin: 40vh auto 25vh;
         width: 240px; }
       .navbar-right li .nav-button {
         margin-top: 32px;

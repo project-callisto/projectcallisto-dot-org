@@ -4,6 +4,10 @@
 body {
   font-family: $font-main;
   font-size: 16px;
+
+  &.locked {
+    overflow: hidden;
+  }
 }
 
 p {
@@ -297,7 +301,6 @@ section {
 
   .navbar-right {
     background-color: $color-white;
-    height: 100vh;
     left: -1%;
     margin: 0;
     margin-left: auto;
@@ -315,11 +318,8 @@ section {
       }
 
       &.donate-li {
-        bottom: 18%;
         border-bottom: 0;
-        left: 50%;
-        position: absolute;
-        transform: translate(-50%, -18%);
+        margin: 40vh auto 25vh;
         width: 240px;
       }
 
