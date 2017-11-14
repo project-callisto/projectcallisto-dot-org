@@ -1,0 +1,98 @@
+
+
+@import 'main.scss';
+
+.work-with-us-header {
+  background-image: url('../../images/Assets/workwithus_Headerimage.png');
+  padding: 0 115px 60px;
+  background-size: cover;
+  background-position: top;
+}
+
+h4 {
+  padding-bottom: 30px;
+}
+
+h5 {
+  color: #2B4A59;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.our-history p {
+  color: $primary-text-color;
+  font-family: $font-sans;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.our-team {
+  background-color: rgba(218, 226, 224, .2);
+  text-align: left;
+
+  p {
+    text-align: left;
+  }
+}
+
+.our-team ul {
+  list-style-type: none;
+  padding: 0;
+
+  li {
+    color: $primary-text-color;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+}
+
+.our-team h4 {
+  color: $color-blue-bold-items;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+.wwa-section {
+  padding: 50px 114px;
+
+  p {
+    font-family: "Open Sans";
+    font-size: 16px;
+    text-align: left;
+  }
+}
+
+.contact {
+  p {
+    margin-bottom: 16px;
+  }
+}
+
+hr {
+  background-color: #D6E1E4;
+  height: 1px;
+  margin: 0 auto;
+}
+
+@media (max-width: $max-width-sm) {
+
+  .main-header {
+    padding: 0 20px 30px;
+  }
+}
+
+@media (max-width: $max-width-xs) {
+
+
+  .wwa-section {
+    padding: 32px 20px;
+
+    p {
+      margin-bottom: 0;
+      text-align: center;
+    }
+  }
+}
