@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+{% include head.html %}
 
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+<body>
+    <a href="#maincontent" class="sr-only sr-only-focusable" id="skip-link">Skip to main content</a>
+    <div class="content-wrapper">
+        {% include header.html %}
+        <div class="page-content">
+            <div class="wrapper">
+                {{ content }}
+            </div>
+        </div>
+        {% include footer.html %}
     </div>
-
-    {% include footer.html %}
-
-  </body>
+</body>
 
 </html>
