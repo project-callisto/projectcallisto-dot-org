@@ -26,32 +26,57 @@ h3 {
     width: 150px;
     margin: 0 auto 25px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .stat-icon {
     @include stat-icon-sizing;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFFFFF;
+
     font-size: 40px;
     color: $primary-title-color;
-    border: 2px rgba($color-stats-border, 0.7) solid;
+    position: relative;
 
-    &::after {
+    &::before, &::after {
         @include stat-icon-sizing;
-        content: "";
+
         position: absolute;
     }
 
-    &.five-x::after {
-        background: linear-gradient(113.09deg, $color-stats-start 0%, $color-stats-end 100%);
+    &::before {
+        background-color: #FFFFFF;
+        width: 90%;
+        height: 90%;
     }
-    &.fifteen-percent::after {
-        background: linear-gradient(214.42deg, $color-stats-start 0%, $color-stats-end 100%);
+
+    &::after {
+        content: "";
+        border: 2px rgba($color-stats-border, 0.7) solid;
     }
-    &.three-x::after {
-        background: linear-gradient(124.98deg, $color-stats-start 0%, $color-stats-end 100%);
+}
+
+.stat-icon.five-x {
+    background: linear-gradient(115deg, $color-stats-start 20%, $color-stats-end 80%);
+
+    &::before {
+        content: "5X";
+    }
+}
+
+.stat-icon.fifteen-percent {
+    background: linear-gradient(215deg, $color-stats-start 20%, $color-stats-end 80%);
+
+    &::before {
+        content: "15%";
+    }
+}
+
+.stat-icon.three-x {
+    background: linear-gradient(125deg, $color-stats-start 20%, $color-stats-end 90%);
+
+    &::before {
+        content: "3X";
     }
 }
 
