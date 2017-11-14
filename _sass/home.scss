@@ -23,19 +23,6 @@ h3 {
 
 .home-header {
     background-image: url("../../images/Assets/Homepage_headerimage.png");
-    background-size: cover;
-    background-position: center top;
-    height: 520px;
-    padding: 211px 0 0 115px;
-    justify-content: flex-start;
-}
-
-.home-header h2 {
-    font-size: 40px;
-}
-
-.home-header p {
-    font-size: 20px;
 }
 
 .press {
@@ -202,10 +189,6 @@ h3 {
         padding: 173px 10px 0;
     }
 
-    .home-header h2 {
-        font-size: 30px;
-    }
-
     .hiw-section {
         margin: 20px 10px;
     }
@@ -218,18 +201,6 @@ h3 {
 
     #press {
         display: none;
-    }
-
-    .home-header {
-        padding: 173px 10px 0;
-    }
-
-    .home-header h2 {
-        font-size: 25px;
-    }
-
-    .home-header p {
-        font-size: 18px;
     }
 
     #ted-talk p {

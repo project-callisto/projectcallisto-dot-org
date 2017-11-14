@@ -137,6 +137,11 @@ section p {
     height: 377px;
     padding: 0 0 60px 115px;
     width: 100%;
+    background-size: cover;
+    background-position: center top;
+    height: 520px;
+    padding: 211px 0 0 115px;
+    justify-content: flex-start;
 
     .gradient-button {
         margin: 0;
@@ -146,6 +151,7 @@ section p {
 .main-header h2 {
     font-size: 40px;
     margin-bottom: 16px;
+    color: $color-white;
 }
 
 .main-header p {
@@ -204,8 +210,6 @@ section {
     padding: 20px 70px;
 }
 
-.bottom_nav, .top_nav {}
-
 .top_nav {
     display: block;
     margin-bottom: 20px;
@@ -251,8 +255,6 @@ section {
     }
 }
 
-.footer-icons {}
-
 .footer-icon {
     width: 25px;
     display: inline;
@@ -270,10 +272,6 @@ section {
         margin: 0 auto;
         white-space: nowrap;
     }
-
-    // html {
-    //   font-size: 16px;
-    // }
 
     #mainbody-container nav {
         padding: 0;
