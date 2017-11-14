@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="148" height="149" viewBox="0 0 148 149">
+  <defs>
+    <ellipse id="15percentstaticon-a" cx="73.933" cy="74.042" rx="73.933" ry="74.042"/>
+    <linearGradient id="15percentstaticon-b" x1="41.523%" x2="0%" y1="50%" y2="110.602%">
+      <stop offset="0%" stop-color="#C1A197"/>
+      <stop offset="100%" stop-color="#458A9A"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g opacity=".75">
+      <use fill="#FFF" xlink:href="#15percentstaticon-a"/>
+      <ellipse cx="73.933" cy="74.042" stroke="#DAE2E0" stroke-width="1.875" rx="72.995" ry="73.104"/>
+    </g>
+    <path fill="url(#15percentstaticon-b)" d="M6.26973097,44.156268 C17.7392686,18.1497785 43.7196422,0 73.9328988,0 L73.9328988,5.23526632 C45.2471281,5.23526632 20.6673825,22.8411028 10.3797708,47.8516874 L6.26973097,44.156268 Z"/>
+    <text fill="#385C6C" font-family="Montserrat-Medium, Montserrat" font-size="40" font-weight="400">
+      <tspan x="29.963" y="89">15%</tspan>
+    </text>
+  </g>
+</svg>

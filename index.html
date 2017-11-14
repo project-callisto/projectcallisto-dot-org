@@ -1,446 +1,397 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Callisto: Tech to combat sexual assault</title>
-    <meta name="description" content="Callisto is a third-party college sexual assault recording and reporting system designed to support and empower survivors, improve the reporting experience, and identify repeat campus perpetrators.">
-    <meta name="author" content="Callisto">
-    <link rel="icon" href="images/callisto_logo.png">
 
-    <!-- Bootstrap -->
-    <!-- Latest compiled and minified CSS -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Callisto: Tech to combat sexual assault</title>
+  <meta name="description" content="Callisto is a third-party college sexual assault recording and reporting system designed to support and empower survivors, improve the reporting experience, and identify repeat campus perpetrators.">
+  <meta name="author" content="Callisto">
+  <link rel="icon" href="images/callisto_logo.png">
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,700,700italic' rel='stylesheet' type='text/css'>
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,700,700italic' rel='stylesheet'
+    type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script src="https://use.typekit.net/raj2mef.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script src="https://use.typekit.net/raj2mef.js"></script>
+  <script>
+    try {
+      Typekit.load({
+        async: true
+      });
+    } catch (e) {}
+  </script>
 
-    <link rel="stylesheet" href="css/bootstrap/bootstrap-accessibility.css">
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type='text/css'>
-    <link href="css/callisto.css" rel="stylesheet" type="text/css">
-    <script src="https://use.fontawesome.com/8b163ded71.js"></script>
-  </head>
-  <body>
-<a href="#maincontent" class="sr-only sr-only-focusable" id="skip-link">Skip to main content</a>
-<div class="content-wrapper">
-    <div class="container">
-        <div class="col-sm-22 col-sm-offset-1 col-xs-24">
-        <div class="row header">
-            <nav class="navbar" id="id_header">
-                <div class="navbar-left col-xs-offset-1-half-nested">
-                  <a href="/" id="brand_link">
-                    <img src="images/callisto_logo.png" class="img-responsive" alt="" aria-hidden="true"/>
-                    <div id="callisto">Callisto</div>
-                  </a>
+  <link rel="stylesheet" href="css/bootstrap/bootstrap-accessibility.css">
+  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type='text/css'>
+  <link href="css/callisto.css" rel="stylesheet" type="text/css">
+  <link href="css/static/main.css" rel="stylesheet" type="text/css">
+  <link href="css/static/home.css" rel="stylesheet" type="text/css">
+  <script src="https://use.fontawesome.com/8b163ded71.js"></script>
+</head>
 
-                <button type="button" class="col-xs-after-1-half-offset navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                </div>
+<body>
+  <a href="#maincontent" class="sr-only sr-only-focusable" id="skip-link">Skip to main content</a>
+  <nav class="navbar" id="id_header">
+    <div class="navbar-left col-xs-offset-1-half-nested">
+      <a href="#" id="brand_link">
+        <img src="images/callisto_logo.png" class="img-responsive" alt="" aria-hidden="true" />
+        <div id="callisto">Callisto</div>
+      </a>
 
-                <ul class="nav navbar-nav navbar-right col-sm-after-1-half-offset collapse navbar-collapse" id="navbar-collapse">
-                    <li><a href="/what-we-do/">What We Do</a></li>
-                    <li><a href="/who-we-are/">Who We Are</a></li>
-                    <li><a href="/get-involved/">Get Involved</a></li>
-                    <li><a href="/partner-with-us/">Partner With Us</a></li>
-                    <li><a href="/donate/">Donate</a></li>
+      <button type="button" class="col-xs-after-1-half-offset navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+        aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <ul class="nav navbar-nav navbar-right col-sm-after-1-half-offset collapse navbar-collapse" id="navbar-collapse">
+      <li>
+        <a href="what-we-do/index.html">WHAT WE DO</a>
+      </li>
+      <li>
+        <a href="who-we-are/index.html">WHO WE ARE</a>
+      </li>
+      <li>
+        <a href="get-involved/index.html">GET INVOLVED</a>
+      </li>
+      <li class="donate-li">
+        <a class="nav-button" href="https://www.classy.org/campaign/help-stop-repeat-perpetrators-wherever-they-are/c150968">DONATE</a>
+      </li>
+    </ul>
+  </nav>
+
+  <header class="main-header home-header">
+      <h2>Callisto: Tech to combat sexual assault</h3>
+        <p>We create technology to combat sexual assault, empower survivors, and advance justice.</p>
+        <a class="gradient-button" href="https://www.projectcallisto.org/what-we-do/Callisto_Year_2_highres.pdf" target="_blank">Read About Our Impact</a>
+  </header>
+
+
+
+  <div class="container" id="mainbody-container">
+    <div class="col-sm-24">
+      <div class="mainbody" id="top">
+        <div id="maincontent" class="maincontent front-page">
+
+          <!-- <div class="quote row">
+                          <div class="row">
+                              <div class="quote-mark quote-mark-left">&#8220;</div>
+                              <div class="quote-content col-sm-16 col-sm-offset-4">
+                                  I didn't know if what happened to me was sexual assault, but I knew it wasn't right and I didn't want it to happen again. Callisto is the system I wanted - allowing me to stay in control, keep my options open, and protect my community.
+                              </div>
+                              <div class="quote-mark quote-mark-right"> &#8221;</div>
+                          </div>
+                          <div class="quote-attribution col-xs-24">
+                              &#8213; Jess Ladd, Founder of Callisto
+                          </div>
+                  </div>
+                   -->
+          <section class="press">
+
+            <div class="row text-center " id="press">
+              <span class="sr-only">Press on Callisto from: </span>
+              <div class="col-sm-24">
+
+                <a href="https://www.ted.com/talks/jessica_ladd_the_reporting_system_that_sexual_assault_survivors_want" class="press_link"
+                  target="_blank">
+                  <img src="images/ted_bw.png" class="img-responsive" alt="TED" />
+                </a>
+                <a href="http://www.nytimes.com/2015/11/15/technology/the-war-on-campus-sexual-assault-goes-digital.html" class="press_link"
+                  target="_blank">
+                  <img src="images/nyt.png" class="img-responsive" alt="The New York Times" />
+                </a>
+                <a href="http://www.forbes.com/sites/whynot/2015/10/18/is-there-a-first-mover-disadvantage-to-reporting-sexual-assault/"
+                  class="press_link" target="_blank">
+                  <img src="images/forbes.png" class="img-responsive" alt="Forbes" />
+                </a>
+                <a href="http://blogs.wsj.com/digits/2015/10/09/tech-startups-chase-something-other-than-profits/" class="press_link" target="_blank">
+                  <img src="images/wsj.png" class="img-responsive" alt="The Wall Street Journal" />
+                </a>
+                <a href="https://www.washingtonpost.com/opinions/using-game-theory-technology-to-fight-sexual-assault/2015/10/09/f8ebd44e-6e02-11e5-aa5b-f78a98956699_story.html"
+                  class="press_link" target="_blank">
+                  <img src="images/wapo.png" class="img-responsive" alt="The Washington Post" />
+                </a>
+              </div>
+              <!-- /.col-sm-10 -->
+
+              <!-- carousel for mobile view -->
+              <!--           <div class="visible-xs-block">
+ -->
+              <!-- list for screen readers -->
+              <span class="sr-only">Press on Callisto from:
+                <br/>
+                <ul>
+                  <li>
+                    <a href="https://www.ted.com/talks/jessica_ladd_the_reporting_system_that_sexual_assault_survivors_want"
+                      class="press_link" target="_blank">TED</a>
+                  </li>
+                  <li>
+                    <a href="http://www.nytimes.com/2015/11/15/technology/the-war-on-campus-sexual-assault-goes-digital.html"
+                      class="press_link" target="_blank">The New York Times</a>
+                  </li>
+                  <li>
+                    <a href="http://www.forbes.com/sites/whynot/2015/10/18/is-there-a-first-mover-disadvantage-to-reporting-sexual-assault/"
+                      class="press_link" target="_blank">
+                      <img src="assets/img/forbes_carousel.png">Forbes</a>
+                  </li>
+                  <li>
+                    <a href="http://blogs.wsj.com/digits/2015/10/09/tech-startups-chase-something-other-than-profits/" class="press_link"
+                      target="_blank">The Wall Street Journal</a>
+                  </li>
+                  <li>
+                    <a href="https://www.washingtonpost.com/opinions/using-game-theory-technology-to-fight-sexual-assault/2015/10/09/f8ebd44e-6e02-11e5-aa5b-f78a98956699_story.html"
+                      class="press_link" target="_blank">The Washington Post</a>
+                  </li>
                 </ul>
-            </nav>
-        </div>
-        </div>
-    </div>
+              </span>
+              <!-- /.sr-only -->
 
-<div class="row">
-    <div class="banner-index" id="faces">
-        <div id="banner-content">
-            <h1><span class="title-fragment">Callisto:</span> <span class="title-fragment">Tech to combat sexual assault</span> </h1>
-            <div class="subheader">We create technology to combat sexual assault, empower survivors, and advance justice.</div>
-            <a href="https://www.projectcallisto.org/what-we-do/Callisto_Year_2_highres.pdf" class="dark-blue-btn btn banner-btn" target="_blank">Read About Our Impact</a>
-            <a href="/donate/" class="light-blue-btn btn banner-btn" target="_blank">Donate Now</a>
-     </div>
-    </div>
-</div>
+          </section>
 
-    <div class="container"  id="mainbody-container">
-        <div class="col-sm-22 col-sm-offset-1">
-            <div class="mainbody" id="top">
-                <div id="maincontent" class="maincontent front-page">
+          <section id="the-problem" >
+            <div class="content">
+              <h3>The Problem</h3>
+              <p>As we’ve seen from #MeToo, sexual harassment and assault are far too common and often never reported. Many sexual perpetrators are repeat offenders, but it is hard for victims to learn whether or not they’re the only one. Knowing that you’re not alone tends to change a lot - the way you frame your experience, your motivation to take action, the probability that taking action will lead to risk for yourself or protection for your community.</p>
 
-<div class="row">
-
-<!-- <div class="quote row">
-        <div class="row">
-            <div class="quote-mark quote-mark-left">&#8220;</div>
-            <div class="quote-content col-sm-16 col-sm-offset-4">
-                I didn't know if what happened to me was sexual assault, but I knew it wasn't right and I didn't want it to happen again. Callisto is the system I wanted - allowing me to stay in control, keep my options open, and protect my community.
+              <p>It’s time that we change the equation - by giving victims the options and information and support they need, by allowing them to disclose in their own time and in their own way, and by safely connecting victims of the same perpetrator together to validate each other’s experience and take action. We believe that by empowering victims of sexual harassment and assault, we can support their wellbeing and change the culture of sexual violence that has persisted for far too long.</p>
             </div>
-            <div class="quote-mark quote-mark-right"> &#8221;</div>
-        </div>
-        <div class="quote-attribution col-xs-24">
-            &#8213; Jess Ladd, Founder of Callisto
-        </div>
-</div>
- -->
-        <div class="row text-center hidden-xs" id="press">
-          <div class="hidden-xs col-lg-22 col-lg-offset-1">
-             <span class="sr-only">Press on Callisto from: </span>
-             <a href="https://www.ted.com/talks/jessica_ladd_the_reporting_system_that_sexual_assault_survivors_want" class="press_link" target="_blank"><img src="images/ted_bw.png" class="img-responsive" alt="TED"/></a>
-             <a href="http://www.nytimes.com/2015/11/15/technology/the-war-on-campus-sexual-assault-goes-digital.html" class="press_link" target="_blank"><img src="images/nyt.png" class="img-responsive" alt="The New York Times"/></a>
-             <a href="http://www.forbes.com/sites/whynot/2015/10/18/is-there-a-first-mover-disadvantage-to-reporting-sexual-assault/" class="press_link" target="_blank"><img src="images/forbes.png" class="img-responsive" alt="Forbes"/></a>
-             <a href="http://blogs.wsj.com/digits/2015/10/09/tech-startups-chase-something-other-than-profits/" class="press_link" target="_blank"><img src="images/wsj.png" class="img-responsive" alt="The Wall Street Journal"/></a>
-             <a href="https://www.washingtonpost.com/opinions/using-game-theory-technology-to-fight-sexual-assault/2015/10/09/f8ebd44e-6e02-11e5-aa5b-f78a98956699_story.html" class="press_link" target="_blank"><img src="images/wapo.png" class="img-responsive" alt="The Washington Post"/></a>
-          </div> <!-- /.col-sm-10 -->
+          </section>
 
-          <!-- carousel for mobile view -->
-<!--           <div class="visible-xs-block">
- -->            <!-- list for screen readers -->
-            <span class="sr-only">Press on Callisto from: <br/>
+          <section id="how-it-works">
+            <div class="how-intro content">
+              <h3>Our Solution</h3>
+              <p>Callisto is a non-profit organization that develops technology to combat sexual assault and harassment. Our online systems are designed to detect repeat perpetrators and to empower victims to make the reporting (or not reporting) decision right for them. </p>
+              <p><strong>Our flagship online system, Callisto Campus, provides three options: </strong></p>
+            </div>
+
+            <div id="how-it-works-sections">
+              <div class="hiw-section">
+                <div class="section-title">
+                  <div class="icon" id="record-icon" aria-hidden="true"></div>
+                  <h4>WRITE</h4>
+                </div>
+                <p>
+                  Save time-stamped written records of a sexual assault
+                </p>
+              </div>
+              <div class="hiw-section">
+                <div class="section-title">
+                  <div class="icon" id="match-icon" aria-hidden="true"></div>
+                  <h4>MATCH</h4>
+                </div>
+                <p>
+                  Report if another victim names the same perpetrator
+                </p>
+              </div>
+              <div class="hiw-section">
+                <div class="section-title">
+                  <div class="icon" id="report-icon" aria-hidden="true"></div>
+                  <h4>REPORT</h4>
+                </div>
+                <p>
+                  Report electronically to campus authorities
+                </p>
+              </div>
+            </div>
+            <div class="content">
+              <p class="extra ">Callisto Campus provides survivors with a confidential and secure way to create a time-stamped record of an assault and report electronically to campus authorities. The matching system is the first of its kind to allow survivors to take action upon the detection of repeat offenders. </p>
+              <a href="https://www.ted.com/talks/jessica_ladd_the_reporting_system_that_sexual_assault_survivors_want?language=en" class="gradient-button">Watch our Ted Talk</a>
+            </div>
+          </section>
+
+          <section id="ted-talk">
+            <div class="content">
+              <p>Callisto is considering expanding to address sexual assault and harassment in professional institutions and industries. This expansion is contingent on philanthropic support.</p>
+              <a href="donate/index.html" class="gradient-button">DONATE</a>
+
+          </section>
+
+          <section id="stats">
+            <h3>Our Impact</h3>
+            <div class="stats-sections">
               <ul>
-                <li><a href="https://www.ted.com/talks/jessica_ladd_the_reporting_system_that_sexual_assault_survivors_want" class="press_link" target="_blank">TED</a></li>
-                <li><a href="http://www.nytimes.com/2015/11/15/technology/the-war-on-campus-sexual-assault-goes-digital.html" class="press_link" target="_blank">The New York Times</a></li>
-                <li><a href="http://www.forbes.com/sites/whynot/2015/10/18/is-there-a-first-mover-disadvantage-to-reporting-sexual-assault/" class="press_link" target="_blank"><img src="assets/img/forbes_carousel.png">Forbes</a></li>
-                <li><a href="http://blogs.wsj.com/digits/2015/10/09/tech-startups-chase-something-other-than-profits/" class="press_link" target="_blank">The Wall Street Journal</a></li>
-                <li><a href="https://www.washingtonpost.com/opinions/using-game-theory-technology-to-fight-sexual-assault/2015/10/09/f8ebd44e-6e02-11e5-aa5b-f78a98956699_story.html" class="press_link" target="_blank">The Washington Post</a></li>
+                <li>
+                  <img src="images/Assets/5xstaticon.svg" />
+                  <h4>MORE LIKELY TO REPORT</h4>
+                  <p>Survivors who visited the Callisto Campus website were 5 times more likely to report their assault than
+                    survivors who did not.</p>
+                </li>
+                <li>
+                  <img src="images/Assets/97percentStaticon.svg" />
+                  <h4>SATISFACTION</h4>
+                  <p>97% of survivors reported satisfaction with Callisto Campus. </p>
+                </li>
+                <li>
+                  <img src="images/Assets/3xStaticon.svg" />
+                  <h4>FASTER REPORTING</h4>
+                  <p>On average, the time it took survivors using Callisto Campus to report was almost three times faster than
+                    the national average (4 months versus 11 months).</p>
+                </li>
               </ul>
-            </span> <!-- /.sr-only -->
+            </div>
+          </section>
 
-            <!-- <div id="carousel-press" class="carousel slide" data-ride="carousel" data-interval="false" aria-hidden="true"> -->
-              <!-- Wrapper for slides -->
-              <!-- <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                  <a href="https://www.ted.com/talks/jessica_ladd_the_reporting_system_that_sexual_assault_survivors_want" class="press_link" target="_blank"><img src="images/ted_carousel.png" class="img-responsive" alt="TED"/></a>
-                </div>
-                <div class="item">
-                  <a href="http://www.nytimes.com/2015/11/15/technology/the-war-on-campus-sexual-assault-goes-digital.html" class="press_link" target="_blank"><img src="images/nyt_carousel.png" class="img-responsive" alt="The New York Times"/></a>
-                </div>
-                <div class="item">
-                  <a href="http://www.forbes.com/sites/whynot/2015/10/18/is-there-a-first-mover-disadvantage-to-reporting-sexual-assault/" class="press_link" target="_blank"><img src="images/forbes_carousel.png" class="img-responsive" alt="Forbes"/></a>
-                </div>
-                <div class="item">
-                  <a href="http://blogs.wsj.com/digits/2015/10/09/tech-startups-chase-something-other-than-profits/" class="press_link" target="_blank"><img src="images/wsj_carousel.png" class="img-responsive" alt="The Wall Street Journal"/></a>
-                </div>
-                <div class="item">
-                  <a href="https://www.washingtonpost.com/opinions/using-game-theory-technology-to-fight-sexual-assault/2015/10/09/f8ebd44e-6e02-11e5-aa5b-f78a98956699_story.html" class="press_link" target="_blank"><img src="images/wapo_carousel.png" class="img-responsive" alt="The Washington Post"/></a>
-                </div>
-              </div> -->
 
-              <!-- Controls -->
-              <!-- <a class="left carousel-control" href="#carousel-press" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-triangle-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#carousel-press" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div> -->
-<!--           </div>
- -->
+          <section id="our-partners">
+            <h3>Our Partners</h3>
+            <p class="content">For the last two years, we have implemented Callisto on campuses to support student survivors of sexual assault.
+              Our partners include Upright Citizens Brigade Theatre, St. John’s University, Hobart and William Smith Colleges,
+              Coe College, University of San Francisco, Pomona College, Loyola Marymount University, University of Oregon,
+              Central College, University of Southern California, University of Denver, Stanford University, and Canisius
+              College. </p>
+            <img src="images/Assets/partnerlogos2.png" />
+            <a href="get-involved/index.html" class="gradient-button suggest-btn">SUGGEST A PARTNER</a>
+          </section>
 
-        </div>
+          <section id="our-supporters">
+            <div class="content">
+              <h3>Our Supporters</h3>
+              <p >Callisto has an incredible community of donors and volunteers who make our work possible. Our funders include:
+                Google.org, The New York State Health Foundation, The New York Women's Foundation, The Levi Strauss Foundation,
+                NoVo Foundation, The Horace W. Goldsmith Foundation, PIMCO Foundation, Fast Forward, The Harnisch Foundation,
+                and many others.</p>
+              <p>We are also supported by over 600 individual donors — many of whom are survivors or allies who share our vision
+                of a world where survivors are supported and sexual violence is rare. Callisto is indebted to the survivors
+                who have offered their time, energy, and feedback as we developed our tool. Their insights have made the reporting
+                system stronger and continue to inspire us to go forward.</p>
+            </div>
+          </section>
 
-        <div class="row content-row" id="how_it_works">
-          <h2 class="text-center">How Callisto Works</h2>
-          <div class="row" id="how_it_works_grid">
-            <div class="col-xs-20 col-xs-offset-2">
-            <p>Callisto is an online sexual assault reporting system designed to create a more empowering reporting experience for survivors. It has shown to improve reporting and outcomes for student survivors of sexual assault. It provides three options:</p>
-              <div class="row" id="hiw-row">
-                <div class="col-sm-7 col-xs-24 text-center hiw-column">
-                  <div class="center-block hiw_icon icon" aria-hidden="true" style="background-image: url('images/record_icon.png')"> </div>
-                  <h3>Record</h3>
-                  <p class="explanation">Save time-stamped records of an assault</p>
-                  <p class="because">Because:</p>
-                  <div class="center-block because-caret icon" aria-hidden="true"> </div>
-                  <p>Survivors wait an average of <strong>11 months</strong> to report their assault to authorities</p>
-                </div> <!-- /.col-sm-4 -->
-                <div class="col-sm-7 col-xs-24 text-center hiw-column">
-                  <div class="center-block hiw_icon icon" aria-hidden="true" style="background-image: url('images/report_icon.png')"> </div>
-                  <h3>Report</h3>
-                  <p class="explanation">Report electronically to campus authorities</p>
-                  <p class="because">Because:</p>
-                  <div class="center-block because-caret icon" aria-hidden="true"> </div>
-                  <p><strong>Less than 10%</strong> of survivors will ever report their assault</p>
-                </div> <!-- /.col-sm-4 -->
-                <div class="col-sm-7 col-xs-24 text-center hiw-column">
-                  <div class="center-block hiw_icon icon" aria-hidden="true" style="background-image: url('images/match_icon.png')"> </div>
-                  <h3>Match</h3>
-                  <p class="explanation">Report only if another survivor names the same perpetrator</p>
-                  <p class="because">Because:</p>
-                  <div class="center-block because-caret icon" aria-hidden="true"> </div>
-                  <p>Up to 90% of assaults are committed by <strong>repeat perpetrators</strong></p>
-                </div> <!-- /.col-sm-4 -->
-              </div> <!-- /.row -->
-              <p>Callisto provides survivors with a confidential and secure way to create a time-stamped record of an assault and report electronically to campus authorities. It gives survivors the option to report their perpetrator only if someone else names the same assailant. This matching system is the first of its kind, and it means that survivors who want to protect their community from repeat perpetrators can do so together.</p>
-              <div class="text-center" id="how_it_works_btn">
-                    <a href="https://www.ted.com/talks/jessica_ladd_the_reporting_system_that_sexual_assault_survivors_want?language=en" target="_blank" class="dark-blue-btn btn">Watch the TED Talk</a>
-              </div>
-            </div> <!-- /.col-sm-10 -->
-          </div> <!-- /#how_it_works_grid -->
-        </div> <!-- #how_it_works -->
 
-<div class="row quote">
-    <div class="row">
-        <div class="quote-mark quote-mark-left">&#8220;</div>
-        <div class="quote-content col-sm-16 col-sm-offset-4">
-            It was hard to imagine coming forward in an immediately public way, but to start by chronicling what had occurred would have been a helpful and important first step.
-        </div>
-        <div class="quote-mark quote-mark-right"> &#8221;</div>
-    </div>
-    <div class="quote-attribution col-xs-24">
-        &#8213; Anonymous, Male Survivor of Sexual Assault
-    </div>
-</div>
+          <section id="stay-updated">
+            <div class="row" style="width: 100%;">
+              <h3 class="text-center">Stay Updated</h3>
+              <p>Sign up for updates and opportunities to get involved</p>
+            </div>
 
-<div class="row content-row" id="partners">
-  <h2 class="text-center">Our Partners</h2>
-  <div class="row">
-    <div class="col-xs-20 col-xs-offset-2">
-      <p>We partner with campuses dedicated to preventing sexual assault, supporting survivors, and holding perpetrators accountable.</p>
-        <div class="row partner-row">
-            <div class="col-sm-6 text-center partner-column">
-              <div class="partner_icon icon" aria-hidden="true" style="background-image: url('images/usf_logo.png')"> </div>
-              <h3>University of San Francisco</h3>
-              <div>Founding Institution</div>
-            </div> <!-- /.col-sm-4 -->
-            <div class="col-sm-6 text-center partner-column">
-              <div class="partner_icon icon" aria-hidden="true" style="background-image: url('images/pomona_logo.png')"> </div>
-              <h3>Pomona College</h3>
-              <div>Founding Institution</div>
-            </div> <!-- /.col-sm-4 -->
-            <div class="col-sm-6 text-center partner-column">
-              <div class="partner_icon icon" aria-hidden="true" style="background-image: url('images/central_logo.png')"> </div>
-              <h3>Central College</h3>
-            </div> <!-- /.col-sm-4 -->
-            <div class="col-sm-6 text-center partner-column">
-              <div class="partner_icon icon" aria-hidden="true" style="background-image: url('images/coe_logo.png')"> </div>
-              <h3>Coe College</h3>
-            </div> <!-- /.col-sm-4 -->
-        </div> <!-- /.row -->
-          <div class="row partner-row">
-            <div class="col-sm-6 text-center partner-column">
-              <div class="partner_icon icon" aria-hidden="true" style="background-image: url('images/canisius_logo.png')"> </div>
-              <h3>Canisius College</h3>
-            </div> <!-- /.col-sm-4 -->
-            <div class="col-sm-6 text-center partner-column">
-              <div class="partner_icon icon" aria-hidden="true" style="background-image: url('images/stjohns_logo.png')"> </div>
-              <h3>St. John's University</h3>
-            </div> <!-- /.col-sm-4 -->
-            <div class="col-sm-6 text-center partner-column">
-              <div class="partner_icon icon" aria-hidden="true" style="background-image: url('images/hws_logo.png')"> </div>
-              <h3>Hobart and William Smith Colleges</h3>
-            </div> <!-- /.col-sm-4 -->
-            <div class="col-sm-6 text-center partner-column">
-              <div class="partner_icon icon" aria-hidden="true" style="background-image: url('images/stanford_logo.png')"> </div>
-              <h3>Stanford University</h3>
-            </div> <!-- /.col-sm-4 -->
-        </div> <!-- /.row -->
-             <div class="row partner-row">
-            <div class="col-sm-6 text-center partner-column">
-              <div class="partner_icon icon" aria-hidden="true" style="background-image: url('images/UniversityOfDenver-Signature.png')"> </div>
-              <h3>University of Denver</h3>
-            </div> <!-- /.col-sm-4 -->
-            <div class="col-sm-6 text-center partner-column">
-              <div class="partner_icon icon" aria-hidden="true" style="background-image: url('images/LMU-color-logo-transparent.png')"> </div>
-              <h3>Loyola Marymount University</h3>
-            </div> <!-- /.col-sm-4 -->
-            <div class="col-sm-6 text-center partner-column">
-              <h3>University of Southern California</h3>
-            </div> <!-- /.col-sm-4 -->
-            <div class="col-sm-6 text-center partner-column">
-              <h3>University of Oregon</h3>
-            </div> <!-- /.col-sm-4 -->
-        </div> <!-- /.row -->
-                <div class="partner-btn">
-                    <a href="/partner-with-us/" class="dark-blue-btn btn">Become a Campus Partner</a>
-              </div>
-              <div class="partner-btn">
-                    <a href="/get-involved/#suggest" class="dark-blue-btn btn">Recommend Your School</a>
+
+            <div class="row input-sec">
+              <div class="">
+                <!-- Begin MailChimp Signup Form -->
+                <div id="mc_embed_signup">
+                  <form action="//sexualhealthinnovations.us5.list-manage.com/subscribe/post?u=0bfd132ff567d742957320c11&amp;id=cb70e39814"
+                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+                    novalidate>
+                    <div id="mc_embed_signup_scroll">
+                      <div class="mc-field-group">
+                        <label for="mce-EMAIL" class="sr-only">Email Address</label>
+                        <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Email address">
+                      </div>
+                      <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                      </div>
+                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_0bfd132ff567d742957320c11_cb70e39814" tabindex="-1" value="">
+                      </div>
+                      <div class="partner-btn">
+                        <input type="submit" value="SIGN ME UP" name="subscribe" id="mc-embedded-subscribe" class="gradient-button">
+                      </div>
                     </div>
-    </div> <!-- /.col-sm-10 -->
-  </div> <!-- /#how_it_works_grid -->
-</div> <!-- #how_it_works -->
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="footer">
+            <nav class="navbar container" id="id_footer">
+              <div class="top_nav col-lg-24 container">
 
-<div class="row quote">
-    <div class="row">
-        <div class="quote-mark quote-mark-left">&#8220;</div>
-        <div class="quote-content col-sm-16 col-sm-offset-4">
-            Being a Callisto Campus means that we take sexual assault prevention and response seriously.
+
+                    <img src="images/callisto_logo.png" class="callisto-logo" alt="Callisto Logo"/>
+
+                  <div class="">
+                  <ul class="footer_links">
+                    <li><a href="../what-we-do/index.html">What We Do</a></li>
+                    <li><a href="../who-we-are/index.html">Who We Are</li>
+                    <li><a href="../what-get-involved/index.html">Get Involved</li>
+                    <li><a href="https://www.classy.org/campaign/help-stop-repeat-perpetrators-wherever-they-are/c150968">Donate</li>
+                    <li><a href="../contact-us/index.html">Contact Us</li>
+                    <li><a href="https://blog.projectcallisto.org/">Our Blog</li>
+                    <li><a href="mailto:press@projectcallisto.org">Press</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="bottom_nav col-lg-24">
+                <div class="float_left">
+                  <p>For immediate help, contact the National Sexual Assault Hotline</p>
+                  <p><a href="tel:+18006564673">1-800-656-4673</a> | Free. Confidential. 24/7</p>
+                </div>
+                <div class="float_right">
+                  <div class="footer-icons clearfix">
+                    <a href="https://www.facebook.com/callistoorg/"><img src="images/Assets/Facebook.svg" class="footer-icon" /></a>
+                    <a href="https://twitter.com/callisto"><img src="images/Assets/Twitter.svg" class="footer-icon" /></a>
+                    <a href="https://www.instagram.com/callisto/"><img src="images/Assets/Instagram.svg" class="footer-icon" /></a>
+                    <a href="https://github.com/project-callisto"><img src="images/Assets/Githublogo.svg" class="footer-icon" /></a>
+                  </div>
+                  <p>Copyright © 2017 Callisto</p>
+                </div>
+
+              </div>
+
+            </nav>
+          </div>
+          </div>
+          <!--End mc_embed_signup-->
+          </div>
+          </div>
         </div>
-        <div class="quote-mark quote-mark-right"> &#8221;</div>
-    </div>
-    <div class="quote-attribution col-xs-24">
-        &#8213; Callisto Campus Administrator
-    </div>
-</div>
-
-<div class="row content-row" id="supporters">
-  <h2 class="text-center">Our Supporters</h2>
-  <div class="row">
-    <div class="col-xs-20 col-xs-offset-2">
-      <p>Callisto has an incredible community of donors and volunteers whose contributions make our work possible.</p>
-      <p>They include: </p>
-        <div class="row partner-row">
-            <div class="col-sm-6 text-center partner-column">
-              <div class="partner_icon icon" aria-hidden="true" style="background-image: url('images/google.png')"> </div>
-              <h3>Google.org</h3>
-            </div> <!-- /.col-sm-4 -->
-            <div class="col-sm-6 text-center partner-column">
-              <div class="partner_icon icon" aria-hidden="true" style="background-image: url('images/nywf.jpg')"> </div>
-              <h3>New York Women's Foundation</h3>
-            </div> <!-- /.col-sm-4 -->
-            <div class="col-sm-6 text-center partner-column">
-              <div class="partner_icon icon" aria-hidden="true" style="background-image: url('images/lsf.png')"> </div>
-              <h3>Levi Strauss Foundation</h3>
-            </div> <!-- /.col-sm-4 -->
-            <div class="col-sm-6 text-center partner-column">
-              <div class="partner_icon icon" aria-hidden="true" style="background-image: url('images/novo.png')"> </div>
-              <h3>NoVo Foundation</h3>
-            </div> <!-- /.col-sm-4 -->
-        </div> <!-- /.row -->
-        <div class="row partner-row">
-            <div class="col-sm-6 text-center partner-column">
-              <h3>New York State Health Foundation</h3>
-            </div> <!-- /.col-sm-4 -->
-            <div class="col-sm-6 text-center partner-column">
-              <h3>PIMCO Foundation</h3>
-            </div> <!-- /.col-sm-4 -->
-            <div class="col-sm-6 text-center partner-column">
-              <h3>Fast Forward</h3>
-            </div> <!-- /.col-sm-4 -->
-            <div class="col-sm-6 text-center partner-column">
-              <h3>The Harnisch Foundation</h3>
-            </div> <!-- /.col-sm-4 -->
-        </div> <!-- /.row -->
-        <p>Callisto has also had over 600 individual donors contribute to our work. Many are survivors or allies of survivors who care deeply about Callisto and the impact it has on the lives of those who have experienced sexual assault. </p>
-                          <div class="partner-btn">
-                    <a href="/donate/" class="dark-blue-btn btn">Get Involved</a>
-        </div>
-    </div> <!-- /.col-sm-10 -->
-  </div> <!-- /#how_it_works_grid -->
-</div> <!-- #how_it_works -->
-
-<div class="row quote">
-    <div class="row">
-        <div class="quote-mark quote-mark-left">&#8220;</div>
-        <div class="quote-content col-sm-16 col-sm-offset-4">
-        Marrying technology, empowerment and systems change, Callisto delivers a potent solution to promote access to justice for survivors of gender-based violence. The Levi Strauss Foundation is excited about its tremendous potential        </div>
-        <div class="quote-mark quote-mark-right"> &#8221;</div>
-    </div>
-    <div class="quote-attribution col-xs-24">
-        &#8213; Daniel Lee, Executive Director of Levi Strauss Foundation
-    </div>
-</div>
-
-<div class="row content-row" id="stay-updated">
-  <h2 class="text-center">Stay Updated</h2>
-  <div class="row">
-    <div class="col-md-8 col-md-offset-8 col-sm-12 col-sm-offset-6 col-xs-20 col-xs-offset-2">
-<!-- Begin MailChimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="//sexualhealthinnovations.us5.list-manage.com/subscribe/post?u=0bfd132ff567d742957320c11&amp;id=cb70e39814" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-<div class="mc-field-group">
-  <label for="mce-EMAIL" class="sr-only">Email Address</label>
-  <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Email address">
-</div>
-  <div id="mce-responses" class="clear">
-    <div class="response" id="mce-error-response" style="display:none"></div>
-    <div class="response" id="mce-success-response" style="display:none"></div>
-  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0bfd132ff567d742957320c11_cb70e39814" tabindex="-1" value=""></div>
-    <div class="partner-btn"><input type="submit" value="Sign Me Up" name="subscribe" id="mc-embedded-subscribe" class="dark-blue-btn btn"></div>
-    </div>
-</form>
-</div>
-
-<!--End mc_embed_signup-->
+      </div>
     </div>
   </div>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-53121135-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-53121135-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="./js/dropdown.js"></script>
 </div>
-
-
- </div>
-
-            <div class="row footer">
-                <nav class="navbar" id="id_footer">
-                    <div class="col-xs-offset-1-half-nested col-xs-21 col-xs-after-1-half-offset footer-content">
-                        <div class="row">
-                            <div class="navbar-left col-sm-8 col-xs-12" role="navigation">
-                                    <ul class="nav navbar-nav">
-                                        <li class="footer-heading"><strong>Get To Know Us</strong></li>
-                                        <li><a href="/what-we-do/">What We Do</a></li>
-                                        <li><a href="/who-we-are/">Who We Are</a></li>
-                                        <li><a href="/get-involved/">Get Involved</a></li>
-                                        <li><a href="/partner-with-us/">Partner With Us</a></li>
-                                        <li><a href="/donate/">Donate</a></li>
-                                    </ul>
-
-                            </div>
-
-                            <div class="navbar-left col-sm-8 col-xs-12" role="navigation">
-                                    <ul class="nav navbar-nav">
-                                        <li class="footer-heading"><strong>Contact Us </strong></li>
-                                        <li><a href="https://medium.com/callisto-tech">Our Blog</a></li>
-                                        <li><a href="mailto:contact@projectcallisto.org" target="_blank">General Inquiries</a></li>
-                                        <li><a href="mailto:press@projectcallisto.org" target="_blank">Press</a></li>
-                                        <li class="footer-glyphicon"><a href="https://github.com/project-callisto/" target="_blank" id="twitter-share"><i class="fa fa-github" aria-hidden="true"></i>
-                    <span class="sr-only">Github</span></a></li>
-                                        <li class="footer-glyphicon"><a href="https://twitter.com/callisto/" target="_blank" id="twitter-share"><i class="fa fa-twitter" aria-hidden="true"></i>
-                                        <span class="sr-only">Twitter</span></a></li>
-                                        <li class="footer-glyphicon"><a href="https://www.facebook.com/callistoorg" target="_blank" id="twitter-share"><i class="fa fa-facebook" aria-hidden="true"></i>
-                                        <span class="sr-only">Facebook</span></a></li>
-                                    </ul>
-
-                            </div>
-
-                            <div class="copyright col-sm-8 col-xs-24">
-                                 <div class="hotline">
-                                    &#169; 2017 Callisto<br/><br/>
-                                    For immediate help, contact the National Sexual Assault Hotline<br/>
-                                    <a href="tel:+18006564673">1.800.656.4673</a> <span aria-hidden="true">|</span> Free. Confidential. 24/7
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-53121135-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-53121135-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<script src="https://code.jquery.com/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    </div>
 </body>
+
 </html>
