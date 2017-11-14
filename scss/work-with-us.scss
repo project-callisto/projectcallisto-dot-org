@@ -1,9 +1,23 @@
+
+
 @import 'main.scss';
 
-.who-we-are-header {
-  background-image: url('../../images/Assets/Whoweare_headerimage.png');
+.work-with-us-header {
+  background-image: url('../../images/Assets/workwithus_Headerimage.png');
   padding: 0 115px 60px;
   background-size: cover;
+  background-position: top;
+}
+
+h4 {
+  padding-bottom: 30px;
+}
+
+h5 {
+  color: #2B4A59;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .our-history p {
@@ -16,6 +30,10 @@
 .our-team {
   background-color: rgba(218, 226, 224, .2);
   text-align: left;
+
+  p {
+    text-align: left;
+  }
 }
 
 .our-team ul {
