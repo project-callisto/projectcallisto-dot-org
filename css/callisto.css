@@ -501,7 +501,7 @@ nav ul > li.footer-glyphicon > a {
   text-indent: 35px;
   }
 
-input#Field1, #demo input#Field3 {
+/*input#Field1, #demo input#Field3 {
   background-image: url('../images/suggest_school_icon.png');
 }
 
@@ -515,12 +515,12 @@ input#Field106, #demo input#Field6 {
 
 input#Field108, #demo input#Field2 {
   background-image: url('../images/suggest_title_icon.png');
-}
+}*/
 
-textarea#Field110 {
+/*textarea#Field110 {
   background-image: url('../images/suggest_help_icon.png');
   padding-top: 12px;
-}
+}*/
 
 .form-row .btn {
   margin-top:34px;

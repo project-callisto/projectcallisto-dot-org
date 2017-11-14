@@ -111,6 +111,8 @@ section p {
   height: 377px;
   padding: 0 0 60px 115px;
   width: 100%; }
+  .main-header .gradient-button {
+    margin: 0; }
 
 .main-header h2 {
   font-size: 40px;
@@ -306,6 +308,9 @@ section {
   .get-involved-header a {
     text-align: center;
     width: 300px; }
+
+.contact-form {
+  background-color: #F8F9F9; }
 
 .submit-button {
   max-width: 465px;
