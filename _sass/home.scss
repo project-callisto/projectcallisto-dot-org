@@ -21,15 +21,38 @@ h3 {
     }
 }
 
-.stat-icon {
+@mixin stat-icon-sizing {
     height: 150px;
     width: 150px;
-    margin: auto;
+    margin: 0 auto 25px;
+    border-radius: 50%;
+}
+
+.stat-icon {
+    @include stat-icon-sizing;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
-    border-radius: 50%;
+    font-size: 40px;
+    color: $primary-title-color;
+    border: 2px rgba($color-stats-border, 0.7) solid;
+
+    &::after {
+        @include stat-icon-sizing;
+        content: "";
+        position: absolute;
+    }
+
+    &.five-x::after {
+        background: linear-gradient(113.09deg, $color-stats-start 0%, $color-stats-end 100%);
+    }
+    &.fifteen-percent::after {
+        background: linear-gradient(214.42deg, $color-stats-start 0%, $color-stats-end 100%);
+    }
+    &.three-x::after {
+        background: linear-gradient(124.98deg, $color-stats-start 0%, $color-stats-end 100%);
+    }
 }
 
 .home-header {
