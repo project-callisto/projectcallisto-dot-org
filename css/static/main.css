@@ -148,6 +148,7 @@ section p {
   color: #fff;
   font-weight: 500;
   min-width: 300px;
+  margin: 0 auto;
   letter-spacing: 1px;
   padding: 13px 39px;
   text-align: center;
