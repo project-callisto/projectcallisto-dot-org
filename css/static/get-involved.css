@@ -309,14 +309,52 @@ section {
     text-align: center;
     width: 300px; }
 
+.contact-form {
+  background-color: #F8F9F9; }
+
+.form-control input {
+  max-width: 408px; }
+
 .submit-button {
   max-width: 465px;
   margin: 0 auto;
   margin-top: 30px; }
 
 input, textarea {
-  width: 465px;
+  max-width: 465px;
   margin: 0 auto; }
+
+.contact {
+  border-top: 1px solid #D6E1E4; }
+  .contact p {
+    text-align: left; }
+
+#stay-updated {
+  background-image: url("../../images/Assets/Homepage_patternbackground.png");
+  background-position: bottom;
+  background-size: cover; }
+  #stay-updated input {
+    max-width: 408px; }
+
+#suggest form {
+  max-width: 410px; }
+
+#suggest .gradient-button {
+  max-width: 400px;
+  margin: auto; }
+
+#suggest .checkbox {
+  display: inline-block; }
+
+#suggest .form-group {
+  text-align: left; }
+
+#suggest .checkbox input {
+  height: 25px;
+  width: 25px;
+  border: 2px solid #00758F;
+  border-radius: 3px;
+  background-color: #FFFFFF; }
 
 .become-partner {
   align-items: center;
@@ -329,6 +367,18 @@ input, textarea {
     font-size: 16px;
     line-height: 26px; }
 
+.quote-section {
+  background-image: url("../../images/Assets/Homepage_patternbackground.png");
+  background-position: bottom; }
+  .quote-section p {
+    color: #1C2E36;
+    font-size: 20px;
+    font-family: "Montserrat"; }
+
+#saveForm {
+  border: none;
+  border-radius: 25px; }
+
 .contact-form form {
   display: flex;
   flex-direction: column;
@@ -339,10 +389,15 @@ input, textarea {
     border-radius: 4px;
     padding: 10px 16px; }
   .contact-form form input {
-    margin-bottom: 30px; }
+    max-width: 408px;
+    height: 48px; }
   .contact-form form button {
     margin-top: 30px;
     width: 100%; }
+
+@media (max-width: 768px) {
+  .main-header {
+    padding: 0 20px 30px; } }
 
 @media (max-width: 650px) {
   .get-involved-header p {

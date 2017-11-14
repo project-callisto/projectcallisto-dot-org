@@ -473,7 +473,7 @@ nav ul > li.footer-glyphicon > a {
 }
 
 .checkbox-row {
-  display: flex;
+  /*display: flex;*/
   justify-content: space-between;
   padding: 10px 0;
 }
@@ -497,9 +497,9 @@ nav ul > li.footer-glyphicon > a {
   transition: all 0.2s;
 }
 
-#suggest input[type=text], #suggest input[type=email], #suggest textarea {
+/*#suggest input[type=text], #suggest input[type=email], #suggest textarea {
   text-indent: 35px;
-  }
+  }*/
 
 /*input#Field1, #demo input#Field3 {
   background-image: url('../images/suggest_school_icon.png');

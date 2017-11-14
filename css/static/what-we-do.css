@@ -317,9 +317,17 @@ section {
 article b {
   text-align: left; }
 
+.footer {
+  margin-top: 0; }
+
 .quote-section {
-  height: 300px;
+  color: #1C2E36;
+  background-image: url("../../images/Assets/Homepage_patternbackground.png");
+  font-size: 20px;
   background-position: bottom; }
+
+.expansion .gradient-button {
+  margin-top: 45px; }
 
 .what-we-do-header {
   background-image: url("../../images/Assets/Whatwedo_headerimage.png");
@@ -368,6 +376,8 @@ article b {
   line-height: 26px; }
 
 @media (max-width: 768px) {
+  .main-header {
+    padding: 0 20px 30px; }
   .our-approach {
     padding: 30px 20px; }
   .callisto-campus {
@@ -385,14 +395,13 @@ article b {
     text-align: center; }
   .quote-section {
     font-size: 18px;
-    background-image: url("../../images/Assets/QuotePattern_background.png");
+    background-image: url("../../images/Assets/Homepage_patternbackground.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     font-weight: 300;
     line-height: 31px;
-    text-align: center;
-    height: 500px; }
+    text-align: center; }
     .quote-section blockquote {
       font-size: 16px;
       padding: 0; }
