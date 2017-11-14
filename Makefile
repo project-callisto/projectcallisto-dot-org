@@ -1,3 +1,6 @@
 auto-build:
-	rsync --ignore-existing build.sh .git/hooks/pre-commit
+	rsync build.sh .git/hooks/pre-commit
 	chmod +x .git/hooks/pre-commit
+
+remove-auto-build:
+	rm .git/hooks/pre-commit

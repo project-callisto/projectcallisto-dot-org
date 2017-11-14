@@ -8,8 +8,9 @@ run a single build
 bash build.sh
 ```
 
-build on pre-commit
+building on pre-commit
 
 ```bash
 make auto-build
+make remove-auto-build
 ```
