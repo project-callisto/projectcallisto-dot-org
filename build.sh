@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo 'running pre-commit hook'
+
 npx node-sass --o css/static scss/ --output-style compressed
 
 # If there are whitespace errors, print the offending file names and fail.

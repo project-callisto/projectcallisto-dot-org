@@ -11,5 +11,5 @@ bash build.sh
 build on pre-commit
 
 ```bash
-rsync --ignore-existing build.sh .git/hooks/pre-commit
+make auto-build
 ```
