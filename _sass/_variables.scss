@@ -18,8 +18,8 @@ $container-padding-lg: 197px;
 $container-padding-sm: 20px;
 
 // fonts
-$font-sans: "Open Sans", Helvetica, "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
-$font-main: "Montserrat", "Open Sans", sans-serif;
+$font-sans: "Open Sans", sans-serif;
+$font-main: "Montserrat", sans-serif;
 
 // colors - rules
 $color-gray: #979797;
@@ -52,6 +52,7 @@ $color-callisto-logo: #1c2e36;
 $color-dark-red: #a94442;
 $color-light-yellow: #ffe07a;
 
+$color-grey3: #DAE2E0;
 $color-border-grey: #dfe4ee;
 $color-border-grey2: #e6edef;
 
@@ -76,6 +77,8 @@ $color-body-gradient-1: $color-cyan;
 $color-body-gradient-2: $color-peach;
 $color-input-bg: $color-gray-light;
 $color-input-shadow: $color-shadow-gray;
+
+$color-stats-border: $color-grey3;
 
 $color-nav-bg: $color-gray-light;
 $color-nav-border: $color-gray-medium;

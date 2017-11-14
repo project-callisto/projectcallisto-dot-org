@@ -21,6 +21,17 @@ h3 {
     }
 }
 
+.stat-icon {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
 .home-header {
     background-image: url("../../images/Assets/Homepage_headerimage.png");
 }
