@@ -1,0 +1,156 @@
+@import 'main.scss';
+
+.get-involved-header {
+  background-image: url('../../images/Assets/Getinvolved_headerimage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  p {
+    width: 440px;
+  }
+
+  a {
+    text-align: center;
+    width: 300px;
+  }
+}
+
+.contact-form {
+  background-color: #F8F9F9;
+}
+
+.form-control {
+  input {
+    max-width: 408px;
+  }
+}
+
+.submit-button {
+  max-width: 465px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+input, textarea {
+  max-width: 465px;
+  margin: 0 auto;
+}
+
+.contact {
+  p {
+    text-align: left;
+  }
+  	border-top: 1px solid #D6E1E4;
+}
+
+#stay-updated {
+    background-image: url("../../images/Assets/Homepage_patternbackground.png");
+    background-position: bottom;
+    background-size: cover;
+    input {
+      max-width: 408px;
+    }
+}
+
+#suggest {
+  form {
+  max-width: 410px;
+}
+  .gradient-button {
+    max-width: 400px;
+    margin: auto;
+  }
+  .checkbox {
+    display: inline-block;
+  }
+
+  .form-group {
+    text-align: left;
+  }
+
+  .checkbox input {
+    height: 25px;	width: 25px;	border: 2px solid #00758F;	border-radius: 3px;	background-color: #FFFFFF;
+  }
+}
+
+.become-partner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  p {
+    color: $primary-text-color;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+
+
+.quote-section {
+  background-image: url("../../images/Assets/Homepage_patternbackground.png");
+  background-position: bottom;
+
+  p {
+      color: #1C2E36;
+      font-size: 20px;
+      font-family: "Montserrat";
+  }
+}
+
+#saveForm {
+  border: none;
+  border-radius: 25px;
+}
+
+.contact-form {
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 82px;
+
+    input,
+    textarea {
+      border: 1.5px solid #385C6C;
+      border-radius: 4px;
+      padding: 10px 16px;
+    }
+
+    input {
+      max-width: 408px;
+      height: 48px;
+    }
+
+    button {
+      margin-top: 30px;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: $max-width-sm) {
+
+  .main-header {
+    padding: 0 20px 30px;
+  }
+}
+
+@media (max-width: $max-width-xs) {
+  .get-involved-header {
+    p {
+      width: auto;
+    }
+  }
+
+  .contact-form {
+    form {
+      padding: 0;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+    }
+  }
+}
