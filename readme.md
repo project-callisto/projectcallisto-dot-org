@@ -1,3 +1,5 @@
 # project callisto dot org staging
 
-WIP
+docs: https://jekyllrb.com/docs/home/
+
+force push to heroku: `make heroku-build`
