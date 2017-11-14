@@ -14,6 +14,8 @@ main-header p, header p {
   font-family: "Montserrat";
 }
 .content {
+  display: flex;
+  flex-direction: column;
   max-width: 630px;
   margin: 0 auto;
 }
@@ -237,6 +239,7 @@ section {
   p {
     font-size: 16px;
     margin-bottom: 0;
+
   }
 
 }
@@ -267,7 +270,13 @@ section {
   margin: 5px;
 }
 
-@media only screen and (max-width: $max-width-sm) {
+@media only screen and (max-width: $max-width-md) {
+
+  section {
+    padding: 60px 15px;
+    text-align: center;
+  }
+
  .navbar-nav {
     margin: 0 auto;
     white-space: nowrap;
@@ -289,6 +298,17 @@ section {
     li {
       margin-left: 18px;
     }
+  }
+
+  .top_nav ul {
+    margin-left: 15px;
+  }
+
+  .footer_links {
+      margin: 0;
+      li {
+      padding: 0 5px;
+      }
   }
 }
 
@@ -381,7 +401,12 @@ section {
   ////////////////mobile footer/////////////////
 
   .footer {
-    padding: 0;
+    padding: 20px;
+
+    .float_left, .float_right {
+      font-size: 14px;
+    }
+
   }
   .top_nav {
     ul {
@@ -396,12 +421,26 @@ section {
 
   .footer_links {
     padding-left: 0;
+    margin-bottom: 0;
     li {
       text-align: left;
       display: block;
       padding: 0;
     }
   }
+
+  .bottom_nav {
+
+    .float_right {
+      float: left;
+    }
+
+    .footer-icon {
+      float: left;
+    }
+  }
+
+
 
 
 }

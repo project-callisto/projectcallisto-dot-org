@@ -276,6 +276,7 @@ nav ul > li > a {
 
 .footer nav ul > li > a {
   text-align: left;
+    color: black;
 }
 
 .footer .footer-glyphicon {

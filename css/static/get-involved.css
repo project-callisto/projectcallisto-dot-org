@@ -10,6 +10,8 @@ main-header p, header p {
   font-family: "Montserrat"; }
 
 .content {
+  display: flex;
+  flex-direction: column;
   max-width: 630px;
   margin: 0 auto; }
 
@@ -199,7 +201,10 @@ section {
   float: right;
   margin: 5px; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
+  section {
+    padding: 60px 15px;
+    text-align: center; }
   .navbar-nav {
     margin: 0 auto;
     white-space: nowrap; }
@@ -208,7 +213,13 @@ section {
   .navbar-brand {
     margin-top: .5rem; }
   .navbar-right li {
-    margin-left: 18px; } }
+    margin-left: 18px; }
+  .top_nav ul {
+    margin-left: 15px; }
+  .footer_links {
+    margin: 0; }
+    .footer_links li {
+      padding: 0 5px; } }
 
 @media (max-width: 650px) {
   .navbar {
@@ -268,17 +279,24 @@ section {
     min-width: auto;
     padding: 13px 21px; }
   .footer {
-    padding: 0; }
+    padding: 20px; }
+    .footer .float_left, .footer .float_right {
+      font-size: 14px; }
   .top_nav ul {
     margin-left: 0; }
   .top_nav img {
     display: none; }
   .footer_links {
-    padding-left: 0; }
+    padding-left: 0;
+    margin-bottom: 0; }
     .footer_links li {
       text-align: left;
       display: block;
-      padding: 0; } }
+      padding: 0; }
+  .bottom_nav .float_right {
+    float: left; }
+  .bottom_nav .footer-icon {
+    float: left; } }
 
 .get-involved-header {
   background-image: url("../../images/Assets/Getinvolved_headerimage.png");
