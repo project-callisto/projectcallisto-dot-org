@@ -90,16 +90,30 @@ nav {
     background-color: $color-black;
 }
 
-#id_header {
-    font-family: $font-main;
+a#brand_link {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin: 0;
+}
+
+.header-nav {
+    li {
+        margin: 0 5px;
+    }
 
     a {
         font-size: 13px;
         color: $color-text-anchors;
         font-weight: 600;
+    }
+}
+
+#id_header {
+    font-family: $font-main;
+
+    .donate-li {
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 18px;
     }
 
     a.nav-button {
@@ -125,9 +139,7 @@ nav {
 }
 
 .header-nav {
-    align-items: center;
     background-color: $color-white;
-    display: flex;
     padding: 17px 32px;
 
     .footer-content {
@@ -236,13 +248,12 @@ section {
     text-align: center;
 }
 
-#brand_link {
-    display: flex;
-    padding-right: 10px;
-}
-
 #mainbody-container nav {
     padding: 0;
+}
+
+ul.navbar-collapse {
+    clear: both;
 }
 
 .navbar {
@@ -253,32 +264,24 @@ section {
     margin-top: .5rem;
 }
 
-.navbar-right {
-    li {
-        margin: 0 5px;
-    }
-
-    .donate-li {
-        margin-top: 5px;
-        margin-right: 0;
-    }
-}
-
 .extra {
     padding: 15px 0 30px;
 }
 
-// mobile
-@media (max-width: $max-width-sm) {
-    .gradient-button {
-        width: 100%;
-        font-size: 15px;
-        min-width: auto;
-        padding: 13px 21px;
+// tablet and desktop
+@media (min-width: $min-width-md) {
+    .navbar-nav > li > a {
+        padding: 10px;
+    }
+
+    #id_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 
-// desktop and larger
+// desktop
 @media (min-width: $min-width-lg) {
     .navbar {
         display: flex;
@@ -295,8 +298,7 @@ section {
 
 // mobile and tablet
 @media (max-width: $max-width-md) {
-
-    .flex-on-large > *{
+    .flex-on-large > * {
         margin: 0 auto 40px;
         max-width: 500px;
     }
@@ -305,15 +307,12 @@ section {
         font-size: 25px;
     }
 
-    .navbar-right {
-        a {
-            text-align: left !important;
-        }
+    a {
+        text-align: left !important;
+    }
 
-        .nav-button {
-            margin-top: 32px;
-            text-align: center !important;
-        }
+    .nav-button {
+        display: inline-block !important;
     }
 
     section {
@@ -325,12 +324,39 @@ section {
         width: auto;
     }
 
-    #id_header a {
-        padding: 10px 6px;
-        margin: auto;
+    .header-nav {
+        a {
+            padding: 10px 6px;
+            margin: auto;
+        }
     }
 
     #callisto {
         font-size: 18px;
+    }
+}
+
+// mobile
+@media (max-width: $max-width-sm) {
+    #id_header .donate-li {
+        padding: 20px 0;
+    }
+
+    .gradient-button {
+        width: 100%;
+        font-size: 15px;
+        min-width: auto;
+        padding: 13px 21px;
+    }
+
+    a#brand_link {
+        position: absolute;
+    }
+}
+
+// "micro"
+@media (max-width: 300px) {
+    #callisto {
+        display: none;
     }
 }
