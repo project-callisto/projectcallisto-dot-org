@@ -471,13 +471,6 @@ textarea#Field110 {
     margin-right: 10px;
 }
 
-.section-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
 #closer {
     font-size: 29px;
     font-weight: 600;
@@ -617,13 +610,6 @@ textarea#Field110 {
     .quote-no-marks {
         margin-top: 0px;
         margin-left: 0px;
-    }
-
-    #how-it-works-sections, #why-callisto-sections {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 38px;
-        margin-bottom: 51px;
     }
 
     .quote-attribution {

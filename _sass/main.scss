@@ -15,6 +15,10 @@ p {
     }
 }
 
+ul {
+    padding: 0;
+}
+
 p.font-main {
     font-family: $font-main;
 }
@@ -49,7 +53,7 @@ h1, h2, h3, h4, h5 {
 
 .content {
     max-width: 630px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
 }
 
 .nav > li > a {
@@ -228,18 +232,13 @@ section p {
 }
 
 section {
-    padding: 60px $container-padding-lg;
+    padding: 60px 15px 20px;
     text-align: center;
 }
 
 #brand_link {
     display: flex;
     padding-right: 10px;
-}
-
-section {
-    padding: 60px 15px;
-    text-align: center;
 }
 
 #mainbody-container nav {
@@ -268,13 +267,6 @@ section {
     padding: 15px 0 30px;
 }
 
-// desktop and larger
-@media (min-width: $min-width-md) {
-    .navbar {
-        display: flex;
-    }
-}
-
 // mobile
 @media (max-width: $max-width-sm) {
     .gradient-button {
@@ -285,8 +277,29 @@ section {
     }
 }
 
+// desktop and larger
+@media (min-width: $min-width-lg) {
+    .navbar {
+        display: flex;
+    }
+
+    .flex-on-large {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
 // mobile and tablet
 @media (max-width: $max-width-md) {
+
+    .flex-on-large > *{
+        margin: 0 auto 40px;
+        max-width: 500px;
+    }
+
     h2, h3 {
         font-size: 25px;
     }
