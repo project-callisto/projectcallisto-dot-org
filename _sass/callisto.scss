@@ -186,18 +186,6 @@ nav, footer {
     opacity: 0.7;
 }
 
-.quote-mark-left {
-    float: left;
-    margin-left: 51px;
-    margin-top: 20px;
-}
-
-.quote-mark-right {
-    float: right;
-    margin-right: 51px;
-    margin-top: 20px;
-}
-
 /* Forms */
 
 .form-row textarea {
@@ -225,50 +213,6 @@ nav, footer {
 
 .form-row .checkbox {
     padding-top: 0;
-}
-
-.form-row .form-control:focus, #suggest .form-control:focus, #demo .form-control:focus, #fundraise .form-control:focus, .form-row textarea:focus {
-    border: 2px solid #3997a9;
-    text-indent: 0px;
-    background-image: none !important;
-}
-
-.form-row input[type=text], .form-row input[type=email], .form-row textarea {
-    background-position: 20px 15px;
-    background-repeat: no-repeat;
-    border: 1px solid #ccc;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 2s;
-    transition: all 0.2s;
-}
-
-#suggest input[type=text], #suggest input[type=email], #suggest textarea {
-    text-indent: 35px;
-}
-
-input#Field1, #demo input#Field3 {
-    background-image: url("../images/suggest_school_icon.png");
-}
-
-input#Field105, #demo input#Field1 {
-    background-image: url("../images/suggest_name_icon.png");
-}
-
-input#Field106, #demo input#Field6 {
-    background-image: url("../images/suggest_email_icon.png");
-}
-
-input#Field108, #demo input#Field2 {
-    background-image: url("../images/suggest_title_icon.png");
-}
-
-textarea#Field110 {
-    background-image: url("../images/suggest_help_icon.png");
-    padding-top: 12px;
-}
-
-.form-row .btn {
-    margin-top: 34px;
 }
 
 /* Partner With Us page styling */

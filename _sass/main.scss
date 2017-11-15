@@ -50,7 +50,7 @@ hr {
     height: 2px;
     background-color: #979797;
     width: 90%;
-      margin: 0 auto;
+    margin: 0 auto;
 }
 
 h1 {
@@ -293,10 +293,6 @@ section.expanded-section {
     font-weight: 600;
 }
 
-section .gradient-button {
-    width: 65%;
-}
-
 .gradient-button {
     background: linear-gradient(130.96deg, $color-blue-button 0%, $color-blue-deeper 100%);
     border-radius: 50px;
@@ -343,7 +339,82 @@ ul.navbar-collapse {
 
 .paragraph-extra-spacer {
     padding: 15px 0 30px;
+}
 
+#mc-embedded-subscribe {
+    width: 300px;
+}
+
+#mc_embed_signup {
+    height: 48px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+
+    .form-control {
+        border: 1.5px solid #385C6C;
+        max-width: 405px;
+        border-radius: 4px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    #mc-embedded-subscribe {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
+form {
+    max-width: 410px;
+}
+
+.gradient-button {
+    width: 400px;
+    margin: auto;
+
+    &.long-button {
+        width: 500px;
+    }
+}
+
+.checkbox {
+    display: inline-block;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.checkbox input {
+    height: 25px;
+    width: 25px;
+    border: 2px solid #00758F;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 82px;
+
+    input,
+    textarea {
+        border: 1.5px solid #385C6C;
+        border-radius: 4px;
+        padding: 10px 16px;
+    }
+
+    input {
+        max-width: 408px;
+        height: 48px;
+    }
+
+    button {
+        margin-top: 30px;
+        width: 100%;
+    }
 }
 
 // tablet and desktop
@@ -422,6 +493,17 @@ ul.navbar-collapse {
 
     a#brand_link {
         position: absolute;
+    }
+}
+
+@media (max-width: $max-width-xs) {
+    form {
+        padding: 0;
+    }
+
+    input,
+    textarea {
+        width: 100%;
     }
 }
 
