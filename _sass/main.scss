@@ -284,7 +284,7 @@ section p {
     text-transform: uppercase;
     font-family: $font-main;
     font-weight: 600;
-    white-space: nowrap;
+    display: block;
 
     a {
         color: white;
