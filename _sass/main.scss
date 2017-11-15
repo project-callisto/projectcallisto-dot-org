@@ -326,6 +326,10 @@ section {
 }
 
 @media (max-width: $max-width-xs) {
+    h2, h3 {
+        font-size: 25px;
+    }
+
     .navbar {
         align-items: center;
         display: flex;
@@ -371,35 +375,13 @@ section {
         padding: 50px $container-padding-sm;
     }
 
-    h3 {
-        font-size: 25px;
-    }
-
-    .main-header {
-        flex-direction: column;
-        padding: 0 20px;
-    }
-
-    .main-header h2 {
-        font-size: 25px;
-        margin-bottom: 6px;
-        text-align: left;
-    }
-
     .main-header p {
         font-size: 16px;
-        margin-bottom: 32px;
         width: auto;
     }
 
-    .main-header a {
-        align-self: center;
-        display: block;
-        margin-bottom: 26px;
-        width: 100%;
-    }
-
     .gradient-button {
+        width: 100%;
         font-size: 15px;
         min-width: auto;
         padding: 13px 21px;
