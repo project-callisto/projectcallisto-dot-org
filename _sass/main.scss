@@ -77,16 +77,21 @@ h1, h2, h3, h4, h5 {
 }
 
 #id_header {
-    height: 80px;
-    border-radius: 0;
-    margin-bottom: 0;
+    font-family: $font-main;
 
-    button {
-        padding: 10px;
+    a {
+        color: $color-text-anchors;
+        font-weight: 600;
+    }
 
-        &:hover, &:active, &:focus {
-            outline: 6px auto $color-button-outline;
-        }
+    a.nav-button {
+        color: white;
+    }
+
+    .navbar-left {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 
@@ -287,45 +292,52 @@ section {
     margin: 5px;
 }
 
-@media only screen and (max-width: $max-width-md) {
-    section {
-        padding: 60px 15px;
-        text-align: center;
+#brand_link {
+    display: flex;
+    padding-right: 10px;
+}
+
+section {
+    padding: 60px 15px;
+    text-align: center;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+#mainbody-container nav {
+    padding: 0;
+}
+
+.navbar-brand {
+    margin-top: .5rem;
+}
+
+.navbar-right {
+    li {
+        margin-left: 18px;
     }
 
-    .navbar-nav {
-        margin: 0 auto;
-        white-space: nowrap;
-    }
-
-    #mainbody-container nav {
-        padding: 0;
-    }
-
-    .navbar-brand {
-        margin-top: .5rem;
-    }
-
-    .navbar-right {
-        li {
-            margin-left: 18px;
-        }
-    }
-
-    .top_nav ul {
-        margin-left: 15px;
-    }
-
-    .footer_links {
-        margin: 0;
-
-        li {
-            padding: 0 5px;
-        }
+    .donate-li {
+        margin-top: 5px;
     }
 }
 
-@media (max-width: $max-width-xs) {
+.top_nav ul {
+    margin-left: 15px;
+}
+
+.footer_links {
+    margin: 0;
+
+    li {
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: $max-width-sm) {
     h2, h3 {
         font-size: 25px;
     }
@@ -344,19 +356,14 @@ section {
         top: 100%;
         width: 102%;
 
-        li {
-            border-bottom: 1px solid $color-transparent;
-            margin-left: 0;
-            padding: 0 10px;
+        .donate-li {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
 
+        li {
             a {
                 text-align: left !important;
-            }
-
-            &.donate-li {
-                border-bottom: 0;
-                margin: 40vh auto 25vh;
-                width: 240px;
             }
 
             .nav-button {

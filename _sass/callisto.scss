@@ -171,19 +171,6 @@ nav ul > li > a {
     margin-right: 6.8181818181%;
 }
 
-#id_header .navbar-left {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/*#nav-border {
-    border-style: solid;
-    border-width: 2px;
-    border-image-source: linear-gradient(90deg, #ffae78, #6ad0d4);
-    border-image-slice: 1;
-}*/
-
 .footer-content {
     border-top: solid 2px #979797;
     padding: 15px 0px;
@@ -567,24 +554,6 @@ textarea#Field110 {
     margin-bottom: 15px;
 }
 
-.wuc-section {
-    max-width: 205px;
-    font-size: 18px;
-    font-weight: 400;
-    color: #262626;
-    margin: 0px 42px;
-    display: flex;
-    justify-content: space-around;
-    line-height: 1.2;
-}
-
-.wuc-check {
-    height: 30px;
-    font-size: 30px;
-    color: #38b6ba;
-    margin-right: 13px;
-}
-
 #closer {
     font-size: 29px;
     font-weight: 600;
@@ -694,24 +663,12 @@ textarea#Field110 {
         top: 10%;
         left: 10%;
     }
-
-    .hiw-or {
-        margin: 0px 15px;
-    }
-
-    .wuc-section {
-        margin: 0px 10px;
-    }
 }
 
 @media only screen and (max-width: 900px) {
     .subheader, #donate-banner #banner-content .subheader {
         width: 100%;
     }
-}
-
-.wuc-section > div:first-child {
-    -webkit-flex: 1 0 auto;
 }
 
 @media only screen and (max-width: 767px) {
@@ -809,10 +766,6 @@ textarea#Field110 {
 
     h2 {
         margin-top: 51px;
-    }
-
-    .wuc-section {
-        margin-bottom: 21px;
     }
 
     #banner-content {
