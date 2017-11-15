@@ -48,6 +48,7 @@ hr {
     height: 2px;
     background-color: #979797;
     width: 90%;
+      margin: 0 auto;
 }
 
 h1 {
@@ -274,6 +275,10 @@ section p {
     font-weight: 600;
 }
 
+section .gradient-button {
+    width: 65%;
+}
+
 .gradient-button {
     background: linear-gradient(130.96deg, $color-blue-button 0%, $color-blue-deeper 100%);
     border-radius: 50px;
@@ -394,11 +399,6 @@ ul.navbar-collapse {
 @media (max-width: $max-width-sm) {
     #id_header .donate-li {
         padding: 20px 0;
-    }
-
-    .gradient-button {
-        width: 100%;
-        font-size: 15px;
     }
 
     a#brand_link {
