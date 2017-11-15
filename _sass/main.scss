@@ -237,11 +237,6 @@ section {
     padding: 20px 70px;
 }
 
-.nav.navbar-nav {
-    background: white;
-    padding: 15px;
-}
-
 .top_nav {
     display: block;
     margin-bottom: 20px;
@@ -304,13 +299,12 @@ section {
     text-align: center;
 }
 
-.navbar-nav {
-    margin: 0 auto;
-    white-space: nowrap;
-}
-
 #mainbody-container nav {
     padding: 0;
+}
+
+.navbar {
+    padding: 20px 10px;
 }
 
 .navbar-brand {
@@ -319,7 +313,7 @@ section {
 
 .navbar-right {
     li {
-        margin-left: 18px;
+        margin-left: 10px;
     }
 
     .donate-li {
@@ -339,45 +333,37 @@ section {
     }
 }
 
+@media (min-width: $min-width-md) {
+    .navbar {
+        display: flex;
+    }
+}
+
+// mobile
 @media (max-width: $max-width-sm) {
+    .gradient-button {
+        width: 100%;
+        font-size: 15px;
+        min-width: auto;
+        padding: 13px 21px;
+    }
+}
+
+// mobile and tablet
+@media (max-width: $max-width-md) {
     h2, h3 {
         font-size: 25px;
     }
 
-    .navbar {
-        align-items: center;
-        display: flex;
-    }
-
     .navbar-right {
-        background-color: $color-white;
-        left: -1%;
-        margin: 0;
-        margin-left: auto;
-        position: absolute;
-        top: 100%;
-        width: 102%;
-
-        .donate-li {
-            margin-top: 30px;
-            margin-bottom: 30px;
+        a {
+            text-align: left !important;
         }
 
-        li {
-            a {
-                text-align: left !important;
-            }
-
-            .nav-button {
-                margin-top: 32px;
-                text-align: center !important;
-            }
+        .nav-button {
+            margin-top: 32px;
+            text-align: center !important;
         }
-    }
-
-    .navbar-left {
-        position: relative;
-        width: 100%;
     }
 
     section {
@@ -387,13 +373,6 @@ section {
     .main-header p {
         font-size: 16px;
         width: auto;
-    }
-
-    .gradient-button {
-        width: 100%;
-        font-size: 15px;
-        min-width: auto;
-        padding: 13px 21px;
     }
 
     ////////////////mobile footer/////////////////
@@ -436,10 +415,7 @@ section {
             float: left;
         }
     }
-}
 
-/* sm (tablet) screens only */
-@media only screen and (max-width: 992px) {
     #id_header ul > li > a {
         position: relative;
         display: block;

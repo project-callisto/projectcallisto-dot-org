@@ -328,16 +328,6 @@ nav ul > li.footer-glyphicon > a {
     padding: 11px 40px 13px;
 }
 
-/*.banner-container{
-    display: flex;
-    align-items: center;
-}
-.section_subtitle {
-    font-size: 20px;
-    font-weight: 500;
-    color: #575757;
-}*/
-
 /* Quoteblock */
 .quote {
     background-color: #309da1;
@@ -585,16 +575,9 @@ textarea#Field110 {
     text-align: left;
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
     .col-sm-after-1-half-offset {
         margin-right: 6.8181818181%;
-    }
-}
-
-@media (min-width: 768px) {
-    .navbar {
-        display: flex;
-        align-items: center;
     }
 
     .navbar-right {
@@ -602,23 +585,13 @@ textarea#Field110 {
     }
 }
 
-/* md (laptop) & bigger screens */
-@media only screen and (min-width: 992px) {
-    .footer .navbar-nav {
-        width: 80%;
-    }
-}
-
 /* sm (tablet) & bigger screens */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: $max-width-md) {
     .partner-row {
         display: flex;
         justify-content: center;
     }
-}
 
-/* sm (tablet) & smaller screens */
-@media only screen and (max-width: 992px) {
     .copyright {
         display: inline-block;
         float: right;
@@ -634,10 +607,7 @@ textarea#Field110 {
         float: left;
         margin: 0;
     }
-}
 
-/* xs (phone) screens */
-@media only screen and (max-width: 768px) {
     .hotline {
         clear: both;
         text-align: left;
@@ -656,22 +626,16 @@ textarea#Field110 {
     #id_header ul > li > a {
         text-align: center;
     }
-}
 
-@media only screen and (max-width: 1020px) {
     #banner-content {
         top: 10%;
         left: 10%;
     }
-}
 
-@media only screen and (max-width: 900px) {
     .subheader, #donate-banner #banner-content .subheader {
         width: 100%;
     }
-}
 
-@media only screen and (max-width: 767px) {
     .checkbox-row {
         display: block;
     }
