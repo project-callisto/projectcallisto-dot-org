@@ -33,10 +33,12 @@ p.pre-bullet {
 ul {
     padding: 0;
     margin-bottom: 24px;
+    list-style-type: none;
 }
 
 li {
     font-size: 18px;
+    list-style: none;
 }
 
 p.font-main {
@@ -85,7 +87,9 @@ h1, h2, h3, h4, h5 {
 
 .paragraph-content-spacer {
     max-width: 630px;
-    margin: 0 auto 30px;
+    max-width: 630px;
+    margin: 0 auto;
+    padding: 0 0 30px;
 }
 
 .nav > li > a {
@@ -215,6 +219,20 @@ section p {
     text-align: center;
 }
 
+section.expanded-section {
+    &, p {
+        text-align: left;
+    }
+
+    .paragraph-content-spacer {
+        max-width: 900px;
+    }
+}
+
+.spacer-with-underline {
+    border-bottom: 1px solid #D6E1E4;
+}
+
 .main-header {
     align-items: flex-start;
     background-position: center;
@@ -325,6 +343,7 @@ ul.navbar-collapse {
 
 .paragraph-extra-spacer {
     padding: 15px 0 30px;
+
 }
 
 // tablet and desktop

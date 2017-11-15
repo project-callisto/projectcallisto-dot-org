@@ -7,47 +7,6 @@
     background-image: url("../../images/Assets/Whoweare_headerimage.png");
 }
 
-.our-history p {
-    color: $primary-text-color;
-    font-family: $font-sans;
-    font-size: 16px;
-    line-height: 26px;
-}
-
 .our-team {
     background-color: rgba(218, 226, 224, 0.2);
-    text-align: left;
-}
-
-.our-team ul {
-    list-style-type: none;
-    padding: 0;
-
-    li {
-        color: $primary-text-color;
-        font-size: 16px;
-        margin-top: 15px;
-        list-style: none;
-    }
-}
-
-.wwa-section {
-    padding: 50px 114px;
-
-    p {
-        font-family: "Open Sans";
-        font-size: 16px;
-        text-align: left;
-    }
-}
-
-@media (max-width: $max-width-xs) {
-    .wwa-section {
-        padding: 32px 20px;
-
-        p {
-            margin-bottom: 0;
-            text-align: center;
-        }
-    }
 }
