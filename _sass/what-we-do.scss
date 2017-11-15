@@ -4,31 +4,17 @@
     background-image: url("../images/What_We_do_2.jpg");
 }
 
-#what-banner .title-fragment, #what-banner .subheader {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 3px 5px;
-}
-
-.quote-section {
-    color: #1C2E36;
-    background-image: url("../../images/Assets/Homepage_patternbackground.png");
-    font-size: 20px;
-}
-
 .what-we-do-header {
     background-image: url("../../images/Assets/Whatwedo_headerimage.png");
 }
 
 .callisto-campus {
-    b {
-        color: $color-blue-bold-items;
-        display: block;
-        margin-bottom: 14px;
-        text-transform: uppercase;
+    h5 {
+        text-align: left;
+        margin-top: 0;
     }
 
     p {
-        font-family: $font-sans;
         text-align: left;
     }
 
@@ -36,7 +22,7 @@
         align-items: flex-start;
         display: flex;
         flex-direction: row;
-        padding: 20px 10%;
+        padding: 20px 10% 0;
     }
 
     .value-prop-item img {
@@ -45,41 +31,21 @@
     }
 }
 
-.expansion p {
-    line-height: 26px;
-}
-
 @media (max-width: $max-width-sm) {
     .callisto-campus {
+        h5 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
         .value-prop-item {
             flex-direction: column;
-
-            b {
-                text-align: center;
-            }
-
-            img {
-                align-self: center;
-                margin-bottom: 8px;
-                margin-right: 0;
-            }
-        }
-    }
-
-    .quote-section {
-        font-size: 18px;
-        font-weight: 300;
-        line-height: 31px;
-        text-align: center;
-        background-image: url("../../images/Assets/Homepage_patternbackground.png");
-
-        blockquote {
-            font-size: 16px;
-            padding: 0;
         }
 
-        span {
-            font-size: 14px;
+        .value-prop-item img {
+            align-self: center;
+            margin-bottom: 8px;
+            margin-right: 0;
         }
     }
 }

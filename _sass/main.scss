@@ -252,13 +252,15 @@ section p {
 }
 
 .quote-section {
-    background-image: url("../../images/Assets/QuotePattern_background.png");
+    color: #1C2E36;
+    background-image: url("../../images/Assets/Homepage_patternbackground.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     flex-wrap: nowrap;
     line-height: 31px;
     text-align: center;
+    font-size: 20px;
 }
 
 .quote-section blockquote {
