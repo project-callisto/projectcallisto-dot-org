@@ -1,4 +1,28 @@
-@import 'main.scss';
+/* Get Involved page styling */
+
+#involved-banner {
+    background-image: url("../images/Get_Involved_2.jpg");
+    background-position: bottom;
+}
+
+#involved-banner .title-fragment, #involved-banner .subheader {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3px 5px;
+}
+
+.community-icon {
+    color: black;
+    font-size: 60px;
+    padding: 0px 8px;
+}
+
+a.community-icon:hover {
+    text-decoration: none;
+}
+
+#stay-in-touch #mc_embed_signup {
+    margin-top: 30px;
+}
 
 .get-involved-header {
   background-image: url('../../images/Assets/Getinvolved_headerimage.png');

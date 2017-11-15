@@ -1,3 +1,129 @@
+/* Homepage */
+
+.front-page h3 {
+    text-transform: none;
+    font-size: 32px;
+}
+
+#school-logo {
+    width: 70px;
+    float: left;
+}
+
+#faces {
+    background: url("../images/jess_ted.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#faces:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to left, #103536, #833500);
+    opacity: .6;
+}
+
+.hiw_icon {
+    height: 57px;
+}
+
+.hiw-column {
+    margin-bottom: 20px;
+}
+
+#hiw-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#supporters h3, #partners h3 {
+    color: #222;
+    font-weight: 500;
+}
+
+#how_it_works_grid h3 {
+    margin-top: 26px;
+}
+
+#how_it_works_grid {
+    margin-top: 50px;
+}
+
+.explanation {
+    min-height: 80px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.because {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    color: #3997a9;
+}
+
+.because-caret {
+    height: 22px;
+    margin-bottom: 25px;
+    background-image: url("../images/because_carat.png");
+}
+
+#press {
+    min-height: 143px;
+    border-bottom: 1px solid #d2d4d4;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #F1F7F7));
+    background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #F1F7F7 100%);
+    background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #F1F7F7 100%);
+    background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #F1F7F7 100%);
+    background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #F1F7F7 100%);
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #F1F7F7 100%);
+}
+
+#press > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#press a {
+    margin: 55px 10px 0px 10px;
+}
+
+#press a:hover, #press a:focus {
+    border-bottom: 2px solid #3e99aa !important;
+}
+
+#press .btn {
+    margin-top: 40px;
+}
+
+#press a.btn:hover, #press a.btn:focus {
+    border-bottom: none !important;
+}
+
+.partner-row {
+    margin-bottom: 35px;
+}
+
+.partner_icon {
+    height: 80px;
+}
+
+.partner-column {
+    margin-bottom: 20px;
+    padding: 0px 15px;
+}
+
+.partner-btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
 section {
     align-items: center;
     display: flex;

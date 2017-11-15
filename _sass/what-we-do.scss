@@ -1,4 +1,14 @@
-@import 'main.scss';
+/* What We Do page styling */
+#what-banner {
+    /* background-image:url('../images/What_We_Do_1.jpg'); */
+    background-image: url("../images/What_We_do_2.jpg");
+    background-position: bottom;
+}
+
+#what-banner .title-fragment, #what-banner .subheader {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3px 5px;
+}
 
 p {
   color: $primary-text-color;

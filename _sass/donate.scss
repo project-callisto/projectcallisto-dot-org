@@ -1,6 +1,74 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,500i,700");
-@import "_variables.scss";
+/* Donate */
 
+#donate-banner #banner-content {
+    position: inherit;
+    padding: 5% 0%;
+}
+
+#donate-banner #banner-content .subheader {
+    width: 80%;
+}
+
+#donate-banner .title-fragment, #donate-banner .subheader {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3px 5px;
+    width: 100%;
+}
+
+#donate-banner {
+    background-image: url("../images/Donate.jpg");
+    background-position: bottom;
+    overflow: auto;
+    padding-bottom: 0;
+}
+
+#donate-cta-row > div + div {
+    border-left: 1px solid #bbb;
+}
+
+#donate-cta-row p {
+    margin-bottom: 31px;
+    min-height: 93px;
+}
+
+#donate-cta-row {
+    margin-bottom: 26px;
+}
+
+.donate-banner-content {
+    max-width: 800px;
+    top: 12%;
+}
+
+.give-now-btn {
+    background-color: #f09559;
+    box-shadow: 0px #ffffff;
+}
+
+.give-now-btn:hover {
+    background-color: #e5803d;
+}
+
+.donate-glyphicon {
+    font-size: 32px;
+    padding: 5px 15px;
+    margin: auto 6px;
+}
+
+#guidestar-logo {
+    float: left;
+    height: 48px;
+}
+
+#guidestar-text {
+    line-height: 48px;
+    padding-left: 15px;
+    float: left;
+}
+
+#guidestar {
+    margin-top: 70px;
+}
 
 section {
   align-items: center;

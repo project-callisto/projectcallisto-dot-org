@@ -1,4 +1,18 @@
-@import 'main.scss';
+/* Who We Are page styling */
+#who-banner {
+    background-image: url("../images/Who_We_Are.jpg");
+    background-position: bottom;
+}
+
+#who-banner .title-fragment, #who-banner .subheader {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3px 5px;
+    width: 100%;
+}
+
+#meet-the-team li {
+    list-style: none;
+}
 
 .who-we-are-header {
   background-image: url('../../images/Assets/Whoweare_headerimage.png');
