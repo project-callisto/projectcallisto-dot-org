@@ -8,16 +8,17 @@
     margin-bottom: 20px;
 
     .top_nav {
-        display: flex;
-        align-items: center;
         margin: 20px 0;
+        display: flex;
+        justify-content: center;
     }
 
     .callisto-logo {
         margin-left: 15px;
-        float: left;
         height: 45px;
         width: 45px;
+        position: absolute;
+        left: 0;
     }
 
     .footer_links {
@@ -31,7 +32,7 @@
 
         li {
             display: inline-block;
-            padding: 10px;
+            padding: 10px 5px;
             text-align: center;
         }
     }
@@ -59,6 +60,7 @@
 
 .footer-icons {
     font-size: 2em;
+    text-align: right;
 }
 
 @media (max-width: $max-width-md) {
@@ -79,12 +81,17 @@
 
         .footer_links {
             padding: 0;
+            float: none;
 
             li {
                 text-align: left;
                 display: block;
             }
         }
+    }
+
+    .footer-icons {
+        text-align: left;
     }
 
     .float_right {
