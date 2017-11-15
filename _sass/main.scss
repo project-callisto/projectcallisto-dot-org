@@ -218,6 +218,10 @@ section p {
     text-align: center;
 }
 
+.gray-background {
+    background-color: #F8F9F9;
+}
+
 section.expanded-section {
     &, p {
         text-align: left;
