@@ -270,12 +270,13 @@ section.expanded-section {
     font-weight: 400;
 }
 
+.pattern-section {
+    background-image: url("../../images/Assets/Homepage_patternbackground.png");
+}
+
 .quote-section {
     color: #1C2E36;
     background-image: url("../../images/Assets/Homepage_patternbackground.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     flex-wrap: nowrap;
     line-height: 31px;
     text-align: center;
@@ -346,10 +347,6 @@ ul.navbar-collapse {
     text-align: center;
 }
 
-#mc-embedded-subscribe {
-    width: 300px;
-}
-
 #mc_embed_signup {
     height: 48px;
     width: 100%;
@@ -362,11 +359,6 @@ ul.navbar-collapse {
         border-radius: 4px;
         margin: 0 auto;
         padding: 20px;
-    }
-
-    #mc-embedded-subscribe {
-        width: 100%;
-        max-width: 320px;
     }
 }
 
