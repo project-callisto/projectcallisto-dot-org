@@ -36,11 +36,6 @@ ul {
     list-style-type: none;
 }
 
-li {
-    font-size: 18px;
-    list-style: none;
-}
-
 p.font-main {
     font-family: $font-main;
 }
@@ -83,6 +78,7 @@ h1, h2, h3, h4, h5 {
     font-family: $font-main;
     font-weight: 600;
     letter-spacing: 1px;
+    line-height: 2em;
 }
 
 .paragraph-content-spacer {
@@ -324,11 +320,12 @@ section.expanded-section {
 }
 
 section {
-    padding: 60px 15px 20px;
+    padding: 60px 30px 20px;
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    line-height: 2em;
 }
 
 ul.navbar-collapse {
