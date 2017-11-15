@@ -333,6 +333,10 @@ section {
     }
 }
 
+.extra {
+    padding: 15px 0 30px;
+}
+
 @media (min-width: $min-width-md) {
     .navbar {
         display: flex;
