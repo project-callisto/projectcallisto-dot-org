@@ -307,15 +307,20 @@ section.expanded-section {
     font-family: $font-main;
     font-weight: 600;
     display: block;
+    width: 400px;
+    margin: auto;
+
+    &.long-button {
+        width: 550px;
+    }
 
     a {
         color: white;
     }
-}
 
-.gradient-button:hover,
-.gradient-button:focus {
-    color: $color-white;
+    &:hover, &:focus {
+        color: $color-white;
+    }
 }
 
 section {
@@ -359,15 +364,6 @@ ul.navbar-collapse {
         border-radius: 4px;
         margin: 0 auto;
         padding: 20px;
-    }
-}
-
-.gradient-button {
-    width: 400px;
-    margin: auto;
-
-    &.long-button {
-        width: 550px;
     }
 }
 
@@ -458,6 +454,13 @@ ul.navbar-collapse {
 
     #callisto {
         font-size: 18px;
+    }
+
+    .gradient-button {
+        &, &.long-button {
+            padding: 10px;
+            width: 100%;
+        }
     }
 }
 
