@@ -350,6 +350,26 @@ h3 {
     margin: 0 auto;
 }
 
+#mc_embed_signup {
+    height: 48px;
+    width: 100%;
+    text-align: center;
+
+    .form-control {
+        border: 1.5px solid #385C6C;
+        max-width: 405px;
+        border-radius: 4px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    #mc-embedded-subscribe {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
+
 @media (max-width: $max-width-sm) {
     .home-header {
         padding: 173px 10px 0;
@@ -398,21 +418,6 @@ h3 {
         margin: 0;
         width: 100%;
 
-        #mc_embed_signup {
-            width: 100%;
-
-            .form-control {
-                border: 1.5px solid #385C6C;
-                max-width: 405px;
-                border-radius: 4px;
-                margin: 0 auto;
-            }
-
-            #mc-embedded-subscribe {
-                width: 100%;
-                max-width: 320px;
-            }
-        }
     }
 
     #stay-updated {
