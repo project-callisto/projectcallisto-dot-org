@@ -9,6 +9,10 @@ body {
 
 p {
     font-family: $font-sans;
+
+    a {
+        display: inline;
+    }
 }
 
 h1 {
