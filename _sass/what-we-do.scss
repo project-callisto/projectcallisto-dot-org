@@ -10,11 +10,10 @@
 
 .callisto-campus {
     h5 {
-        text-align: left;
         margin-top: 0;
     }
 
-    p {
+    h4, h5, p {
         text-align: left;
     }
 
@@ -22,7 +21,7 @@
         align-items: flex-start;
         display: flex;
         flex-direction: row;
-        padding: 20px 10% 0;
+        padding: 20px 0 0;
     }
 
     .value-prop-item img {
@@ -33,7 +32,7 @@
 
 @media (max-width: $max-width-sm) {
     .callisto-campus {
-        h5 {
+        h4, h5 {
             text-align: center;
             margin-top: 20px;
         }
