@@ -78,6 +78,9 @@ h1, h2, h3, h4, h5 {
     font-family: $font-main;
     font-weight: 600;
     letter-spacing: 1px;
+}
+
+h4, h5 {
     line-height: 2em;
 }
 
@@ -85,7 +88,7 @@ h1, h2, h3, h4, h5 {
     max-width: 630px;
     max-width: 630px;
     margin: 0 auto;
-    padding: 0 0 30px;
+    padding: 0 0 40px;
 }
 
 .nav > li > a {
@@ -320,7 +323,7 @@ section.expanded-section {
 }
 
 section {
-    padding: 60px 30px 20px;
+    padding: 40px 30px 20px;
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -431,10 +434,6 @@ ul.navbar-collapse {
 
     .nav-button {
         display: inline-block !important;
-    }
-
-    section {
-        padding: 50px $container-padding-sm;
     }
 
     .main-header p {

@@ -5,6 +5,12 @@
 .our-team {
     background-color: #F8F9F9;
 
+    li {
+      list-style: disc;
+      font-family: $font-sans;
+      list-style-position: inside;
+    }
+
     h5 {
       margin: 20px 0;
     }
@@ -15,6 +21,6 @@
     }
 
     .spacer-with-underline {
-        margin-bottom: 60px;
+        margin-bottom: 80px;
     }
 }
