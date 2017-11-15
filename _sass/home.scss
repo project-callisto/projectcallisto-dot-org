@@ -1,9 +1,5 @@
 /* Homepage */
 
-.front-page h3 {
-    font-size: 32px;
-}
-
 #school-logo {
     width: 70px;
     float: left;
@@ -181,11 +177,6 @@
     width: 100%;
 }
 
-.ted-talk-btn {
-    width: 100%;
-    margin-top: 35px;
-}
-
 #how-it-works {
     background-color: #f8f9f9;
 }
@@ -233,10 +224,8 @@
     background-image: url("../../images/Assets/report-icon.svg");
 }
 
-#ted-talk {
+#callisto-is-expanding {
     background-image: url("../../images/Assets/Homepage_patternbackground.png");
-    background-repeat: none;
-    background-size: cover;
 
     p {
         font-size: 20px;
@@ -292,16 +281,8 @@
 }
 
 @media (max-width: $max-width-xs) {
-    .ted-talk-btn {
-        margin-top: -40px;
-    }
-
     #press {
         display: none;
-    }
-
-    #ted-talk p {
-        padding: 0;
     }
 
     .img-responsive {

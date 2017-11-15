@@ -1,4 +1,13 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: $font-main;
     font-size: 16px;
 
@@ -8,6 +17,8 @@ body {
 }
 
 p {
+    margin-bottom: 24px;
+    font-size: 18px;
     font-family: $font-sans;
 
     a {
@@ -15,12 +26,28 @@ p {
     }
 }
 
+p.pre-bullet {
+    margin-bottom: 12px;
+}
+
 ul {
     padding: 0;
+    margin-bottom: 24px;
+}
+
+li {
+    font-size: 18px;
 }
 
 p.font-main {
     font-family: $font-main;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #979797;
+    width: 90%;
 }
 
 h1 {
@@ -40,6 +67,10 @@ h2 {
     font-size: 32px;
 }
 
+section h3 {
+    font-size: 32px;
+}
+
 h3 {
     padding-bottom: 20px;
 }
@@ -51,7 +82,7 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
 }
 
-.content {
+.paragraph-content-spacer {
     max-width: 630px;
     margin: 0 auto 30px;
 }
@@ -65,6 +96,25 @@ h1, h2, h3, h4, h5 {
 
 nav {
     padding: 20px;
+}
+
+/// bootstrap overrides
+
+[class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
 }
 
 ////////////////////HEADER//////////////////////////
@@ -246,10 +296,8 @@ section p {
 section {
     padding: 60px 15px 20px;
     text-align: center;
-}
-
-#mainbody-container nav {
-    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 ul.navbar-collapse {
