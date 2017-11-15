@@ -35,6 +35,7 @@ h3 {
     @include stat-icon-sizing;
 
     font-size: 40px;
+    font-weight: 600;
     color: $primary-title-color;
     position: relative;
     background: linear-gradient(215deg, $color-stats-start 20%, $color-stats-end 80%);

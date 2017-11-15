@@ -158,6 +158,7 @@ section p {
     font-size: 20px;
     line-height: 1.4;
     width: 572px;
+    font-weight: 400;
 }
 
 .quote-section {
@@ -207,6 +208,11 @@ section {
 
 .footer {
     padding: 20px 70px;
+}
+
+.nav.navbar-nav {
+    background: white;
+    padding: 15px;
 }
 
 .top_nav {

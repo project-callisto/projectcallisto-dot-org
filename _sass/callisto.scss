@@ -260,10 +260,6 @@ nav ul > li > a {
     flex-shrink: 0;
 }
 
-/*#facebook-share {
-  padding: 5px 20px;
-}*/
-
 .footer .navbar-nav > li {
     float: none;
 }
@@ -993,11 +989,6 @@ a.community-icon:hover {
     #id_header ul > li > a {
         text-align: center;
     }
-
-    #id_header .navbar-nav {
-        padding-top: 2px;
-        padding-bottom: 2px;
-    }
 }
 
 @media only screen and (max-width: 1020px) {
@@ -1214,11 +1205,6 @@ a.community-icon:hover {
 
     .carousel-inner > .item {
         height: 70px;
-    }
-
-    #press {
-        min-height: 70px;
-        max-height: 70px;
     }
 
     #press.row {
