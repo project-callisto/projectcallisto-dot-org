@@ -263,10 +263,13 @@ section p {
 
 .quote-section blockquote {
     padding: 0;
+    border: none;
 }
 
-.quote-section span {
+.quote-section cite {
     font-size: 1em;
+    font-style: normal;
+    font-weight: 600;
 }
 
 .gradient-button {
@@ -274,14 +277,14 @@ section p {
     border-radius: 50px;
     border: 0;
     color: $color-white;
-    min-width: 300px;
     margin: 0 auto;
     letter-spacing: 1px;
-    padding: 13px 39px;
+    padding: 13px 60px;
     text-align: center;
     text-transform: uppercase;
     font-family: $font-main;
     font-weight: 600;
+    white-space: nowrap;
 
     a {
         color: white;
@@ -298,6 +301,7 @@ section {
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 ul.navbar-collapse {
@@ -312,7 +316,7 @@ ul.navbar-collapse {
     margin-top: .5rem;
 }
 
-.extra {
+.paragraph-extra-spacer {
     padding: 15px 0 30px;
 }
 
@@ -393,8 +397,6 @@ ul.navbar-collapse {
     .gradient-button {
         width: 100%;
         font-size: 15px;
-        min-width: auto;
-        padding: 13px 21px;
     }
 
     a#brand_link {
