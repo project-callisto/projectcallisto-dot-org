@@ -110,7 +110,12 @@ input, textarea {
   }
 }
 
-
+/* placeholder doesn't indent properly on mobile Safari */
+textarea#Field110 {
+    background-image: none;
+    padding-top: 12px;
+    text-indent: 0;
+}
 
 .quote-section {
   background-image: url("../../images/Assets/Homepage_patternbackground.png");

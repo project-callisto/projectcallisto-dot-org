@@ -135,13 +135,6 @@ nav, footer {
     background-color: #fff;
 }
 
-nav ul > li > a {
-    font-size: 13px;
-    font-weight: 400;
-    text-align: right;
-    color: #111111;
-}
-
 #brand_link img {
     width: 28px;
     height: 28px;
@@ -253,24 +246,6 @@ nav ul > li.footer-glyphicon > a {
     text-align: center;
     line-height: 1.3;
 }
-
-/*.banner {
-    padding-bottom: 20px;
-    border-bottom: solid 2px #dfdfdf;
-}
-.banner {
-    min-height: 300px;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: #fff;
-    padding-bottom: 0px;
-}
-.visible-xs-block .banner {
-    border-bottom: none;
-}*/
 
 #faces, #donate-banner {
     background-color: black;
@@ -487,54 +462,13 @@ textarea#Field110 {
     line-height: 1.3;
 }
 
-#how-it-works-sections, #why-callisto-sections {
+#why-callisto-sections {
     display: flex;
     justify-content: center;
     margin-top: 52px;
     margin-bottom: 65px;
     margin-left: 10px;
     margin-right: 10px;
-}
-
-.hiw-section {
-    max-width: 195px;
-    font-size: 14px;
-    font-weight: 400;
-    color: #262626;
-    line-height: 1.2;
-}
-
-.hiw-section h3 {
-    margin: 0px;
-}
-
-.hiw-or {
-    font-size: 14px;
-    font-weight: 800;
-    color: #585858;
-    background-color: #f7f7f7;
-    text-transform: uppercase;
-    border: 1px solid #bfbfbf;
-    height: 30px;
-    width: 30px;
-    line-height: 28px;
-    border-radius: 16px;
-    margin: 0px 30px;
-}
-
-#jsi {
-    background-image: url("/static/images/jsi_icon.png");
-    height: 26px;
-}
-
-#wfo {
-    background-image: url("/static/images/wfo_icon.png");
-    height: 25px;
-}
-
-#rin {
-    background-image: url("/static/images/rin_icon.png");
-    height: 19px;
 }
 
 .section-title {
@@ -555,11 +489,6 @@ textarea#Field110 {
 #closer a {
     margin-top: 35px;
     margin-bottom: 50px;
-}
-
-#hiw-banner {
-    background-image: url("../images/donate-header.png");
-    background-position: bottom;
 }
 
 #about-banner {
@@ -623,10 +552,6 @@ textarea#Field110 {
         float: left;
     }
 
-    #id_header ul > li > a {
-        text-align: center;
-    }
-
     #banner-content {
         top: 10%;
         left: 10%;
@@ -643,20 +568,6 @@ textarea#Field110 {
     .checkbox-row > div {
         float: left;
         margin-left: 15px;
-    }
-
-    /* placeholder doesn't indent properly on mobile Safari */
-    textarea#Field110 {
-        background-image: none;
-        padding-top: 12px;
-        text-indent: 0;
-    }
-
-    #faces, #hiw-banner {
-        width: 100%;
-        background-size: cover;
-        position: relative;
-        padding-bottom: 0;
     }
 
     #banner-content, #donate-banner #banner-content {
@@ -715,15 +626,6 @@ textarea#Field110 {
         margin-bottom: 51px;
     }
 
-    .hiw-or {
-        margin: 43px 0px;
-    }
-
-    .hiw-section {
-        max-width: none;
-        margin: 0px 50px;
-    }
-
     .quote-attribution {
         margin-bottom: 60px;
     }
@@ -759,20 +661,12 @@ textarea#Field110 {
         margin-top: 25px;
     }
 
-    #hiw-row {
-        display: inherit;
-    }
-
     .explanation {
         min-height: 0px;
     }
 
     .because-caret {
         margin-bottom: 0px;
-    }
-
-    .hiw-column {
-        margin-bottom: 50px;
     }
 
     .partner-btn {

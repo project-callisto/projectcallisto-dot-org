@@ -86,6 +86,8 @@ h1, h2, h3, h4, h5 {
     font-family: $font-main;
 
     a {
+        font-size: 13px;
+        color: #111111;
         color: $color-text-anchors;
         font-weight: 600;
     }
@@ -99,13 +101,6 @@ h1, h2, h3, h4, h5 {
         justify-content: space-between;
         align-items: center;
     }
-}
-
-.callisto-logo {
-    margin-left: 15px;
-    float: left;
-    height: 45px;
-    width: 45px;
 }
 
 .dark-blue-btn {
@@ -237,62 +232,6 @@ section {
     text-align: center;
 }
 
-.footer {
-    padding: 20px 70px;
-}
-
-.top_nav {
-    display: block;
-    margin-bottom: 20px;
-
-    img {
-        float: left;
-        margin: -11px 0 0 0;
-    }
-
-    ul {
-        margin-left: 110px;
-    }
-}
-
-.bottom_nav {
-    padding-top: 20px;
-    border-top: 1px solid #A4B3B7;
-}
-
-.float_left {
-    float: left;
-
-    p {
-        font-size: 16px;
-        margin-bottom: 0;
-    }
-}
-
-.float_right {
-    float: right;
-
-    p {
-        font-size: 16px;
-    }
-}
-
-.footer_links {
-    li {
-        display: inline-block;
-        padding: 0 32px;
-        text-align: center;
-        font-size: 14px;
-    }
-}
-
-.footer-icon {
-    width: 25px;
-    display: inline;
-    float: right;
-    margin: 5px;
-}
-
 #brand_link {
     display: flex;
     padding-right: 10px;
@@ -325,22 +264,11 @@ section {
     }
 }
 
-.top_nav ul {
-    margin-left: 15px;
-}
-
-.footer_links {
-    margin: 0;
-
-    li {
-        padding: 0 5px;
-    }
-}
-
 .extra {
     padding: 15px 0 30px;
 }
 
+// desktop and larger
 @media (min-width: $min-width-md) {
     .navbar {
         display: flex;
@@ -383,53 +311,13 @@ section {
         width: auto;
     }
 
-    ////////////////mobile footer/////////////////
-
-    .footer {
-        padding: 20px;
-
-        .float_left, .float_right {
-            font-size: 14px;
-        }
-    }
-
-    .top_nav {
-        ul {
-            margin-left: 0;
-        }
-
-        img {
-            display: none;
-        }
-    }
-
-    .footer_links {
-        padding-left: 0;
-        margin-bottom: 0;
-
-        li {
-            text-align: left;
-            display: block;
-            padding: 0;
-        }
-    }
-
-    .bottom_nav {
-        .float_right {
-            float: left;
-        }
-
-        .footer-icon {
-            float: left;
-        }
-    }
-
-    #id_header ul > li > a {
+    #id_header a {
         position: relative;
         display: block;
         padding: 10px 6px;
         max-width: 200px;
         margin: auto;
+        text-align: center;
     }
 
     #callisto {
