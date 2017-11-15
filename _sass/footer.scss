@@ -26,6 +26,7 @@
         margin: 0;
 
         a {
+            font-size: 14px;
             font-weight: 600;
             color: black;
         }
@@ -53,6 +54,7 @@
 .footer-icons {
     font-size: 2em;
     text-align: right;
+    color: #00758F;
 }
 
 @media (min-width: $min-width-lg) {
