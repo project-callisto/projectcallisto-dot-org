@@ -246,7 +246,7 @@ section.expanded-section {
     width: 100%;
     background-size: cover;
     background-position: center top;
-    padding: 200px 20px 50px;
+    padding: 200px 10% 50px;
     justify-content: flex-start;
 
     .gradient-button {
@@ -341,6 +341,11 @@ ul.navbar-collapse {
     padding: 15px 0 30px;
 }
 
+.partner-btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
 #mc-embedded-subscribe {
     width: 300px;
 }
@@ -365,25 +370,26 @@ ul.navbar-collapse {
     }
 }
 
-form {
-    max-width: 410px;
-}
-
 .gradient-button {
     width: 400px;
     margin: auto;
 
     &.long-button {
-        width: 500px;
+        width: 550px;
     }
-}
-
-.checkbox {
-    display: inline-block;
 }
 
 .form-group {
     text-align: left;
+}
+
+.checkbox {
+    display: inline-block;
+    padding: 10px;
+}
+
+.checkbox span {
+    padding: 0 10px;
 }
 
 .checkbox input {
@@ -392,29 +398,7 @@ form {
     border: 2px solid #00758F;
     border-radius: 3px;
     background-color: #FFFFFF;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    padding: 0 82px;
-
-    input,
-    textarea {
-        border: 1.5px solid #385C6C;
-        border-radius: 4px;
-        padding: 10px 16px;
-    }
-
-    input {
-        max-width: 408px;
-        height: 48px;
-    }
-
-    button {
-        margin-top: 30px;
-        width: 100%;
-    }
+    margin-top: -1px;
 }
 
 // tablet and desktop
