@@ -152,90 +152,8 @@ nav, footer {
     text-transform: uppercase;
 }
 
-.navbar-right {
-    clear: both;
-}
-
-.col-xs-offset-1-half-nested {
-    margin-left: 6.8181818181%;
-}
-
-.col-xs-after-1-half-offset {
-    margin-right: 6.8181818181%;
-}
-
-.footer-content {
-    border-top: solid 2px #979797;
-    padding: 15px 0px;
-    display: flex;
-}
-
-.footer-content .nav {
-    margin-left: 8px;
-}
-
-.footer-content .navbar-nav > li > a {
-    padding: 0px 17px;
-}
-
-.copyright {
-    opacity: 0.8;
-    font-size: 13px;
-    font-weight: 400;
-    text-align: right;
-    color: #4a4a4a;
-    margin-top: 0px;
-}
-
-.hotline {
-    font-size: 11px;
-    font-weight: 400;
-    color: #585858;
-    display: inline-block;
-    margin-left: 25px;
-}
-
-.footer-content a[href^="tel:"] {
-    color: inherit;
-}
-
-.footer .row {
-    width: 100%;
-}
-
 .navbar-toggle .icon-bar {
     background-color: black;
-}
-
-.navbar {
-    margin-bottom: 0px;
-    border-radius: 0px;
-}
-
-.header,
-.footer {
-    flex-shrink: 0;
-}
-
-.footer .navbar-nav > li {
-    float: none;
-}
-
-.footer nav ul > li > a {
-    text-align: left;
-}
-
-.footer .footer-glyphicon {
-    float: left !important;
-    margin-top: 5px;
-}
-
-nav ul > li.footer-glyphicon > a {
-    font-size: 24px;
-}
-
-.footer-heading {
-    left: 17px;
 }
 
 /* Banner */
@@ -497,16 +415,6 @@ textarea#Field110 {
     text-align: left;
 }
 
-@media (min-width: 768px) {
-    .col-sm-after-1-half-offset {
-        margin-right: 6.8181818181%;
-    }
-
-    .navbar-right {
-        margin-left: auto;
-    }
-}
-
 /* sm (tablet) & bigger screens */
 @media only screen and (min-width: $max-width-md) {
     .partner-row {
@@ -528,21 +436,6 @@ textarea#Field110 {
     .footer .navbar-nav {
         float: left;
         margin: 0;
-    }
-
-    .hotline {
-        clear: both;
-        text-align: left;
-        margin-left: 0px;
-        font-size: 13px;
-        float: left;
-    }
-
-    .copyright {
-        clear: both;
-        text-align: left;
-        margin-left: 0px;
-        float: left;
     }
 
     #banner-content {

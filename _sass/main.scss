@@ -63,6 +63,10 @@ h1, h2, h3, h4, h5 {
     }
 }
 
+nav {
+    padding: 20px;
+}
+
 ////////////////////HEADER//////////////////////////
 
 .nav-button {
@@ -88,22 +92,18 @@ h1, h2, h3, h4, h5 {
 
 #id_header {
     font-family: $font-main;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     a {
         font-size: 13px;
-        color: #111111;
         color: $color-text-anchors;
         font-weight: 600;
     }
 
     a.nav-button {
         color: white;
-    }
-
-    .navbar-left {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
 }
 
@@ -255,11 +255,12 @@ section {
 
 .navbar-right {
     li {
-        margin-left: 10px;
+        margin: 0 5px;
     }
 
     .donate-li {
         margin-top: 5px;
+        margin-right: 0;
     }
 }
 
@@ -325,12 +326,8 @@ section {
     }
 
     #id_header a {
-        position: relative;
-        display: block;
         padding: 10px 6px;
-        max-width: 200px;
         margin: auto;
-        text-align: center;
     }
 
     #callisto {

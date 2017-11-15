@@ -1,3 +1,46 @@
+.footer-content a[href^="tel:"] {
+    color: inherit;
+}
+
+.footer .row {
+    width: 100%;
+}
+
+nav ul > li.footer-glyphicon > a {
+    font-size: 24px;
+}
+
+.footer-heading {
+    left: 17px;
+}
+
+.footer .navbar-nav > li {
+    float: none;
+}
+
+.footer nav ul > li > a {
+    text-align: left;
+}
+
+.footer .footer-glyphicon {
+    float: left !important;
+    margin-top: 5px;
+}
+
+.footer-content {
+    border-top: solid 2px #979797;
+    padding: 15px 0px;
+    display: flex;
+}
+
+.footer-content .nav {
+    margin-left: 8px;
+}
+
+.footer-content .navbar-nav > li > a {
+    padding: 0px 17px;
+}
+
 .footer {
     padding: 20px 70px;
 }
