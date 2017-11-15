@@ -427,3 +427,18 @@ section {
         }
     }
 }
+
+/* sm (tablet) screens only */
+@media only screen and (max-width: 992px) {
+    #id_header ul > li > a {
+        position: relative;
+        display: block;
+        padding: 10px 6px;
+        max-width: 200px;
+        margin: auto;
+    }
+
+    #callisto {
+        font-size: 18px;
+    }
+}
