@@ -1,0 +1,9 @@
+# Build settings
+markdown: kramdown
+
+exclude:
+  - vendor
+
+sass:
+    sass_dir: _sass
+    style: compressed

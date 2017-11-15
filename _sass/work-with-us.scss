@@ -1,0 +1,26 @@
+.work-with-us-header {
+  background-image: url('../../images/Assets/workwithus_Headerimage.png');
+}
+
+.our-team {
+    background-color: #F8F9F9;
+
+    li {
+      list-style: disc;
+      font-family: $font-sans;
+      list-style-position: inside;
+    }
+
+    h5 {
+      margin: 20px 0;
+    }
+
+    .paragraph-content-spacer {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .spacer-with-underline {
+        margin-bottom: 80px;
+    }
+}
