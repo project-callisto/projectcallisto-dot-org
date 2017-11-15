@@ -37,6 +37,7 @@ h3 {
     font-size: 40px;
     color: $primary-title-color;
     position: relative;
+    background: linear-gradient(215deg, $color-stats-start 20%, $color-stats-end 80%);
 
     &::before, &::after {
         @include stat-icon-sizing;
@@ -56,28 +57,16 @@ h3 {
     }
 }
 
-.stat-icon.five-x {
-    background: linear-gradient(115deg, $color-stats-start 20%, $color-stats-end 80%);
-
-    &::before {
-        content: "5X";
-    }
+.stat-icon.five-x::before {
+    content: "5X";
 }
 
-.stat-icon.fifteen-percent {
-    background: linear-gradient(215deg, $color-stats-start 20%, $color-stats-end 80%);
-
-    &::before {
-        content: "15%";
-    }
+.stat-icon.fifteen-percent::before {
+    content: "15%";
 }
 
-.stat-icon.three-x {
-    background: linear-gradient(125deg, $color-stats-start 20%, $color-stats-end 90%);
-
-    &::before {
-        content: "3X";
-    }
+.stat-icon.three-x::before {
+    content: "3X";
 }
 
 .home-header {
