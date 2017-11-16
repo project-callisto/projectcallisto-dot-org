@@ -1,0 +1,65 @@
+#stats {
+    background-color: $color-background-grey;
+
+    li {
+        list-style-type: none;
+        padding: 15px;
+    }
+}
+
+@mixin stat-icon-sizing {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-icon {
+    @include stat-icon-sizing;
+
+    font-size: 40px;
+    font-weight: 600;
+    color: $primary-title-color;
+    position: relative;
+    background: linear-gradient(215deg, $color-stats-start 20%, $color-stats-end 80%);
+
+    &::before, &::after {
+        @include stat-icon-sizing;
+
+        position: absolute;
+    }
+
+    &::before {
+        background-color: #FFFFFF;
+        width: 90%;
+        height: 90%;
+    }
+
+    &::after {
+        content: "";
+        border: 2px rgba($color-stats-border, 0.7) solid;
+    }
+}
+
+.stat-icon.five-x::before {
+    content: "5X";
+}
+
+.stat-icon.fifteen-percent::before {
+    content: "15%";
+}
+
+.stat-icon.three-x::before {
+    content: "3X";
+}
+
+@media (max-width: $max-width-xs) {
+    #stats li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+}
