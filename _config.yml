@@ -8,7 +8,7 @@ sass:
   sass_dir: _sass
   style: compressed
 
-gems:
+plugins:
   - jekyll-redirect-from
 
 whitelist:
