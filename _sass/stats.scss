@@ -7,53 +7,42 @@
     }
 }
 
-@mixin stat-icon-sizing {
+.stat-icon {
     height: 150px;
     width: 150px;
     margin: 0 auto 25px;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.stat-icon {
-    @include stat-icon-sizing;
-
-    font-size: 40px;
-    font-weight: 600;
-    color: $primary-title-color;
     position: relative;
-    background: linear-gradient(215deg, $color-stats-start 20%, $color-stats-end 80%);
+    border: 2px rgba($color-stats-border, 0.7) solid;
 
-    &::before, &::after {
-        @include stat-icon-sizing;
+    &, .stat-white-inner-circle, .stat-colored-border {
+        border-radius: 50%;
+    }
 
+    > * {
         position: absolute;
     }
 
-    &::before {
+    .stat-white-inner-circle {
+        $colored-border-size: 5%;
         background-color: #FFFFFF;
-        width: 90%;
-        height: 90%;
+        width: 100% - $colored-border-size;
+        height: 100% - $colored-border-size;
     }
 
-    &::after {
-        content: "";
-        border: 2px rgba($color-stats-border, 0.7) solid;
+    .stat-colored-border {
+        background: linear-gradient(215deg, $color-stats-start 20%, $color-stats-end 80%);
+        width: 100%;
+        height: 100%;
     }
-}
 
-.stat-icon.five-x::before {
-    content: "5X";
-}
-
-.stat-icon.fifteen-percent::before {
-    content: "15%";
-}
-
-.stat-icon.three-x::before {
-    content: "3X";
+    .text {
+        color: $primary-title-color;
+        font-size: 40px;
+        font-weight: 600;
+    }
 }
 
 @media (max-width: $max-width-xs) {
