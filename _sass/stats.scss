@@ -1,12 +1,3 @@
-#stats {
-    background-color: $color-background-grey;
-
-    li {
-        list-style-type: none;
-        padding: 15px;
-    }
-}
-
 .stat-icon {
     height: 150px;
     width: 150px;
@@ -17,7 +8,7 @@
     position: relative;
     border: 2px rgba($color-stats-border, 0.7) solid;
 
-    &, .stat-white-inner-circle, .stat-colored-border {
+    &, > * {
         border-radius: 50%;
     }
 
@@ -27,13 +18,14 @@
 
     .stat-white-inner-circle {
         $colored-border-size: 5%;
+
         background-color: #FFFFFF;
         width: 100% - $colored-border-size;
         height: 100% - $colored-border-size;
     }
 
     .stat-colored-border {
-        background: linear-gradient(215deg, $color-stats-start 20%, $color-stats-end 80%);
+        background: linear-gradient(0deg, $color-stats-start 20%, $color-stats-end 80%);
         width: 100%;
         height: 100%;
     }
@@ -45,10 +37,21 @@
     }
 }
 
+#stats {
+    background-color: $color-background-grey;
+
+    li {
+        list-style-type: none;
+        padding: 15px;
+    }
+}
+
 @media (max-width: $max-width-xs) {
-    #stats li {
-        display: block;
-        float: none;
-        width: 100%;
+    #stats {
+        li {
+            display: block;
+            float: none;
+            width: 100%;
+        }
     }
 }
