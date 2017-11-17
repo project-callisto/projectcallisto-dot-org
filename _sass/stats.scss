@@ -1,10 +1,8 @@
 .stat-icon {
-    height: 150px;
-    width: 150px;
+    $stat-icon-size: 150px;
+    height: $stat-icon-size;
+    width: $stat-icon-size;
     margin: 0 auto 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
     border: 2px rgba($color-stats-border, 0.7) solid;
 
@@ -24,6 +22,7 @@
         $colored-border-size: 10%;
         width: 100% - $colored-border-size;
         height: 100% - $colored-border-size;
+        margin: $colored-border-size / 2;
     }
 
     .stat-colored-border {
@@ -51,6 +50,9 @@
         color: $primary-title-color;
         font-size: 40px;
         font-weight: 600;
+        width: 100%;
+        height: 100%;
+        line-height: $stat-icon-size;
     }
 }
 
