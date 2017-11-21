@@ -84,11 +84,15 @@ h4, h5 {
     line-height: 2em;
 }
 
-.paragraph-content-spacer {
+@mixin paragraph-content-spacer {
     max-width: 630px;
     max-width: 630px;
     margin: 0 auto;
     padding: 0 0 40px;
+}
+
+.paragraph-content-spacer {
+    @include paragraph-content-spacer;
 }
 
 .nav > li > a {
@@ -231,8 +235,12 @@ section.expanded-section {
     }
 }
 
-.spacer-with-underline {
+@mixin spacer-with-underline {
     border-bottom: 1px solid #D6E1E4;
+}
+
+.spacer-with-underline {
+    @include spacer-with-underline;
 }
 
 .main-header {

@@ -112,16 +112,3 @@ $color-homepage-banner-bg-2: rgba($color-orange, 0.6);
 
 $color-footer-border-top: rgba($color-gray-main-new, 0.5);
 $color-input-focus: #F1F3F4;
-
-@mixin underline-hover($bg-color, $padding-value) {
-    // Need a variable for this color //
-    background-color: $bg-color;
-    bottom: -2px;
-    content: '';
-    display: block;
-    height: 2px;
-    position: absolute;
-
-    // 30px should be a variable for the padding of the nav item //
-    width: calc(100% - #{$padding-value});
-}

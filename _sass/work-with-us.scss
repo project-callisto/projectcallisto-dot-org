@@ -14,8 +14,11 @@
     h5 {
       margin: 20px 0;
     }
+}
 
-    .spacer-with-underline {
-        margin-bottom: 80px;
-    }
+article {
+  @include paragraph-content-spacer;
+  @include spacer-with-underline;
+  max-width: 900px;
+  margin-bottom: 80px;
 }
