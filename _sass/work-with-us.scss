@@ -21,4 +21,9 @@ article {
   @include spacer-with-underline;
   max-width: 900px;
   margin-bottom: 80px;
+
+  &:last-child {
+    border: none;
+    margin-bottom: 0;
+  }
 }
