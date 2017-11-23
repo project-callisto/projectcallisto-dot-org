@@ -1,0 +1,217 @@
+/* Homepage */
+
+#school-logo {
+    width: 70px;
+    float: left;
+}
+
+#faces {
+    background: url("../images/jess_ted.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#faces:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to left, #103536, #833500);
+    opacity: .6;
+}
+
+.hiw_icon {
+    height: 57px;
+}
+
+.hiw-column {
+    margin-bottom: 20px;
+}
+
+#hiw-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#how_it_works_grid {
+    margin-top: 50px;
+}
+
+.explanation {
+    min-height: 80px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.because {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    color: #3997a9;
+}
+
+.because-caret {
+    height: 22px;
+    margin-bottom: 25px;
+    background-image: url("../images/because_carat.png");
+}
+
+#press {
+    border-bottom: 1px solid #d2d4d4;
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #F1F7F7 100%);
+}
+
+#press > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#press a {
+    margin: 55px 10px 0px 10px;
+}
+
+#press a:hover, #press a:focus {
+    border-bottom: 2px solid #3e99aa !important;
+}
+
+#press .btn {
+    margin-top: 40px;
+}
+
+#press a.btn:hover, #press a.btn:focus {
+    border-bottom: none !important;
+}
+
+.partner-row {
+    margin-bottom: 35px;
+}
+
+.partner_icon {
+    height: 80px;
+}
+
+.partner-column {
+    margin-bottom: 20px;
+    padding: 0px 15px;
+}
+
+.press-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0 15px;
+
+    li {
+        list-style: none;
+        margin: 15px;
+    }
+}
+
+.home-header {
+    background-image: url("../../images/Assets/Homepage_headerimage.png");
+}
+
+.press {
+    padding: 0;
+}
+
+#press {
+    width: 100%;
+}
+
+#how-it-works {
+    background-color: #f8f9f9;
+}
+
+.hiw-section {
+    max-width: 250px;
+
+    p {
+        font-weight: 600;
+    }
+}
+
+.section-title {
+    margin-bottom: 15px;
+}
+
+.icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-right: -10px;
+}
+
+#match-icon {
+    height: 110px;
+    margin-top: -10px;
+}
+
+#record-icon,
+#report-icon {
+    margin-right: -10px;
+}
+
+#record-icon {
+    background-image: url("../../images/Assets/record-icon.svg");
+}
+
+#match-icon {
+    background-image: url("../../images/Assets/match-icon.svg");
+}
+
+#report-icon {
+    background-image: url("../../images/Assets/report-icon.svg");
+}
+
+#callisto-is-expanding {
+    background-image: url("../../images/Assets/Homepage_patternbackground.png");
+
+    p {
+        font-size: 20px;
+    }
+}
+
+#our-supporters {
+    background-color: #F8F9F9;
+}
+
+#our-partners {
+    img {
+        margin: 20px auto;
+        width: 100%;
+    }
+}
+
+.input-sec {
+    margin: 0 auto;
+}
+
+@media (max-width: $max-width-xs) {
+    #press {
+        display: none;
+    }
+
+    .img-responsive {
+        display: block;
+        height: auto;
+    }
+
+    .banner-contents {
+        margin-bottom: 200px;
+        width: 250px;
+        text-align: center;
+    }
+
+    #stats li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+}

@@ -1,0 +1,476 @@
+/* General styling */
+
+.icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 100%;
+    margin-right: 0px;
+}
+
+/* Buttons */
+
+.btn {
+    margin: 20px;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+}
+
+a.btn:visited, a.btn:hover, a.btn:focus, a.btn:active {
+    color: #ffffff;
+}
+
+.dark-blue-btn {
+    background-color: #055f71;
+    box-shadow: 0 2px 0 0 #034957;
+}
+
+.dark-blue-btn:hover {
+    background-color: #057389;
+    box-shadow: 0 2px 0 0 #034957;
+}
+
+.light-blue-btn {
+    background-color: #1BA3B7;
+    box-shadow: 0 2px 0 0 #10717f;
+}
+
+.light-blue-btn:hover {
+    background-color: #138596;
+    box-shadow: 0 2px 0 0 #10717f;
+}
+
+/* Nav and footer */
+
+nav, footer {
+    background-color: #fff;
+}
+
+#brand_link img {
+    width: 28px;
+    height: 28px;
+    float: left;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+/* Banner */
+
+.subheader {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.3;
+}
+
+#faces, #donate-banner {
+    background-color: black;
+    width: 100%;
+    padding-bottom: 44%;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-index {
+    background-color: black;
+    width: 100%;
+    padding-bottom: 44%;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-med-height {
+    background-color: black;
+    width: 100%;
+    padding-bottom: 35%;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-big-height {
+    background-color: black;
+    width: 100%;
+    padding-bottom: 44%;
+    background-size: cover;
+    position: relative;
+}
+
+#banner-content, .banner-content {
+    position: absolute;
+    top: 25%;
+    left: 12.5%;
+    width: 80%;
+}
+
+.subheader {
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: #ffffff;
+    text-align: left;
+    width: 62.5%;
+}
+
+.banner-btn {
+    font-size: 21px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 11px 40px 13px;
+}
+
+/* Quoteblock */
+.quote {
+    background-color: #309da1;
+    color: #f7f7f7;
+    text-align: center;
+}
+
+.quote-content {
+    font-size: 21px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.2;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    left: -70px;
+    margin-right: -70px;
+}
+
+.quote-no-marks {
+    margin-bottom: 59px;
+    margin-top: 0px;
+    left: 0px;
+    margin-right: 0px;
+    font-style: inherit;
+    text-align: left;
+}
+
+.quote h2 {
+    color: #f7f7f7;
+    margin-top: 51px;
+    margin-bottom: 0px;
+}
+
+.quote-no-marks h2 {
+    margin-bottom: 24px;
+}
+
+.quote-attribution {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+.quote-mark {
+    font-size: 41px;
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+/* Forms */
+
+.form-row textarea {
+    border-radius: 16px;
+}
+
+.form-row input[type=text], .footer input[type=email] {
+    height: 48px;
+    border-radius: 16px;
+}
+
+.form-row .form-group {
+    margin-bottom: 8px;
+}
+
+.form-row .form-control, .footer .form-control {
+    font-size: 18px;
+}
+
+.checkbox-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.form-row .checkbox {
+    padding-top: 0;
+}
+
+/* Partner With Us page styling */
+#partner-banner {
+    background-image: url("../images/Partner_With_Us.jpg");
+    background-position: bottom;
+    height: 100%;
+}
+
+#partner-banner #banner-content {
+    top: 15%;
+}
+
+#partner-banner .title-fragment, #partner-banner .subheader {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3px 5px;
+    width: 100%;
+}
+
+/* Where does this go? */
+
+#how-it-works-intro {
+    font-size: 20px;
+    color: #585858;
+    line-height: 1.3;
+}
+
+#why-callisto-sections {
+    display: flex;
+    justify-content: center;
+    margin-top: 52px;
+    margin-bottom: 65px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#closer {
+    font-size: 29px;
+    font-weight: 600;
+    text-align: center;
+    color: #222222;
+    line-height: 1.2;
+}
+
+#closer a {
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+#about-banner {
+    background-image: url("../images/donate-header.png");
+    background-position: bottom;
+}
+
+.header_text h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    color: #fff;
+    text-align: left;
+}
+
+/* sm (tablet) & bigger screens */
+@media only screen and (min-width: $max-width-md) {
+    .partner-row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .copyright {
+        display: inline-block;
+        float: right;
+    }
+
+    .hotline {
+        float: right;
+        text-align: right;
+        font-size: 13px;
+    }
+
+    .footer .navbar-nav {
+        float: left;
+        margin: 0;
+    }
+
+    #banner-content {
+        top: 10%;
+        left: 10%;
+    }
+
+    .subheader, #donate-banner #banner-content .subheader {
+        width: 100%;
+    }
+
+    .checkbox-row {
+        display: block;
+    }
+
+    .checkbox-row > div {
+        float: left;
+        margin-left: 15px;
+    }
+
+    #banner-content, #donate-banner #banner-content {
+        position: inherit;
+        padding: 70px 32px;
+        left: 0;
+        width: 100%;
+    }
+
+    .title-fragment {
+        display: block;
+    }
+
+    .quote {
+        padding: 0px 16px;
+    }
+
+    .quote > .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .quote-mark-right {
+        margin-left: 12px;
+        margin-right: 0;
+        float: none;
+        margin-top: 45px;
+    }
+
+    .quote-mark-left {
+        margin-left: 0;
+        margin-right: 12px;
+        float: none;
+        margin-top: 45px;
+    }
+
+    .quote-mark-right {
+        flex-shrink: 0;
+    }
+
+    .quote-content {
+        left: 0;
+        margin-top: 60px;
+        margin-right: 0;
+    }
+
+    .quote-no-marks {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .quote-attribution {
+        margin-bottom: 60px;
+    }
+
+    h2 {
+        margin-top: 51px;
+    }
+
+    #banner-content {
+        text-align: center;
+    }
+
+    #donate-cta-row > div + div {
+        border-left: none;
+        margin-top: 71px;
+    }
+
+    #guidestar-text {
+        line-height: inherit;
+        padding-left: inherit;
+    }
+
+    #guidestar-logo {
+        margin-bottom: 15px;
+        height: inherit;
+    }
+
+    #donate-cta-row p {
+        min-height: inherit;
+    }
+
+    .copyright {
+        margin-top: 25px;
+    }
+
+    .explanation {
+        min-height: 0px;
+    }
+
+    .because-caret {
+        margin-bottom: 0px;
+    }
+
+    .partner-column:not(:first-child) {
+        margin-top: 70px;
+    }
+
+    .carousel-inner > .item img {
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 6px;
+        padding-top: 12px;
+    }
+
+    .carousel-inner > .item {
+        height: 70px;
+    }
+
+    #press.row {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #press a {
+        margin: inherit;
+    }
+
+    #press .btn {
+        margin-top: 10px;
+        width: auto;
+    }
+
+    #press .item > a {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #press a {
+        border-bottom: 2px solid transparent;
+        margin-bottom: 6px;
+    }
+
+    #press #carousel-press .btn.btn-default {
+        border-bottom: 3px solid;
+        padding-left: 3px;
+        padding-right: 3px;
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .carousel-control {
+        background: none !important;
+        color: #99a2a3;
+        text-shadow: none;
+        top: 22px;
+    }
+
+    .carousel-inner > .item.active > a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carousel-inner > .item.next.left > a, .carousel-inner > .item.prev.right > a {
+        display: flex;
+        align-items: center;
+    }
+
+    #carousel-press > a.carousel-control {
+        border: none !important;
+    }
+
+    .carousel-control:focus, .carousel-control:hover {
+        color: inherit;
+        text-decoration: none;
+        filter: alpha(opacity = 90);
+        outline: 0;
+        opacity: .9;
+    }
+}
