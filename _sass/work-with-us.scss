@@ -1,24 +1,19 @@
 .work-with-us-header {
-  background-image: url('../../images/Assets/workwithus_Headerimage.png');
+  background-image: url("../../images/Assets/workwithus_Headerimage.png");
 }
 
-.our-team {
-    background-color: #F8F9F9;
+.darker-background {
+  background-color: #F8F9F9;
 
-    li {
-      list-style: disc;
-      font-family: $font-sans;
-      list-style-position: inside;
-    }
-
-    h5 {
-      margin: 20px 0;
-    }
+  .gradient-button {
+    margin-top: 10px;
+  }
 }
 
 article {
   @include paragraph-content-spacer;
   @include spacer-with-underline;
+
   max-width: 900px;
   margin-bottom: 80px;
 
