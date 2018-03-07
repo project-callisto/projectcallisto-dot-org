@@ -99,17 +99,6 @@ h4, h5 {
     @include paragraph-content-spacer;
 }
 
-.nav > li > a {
-    &:hover,
-    &:focus {
-        background-color: $color-white;
-    }
-}
-
-nav {
-    padding: 20px;
-}
-
 /// bootstrap overrides
 
 [class*='col-'] {
@@ -132,19 +121,20 @@ nav {
 ////////////////////HEADER//////////////////////////
 
 .nav-button {
-    background: linear-gradient(130.96deg, $color-blue-button 0%, $color-blue-deeper 100%);
-    border-radius: 50px;
+    background: $color-blue-button;
     border: 0;
+    width: 215px;
+    height: 45px;
+    font-family: $font-main;
     color: $color-white;
-    font-weight: 500;
     letter-spacing: 1px;
-    padding-top: 5px !important;
-    padding-bottom: 5px !important;
-    text-transform: uppercase;
+    text-transform: lowercase;
     margin-top: 7px;
+    text-align: center;
 
     a {
         color: white;
+	background: $color-blue-button;
     }
 }
 
@@ -158,12 +148,15 @@ a#brand_link {
 }
 
 .header-nav {
+    text-transform: lowercase;
+    vertical-align: middle;
+    height: 80px;
+
     li {
         margin: 0 5px;
     }
 
     a {
-        font-size: 13px;
         color: #0E687A;
         font-weight: 600;
     }
@@ -201,11 +194,14 @@ a#brand_link {
 
 .header-nav {
     background-color: $color-white;
-    padding: 10px 32px;
 
     .footer-content {
         display: none;
     }
+}
+
+.nav {
+    padding: 0;
 }
 
 #nav-border {
@@ -332,10 +328,6 @@ section.expanded-section {
     a {
         color: white;
     }
-
-    &:hover, &:focus {
-        color: $color-white;
-    }
 }
 
 section {
@@ -352,7 +344,8 @@ ul.navbar-collapse {
 }
 
 .navbar {
-    padding: 20px 10px;
+    padding: 0;
+    height: 80px;
 }
 
 .navbar-brand {
