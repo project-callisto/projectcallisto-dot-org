@@ -290,20 +290,27 @@ section.expanded-section {
 }
 
 .gradient-button {
-    background: linear-gradient(130.96deg, $color-blue-button 0%, $color-blue-deeper 100%);
-    border-radius: 50px;
+
+    width: 300px;
+    background: $color-blue-button;
     border: 0;
-    color: $color-white;
-    margin: 0 auto;
-    letter-spacing: 1px;
-    padding: 13px 60px;
-    text-align: center;
-    text-transform: uppercase;
+    width: 215px;
+    height: 45px;
     font-family: $font-main;
-    font-weight: 600;
-    display: block;
-    width: 400px;
-    margin: auto;
+    color: $color-white !important;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    margin-right: 3.5rem;
+    text-align: center;
+    justify-content: center;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+
+    &:hover, &:focus {
+	background: $color-blue-button-hover !important;
+	text-decoration: none;
+    }
 
     &.long-button {
         width: 550px;
@@ -312,6 +319,35 @@ section.expanded-section {
     a {
         color: white;
     }
+}
+
+.white-button {
+    background: $color-white;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: $color-dark-button-outline;
+    width: 215px;
+    height: 45px;
+    font-family: $font-main;
+    font-size: 13px;
+    line-height: 16px;
+    color: $color-dark-button-outline !important;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    margin-right: 3.5rem;
+    text-align: center;
+    justify-content: center;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+
+    &:hover, &:focus {
+	background: $color-blue-button !important;
+	border: 0;
+	text-decoration: none;
+    }
+
 }
 
 section {
@@ -358,6 +394,7 @@ ul.navbar-collapse {
 
     &:hover, &:focus {
 	background: $color-blue-button-hover !important;
+	text-decoration: none;
     }
 
 }
@@ -455,6 +492,8 @@ ul.navbar-collapse {
 
     .nav-button {
         margin-right: 1rem !important;
+	marign-top: .5rem;
+	margin-bottom: .5rem;
 	width: 100px;
 	height: 45px;
     }
@@ -466,6 +505,10 @@ ul.navbar-collapse {
 
     a#brand_link {
 	margin-left: 1rem;
+    }
+
+    .header-nav {
+	height: 60px;
     }
 
     #callisto {
