@@ -115,6 +115,50 @@
     background-image: url("../../images/Assets/Home_Masthead.png");
     align-items: flex-start;
     justify-content: flex-start;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 0;
+
+    h2 {
+	margin-top: 100px;
+    }
+
+    p {
+	width: auto;
+    }
+}
+
+.header-left {
+    width: 38%;
+}
+
+.header-right {
+    margin-left: auto;
+    width: 38%;
+    display: flex;
+    flex-direction: row;
+}
+.header-quote-right {
+    width: 70%;
+    p {
+	margin-top: 150px;
+	margin-left: auto;
+	font-family: $font-oswald;
+	font-size: 20px;
+	line-height: 27px;
+	text-transform: lowercase;
+    }
+}
+
+.header-bar-right {
+    margin-left: auto;
+    width: 30%;
+
+    hr {
+	margin-top: 185px;
+	width: 100%;
+	height: 1px;
+    }
 }
 
 .press {
