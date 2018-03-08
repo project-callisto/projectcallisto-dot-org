@@ -120,24 +120,6 @@ h4, h5 {
 
 ////////////////////HEADER//////////////////////////
 
-.nav-button {
-    background: $color-blue-button;
-    border: 0;
-    width: 215px;
-    height: 45px;
-    font-family: $font-main;
-    color: $color-white;
-    letter-spacing: 1px;
-    text-transform: lowercase;
-    margin-top: 7px;
-    text-align: center;
-
-    a {
-        color: white;
-	background: $color-blue-button;
-    }
-}
-
 .navbar-toggle .icon-bar {
     background-color: $color-black;
 }
@@ -149,7 +131,6 @@ a#brand_link {
 
 .header-nav {
     text-transform: lowercase;
-    vertical-align: middle;
     height: 80px;
 
     li {
@@ -169,11 +150,15 @@ a#brand_link {
         margin-right: 0;
         margin-left: 18px;
     }
+}
 
-    a.nav-button {
-        color: white;
+.nav > li > a {
+    &:hover,
+    &:focus {
+	background-color: $color-white;
     }
 }
+
 
 .dark-blue-btn {
     background-color: $color-button-background-dark;
@@ -206,7 +191,7 @@ a#brand_link {
 
 #nav-border {
     border-image-slice: 1;
-    border-image-source: linear-gradient(90deg, $color-peach, $color-cyan);
+
     border-style: solid;
     border-width: 2px;
 }
@@ -353,7 +338,29 @@ ul.navbar-collapse {
 }
 
 .navbar-toggle {
-    margin-bottom: 20px;
+    margin-bottom: 5px
+}
+
+.nav-button {
+    background: $color-blue-button;
+    border: 0;
+    width: 215px;
+    height: 45px;
+    font-family: $font-main;
+    color: $color-white !important;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    margin-right: 3.5rem;
+    text-align: center;
+    justify-content: center;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+
+    &:hover, &:focus {
+	background: $color-blue-button-hover !important;
+    }
+
 }
 
 .paragraph-extra-spacer {
@@ -405,7 +412,7 @@ ul.navbar-collapse {
 // tablet and desktop
 @media (min-width: $min-width-md) {
     .navbar-nav > li > a {
-        padding: 10px;
+	vertical-align: middle;
     }
 
     #id_header {
@@ -441,24 +448,21 @@ ul.navbar-collapse {
         font-size: 25px;
     }
 
-    .header-nav a {
-        text-align: left !important;
+    .header-nav {
+	li {
+	    margin: -5px;
+	}
     }
 
     .nav-button {
-        display: inline-block !important;
+        margin-right: 1rem !important;
+	width: 100px;
+	height: 45px;
     }
 
     .main-header p {
         font-size: 16px;
         width: auto;
-    }
-
-    .header-nav {
-        a {
-            padding: 10px 6px;
-            margin: auto;
-        }
     }
 
     #callisto {
@@ -475,6 +479,10 @@ ul.navbar-collapse {
 
 // mobile
 @media (max-width: $max-width-sm) {
+    .header-nav {
+	height: 0px;
+    }
+
     #id_header .donate-li {
         padding: 40px 0;
 
@@ -485,12 +493,6 @@ ul.navbar-collapse {
 
     a#brand_link {
         position: absolute;
-    }
-}
-
-@media (min-width: $min-width-md) and (max-width: $max-width-md) {
-    .header-nav .donate-li {
-        margin-top: 5px;
     }
 }
 
