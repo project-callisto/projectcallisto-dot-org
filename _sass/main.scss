@@ -336,13 +336,13 @@ section.expanded-section {
     text-transform: lowercase;
     margin-right: 3.5rem;
     text-align: center;
-    justify-content: center;
     display: flex !important;
     flex-direction: column;
     justify-content: center;
 
     &:hover, &:focus {
 	background: $color-blue-button !important;
+	color: $color-white !important;
 	border: 0;
 	text-decoration: none;
     }
@@ -386,7 +386,6 @@ ul.navbar-collapse {
     text-transform: lowercase;
     margin-right: 3.5rem;
     text-align: center;
-    justify-content: center;
     display: flex !important;
     flex-direction: column;
     justify-content: center;
@@ -491,6 +490,7 @@ ul.navbar-collapse {
 
     .nav-button {
         margin-right: 1rem !important;
+	padding: 0 !important;
 	marign-top: .5rem;
 	margin-bottom: .5rem;
 	width: 80px;
