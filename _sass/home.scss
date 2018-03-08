@@ -138,6 +138,7 @@
     display: flex;
     flex-direction: row;
 }
+
 .header-quote-right {
     width: 70%;
     p {
@@ -259,5 +260,43 @@
         display: block;
         float: none;
         width: 100%;
+    }
+
+    .header-bar-right {
+	display: none;
+    }
+
+    .home-header {
+	flex-direction: column;
+	align-items: column;
+	justify-content: column;
+	padding-right: 3%;
+	padding-left: 3%;
+
+	p {
+	    text-align: center;
+	}
+    }
+
+    .header-left {
+	width: 100%;
+    }
+
+    .header-right {
+	width: 100%;
+    }
+
+    .header-quote-right {
+	width: 60%;
+	text-align: center;
+	margin: auto;
+	p {
+	    text-align: center;
+	    margin-top: 50px;
+	}
+    }
+
+    .white-button {
+	width: 100%;
     }
 }
