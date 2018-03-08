@@ -126,7 +126,7 @@ h4, h5 {
 
 a#brand_link {
     display: flex;
-    margin: 0;
+    margin-left: 2rem;
 }
 
 .header-nav {
@@ -337,7 +337,7 @@ ul.navbar-collapse {
 }
 
 .navbar-toggle {
-    margin-bottom: 5px
+    margin-bottom: .5rem;
 }
 
 .nav-button {
@@ -462,6 +462,10 @@ ul.navbar-collapse {
     .main-header p {
         font-size: 16px;
         width: auto;
+    }
+
+    a#brand_link {
+	margin-left: 1rem;
     }
 
     #callisto {
