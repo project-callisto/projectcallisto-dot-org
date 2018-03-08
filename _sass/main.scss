@@ -229,7 +229,7 @@ section.expanded-section {
 }
 
 .main-header {
-    align-items: flex-start;
+    align-items: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -237,12 +237,11 @@ section.expanded-section {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-end;
     width: 100%;
     background-size: cover;
     background-position: center top;
     padding: 200px 10% 50px;
-    justify-content: flex-start;
+    justify-content: center;
     line-height: 2em;
 
     .gradient-button {
@@ -254,7 +253,7 @@ section.expanded-section {
     font-size: 40px;
     margin-bottom: 16px;
     color: $color-white;
-    text-align: left;
+    text-align: center;
 }
 
 .main-header p {
