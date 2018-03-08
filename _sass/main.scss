@@ -294,7 +294,6 @@ section.expanded-section {
     width: 300px;
     background: $color-blue-button;
     border: 0;
-    width: 215px;
     height: 45px;
     font-family: $font-main;
     color: $color-white !important;
@@ -323,7 +322,7 @@ section.expanded-section {
 
 .white-button {
     background: $color-white;
-
+    font-weight: 600;
     border-style: solid;
     border-width: 2px;
     border-color: $color-dark-button-outline;
@@ -494,7 +493,7 @@ ul.navbar-collapse {
         margin-right: 1rem !important;
 	marign-top: .5rem;
 	margin-bottom: .5rem;
-	width: 100px;
+	width: 80px;
 	height: 45px;
     }
 
