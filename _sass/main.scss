@@ -240,9 +240,14 @@ section.expanded-section {
     width: 100%;
     background-size: cover;
     background-position: center top;
-    padding: 200px 10% 50px;
+    padding: 75px 10% 225px;
+
     justify-content: center;
     line-height: 2em;
+
+    h2 {
+	margin-top: 0;
+    }
 
     .gradient-button {
         margin: 0;
@@ -339,6 +344,7 @@ section.expanded-section {
     display: flex !important;
     flex-direction: column;
     justify-content: center;
+    border: 0;
 
     &:hover, &:focus {
 	background: $color-blue-button !important;
