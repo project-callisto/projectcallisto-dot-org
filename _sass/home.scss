@@ -172,13 +172,27 @@
 
 #how-it-works {
     background-color: #f8f9f9;
+
+    a {
+	margin: auto;
+    }
 }
 
+.button-spacer {
+    margin-top: 20px;
+}
+
+
 .hiw-section {
-    max-width: 250px;
+    width: 48%;
+    background-color: $color-white;
 
     p {
-        font-weight: 600;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: $font-sans;
+	font-size: 16px;
+	line-height: 25px;
     }
 }
 
@@ -187,12 +201,11 @@
 }
 
 .icon {
+    float: left;
+    display: inline-block;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100px;
-    margin-bottom: 10px;
-    margin-right: -10px;
 }
 
 #match-icon {
@@ -223,6 +236,10 @@
     p {
         font-size: 20px;
     }
+
+    a {
+	margin: auto;
+    }
 }
 
 #our-supporters {
@@ -230,9 +247,18 @@
 }
 
 #our-partners {
+    text-align: center;
+    a {
+	text-algin: center;
+    }
     img {
-        margin: 20px auto;
-        width: 100%;
+	width: 100%;
+	margin-right: 5%;
+	margin-left: 5%;
+    }
+    p {
+	margin-right: 5%;
+	margin-left: 5%;
     }
 }
 
