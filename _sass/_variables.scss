@@ -26,6 +26,7 @@ $color-gray-light: #f1f1f1;
 $color-gray-lighter: #dfdfdf;
 $color-gray-medium: #bbb;
 $color-gray-dark: #585858;
+$color-gray-darker: #464D55;
 $color-gray-main: #0e687a;
 
 $color-button-background-dark: #055f71;
@@ -43,7 +44,7 @@ $color-blue-dark: #005e8d;
 $color-blue-deep: #103536;
 $color-blue-deeper: #00758f;
 $color-blue-button: #385C6C;
-$color-blue-button-hover: #464D55;
+$color-blue-button-hover: $color-gray-darker;
 $color-blue-1: #458A9A;
 
 $color-peach: #ffae78;
