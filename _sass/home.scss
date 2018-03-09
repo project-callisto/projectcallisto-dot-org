@@ -178,6 +178,10 @@
     }
 }
 
+.suggest-btn {
+    margin: auto;
+}
+
 .button-spacer {
     margin-top: 20px;
 }
@@ -251,11 +255,13 @@
     a {
 	text-algin: center;
     }
+
     img {
-	width: 100%;
+	width: 65%;
 	margin-right: 5%;
 	margin-left: 5%;
     }
+
     p {
 	margin-right: 5%;
 	margin-left: 5%;

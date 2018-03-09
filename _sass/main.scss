@@ -165,8 +165,20 @@ a#brand_link {
     text-transform: capitalize;
 }
 
-.newsletter {
+#newsletter {
+    background-color: $color-gray-darker;
+}
+
+.fa {
     color: $color-gray-darker;
+}
+
+.vertical {
+    vertical-align: middle;
+    height: 250px;
+    width: 0;
+    border: .5px solid $color-gray;
+    margin-top: 85px;
 }
 
 #callisto {
@@ -244,7 +256,7 @@ section.expanded-section {
     width: 100%;
     background-size: cover;
     background-position: center top;
-    padding: 75px 10% 200px;
+    padding: 75px 10% 175px;
 
     justify-content: center;
     line-height: 2em;
@@ -439,6 +451,7 @@ ul.navbar-collapse {
     width: 100%;
     text-align: center;
     padding-bottom: 100px;
+    color: $color-white;
 
     .form-control {
         border: 1.5px solid #385C6C;
