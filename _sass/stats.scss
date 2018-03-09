@@ -63,6 +63,10 @@
         list-style-type: none;
         padding: 15px;
     }
+
+    a {
+	margin: auto;
+    }
 }
 
 @media (max-width: $max-width-xs) {
