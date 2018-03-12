@@ -509,6 +509,21 @@ ul.navbar-collapse {
     margin-top: -1px;
 }
 
+.download-icon {
+    background: $color-blue-button url("../../images/Assets/download-icon.svg") no-repeat 30px center;
+
+    &:hover, &:focus {
+	background: $color-blue-button-hover url("../../images/Assets/download-icon.svg") no-repeat 30px center !important;
+    }
+}
+
+.bold-oswald {
+    font-family: $font-oswald;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31px;
+}
+
 // tablet and desktop
 @media (min-width: $min-width-md) {
     .navbar-nav > li > a {
