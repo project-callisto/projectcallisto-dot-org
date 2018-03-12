@@ -159,7 +159,6 @@ a#brand_link {
     }
 }
 
-
 .dark-blue-btn {
     background-color: $color-button-background-dark;
     text-transform: capitalize;
@@ -256,8 +255,7 @@ section.expanded-section {
     width: 100%;
     background-size: cover;
     background-position: center top;
-    padding: 75px 10% 175px;
-
+    padding: 115px 10% 115px;
     justify-content: center;
     line-height: 2em;
 
@@ -285,6 +283,7 @@ section.expanded-section {
     line-height: 1.4;
     width: 572px;
     font-weight: 400;
+    text-align: center;
 }
 
 .pattern-section {
@@ -340,6 +339,11 @@ section.expanded-section {
     a {
         color: white;
     }
+}
+
+.center-btn {
+    margin: clear;
+    margin: auto;
 }
 
 a.big-link {
