@@ -48,3 +48,9 @@
         }
     }
 }
+
+@media (max-width: $max-width-md) {
+    *[class*='col-lg']{
+	padding-top:10px;
+    }
+}
