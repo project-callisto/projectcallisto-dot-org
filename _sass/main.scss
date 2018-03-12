@@ -168,6 +168,27 @@ a#brand_link {
     background-color: $color-gray-darker;
 }
 
+.newsletter {
+    width: 100%;
+
+    label {
+	clear: both;
+	float: left;
+    }
+
+    input {
+	float: right;
+    }
+
+    .mc_embed_signup_scroll {
+	margin: auto;
+    }
+
+    .mc-field-group {
+	width: 50%;
+    }
+}
+
 .fa {
     color: $color-gray-darker;
 }
