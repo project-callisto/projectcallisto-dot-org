@@ -12,7 +12,7 @@
 }
 
 .get-involved-header {
-    background-image: url("../../images/Assets/Getinvolved_headerimage.png");
+    background-image: url("../../images/Assets/masthead_2.png");
 }
 
 .become-partner {
@@ -23,7 +23,24 @@
 }
 
 .contact-form {
-    background-color: #F8F9F9;
+    background-color: #FFF;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .content {
+	font-weight: 300;
+	line-height: 26px;
+	font-size: 16px;
+	font-family: Montserrat;
+	color: #1C2E36;
+    }
+
+    .field {
+        width: 100%;
+    }
 }
 
 #mailchimp-pattern-section {
