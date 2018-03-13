@@ -261,6 +261,7 @@
 
 #our-partners {
     text-align: center;
+
     a {
 	text-algin: center;
     }
@@ -348,6 +349,14 @@
 	    margin-right: 15%;
 	}
     }
+
+    #our-partners {
+	img {
+	    width: 65%;
+	    margin-right: 5%;
+	    margin-left: 5%;
+	}
+    }
 }
 
 @media (max-width: $max-width-md) {
@@ -358,5 +367,17 @@
     .row {
 	margin-left: 5%;
 	margin-right: 5%;
+    }
+
+    #our-partners {
+	img {
+	    width: 100%;
+	    margin-right: 5%;
+	    margin-left: 5%;
+	}
+    }
+
+    .vertical {
+	    display: none;
     }
 }
