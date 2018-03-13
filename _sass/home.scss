@@ -121,10 +121,12 @@
 
     h2 {
 	margin-top: 100px;
+	text-align: left;
     }
 
     p {
 	width: auto;
+	text-align: left;
     }
 }
 
@@ -192,6 +194,7 @@
 
     .link-padding {
 	padding-bottom: 20px;
+	height: 100%;
     }
 
     img {
@@ -309,10 +312,6 @@
 	justify-content: column;
 	padding-right: 3%;
 	padding-left: 3%;
-
-	p {
-	    text-align: center;
-	}
     }
 
     .header-left {
