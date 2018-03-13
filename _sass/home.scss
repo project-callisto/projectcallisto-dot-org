@@ -188,12 +188,17 @@
 
 
 .hiw-section {
-    width: 48%;
     background-color: $color-white;
 
+    .link-padding {
+	padding-bottom: 20px;
+    }
+
+    img {
+	padding-top: 10px;
+    }
+
     p {
-	margin-left: 5%;
-	margin-right: 5%;
 	font-family: $font-sans;
 	font-size: 16px;
 	line-height: 25px;
@@ -330,5 +335,28 @@
 
     .white-button {
 	width: 100%;
+    }
+}
+
+@media (min-width: $min-width-lg) {
+    
+    .hiw-section {
+	width: 45%;
+
+	.row {
+	    margin-left: 15%;
+	    margin-right: 15%;
+	}
+    }
+}
+
+@media (max-width: $max-width-md) {
+    .hiw-section {
+	width: 100%;
+    }
+
+    .row {
+	margin-left: 5%;
+	margin-right: 5%;
     }
 }
