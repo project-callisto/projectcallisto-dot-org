@@ -170,23 +170,11 @@ a#brand_link {
 
 .newsletter {
     width: 100%;
+}
 
-    label {
-	clear: both;
-	float: left;
-    }
-
-    input {
-	float: right;
-    }
-
-    .mc_embed_signup_scroll {
-	margin: auto;
-    }
-
-    .mc-field-group {
-	width: 50%;
-    }
+.text-vcenter {
+    marign-top: auto;
+    margin-bottom: auto;
 }
 
 .fa {
