@@ -188,13 +188,14 @@
     margin-top: 20px;
 }
 
-
 .hiw-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     background-color: $color-white;
 
     .link-padding {
 	padding-bottom: 20px;
-	height: 100%;
     }
 
     img {
