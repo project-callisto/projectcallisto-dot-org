@@ -26,6 +26,21 @@ section {
     padding: 20px 20px 20px;
 }    
 
+.more-contact {
+    .gradient-button {
+	height: 55px;
+    }
+
+    h4 {
+	margin-top: 0;
+	line-height: 35px;
+	font-weight: 500;
+	font-size: 26px;
+	font-family: $font-oswald;
+	color: $primary-text-color;
+    }
+}
+
 .contact-form {
     background-color: #FFF;
 
@@ -65,6 +80,7 @@ select {
     border: 0;
     height: 30px;
 }
+
 
 // tablet and desktop
 @media (min-width: $min-width-md) {
