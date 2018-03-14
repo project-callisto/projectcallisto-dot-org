@@ -22,6 +22,10 @@
     justify-content: center;
 }
 
+section {
+    padding: 20px 20px 20px;
+}    
+
 .contact-form {
     background-color: #FFF;
 
@@ -49,4 +53,19 @@
 
 #suggest-section {
     padding-bottom: 0;
+}
+
+li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+// tablet and desktop
+@media (min-width: $min-width-md) {
+    .contact-pad-right {
+	padding-right: 15px;
+    }
+    .contact-pad-left {
+	padding-left: 15px;
+    }
 }
