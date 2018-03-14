@@ -518,6 +518,11 @@ ul.navbar-collapse {
 	vertical-align: middle;
     }
 
+    .navbar-nav > li {
+	padding-top: 0;
+	padding-bottom: 0;
+    }
+
     #id_header {
         display: flex;
         justify-content: space-between;
