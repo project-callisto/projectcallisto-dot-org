@@ -590,6 +590,14 @@ ul.navbar-collapse {
         max-width: 1200px;
         margin: 0 auto;
     }
+
+    .scroll-down {
+	img {
+	    position: absolute;
+	    bottom: 20px;
+	    left: 50%;
+	}
+    }
 }
 
 // mobile and tablet
@@ -640,6 +648,14 @@ ul.navbar-collapse {
             padding: 10px;
             width: 100%;
         }
+    }
+
+    .scroll-down {
+	img {
+	position: absolute;
+	bottom: -80px;
+	left: 50%;
+	}
     }
 }
 
