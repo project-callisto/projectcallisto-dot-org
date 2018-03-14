@@ -2,21 +2,30 @@
     background-image: url("../../images/Assets/masthead_2.png");
 }
 
-.donate-info {
+@media (min-width: $min-width-lg) {
+    .border-right {
+	border-right: 1px solid $color-gray;
+    }
+
+    .donate-info {
     p {
 	margin-right: 12%;
 	margin-left: 12%;
     }
 }
 
-@media (min-width: $min-width-lg) {
-    .border-right {
-	border-right: 1px solid $color-gray;
-    }
+
 }
 
 @media (max-width: $max-width-md) {
     .border-right {
 	border: 0;
+    }
+
+    .donate-info {
+	p {
+	    margin-right: 6%;
+	    margin-left: 6%;
+	}
     }
 }
