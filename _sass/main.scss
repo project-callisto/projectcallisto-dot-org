@@ -1,4 +1,4 @@
-html {
+tml {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -162,25 +162,6 @@ a#brand_link {
 .dark-blue-btn {
     background-color: $color-button-background-dark;
     text-transform: capitalize;
-}
-
-#newsletter {
-    background-color: $color-gray-darker;
-
-    height: 85px;
-}
-
-.newsletter {
-    width: 100%;
-
-    input {
-	padding-top: 2px;
-    }
-
-    label {
-	margin-top: 5px;
-	margin-right: 15px;
-    }
 }
 
 .text-vcenter {
@@ -556,6 +537,10 @@ ul.navbar-collapse {
     line-height: 31px;
 }
 
+#newsletter {
+    background-color: $color-gray-darker;
+}
+
 // tablet and desktop
 @media (min-width: $min-width-md) {
     .navbar-nav > li > a {
@@ -571,6 +556,23 @@ ul.navbar-collapse {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    #newsletter {
+	height: 85px;
+    }
+
+    .newsletter {
+	width: 100%;
+
+	input {
+	    padding-top: 2px;
+	}
+
+	label {
+	    margin-top: 5px;
+	    margin-right: 15px;
+	}
     }
 }
 
@@ -656,6 +658,16 @@ ul.navbar-collapse {
 
     a#brand_link {
         position: absolute;
+    }
+
+    #newsletter {
+	height: 170px;
+
+    }
+
+    .grey-button {
+	text-align: center;
+	width: 405px
     }
 }
 
