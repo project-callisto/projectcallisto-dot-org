@@ -166,10 +166,21 @@ a#brand_link {
 
 #newsletter {
     background-color: $color-gray-darker;
+
+    height: 85px;
 }
 
 .newsletter {
     width: 100%;
+
+    input {
+	padding-top: 2px;
+    }
+
+    label {
+	margin-top: 5px;
+	margin-right: 15px;
+    }
 }
 
 .text-vcenter {
