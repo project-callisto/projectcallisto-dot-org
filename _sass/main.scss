@@ -349,6 +349,35 @@ section.expanded-section {
     }
 }
 
+.gray-button {
+
+    width: 200px;
+    background: $color-gray-darker;
+    border: 2px solid $color-white;
+    height: 45px;
+    font-family: $font-main;
+    color: $color-white !important;
+    letter-spacing: 1px;
+    text-align: center;
+    justify-content: center;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+
+    &:hover, &:focus {
+	background: $color-blue-button !important;
+	text-decoration: none;
+    }
+
+    &.long-button {
+        width: 550px;
+    }
+
+    a {
+        color: white;
+    }
+}
+
 .center-btn {
     margin: clear;
     margin: auto;
@@ -369,7 +398,7 @@ a.big-link {
     &:hover, &:focus {
 	text-decoration: none;
     }
- }
+}
 
 .white-button {
     background: $color-white;
