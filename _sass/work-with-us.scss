@@ -10,6 +10,12 @@
   }
 }
 
+.our-values {
+    p {
+	text-align: left;
+    }
+}
+
 article {
   @include paragraph-content-spacer;
   @include spacer-with-underline;
