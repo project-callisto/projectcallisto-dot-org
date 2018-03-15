@@ -65,6 +65,10 @@
     background-image: linear-gradient(to bottom, #FFFFFF 0%, #F1F7F7 100%);
 }
 
+.paragraph-content-spacer {
+    max-width: 660px;
+}
+
 #press > div {
     display: flex;
     justify-content: space-between;
@@ -247,7 +251,7 @@
     background-image: url("../../images/Assets/Homepage_patternbackground.png");
 
     p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     a {
