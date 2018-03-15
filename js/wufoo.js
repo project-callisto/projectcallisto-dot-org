@@ -8,7 +8,7 @@ $(document).ready(function() {
 	$("#become-partner :input").prop("disabled", true);
 	// Enable first dropdown:
 	$("#foli1 :input").prop("disabled", false);
-	$("#foli2 :input").prop("disabled", false);
+	$("#foli218 :input").prop("disabled", false);
 
 	// Show demo on campus partners, hide on all else.
 	// Newsletter is inverse to campus partner.
