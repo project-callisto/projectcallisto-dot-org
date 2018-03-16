@@ -540,6 +540,19 @@ ul.navbar-collapse {
     background-color: $color-gray-darker;
 }
 
+.content-wrapper {
+    h3, h4 {
+	font-family: $font-playfair;
+    }
+
+    .stats-sections {
+	h4 {
+            font-family: $font-main;
+	    font-weight: 500;
+	}
+    }
+}
+
 // tablet and desktop
 @media (min-width: $min-width-md) {
     .navbar-nav > li > a {
