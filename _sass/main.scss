@@ -288,12 +288,12 @@ section.expanded-section {
 }
 
 .pattern-section {
-    background-image: url("../../images/Assets/Homepage_patternbackground.png");
+    background-image: url("../../images/Assets/Quote_background.png");
 }
 
-.quote-section {
+.quotep-section {
     color: #1C2E36;
-    background-image: url("../../images/Assets/Homepage_patternbackground.png");
+    background-image: url("../../images/Assets/Quote_background.png");
     flex-wrap: nowrap;
     line-height: 31px;
     text-align: center;
@@ -399,7 +399,6 @@ a.big-link {
 
 .white-button {
     background: $color-white;
-    font-weight: 600;
     border-style: solid;
     border-width: 2px;
     border-color: $color-dark-button-outline;
