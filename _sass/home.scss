@@ -263,8 +263,13 @@
 #callisto-is-expanding {
     background-image: url("../../images/Assets/Quote_background.png");
 
+    .paragraph-content-spacer {
+	max-width: 670px;
+    }
+
     p {
-        font-size: 18px;
+        font-size: 20px;
+	font-weight: 300;
     }
 
     a {
