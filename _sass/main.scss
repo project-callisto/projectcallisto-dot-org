@@ -291,7 +291,7 @@ section.expanded-section {
     background-image: url("../../images/Assets/Quote_background.png");
 }
 
-.quotep-section {
+.quote-section {
     color: #1C2E36;
     background-image: url("../../images/Assets/Quote_background.png");
     flex-wrap: nowrap;
@@ -422,6 +422,9 @@ a.big-link {
 	color: $color-white !important;
 	border: 0;
 	text-decoration: none;
+    }
+    &:active {
+	color: $color-dark-button-outline !important;
     }
 
 }
