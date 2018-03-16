@@ -39,6 +39,16 @@
     }
 }
 
+.quote-section {
+    blockquote {
+	font-weight: 300;
+    }
+
+    cite {
+	font-weight: 900;
+    }
+}
+
 @media (max-width: $max-width-sm) {
     .callisto-campus {
         h4, h5 {
