@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
     if($(".foli1")) {
 	// Setup checkboxes (hide them)
@@ -11,12 +12,11 @@ $(document).ready(function() {
 	$("#foli218 :input").prop("disabled", false);
 
 	// Show demo on campus partners, hide on all else.
-	// Newsletter is inverse to campus partner.
 	$('select[name="Field1"]').change(function() {
 	    $("#become-partner :input").prop("disabled", false);
 	    if ($(this).val() == "A potential campus partner") {
 		$(".demo-checkbox").show();
-		$(".newsletter-checkbox").hide();
+		$(".newsletter-checkbox").show();
 	    } else {
 		$(".demo-checkbox").hide();
 		$(".newsletter-checkbox").show();
