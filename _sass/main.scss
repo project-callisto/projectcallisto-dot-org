@@ -153,8 +153,7 @@ a#brand_link {
 }
 
 .nav > li > a {
-    &:hover,
-    &:focus {
+    &:hover {
 	background-color: $color-white;
     }
 }
@@ -326,7 +325,7 @@ section.expanded-section {
     flex-direction: column;
     justify-content: center;
 
-    &:hover, &:focus {
+    &:hover {
 	background: $color-blue-button-hover !important;
 	text-decoration: none;
     }
@@ -415,16 +414,12 @@ a.big-link {
     justify-content: center;
     border: 0;
 
-    &:hover, &:focus {
+    &:hover {
 	background: $color-blue-button !important;
 	color: $color-white !important;
 	border: 0;
 	text-decoration: none;
     }
-    &:active {
-	color: $color-dark-button-outline !important;
-    }
-
 }
 
 section {
@@ -525,7 +520,7 @@ ul.navbar-collapse {
 .download-icon {
     background: $color-blue-button url("../../images/Assets/download-icon.svg") no-repeat 30px center;
 
-    &:hover, &:focus {
+    &:hover {
 	background: $color-blue-button-hover url("../../images/Assets/download-icon.svg") no-repeat 30px center !important;
     }
 }
