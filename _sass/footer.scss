@@ -66,17 +66,23 @@ nav ul > li.footer-glyphicon > a {
 
     .footer_links {
         font-family: $font-main;
-        margin: 0;
+	margin: auto;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
 
         a {
-            font-size: 14px;
-            font-weight: 600;
-            color: black;
+	    color: $primary-text-color;
+	    font-weight: 500;
+	    line-height: 26px;
+	    font-size: 14px;
+	    font-family: $font-main;
+	    text-decoration: none;
         }
 
         li {
             display: inline-block;
-            padding: 10px;
+            padding-right: 6%;
             text-align: center;
         }
     }
@@ -92,6 +98,12 @@ nav ul > li.footer-glyphicon > a {
 .bottom_nav {
     padding-top: 20px;
     border-top: 1px solid #A4B3B7;
+
+    p {
+	font-family: $font-sans;
+	font-size: 14px;
+	line-height: 36px;
+    }
 }
 
 .footer-icons {
