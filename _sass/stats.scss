@@ -33,17 +33,14 @@
 
     .stat-colored-border.five-x {
         background: linear-gradient(310deg, $color-stats-end 40%, $color-stats-start 60%);
-        clip-path: polygon(0 0, 50% 0, 50% 50%, 100% 0, 100% 100%, 0 100%);
     }
 
     .stat-colored-border.fifteen-percent {
         background: linear-gradient(235deg, $color-stats-start 40%, $color-stats-end 60%);
-        clip-path: polygon(0 0, 50% 0, 50% 50%, 0 20%);
     }
 
     .stat-colored-border.three-x {
         background: linear-gradient(320deg, $color-stats-end 40%, $color-stats-start 60%);
-        clip-path: polygon(0 0, 50% 0, 50% 50%, 100% 100%, 0 100%);
     }
 
     .text {
