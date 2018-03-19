@@ -534,13 +534,12 @@ ul.navbar-collapse {
 #newsletter {
     background-color: $color-gray-darker;
 
-    input {
+    .email {
+	border: 0;
 	background-color: #30353B;
-
-	&:focus {
-	    outline: none;
-	}
-
+	width: 100%;
+	height: 45px;
+	padding-left: 5px;
     }
 }
 
