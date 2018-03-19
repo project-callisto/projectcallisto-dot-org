@@ -488,7 +488,6 @@ ul.navbar-collapse {
 
     .form-control {
         border: 1.5px solid #385C6C;
-        max-width: 405px;
         border-radius: 4px;
         margin: 0 auto;
         padding: 20px;
@@ -534,6 +533,15 @@ ul.navbar-collapse {
 
 #newsletter {
     background-color: $color-gray-darker;
+
+    input {
+	background-color: #30353B;
+
+	&:focus {
+	    outline: none;
+	}
+
+    }
 }
 
 .content-wrapper {
@@ -576,6 +584,7 @@ ul.navbar-collapse {
 
 	input {
 	    padding-top: 2px;
+	    max-width: 100%;
 	}
 
 	label {
@@ -692,8 +701,12 @@ ul.navbar-collapse {
     }
 
     #newsletter {
-	height: 170px;
+	padding: 10px 10px 40px;
 
+	input {
+	    margin: -2px auto 0;
+	    width: 100%;
+	}
     }
 
     .grey-button {
@@ -705,6 +718,12 @@ ul.navbar-collapse {
 	li {
 	    background-color: $color-white;
 	    padding-left: 5px;
+	}
+    }
+
+    #mc_embed_signup {
+	.form-control {
+	    max-width: 100%;
 	}
     }
 }
