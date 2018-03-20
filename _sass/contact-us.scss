@@ -45,7 +45,10 @@ section {
   letter-spacing: 2px;
   max-width: 630px;
   margin: 0 auto;
-  padding: 0;
+
+  @media (min-width: $min-width-md) {
+    padding: 0;
+  }
 
   form {
     width: 100%;
@@ -90,7 +93,14 @@ section {
   }
 
   .row > div {
-    padding: 0 20px;
+    @media (max-width: $min-width-md) {
+      padding: 10px 20px;
+      margin: 20px 0;
+    }
+
+    @media (min-width: $min-width-md) {
+      padding: 0 20px;
+    }
   }
 
   .gradient-button {
