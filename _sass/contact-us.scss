@@ -39,7 +39,7 @@ section {
   }
 
   .row > div {
-    padding: 10px 20px;
+    padding: 0 20px;
   }
 
   .row > div:first-of-type {
@@ -48,12 +48,18 @@ section {
     @media (min-width: $max-width-lg) {
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: space-between;
+    }
+
+    p {
+      margin-top: 20px;
     }
   }
 
-  .row > div:last-of-type > p:last-of-type {
-    margin: 0;
+  .row > div:last-of-type {
+    > p:last-of-type {
+      margin: 0;
+    }
   }
 
   .gradient-button {
