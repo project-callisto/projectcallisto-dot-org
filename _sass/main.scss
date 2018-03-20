@@ -4,7 +4,7 @@
 @import "_mixins.scss";
 
 section p {
-  font-size: 16px;
+    font-size: 16px;
   text-align: center;
 }
 
@@ -251,6 +251,18 @@ ul.navbar-collapse {
   background-color: $color-gray-darker;
 
   ::placeholder {
+    color: $color-white;
+  }
+
+  ::placeholder {
+    color: $color-white;
+  }
+
+  ::-webkit-input-placeholder {
+    color: $color-white;
+  }
+
+  ::-moz-input-placeholder {
     color: $color-white;
   }
 
