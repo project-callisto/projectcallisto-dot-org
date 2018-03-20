@@ -1,0 +1,191 @@
+@import "_mixins.scss";
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  &.locked {
+    overflow: hidden;
+  }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: $font-main;
+}
+
+p {
+  margin-bottom: 24px;
+  font-size: 18px;
+  font-family: $font-sans;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+p.pre-bullet {
+  margin-bottom: 12px;
+}
+
+ul {
+  padding: 0;
+  margin-bottom: 24px;
+  list-style-type: none;
+
+  ul {
+    padding-left: 20px;
+  }
+}
+
+p.font-main {
+  font-family: $font-main;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background-color: #979797;
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-top: 15px;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+h2 {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 34px;
+  font-size: 32px;
+}
+
+section h3 {
+  font-size: 32px;
+}
+
+h3 {
+  padding-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+  color: $primary-title-color;
+  font-family: $font-main;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h4, h5 {
+  line-height: 2em;
+}
+
+.paragraph-content-spacer {
+  @include paragraph-content-spacer;
+}
+
+// bootstrap override
+[class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+// bootstrap override
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+// bootstrap override
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+}
+
+.dark-blue-btn {
+  background-color: $color-button-background-dark;
+  text-transform: capitalize;
+}
+
+.text-vcenter {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.fa {
+  color: $primary-title-color;
+}
+
+.vertical {
+  vertical-align: middle;
+  height: 250px;
+  width: 0;
+  border: 0.5px solid $color-gray;
+  margin-top: 85px;
+}
+
+.clear-margins {
+  margin: 0;
+}
+
+.double-spaced-on-tablet {
+  width: 100%;
+
+  @media (min-width: $max-width-sm) {
+    display: inline-block;
+    width: 49%;
+  }
+}
+
+// mobile
+@media (max-width: $max-width-sm) {
+  #newsletter {
+    padding: 10px 10px 40px;
+
+    input {
+      margin: -2px auto 0;
+      width: 100%;
+    }
+  }
+
+  .grey-button {
+    text-align: center;
+    width: 405px;
+  }
+
+  #mc_embed_signup {
+    .form-control {
+      max-width: 100%;
+    }
+  }
+}
+
+@media (max-width: $max-width-xs) {
+  form {
+    padding: 0;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+  }
+}

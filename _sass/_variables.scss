@@ -6,17 +6,23 @@ $primary-title-color: #385C6C;
 $primary-text-color: #1C2E36;
 
 // screen widths
+$max-width-xxs: 300px;
 $max-width-xs: 650px;
-$max-width-sm: 768px;
+$max-width-sm: 767px;
 $max-width-md: 992px;
+$max-width-lg: 1200px;
 
 $min-width-sm: $max-width-xs;
 $min-width-md: $max-width-sm;
 $min-width-lg: $max-width-md;
+$min-width-xlg: $max-width-lg;
 
 // fonts
 $font-sans: "Open Sans", sans-serif;
-$font-main: "Montserrat", sans-serif;
+$font-montserrat: "Montserrat", sans-serif;
+$font-main: $font-montserrat;
+$font-playfair: "Playfair Display";
+$font-oswald: "Oswald";
 
 // colors - rules
 $color-gray: #979797;
@@ -24,6 +30,7 @@ $color-gray-light: #f1f1f1;
 $color-gray-lighter: #dfdfdf;
 $color-gray-medium: #bbb;
 $color-gray-dark: #585858;
+$color-gray-darker: #464D55;
 $color-gray-main: #0e687a;
 
 $color-button-background-dark: #055f71;
@@ -40,7 +47,8 @@ $color-blue-medium: #06748a;
 $color-blue-dark: #005e8d;
 $color-blue-deep: #103536;
 $color-blue-deeper: #00758f;
-$color-blue-button: #009ab0;
+$color-blue-button: #385C6C;
+$color-blue-button-hover: $color-gray-darker;
 $color-blue-1: #458A9A;
 
 $color-peach: #ffae78;
@@ -68,6 +76,8 @@ $color-black: #000;
 
 // colors - specific purpose
 
+$color-dark-button-outline: #323232;
+
 $color-button-outline: $color-peach;
 $color-button-background-light: $color-blue-dark;
 $color-button-background-med: $color-blue-medium;
@@ -78,8 +88,8 @@ $color-input-bg: $color-gray-light;
 $color-input-shadow: $color-shadow-gray;
 
 $color-stats-border: $color-grey3;
-$color-stats-start: $color-peach-1;
-$color-stats-end: $color-blue-1;
+$color-stats-start: #B7B1B0;
+$color-stats-end: $primary-title-color;
 
 $color-nav-bg: $color-gray-light;
 $color-nav-border: $color-gray-medium;
@@ -112,3 +122,6 @@ $color-homepage-banner-bg-2: rgba($color-orange, 0.6);
 
 $color-footer-border-top: rgba($color-gray-main-new, 0.5);
 $color-input-focus: #F1F3F4;
+$color-option-background: #DDD;
+
+$color-background-press: #f8f8f8;

@@ -1,5 +1,5 @@
 .work-with-us-header {
-  background-image: url("../../images/Assets/workwithus_Headerimage.png");
+  background-image: url("../../images/Assets/career_masthead.png");
 }
 
 .darker-background {
@@ -7,6 +7,18 @@
 
   .gradient-button {
     margin-top: 10px;
+  }
+}
+
+.our-values {
+  p {
+    text-align: left;
+  }
+
+  ul {
+    font-family: $font-sans;
+    list-style-type: circle;
+    margin-left: 20px;
   }
 }
 
@@ -20,5 +32,11 @@ article {
   &:last-child {
     border: none;
     margin-bottom: 0;
+  }
+}
+
+@media (max-width: $max-width-md) {
+   .main-header {
+      background-position: 53%;
   }
 }

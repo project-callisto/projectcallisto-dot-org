@@ -1,31 +1,82 @@
 ---
 layout: default
 css: /css/what-we-do.css
+title: What We Do
 ---
 
 <header class="main-header what-we-do-header">
     <h2>What We Do</h2>
-    <p>We are a non-profit organization that creates technology to combat sexual assault and harassment.</p>
-    <a href="https://www.ted.com/talks/jessica_ladd_the_reporting_system_that_sexual_assault_survivors_want" class="gradient-button" target="_blank">Watch our Ted Talk</a>
+    <p>We help victims of sexual assault and harassment protect their communities.</p>
+    <a href="https://www.ted.com/talks/jessica_ladd_the_reporting_system_that_sexual_assault_survivors_want" class="white-button" target="_blank">watch our TED talk</a>
 </header>
 
 <section>
     <div class="paragraph-content-spacer">
-        <h3>Our Approach</h3>
-        <p class="paragraph-extra-spacer">Callisto is a non-profit organization that creates technology to combat sexual assault and harassment. Our technology is designed to empower survivors with options to seek support and identify repeat perpetrators. Callisto Campus is our flagship online system, which enables student survivors to document and report sexual assault and help identify repeat perpetrators. Callisto is considering an expansion to address both sexual assault and harassment in professional institutions and industries, contingent on philanthropic support.</p>
-        <a href="/Callisto_Year_2_highres.pdf" class="gradient-button long-button">Download our impact report</a>
+        <h3>Our Products</h3>
+        <p>In 2015, Callisto launched on two college campuses. It has since grown to 13 campuses and supports 149,000 students. Our Callisto Campus product allows student survivors of sexual assault to securely create time-stamped records of their assault, and to only report to their college when they're ready to take action.</p>
+
+	<p>In 2018, Callisto is expanding our model, one industry at our time. We will connect victims of serial perpetrators of sexual misconduct with a Callisto Options Counselor who can help them navigate their next steps and put victims in touch with each other.</p>
+	<div class="row">
+	  <div class="col-md-6">
+            <a href="#expansion" class="gradient-button center-btn">more on callisto expansion</a>
+	  </div>
+	  <div class="col-md-6">
+	    <a href="#campus" class="gradient-button center-btn">about callisto campus</a>
+	  </div>
     </div>
 </section>
 
 {% include anon-male.html %}
 
+<section class="expansion">
+  <a name="expansion"></a>
+    <div class="paragraph-content-spacer">
+        <h3>Callisto Expansion</h3>
+        <p>Callisto recognizes that predators who repeatedly commit sexual assault and/or harassment are not limited to any institution or industry. Coverage of widespread sexual misconduct through the #MeToo movement has highlighted the pervasiveness of this issue.</p>
+
+	<p>In 2018, we are expanding our reporting platform to detect repeat perpetrators across different sectors. Callisto for professional industries adapts our unique matching model, providing unique support options to victims:</p>
+	<div class="value-prop-item">
+          <img src="../images/Assets/match-icon-new.svg" alt="Write">
+          <div>
+            <h5>MATCH</h5>
+            <p>Victims input the identity of their perpetrators under the precondition that, if a match is found, a Callisto Options Counselor will reach out to each victim individually.</p>
+          </div>
+        </div>
+        <div class="value-prop-item">
+          <img src="../images/Assets/legal-icon.svg" alt="Match">
+          <div>
+            <h5>OPTIONS COUNSELING</h5>
+            <p>A Callisto Options Counselor will guide victims through the reporting process, their choices, and offer to connect them with others who have named the same assailant.</p>
+
+          </div>
+        </div>
+	<div class="row hidden">
+	  <div class="col-md-6">
+            <a target="_blank" href="https://cryptography.projectcallisto.org" class="gradient-button center-btn">demo our cryptography model</a>
+	  </div>
+	  <div class="col-md-6">
+	    <a target="_blank" href="/whitepaper.pdf" class="gradient-button center-btn">read our white paper</a>
+	  </div>
+	</div>
+    </div>
+</section>
+
+
+<section class="quote-section">
+    <div class="paragraph-content-spacer">
+        <blockquote>"I was raped during the first week of my freshman year, and I can't even count the number of people I know who have been sexually assaulted during their college career. I wish there would've been more education about sexual assault in general as well as reporting options and support services."</blockquote>
+        <cite>― Anonymous, Survivor of Sexual Assault</cite>
+    </div>
+</section>
+
 <section class="callisto-campus">
+    <a name="campus"></a>
     <div class="paragraph-content-spacer">
         <h3>Callisto Campus</h3>
         <div class="paragraph-extra-spacer">
             <p>An estimated 20% of women, 7% of men, and 24% of trans and gender nonconforming students are sexually assaulted during their college career. An estimated 90% of sexual assaults are committed by repeat perpetrators. Over 85% of college survivors know their assailant, and less than 10% report to their school or the police.</p>
-            <p>On college campuses, our trauma-informed platform increased the chances that a survivor will report, the speed of reporting, and the detection of serial sexual assailants. Survivors who visited their school’s Callisto Campus website were 5 times more likely to report their assault than survivors who did not. The time it took for survivors to report using Callisto Campus (4 months) was almost three times faster than the national average of 11 months. And 15% of survivors entering our matching system (see below) matched with another victim of the same assailant, causing them to report simultaneously.</p>
-            <h4>Student survivors are offered three options:</h4>
+            <p>On college campuses, our trauma-informed platform has increased the chances that a survivor will report, the speed of reporting, and the detection of serial sexual assailants. Survivors who visit their school’s Callisto Campus website are five times more likely to report their assault than survivors who do not. The time it takes for survivors to report using Callisto Campus (four months) is almost three times faster than the national average of 11 months. And 15% of survivors entering our matching system (see below) match with another victim of the same assailant, causing them to report simultaneously.</p>
+            <h4>STUDENT SURVIVORS ARE OFFERED THREE OPTIONS:</h4>
             <div class="value-prop-item">
                 <img src="../images/Assets/record-icon.svg" alt="Write">
                 <div>
@@ -37,34 +88,41 @@ css: /css/what-we-do.css
                 <img src="../images/Assets/match-icon.svg" alt="Match">
                 <div>
                     <h5>MATCH</h5>
-                    <p>Survivors can help their institution identify repeat offenders using Callisto Campus’ matching function. This option allows survivors to store information about their perpetrator under the precondition that it will only be released to the institution if another student names the same perpetrator. If matched, the institution receives the verified contact information of both victims and the name and unique identifiers (e.g. facebook URL) of the perpetrator. Survivors are informed that there has been a match and that their institution will reach out to them, and are asked if they want to report their stored record to aid in the investigation.</p>
+                    <p>Survivors input the identity of their perpetrators under the precondition that, if a match is found, their Title IX coordinator will reach out to each survivor individually.</p>
                 </div>
             </div>
             <div class="value-prop-item">
                 <img src="../images/Assets/report-icon.svg" alt="Report">
                 <div>
                     <h5>REPORT</h5>
-                    <p>Survivors can electronically send the record they have created to their institution to trigger an investigation or a consultation. Callisto Campus equips institutions with a detailed account of what happened before the student ever meets with them, enabling a higher-quality and lower-trauma investigation. </p>
+                    <p>Survivors can electronically send the record they have created directly to their institution to trigger an investigation or a consultation.</p>
                 </div>
             </div>
-            <p>Reports submitted through Callisto led to more rapid and thorough investigations and reduced the chances for human error. According to surveys, survivors most often reported in order to protect their community. By empowering survivors with pathways to desired outcomes, Callisto helps to stop perpetrators sooner and creates a deterrent for other would-be perpetrators.</p>
-            <p>Universities that partner with Callisto receive a school-specific Callisto website (including custom content on reporting options and resources), along with training and materials to roll it out to their students. Callisto also provides aggregate data reports to inform the policies and practices of our partners. </p>
+            <p>Reports submitted through Callisto lead to more rapid and thorough investigations and reduce the chances for human error. According to surveys, survivors most often report in order to protect their community. By empowering survivors with pathways to desired outcomes, Callisto helps stop perpetrators sooner and creates a deterrent for other would-be perpetrators.</p>
+            <p>Universities that partner with Callisto receive a school-specific Callisto website (including custom content on reporting options and resources), along with training and materials to roll it out to their students. Callisto also provides aggregate data reports to inform the policies and practices of our partners. Learn more about <a href="/Callisto_Year_2_highres.pdf" target="_blank">our impact</a>.</p>
         </div>
-        <a class="gradient-button long-button" href="/get-involved#suggest-section">ENROLL YOUR INSTITUTION</a>
+	<hr />
+	<div class="row center-block container-fluid extra-spacer">
+	  <p class="text-center bold-oswald">If you are a student who wants to see Callisto at your school, download our Mobilizing for Callisto toolkit. It includes helpful tools for on-campus advocacy efforts.</p>
+	</div>
+	<div class="row center-block">
+	  <div class="col-md-6">
+	    <a class="gradient-button download-icon" href="https://www.projectcallisto.org/student_activism_toolkit.pdf" target="_blank">campus toolkit</a>
+	  </div>
+	  <div class="col-md-6">
+            <a class="gradient-button" href="/Callisto_Year_2_highres.pdf" target="_blank">read our impact report</a>
+	  </div>
+	</div>
     </div>
 </section>
 
-<section class="quote-section">
+<section id="first-quote" class="quote-section">
     <div class="paragraph-content-spacer">
-        <blockquote>"I was raped during the first week of my freshman year, and I can't even count the number of people I know who have been sexually assaulted during their college career. I wish there would've been more education about sexual assault in general as well as reporting options and support services."</blockquote>
-        <cite>― Anonymous, Survivor of Sexual Assault</cite>
+      <blockquote>“Say we have 100 survivors on campus. There’s probably 80 different preferences for how they report their assault. Prior to Callisto, we had one option for all of them — and that was to come and talk to an administrator.”</blockquote>
+        <cite>― Title IX Coordinator</cite>
     </div>
 </section>
 
-<section class="expansion">
-    <div class="paragraph-content-spacer">
-        <h3>Callisto Expansion</h3>
-        <p class="paragraph-extra-spacer">Callisto recognizes that predators who repeatedly commit sexual assault or harassment are not limited to any institution or industry. In 2017, coverage of widespread sexual misconduct began to spur more and more survivors to come forward. Callisto has begun to expand its system to detect repeat perpetrators across professional industries, with a pilot slated for 2018.</p>
-        <a href="/donate" class="gradient-button">DONATE</a>
-    </div>
+<section id="newsletter">
+    {% include mailchimp.html %}
 </section>
