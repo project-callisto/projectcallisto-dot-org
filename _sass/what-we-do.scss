@@ -34,7 +34,7 @@
 
     .value-prop-item img {
         margin-right: 25px;
-	width: 100px;
+	width: 46px;
     }
 }
 
@@ -48,27 +48,8 @@
     }
 }
 
-@media (max-width: $max-width-sm) {
-    .callisto-campus {
-        h4, h5 {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .value-prop-item {
-            flex-direction: column;
-        }
-
-        .value-prop-item img {
-            align-self: center;
-            margin-bottom: 8px;
-            margin-right: 0;
-        }
-    }
-}
-
 @media (max-width: $max-width-md) {
-    *[class*='col-lg']{
+    *[class*='col-md']{
 	padding-top:10px;
     }
 }
