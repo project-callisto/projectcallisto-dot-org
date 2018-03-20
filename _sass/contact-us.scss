@@ -33,7 +33,11 @@ section {
   }
 
   .row > div:first-of-type {
-    padding-right: 20px;
+    background-image: url("../../images/toolkit_background.png");
+  }
+
+  .row > div {
+    padding: 10px 20px;
   }
 
   .gradient-button {
