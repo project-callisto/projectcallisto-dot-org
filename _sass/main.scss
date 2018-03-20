@@ -251,17 +251,17 @@ ul.navbar-collapse {
   background-color: $color-gray-darker;
 
   ::placeholder {
-      color: $color-white;
+    color: $color-white;
   }
 
   :-ms-input-placeholder {
-      color: $color-white;
+    color: $color-white;
   }
 
   ::-ms-input-placeholder {
-      color: $color-white;
+    color: $color-white;
   }
-  
+
   .email {
     border: 0;
     background-color: #30353B;
@@ -350,6 +350,6 @@ ul.navbar-collapse {
   }
 
   .scroll-down {
-      margin-top: 3%;
+    margin-top: 3%;
   }
 }

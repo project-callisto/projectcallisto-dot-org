@@ -27,9 +27,14 @@ section {
 }
 
 .more-contact {
+  .row > div:first-of-type {
+    padding-right: 20px;
+  }
+
   .gradient-button {
     margin-top: 25px;
-    height: 55px;
+    margin-bottom: 25px;
+    width: 100%;
   }
 
   h4 {
@@ -39,6 +44,7 @@ section {
     font-size: 26px;
     font-family: $font-oswald;
     color: $primary-text-color;
+    text-align: left;
   }
 }
 
