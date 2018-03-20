@@ -24,12 +24,12 @@ css: /css/contact-us.css
 </section>
 
 <section class="contact-form" id="become-partner">
-    <form id="form25" name="form25" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://sexualhealthinnovations.wufoo.com/forms/m18vtmie1qtp60p/#public">
+    <form id="form25" name="form25" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" action="https://sexualhealthinnovations.wufoo.com/forms/m18vtmie1qtp60p/#public">
         <ul>
             <li id="foli1">
                 <div>
-                    <select id="Field1" name="Field1" class="field select medium" tabindex="1">
-                        <option value="null" selected="selected">I AM...</option>
+                    <select id="Field1" name="Field1" class="field select medium" tabindex="1" required>
+                        <option value="" selected>I AM...</option>
                         <option value="A potential campus partner">Potential campus partner</option>
                         <option value="A potential industry partner">Potential industry partner</option>
                         <option value="An Advocate/Volunteer">Advocate/Volunteer</option>
@@ -41,13 +41,10 @@ css: /css/contact-us.css
                     </select>
                 </div>
             </li>
-            <li id="foli218" class="">
-                <label class="desc" id="title218" for="Field218">
-                    Industry
-                </label>
+            <li id="foli218">
                 <div>
-                    <select id="Field218" name="Field218" class="field select medium" tabindex="2">
-                        <option value="null" selected="selected">INDUSTRY</option>
+                    <select id="Field218" name="Field218" class="field select medium" tabindex="2" required>
+                        <option value="" selected>INDUSTRY</option>
                         <option value="Technology / VC">Technology / VC</option>
                         <option value="Entertainment">Entertainment</option>
                         <option value="Law">Law</option>
@@ -62,7 +59,7 @@ css: /css/contact-us.css
                     </select>
                 </div>
             </li>
-            <li id="foli5" class="col-md-6 contact-pad-right">
+            <li id="foli5" class="col-md-6 col-sm-12">
                 <label class="desc" id="title5" for="Field5">
                     Name
                 </label>
@@ -70,7 +67,7 @@ css: /css/contact-us.css
                     <input id="Field5" name="Field5" type="text" class="field text medium" value="" maxlength="255" tabindex="3" onkeyup="" />
                 </div>
             </li>
-            <li id="foli7" class="col-md-6 contact-pad-left">
+            <li id="foli7" class="col-md-6 col-sm-12">
                 <label class="desc" id="title7" for="Field7">
                     Title
                 </label>
@@ -80,10 +77,10 @@ css: /css/contact-us.css
             </li>
             <li id="foli216">
                 <label class="desc" id="title216" for="Field216">
-                    Email
+                    Email*
                 </label>
                 <div>
-                    <input id="Field216" name="Field216" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="5" />
+                    <input id="Field216" name="Field216" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="5" required />
                 </div>
             </li>
             <li id="foli10">
@@ -102,6 +99,7 @@ css: /css/contact-us.css
                     <textarea id="Field12" name="Field12" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="7" onkeyup="" ></textarea>
                 </div>
             </li>
+            <p class="required-explainer">* REQUIRED FIELD</p>
             <li id="foli14">
                 <fieldset>
                     <div class="subfield demo-checkbox">

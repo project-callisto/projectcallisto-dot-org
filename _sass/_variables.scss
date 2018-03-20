@@ -17,7 +17,8 @@ $min-width-lg: $max-width-md;
 
 // fonts
 $font-sans: "Open Sans", sans-serif;
-$font-main: "Montserrat", sans-serif;
+$font-montserrat: "Montserrat", sans-serif;
+$font-main: $font-montserrat;
 $font-playfair: "Playfair Display";
 $font-oswald: "Oswald";
 

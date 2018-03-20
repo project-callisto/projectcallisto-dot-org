@@ -6,16 +6,19 @@ html {
 }
 
 body {
-  height: 100%;
-  margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: $font-main;
-  font-size: 16px;
 
   &.locked {
     overflow: hidden;
   }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: $font-main;
 }
 
 p {

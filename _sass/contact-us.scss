@@ -42,23 +42,34 @@ section {
   }
 }
 
+.required-explainer {
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 18px;
+  font-size: 1rem;
+  font-family: $font-montserrat;
+  font-weight: 700;
+}
+
 .contact-form {
   background-color: #FFF;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: $font-montserrat;
+  letter-spacing: 2px;
 
-  .content {
-    font-weight: 300;
-    line-height: 26px;
-    font-size: 16px;
-    font-family: Montserrat;
-    color: #1C2E36;
+  li {
+    text-align: left;
+    text-transform: uppercase;
   }
 
   .field {
     width: 100%;
+    padding: 5px;
+    background-color: #F6F6F6;
+    border: none;
   }
 
   .gradient-button {
