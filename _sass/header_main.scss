@@ -44,6 +44,12 @@
   white-space: pre-wrap;
 }
 
+@media (min-width: $min-width-md) {
+  .main-header p {
+    max-width: 480px;
+  }
+}
+
 // mobile
 @media (max-width: $max-width-sm) {
   .main-header p {

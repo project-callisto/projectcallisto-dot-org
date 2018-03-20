@@ -66,6 +66,18 @@ a#brand_link {
   border-width: 2px;
 }
 
+// tablet and desktop
+@media (min-width: $min-width-md) {
+  .navbar-nav > li > a {
+    vertical-align: middle;
+  }
+
+  .navbar-nav > li {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
 // mobile
 @media (max-width: $max-width-sm) {
   .header-nav {

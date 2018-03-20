@@ -299,10 +299,21 @@ ul.navbar-collapse {
     vertical-align: middle;
   }
 
+<<<<<<< HEAD
   .navbar-nav > li {
     padding-top: 0;
     padding-bottom: 0;
   }
+=======
+    .main-header p {
+	max-width: 480px;
+    }
+
+    .navbar-nav > li {
+	padding-top: 0;
+	padding-bottom: 0;
+    }
+>>>>>>> 7ffa4aa013354b035fcf6f8255da082531d8dfc3
 
   #id_header {
     display: flex;
