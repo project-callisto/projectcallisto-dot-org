@@ -27,13 +27,25 @@ section {
 }
 
 .more-contact {
+  margin-bottom: 20px;
+
   .row {
     max-width: 630px;
     margin: 0 auto;
+
+    @media (min-width: $max-width-lg) {
+      display: flex;
+    }
   }
 
   .row > div:first-of-type {
     background-image: url("../../images/toolkit_background.png");
+
+    @media (min-width: $max-width-lg) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
   }
 
   .row > div {
@@ -145,4 +157,8 @@ section {
     width: 22px;
     height: 22px;
   }
+}
+
+a.big-link {
+  padding-bottom: 0;
 }
