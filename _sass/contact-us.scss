@@ -27,6 +27,11 @@ section {
 }
 
 .more-contact {
+  .row {
+    max-width: 630px;
+    margin: 0 auto;
+  }
+
   .row > div:first-of-type {
     padding-right: 20px;
   }
@@ -65,6 +70,12 @@ section {
   justify-content: center;
   font-family: $font-montserrat;
   letter-spacing: 2px;
+  max-width: 630px;
+  margin: 0 auto;
+
+  form {
+    width: 100%;
+  }
 
   li {
     text-align: left;
@@ -129,21 +140,5 @@ section {
     padding-right: 10px;
     width: 22px;
     height: 22px;
-  }
-}
-
-// tablet and desktop
-@media (min-width: $min-width-md) {
-  .contact-pad-right {
-    padding-right: 15px;
-  }
-
-  .contact-pad-left {
-    padding-left: 15px;
-  }
-
-  .more-contact {
-    margin-left: 25%;
-    margin-right: 25%;
   }
 }
