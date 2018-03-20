@@ -1,15 +1,19 @@
+@import "_variables.scss";
+
 .navbar-toggle .icon-bar {
   background-color: $color-black;
 }
 
-a#brand_link {
-  display: flex;
-  margin-left: 2rem;
+#nav-border {
+  border-image-slice: 1;
+  border-style: solid;
+  border-width: 2px;
 }
 
-.header-nav {
+nav.header-nav {
+  background-color: $color-white;
+  font-family: $font-main;
   text-transform: lowercase;
-  height: 80px;
 
   li {
     margin: 0 5px;
@@ -19,10 +23,6 @@ a#brand_link {
     color: #0E687A;
     font-weight: 500;
   }
-}
-
-#id_header {
-  font-family: $font-main;
 
   .donate-li {
     margin-right: 0;
@@ -30,54 +30,51 @@ a#brand_link {
   }
 }
 
-.nav > li > a {
-  &:hover {
-    background-color: $color-white;
-  }
-}
-
-#callisto {
-  color: $color-callisto-logo;
-  float: left;
-  font-size: 17px;
-  font-weight: 500;
-  letter-spacing: 2.1px;
-  margin-left: 7px;
-  margin-top: 3px;
-  outline: none;
-  text-transform: uppercase;
-}
-
-.header-nav {
+.nav > li > a:hover {
   background-color: $color-white;
+}
 
-  .footer-content {
-    display: none;
+.brand-link {
+  margin-left: 1rem;
+  margin-top: 10px;
+  display: flex;
+  margin-left: 2rem;
+
+  img {
+    width: 28px;
+    height: 28px;
+    float: left;
+  }
+
+  .text {
+    color: $color-callisto-logo;
+    float: left;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 2.1px;
+    margin-left: 7px;
+    margin-top: 3px;
+    outline: none;
+    text-transform: uppercase;
   }
 }
 
-.nav {
+ul.nav {
   padding: 0;
-}
-
-#nav-border {
-  border-image-slice: 1;
-  border-style: solid;
-  border-width: 2px;
 }
 
 // tablet and desktop
 @media (min-width: $min-width-md) {
-  .navbar-nav > li > a {
+  ul.nav > li > a {
     vertical-align: middle;
   }
 
-  .navbar-nav > li {
+  ul.nav > li {
     padding-top: 0;
     padding-bottom: 0;
   }
 
-  #id_header {
+  nav.header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,13 +87,11 @@ a#brand_link {
     height: 0px;
   }
 
-  #id_header {
-    li {
-      padding-right: 10px;
-    }
+  nav.header-nav li {
+    padding-right: 10px;
   }
 
-  #id_header .donate-li {
+  nav.header-nav .donate-li {
     padding-bottom: 5px;
 
     a {
@@ -104,21 +99,19 @@ a#brand_link {
     }
   }
 
-  a#brand_link {
+  .brand-link {
     position: absolute;
   }
 
-  .nav {
-    li {
-      background-color: $color-white;
-      padding-left: 5px;
-    }
+  ul.nav li {
+    background-color: $color-white;
+    padding-left: 5px;
   }
 }
 
 // micro
 @media (max-width: $max-width-xxs) {
-  #callisto {
+  .brand-link-text {
     display: none;
   }
 }
