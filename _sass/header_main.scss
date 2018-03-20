@@ -10,7 +10,7 @@
   width: 100%;
   background-size: cover;
   background-position: center top;
-  padding: 25% 10% 10%;
+  padding: 13% 10% 3.86%;
   justify-content: left;
   line-height: 2em;
 
@@ -30,7 +30,7 @@
   margin-bottom: 16px;
   color: $color-white;
   text-align: left;
-  width: 480px;
+  width: 500px;
 }
 
 .main-header p {
@@ -38,7 +38,7 @@
   color: $color-white;
   font-size: 20px;
   line-height: 1.4;
-  width: 480px;
+  width: 520px;
   font-weight: 300;
   text-align: left;
   white-space: pre-wrap;
@@ -46,7 +46,7 @@
 
 @media (min-width: $min-width-md) {
   .main-header p {
-    max-width: 480px;
+    max-width: 500px;
   }
 }
 

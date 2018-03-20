@@ -1,5 +1,9 @@
 /* Homepage */
 
+.main-header {
+      padding: 22% 8% 10%;
+}
+
 #school-logo {
     width: 70px;
     float: left;
@@ -128,18 +132,18 @@
     }
 
     p {
-	width: auto;
+	width: 100%;
 	text-align: left;
     }
 }
 
 .header-left {
-    width: 32%;
+    width: 40%;
 }
 
 .header-right {
     margin-left: auto;
-    width: 38%;
+    width: 40%;
     display: flex;
     flex-direction: row;
 }
