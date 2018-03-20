@@ -89,6 +89,8 @@ select {
 
 .paragraph-content-spacer {
     margin-top: 60px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 // tablet and desktop
@@ -96,19 +98,13 @@ select {
     .contact-pad-right {
 	padding-right: 15px;
     }
+
     .contact-pad-left {
 	padding-left: 15px;
     }
 
-    .contact-info-right {
-	p {
-	    padding-right: 50%;
-	}
+    .more-contact {
+	margin-left: 25%;
+	margin-right: 25%
     }
-
-    .contact-info-left {
-	p a {
-	    margin-right: 50%;
-	}
-    }
-}
+ }
