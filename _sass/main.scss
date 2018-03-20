@@ -295,16 +295,6 @@ ul.navbar-collapse {
 
 // tablet and desktop
 @media (min-width: $min-width-md) {
-  .navbar-nav > li > a {
-    vertical-align: middle;
-  }
-
-  #id_header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
   #newsletter {
     height: 85px;
     padding: 20px 20px 20px;

@@ -76,6 +76,12 @@ a#brand_link {
     padding-top: 0;
     padding-bottom: 0;
   }
+
+  #id_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 // mobile
