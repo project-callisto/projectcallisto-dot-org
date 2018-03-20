@@ -244,7 +244,7 @@ section.expanded-section {
 }
 
 .main-header {
-    align-items: center;
+    align-items: left;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -255,8 +255,8 @@ section.expanded-section {
     width: 100%;
     background-size: cover;
     background-position: center top;
-    padding: 115px 10% 115px;
-    justify-content: center;
+    padding: 170px 10% 65px;
+    justify-content: left;
     line-height: 2em;
 
     h2 {
@@ -274,7 +274,8 @@ section.expanded-section {
     font-weight: 800;
     margin-bottom: 16px;
     color: $color-white;
-    text-align: center;
+    text-align: left;
+    width: 480px;
 }
 
 .main-header p {
@@ -282,9 +283,10 @@ section.expanded-section {
     color: $color-white;
     font-size: 20px;
     line-height: 1.4;
-    width: 572px;
+    width: 480px;
     font-weight: 300;
-    text-align: center;
+    text-align: left;
+    white-space: pre-wrap;
 }
 
 .pattern-section {
@@ -610,8 +612,7 @@ ul.navbar-collapse {
 
     .scroll-down {
 	img {
-	    position: absolute;
-	    bottom: 40px;
+	    bottom: 150px;
 	    left: 50%;
 	}
     }
@@ -669,16 +670,26 @@ ul.navbar-collapse {
     }
 
     .scroll-down {
+	display: inline-block;
+	marign: auto;
+
 	img {
-	position: absolute;
-	bottom: -80px;
-	left: 50%;
+	    text-align: center;
+	    marign: auto;
 	}
     }
 }
 
 // mobile
 @media (max-width: $max-width-sm) {
+    .main-header p {
+	width: 95%;
+    }
+
+    .main-header h2 {
+	width: 95%;
+    }
+    
     .header-nav {
 	height: 0px;
     }

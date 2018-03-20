@@ -4,6 +4,17 @@
 
 .main-header {
     padding: 130px 10% 130px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+	text-align: center;
+    }
+
+    p {
+	text-align: center;
+    }
 }
 
 .darker-background {
