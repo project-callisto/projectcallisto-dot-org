@@ -1,77 +1,79 @@
 .stat-icon {
-    $stat-icon-size: 150px;
-    height: $stat-icon-size;
-    width: $stat-icon-size;
-    margin: 0 auto 25px;
-    position: relative;
-    border: 2px rgba($color-stats-border, 0.7) solid;
+  $stat-icon-size: 150px;
 
-    &, > * {
-        border-radius: 50%;
-    }
+  height: $stat-icon-size;
+  width: $stat-icon-size;
+  margin: 0 auto 25px;
+  position: relative;
+  border: 2px rgba($color-stats-border, 0.7) solid;
 
-    > * {
-        position: absolute;
-    }
+  &, > * {
+    border-radius: 50%;
+  }
 
-    &, .stat-white-inner-circle {
-        background-color: #FFFFFF;
-    }
+  > * {
+    position: absolute;
+  }
 
-    .stat-white-inner-circle {
-        $colored-border-size: 10%;
-        width: 100% - $colored-border-size;
-        height: 100% - $colored-border-size;
-        margin: $colored-border-size / 2;
-    }
+  &, .stat-white-inner-circle {
+    background-color: #FFFFFF;
+  }
 
-    .stat-colored-border {
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(0, $color-stats-end 40%, $color-stats-start 60%);
-    }
+  .stat-white-inner-circle {
+    $colored-border-size: 10%;
 
-    .stat-colored-border.five-x {
-        background: linear-gradient(310deg, $color-stats-end 40%, $color-stats-start 60%);
-    }
+    width: 100% - $colored-border-size;
+    height: 100% - $colored-border-size;
+    margin: $colored-border-size / 2;
+  }
 
-    .stat-colored-border.fifteen-percent {
-        background: linear-gradient(310deg, $color-stats-end 40%, $color-stats-start 60%);
-    }
+  .stat-colored-border {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0, $color-stats-end 40%, $color-stats-start 60%);
+  }
 
-    .stat-colored-border.three-x {
-        background: linear-gradient(310deg, $color-stats-end 40%, $color-stats-start 60%);
-    }
+  .stat-colored-border.five-x {
+    background: linear-gradient(310deg, $color-stats-end 40%, $color-stats-start 60%);
+  }
 
-    .text {
-        color: $primary-title-color;
-        font-size: 40px;
-        font-weight: 600;
-        width: 100%;
-        height: 100%;
-        line-height: $stat-icon-size;
-    }
+  .stat-colored-border.fifteen-percent {
+    background: linear-gradient(310deg, $color-stats-end 40%, $color-stats-start 60%);
+  }
+
+  .stat-colored-border.three-x {
+    background: linear-gradient(310deg, $color-stats-end 40%, $color-stats-start 60%);
+  }
+
+  .text {
+    color: $primary-title-color;
+    font-size: 40px;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    line-height: $stat-icon-size;
+  }
 }
 
 #stats {
-    background-color: $color-background-grey;
+  background-color: $color-background-grey;
 
-    li {
-        list-style-type: none;
-        padding: 15px;
-    }
+  li {
+    list-style-type: none;
+    padding: 15px;
+  }
 
-    a {
-	margin: auto;
-    }
+  a {
+    margin: auto;
+  }
 }
 
 @media (max-width: $max-width-xs) {
-    #stats {
-        li {
-            display: block;
-            float: none;
-            width: 100%;
-        }
+  #stats {
+    li {
+      display: block;
+      float: none;
+      width: 100%;
     }
+  }
 }

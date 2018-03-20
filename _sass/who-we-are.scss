@@ -1,52 +1,52 @@
 /* Who We Are page styling */
 
 .main-header {
-    padding: 15% 10% 2%;
+  padding: 15% 10% 2%;
 }
 
 #who-banner {
-    background-image: url("../images/Who_We_Are.jpg");
+  background-image: url("../images/Who_We_Are.jpg");
 }
 
 .who-we-are-header {
-    background-image: url("../../images/Assets/Whoweare_masthead.png");
+  background-image: url("../../images/Assets/Whoweare_masthead.png");
 }
 
 .our-team {
-    background-color: rgba(218, 226, 224, 0.2);
+  background-color: rgba(218, 226, 224, 0.2);
 
-    h4 {
-	font-family: $font-main;
-	font-weight: 600;
-    }
+  h4 {
+    font-family: $font-main;
+    font-weight: 600;
+  }
 }
 
 .our-history {
-    img {
-	padding-bottom: 50px;
-    }
+  img {
+    padding-bottom: 50px;
+  }
 
-    p {
-	margin-right: 12%;
-	margin-left: 12%;
-    }
+  p {
+    margin-right: 12%;
+    margin-left: 12%;
+  }
 }
 
 @media (min-width: $min-width-lg) {
-    .border-right {
-	border-right: 1px solid $color-gray;
-    }
+  .border-right {
+    border-right: 1px solid $color-gray;
+  }
 }
 
 @media (max-width: $max-width-md) {
-    .border-right {
-	border: 0;
-    }
+  .border-right {
+    border: 0;
+  }
 
-    .our-history {
-	p {
-	    margin-right: 3%;
-	    margin-left: 3%;
-	}
+  .our-history {
+    p {
+      margin-right: 3%;
+      margin-left: 3%;
     }
+  }
 }
