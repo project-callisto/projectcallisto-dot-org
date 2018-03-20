@@ -100,10 +100,15 @@ select {
 	padding-left: 15px;
     }
 
-    .more-contact {
+    .contact-info-right {
 	p {
-	    margin-left: 25%;
-	    margin-right: 25%;
+	    padding-right: 50%;
+	}
+    }
+
+    .contact-info-left {
+	p a {
+	    margin-right: 50%;
 	}
     }
 }
