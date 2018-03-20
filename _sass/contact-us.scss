@@ -147,3 +147,9 @@ section {
     margin-right: 25%;
   }
 }
+
+@media (max-width: $max-width-md) {
+  .main-header {
+    background-position: 55%;
+  }
+}
