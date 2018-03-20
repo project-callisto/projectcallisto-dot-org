@@ -89,7 +89,7 @@ section.expanded-section {
   text-align: center;
   justify-content: center;
   display: flex !important;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 
   &:hover, &:focus {
@@ -250,6 +250,18 @@ ul.navbar-collapse {
 #newsletter {
   background-color: $color-gray-darker;
 
+  ::placeholder {
+      color: $color-white;
+  }
+
+  :-ms-input-placeholder {
+      color: $color-white;
+  }
+
+  ::-ms-input-placeholder {
+      color: $color-white;
+  }
+  
   .email {
     border: 0;
     background-color: #30353B;
