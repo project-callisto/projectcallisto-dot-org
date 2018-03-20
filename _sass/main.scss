@@ -186,27 +186,6 @@ ul.navbar-collapse {
   margin-bottom: .5rem;
 }
 
-.nav-button {
-  background: $color-blue-button;
-  border: 0;
-  width: 215px;
-  height: 45px;
-  font-family: $font-main;
-  color: $color-white !important;
-  letter-spacing: 1px;
-  text-transform: lowercase;
-  margin-right: 3.5rem;
-  text-align: center;
-  display: flex !important;
-  flex-direction: column;
-  justify-content: center;
-
-  &:hover, &:focus {
-    background: $color-blue-button-hover !important;
-    text-decoration: none;
-  }
-}
-
 .paragraph-extra-spacer {
   padding: 15px 0 30px;
 }
@@ -353,28 +332,9 @@ ul.navbar-collapse {
     font-size: 25px;
   }
 
-  .header-nav {
-    li {
-      margin: -5px;
-    }
-  }
-
-  .nav-button {
-    margin-right: 1rem !important;
-    padding: 0 !important;
-    marign-top: .5rem;
-    margin-bottom: .5rem;
-    width: 80px;
-    height: 45px;
-  }
-
   .main-header p {
     font-size: 16px;
     width: auto;
-  }
-
-  .header-nav {
-    height: 60px;
   }
 
   .gradient-button {
