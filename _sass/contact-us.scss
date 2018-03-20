@@ -168,3 +168,25 @@ section {
     height: 22px;
   }
 }
+
+// tablet and desktop
+@media (min-width: $min-width-md) {
+  .contact-pad-right {
+    padding-right: 15px;
+  }
+
+  .contact-pad-left {
+    padding-left: 15px;
+  }
+
+  .more-contact {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+
+@media (max-width: $max-width-md) {
+  .main-header {
+    background-position: 55%;
+  }
+}
