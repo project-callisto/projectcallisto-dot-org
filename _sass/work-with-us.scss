@@ -22,10 +22,6 @@
   }
 }
 
-.main-header p {
-  max-width: 38%;
-}
-
 article {
   @include paragraph-content-spacer;
   @include spacer-with-underline;
@@ -36,5 +32,11 @@ article {
   &:last-child {
     border: none;
     margin-bottom: 0;
+  }
+}
+
+@media (max-width: $max-width-md) {
+   .main-header {
+      background-position: 53%;
   }
 }
