@@ -1,0 +1,56 @@
+.main-header {
+  align-items: left;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $color-white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  background-size: cover;
+  background-position: center top;
+  padding: 13% 10% 3.86%;
+  justify-content: left;
+  line-height: 2em;
+
+  h2 {
+    margin-top: 0;
+  }
+
+  .gradient-button {
+    margin: 0;
+  }
+}
+
+.main-header h2 {
+  font-size: 40px;
+  font-family: $font-playfair;
+  font-weight: 800;
+  margin-bottom: 16px;
+  color: $color-white;
+  text-align: left;
+  width: 480px;
+}
+
+.main-header p {
+  font-family: $font-sans;
+  color: $color-white;
+  font-size: 20px;
+  line-height: 1.4;
+  width: 480px;
+  font-weight: 300;
+  text-align: left;
+  white-space: pre-wrap;
+}
+
+// mobile
+@media (max-width: $max-width-sm) {
+  .main-header p {
+    width: 95%;
+  }
+
+  .main-header h2 {
+    width: 95%;
+  }
+}

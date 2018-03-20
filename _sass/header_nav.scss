@@ -1,0 +1,106 @@
+.navbar-toggle .icon-bar {
+  background-color: $color-black;
+}
+
+a#brand_link {
+  display: flex;
+  margin-left: 2rem;
+}
+
+.header-nav {
+  text-transform: lowercase;
+  height: 80px;
+
+  li {
+    margin: 0 5px;
+  }
+
+  a {
+    color: #0E687A;
+    font-weight: 500;
+  }
+}
+
+#id_header {
+  font-family: $font-main;
+
+  .donate-li {
+    margin-right: 0;
+    margin-left: 18px;
+  }
+}
+
+.nav > li > a {
+  &:hover {
+    background-color: $color-white;
+  }
+}
+
+#callisto {
+  color: $color-callisto-logo;
+  float: left;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 2.1px;
+  margin-left: 7px;
+  margin-top: 3px;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.header-nav {
+  background-color: $color-white;
+
+  .footer-content {
+    display: none;
+  }
+}
+
+.nav {
+  padding: 0;
+}
+
+#nav-border {
+  border-image-slice: 1;
+  border-style: solid;
+  border-width: 2px;
+}
+
+// mobile
+@media (max-width: $max-width-sm) {
+  .header-nav {
+    height: 0px;
+  }
+
+  #id_header {
+    li {
+      padding-right: 10px;
+    }
+  }
+
+  #id_header .donate-li {
+    padding-bottom: 5px;
+
+    a {
+      padding: 60px;
+    }
+  }
+
+  a#brand_link {
+    position: absolute;
+  }
+
+  .nav {
+    li {
+      background-color: $color-white;
+      padding-left: 5px;
+    }
+  }
+}
+
+// micro
+@media (max-width: $max-width-xxs) {
+  #callisto {
+    display: none;
+  }
+}
