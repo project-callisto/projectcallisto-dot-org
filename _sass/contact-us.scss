@@ -1,134 +1,131 @@
 /* Get Involved page styling */
 
 #involved-banner {
-    background-image: url("../images/Get_Involved_2.jpg");
-    background-position: bottom;
+  background-image: url("../images/Get_Involved_2.jpg");
+  background-position: bottom;
 }
 
 .community-icon {
-    color: black;
-    font-size: 60px;
-    padding: 0px 8px;
+  color: black;
+  font-size: 60px;
+  padding: 0px 8px;
 }
 
 .get-involved-header {
-    background-image: url("../../images/Assets/Contactus_masthead.png");
+  background-image: url("../../images/Assets/Contactus_masthead.png");
 }
 
 .become-partner {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 section {
-    padding: 20px 20px 20px;
-}    
+  padding: 20px 20px 20px;
+}
 
 .more-contact {
-    .gradient-button {
-	margin-top: 25px;
-	height: 55px;
-    }
+  .gradient-button {
+    margin-top: 25px;
+    height: 55px;
+  }
 
-    h4 {
-	margin-top: 0;
-	line-height: 35px;
-	font-weight: 500;
-	font-size: 26px;
-	font-family: $font-oswald;
-	color: $primary-text-color;
-    }
+  h4 {
+    margin-top: 0;
+    line-height: 35px;
+    font-weight: 500;
+    font-size: 26px;
+    font-family: $font-oswald;
+    color: $primary-text-color;
+  }
 }
 
 .contact-form {
-    background-color: #FFF;
+  background-color: #FFF;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  .content {
+    font-weight: 300;
+    line-height: 26px;
+    font-size: 16px;
+    font-family: Montserrat;
+    color: #1C2E36;
+  }
 
-    .content {
-	font-weight: 300;
-	line-height: 26px;
-	font-size: 16px;
-	font-family: Montserrat;
-	color: #1C2E36;
-    }
+  .field {
+    width: 100%;
+  }
 
-    .field {
-        width: 100%;
-    }
-
-
-    .gradient-button {
-	flex-direction: row;
-    }
+  .gradient-button {
+    flex-direction: row;
+  }
 }
 
 #mailchimp-pattern-section {
-    padding: 10px 15px 20px;
+  padding: 10px 15px 20px;
 }
 
 #suggest-section {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 li {
-    padding-bottom: 10px;
-    padding-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 select {
-    background-color: $color-option-background;
-    border: 0;
-    height: 30px;
+  background-color: $color-option-background;
+  border: 0;
+  height: 30px;
 }
 
 .paragraph-content-spacer {
-    margin-top: 60px;
-    margin-bottom: 0;
-    padding-bottom: 0;
+  margin-top: 60px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .thank-you-toast {
-    background-color: $color-blue-deeper;
-    color: $color-white;
-    height: 50px;
-    max-width: 630px;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  background-color: $color-blue-deeper;
+  color: $color-white;
+  height: 50px;
+  max-width: 630px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
+  p {
+    padding-top: 12px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    font-family: $font-main;
+  }
 
-    p {
-	padding-top: 12px;
-	font-size: 20px;
-	line-height: 24px;
-	text-align: center;
-	font-family: $font-main;
-    }
-
-    img {
-	padding-right: 10px;
-    }
+  img {
+    padding-right: 10px;
+  }
 }
 
 // tablet and desktop
 @media (min-width: $min-width-md) {
-    .contact-pad-right {
-	padding-right: 15px;
-    }
+  .contact-pad-right {
+    padding-right: 15px;
+  }
 
-    .contact-pad-left {
-	padding-left: 15px;
-    }
+  .contact-pad-left {
+    padding-left: 15px;
+  }
 
-    .more-contact {
-	margin-left: 25%;
-	margin-right: 25%
-    }
- }
+  .more-contact {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
