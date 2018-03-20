@@ -26,59 +26,6 @@ section {
   padding: 20px 20px 20px;
 }
 
-.more-contact {
-  margin-bottom: 40px;
-
-  .row {
-    max-width: 630px;
-    margin: 0 auto;
-
-    @media (min-width: $max-width-lg) {
-      display: flex;
-    }
-  }
-
-  .row > div {
-    padding: 0 20px;
-  }
-
-  .row > div:first-of-type {
-    background-image: url("../../images/toolkit_background.png");
-
-    @media (min-width: $max-width-lg) {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
-    p {
-      margin-top: 20px;
-    }
-  }
-
-  .row > div:last-of-type {
-    > p:last-of-type {
-      margin: 0;
-    }
-  }
-
-  .gradient-button {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    width: 100%;
-  }
-
-  h4 {
-    margin-top: 0;
-    line-height: 35px;
-    font-weight: 500;
-    font-size: 26px;
-    font-family: $font-oswald;
-    color: $primary-text-color;
-    text-align: left;
-  }
-}
-
 .required-explainer {
   text-align: left;
   letter-spacing: 2px;
@@ -98,6 +45,7 @@ section {
   letter-spacing: 2px;
   max-width: 630px;
   margin: 0 auto;
+  padding: 0;
 
   form {
     width: 100%;
@@ -126,6 +74,62 @@ section {
 
   .gradient-button {
     flex-direction: row;
+  }
+}
+
+.more-contact {
+  margin-bottom: 40px;
+
+  .row {
+    max-width: 630px;
+    margin: 0 auto;
+
+    @media (min-width: $max-width-lg) {
+      display: flex;
+    }
+  }
+
+  .row > div {
+    padding: 0 20px;
+  }
+
+  .gradient-button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+
+  h4 {
+    margin-top: 0;
+    line-height: 35px;
+    font-weight: 500;
+    font-size: 26px;
+    font-family: $font-oswald;
+    color: $primary-text-color;
+    text-align: left;
+  }
+}
+
+.more-contact-left {
+  background-image: url("../../images/toolkit_background.png");
+
+  @media (min-width: $max-width-lg) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: $font-montserrat;
+    font-weight: 500;
+  }
+}
+
+.more-contact-right {
+  > p:last-of-type {
+    margin: 0;
   }
 }
 
