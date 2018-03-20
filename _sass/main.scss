@@ -324,13 +324,6 @@ ul.navbar-collapse {
     max-width: 1200px;
     margin: 0 auto;
   }
-
-  .scroll-down {
-    img {
-      bottom: 150px;
-      left: 50%;
-    }
-  }
 }
 
 // mobile and tablet
@@ -353,16 +346,6 @@ ul.navbar-collapse {
     &, &.long-button {
       padding: 10px;
       width: 100%;
-    }
-  }
-
-  .scroll-down {
-    display: inline-block;
-    marign: auto;
-
-    img {
-      text-align: center;
-      marign: auto;
     }
   }
 }

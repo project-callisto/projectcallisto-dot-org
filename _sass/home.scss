@@ -1,7 +1,12 @@
 /* Homepage */
 
 .main-header {
-      padding: 22% 8% 10%;
+    padding: 22% 8% 10%;
+}
+
+.scroll-down {
+    margin-right: 8%;
+    margin-top: 5%;
 }
 
 #school-logo {
@@ -120,6 +125,7 @@
 }
 
 .home-header {
+    display: inline-block;
     background-image: url("../../images/Assets/homepage_masthead.png");
     align-items: flex-start;
     justify-content: flex-start;
@@ -134,6 +140,10 @@
     p {
 	width: 100%;
 	text-align: left;
+    }
+
+    img {
+	margin: auto;
     }
 }
 
@@ -150,6 +160,7 @@
 
 .header-quote-right {
     width: 70%;
+
     p {
 	margin-top: 150px;
 	margin-left: auto;
