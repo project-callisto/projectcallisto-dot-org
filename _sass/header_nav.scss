@@ -35,25 +35,20 @@ nav.header-nav {
 }
 
 .brand-link {
-  margin-left: 1rem;
-  margin-top: 10px;
   display: flex;
-  margin-left: 2rem;
+  align-items: center;
 
   img {
     width: 28px;
     height: 28px;
-    float: left;
   }
 
   .text {
     color: $color-callisto-logo;
-    float: left;
     font-size: 17px;
     font-weight: 500;
-    letter-spacing: 2.1px;
-    margin-left: 7px;
-    margin-top: 3px;
+    letter-spacing: 2px;
+    margin-left: 5px;
     outline: none;
     text-transform: uppercase;
   }
@@ -87,14 +82,16 @@ ul.nav {
     height: 0px;
   }
 
-  nav.header-nav li {
-    padding-right: 10px;
-  }
+  nav.header-nav {
+    li {
+      padding-right: 10px;
+    }
 
-  nav.header-nav .donate-li {
-    padding-bottom: 5px;
+    .donate-li {
+      padding-bottom: 5px;
+    }
 
-    a {
+    .donate-li a {
       padding: 60px;
     }
   }
