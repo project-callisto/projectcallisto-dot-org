@@ -117,9 +117,10 @@ select {
   display: none;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 
   p {
-    padding-top: 12px;
+    margin-top: 20px;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
@@ -127,7 +128,9 @@ select {
   }
 
   img {
-    padding-right: 10px;
+      padding-right: 10px;
+      width: 22px;
+      height: 22px;
   }
 }
 
