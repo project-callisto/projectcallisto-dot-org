@@ -1,5 +1,4 @@
-@import "_variables.scss";
-@import "_mixins.scss";
+/* Contact us page styling */
 
 #involved-banner {
   background-image: url("../images/Get_Involved_2.jpg");
@@ -28,10 +27,6 @@ section {
 }
 
 .more-contact {
-  .row {
-    @include paragraph-content-spacer;
-  }
-
   .row > div:first-of-type {
     padding-right: 20px;
   }
@@ -70,10 +65,6 @@ section {
   justify-content: center;
   font-family: $font-montserrat;
   letter-spacing: 2px;
-
-  form {
-    @include paragraph-content-spacer;
-  }
 
   li {
     text-align: left;
@@ -138,5 +129,21 @@ section {
     padding-right: 10px;
     width: 22px;
     height: 22px;
+  }
+}
+
+// tablet and desktop
+@media (min-width: $min-width-md) {
+  .contact-pad-right {
+    padding-right: 15px;
+  }
+
+  .contact-pad-left {
+    padding-left: 15px;
+  }
+
+  .more-contact {
+    margin-left: 25%;
+    margin-right: 25%;
   }
 }
