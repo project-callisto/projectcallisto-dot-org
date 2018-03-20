@@ -93,6 +93,30 @@ select {
     padding-bottom: 0;
 }
 
+.thank-you-toast {
+    background-color: $color-blue-deeper;
+    color: $color-white;
+    height: 50px;
+    max-width: 630px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+    p {
+	padding-top: 12px;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	font-family: $font-main;
+    }
+
+    img {
+	padding-right: 10px;
+    }
+}
+
 // tablet and desktop
 @media (min-width: $min-width-md) {
     .contact-pad-right {
