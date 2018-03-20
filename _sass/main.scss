@@ -42,7 +42,7 @@ section.expanded-section {
 .quote-section blockquote {
   padding: 0;
   border: none;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .quote-section cite {
@@ -67,6 +67,7 @@ section.expanded-section {
   display: flex !important;
   flex-direction: column;
   justify-content: center;
+  font-weight: 600;
 
   &:hover {
     background: $color-blue-button-hover !important;
@@ -155,6 +156,7 @@ a.big-link {
   flex-direction: column;
   justify-content: center;
   border: 0;
+  font-weight: 600;
 
   &:hover {
     background: $color-blue-button !important;
