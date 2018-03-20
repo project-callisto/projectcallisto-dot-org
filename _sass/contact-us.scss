@@ -80,6 +80,14 @@ section {
   }
 }
 
+.subfield {
+  display: flex;
+
+  .field {
+    width: 20px;
+  }
+}
+
 .more-contact {
   margin-bottom: 40px;
 
