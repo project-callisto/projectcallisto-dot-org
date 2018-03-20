@@ -143,6 +143,15 @@ h4, h5 {
   margin-top: 85px;
 }
 
+.double-spaced-on-tablet {
+  width: 100%;
+
+  @media (min-width: $max-width-sm) {
+    display: inline-block;
+    width: 49%;
+  }
+}
+
 // mobile
 @media (max-width: $max-width-sm) {
   #newsletter {
