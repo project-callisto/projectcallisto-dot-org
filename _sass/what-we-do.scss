@@ -1,55 +1,55 @@
 /* What We Do page styling */
 
 #what-banner {
-    background-image: url("../images/What_We_do_2.jpg");
+  background-image: url("../images/What_We_do_2.jpg");
 }
 
 .main-header {
-    padding: 15% 10% 5.86%;
+  padding: 15% 10% 5.86%;
 }
 
 .what-we-do-header {
-    background-image: url("../../images/Assets/whatwedo_masthead.png");
+  background-image: url("../../images/Assets/whatwedo_masthead.png");
 }
 
 .extra-spacer {
-    padding-top: 25px;
+  padding-top: 25px;
 }
 
 .callisto-campus, .expansion {
-    h5 {
-        margin-top: 0;
-    }
+  h5 {
+    margin-top: 0;
+  }
 
-    h4, h5, p {
-        text-align: left;
-    }
+  h4, h5, p {
+    text-align: left;
+  }
 
-    .value-prop-item {
-        align-items: flex-start;
-        display: flex;
-        flex-direction: row;
-        padding: 20px 0 0;
-    }
+  .value-prop-item {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0 0;
+  }
 
-    .value-prop-item img {
-        margin-right: 25px;
-	width: 46px;
-    }
+  .value-prop-item img {
+    margin-right: 25px;
+    width: 46px;
+  }
 }
 
 .quote-section {
-    blockquote {
-	font-weight: 300;
-    }
+  blockquote {
+    font-weight: 300;
+  }
 
-    cite {
-	font-weight: 900;
-    }
+  cite {
+    font-weight: 900;
+  }
 }
 
 @media (max-width: $max-width-md) {
-    *[class*='col-md']{
-	padding-top:10px;
-    }
+  *[class*='col-md'] {
+    padding-top: 10px;
+  }
 }

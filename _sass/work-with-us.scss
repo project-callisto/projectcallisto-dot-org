@@ -1,5 +1,5 @@
 .work-with-us-header {
-    background-image: url("../../images/Assets/career_masthead.png");
+  background-image: url("../../images/Assets/career_masthead.png");
 }
 
 .darker-background {
@@ -11,15 +11,15 @@
 }
 
 .our-values {
-    p {
-	text-align: left;
-    }
+  p {
+    text-align: left;
+  }
 
-    ul {
-	font-family: $font-sans;
-	list-style-type: circle;
-	margin-left: 20px;
-    }
+  ul {
+    font-family: $font-sans;
+    list-style-type: circle;
+    margin-left: 20px;
+  }
 }
 
 article {
