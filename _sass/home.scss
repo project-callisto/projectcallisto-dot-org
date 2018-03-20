@@ -255,13 +255,13 @@
 .card-title {
     padding-top: 20px;
     margin-bottom: 8px;
+}
 
-    p {
+.card-title p {
 	font-family: $font-main;
 	font-weight: 800;
 	font-size: 14px;
 	font-weight: 900;
-    }
 }
 
 #record-icon,
@@ -332,6 +332,18 @@
 
 .input-sec {
     margin: 0 auto;
+}
+
+.card-title {
+    padding-top: 20px;
+    margin-bottom: 8px;
+}
+
+p.card-title {
+	font-family: $font-main;
+	font-weight: 800;
+	font-size: 14px;
+	font-weight: 900;
 }
 
 @media (max-width: $max-width-xs) {
