@@ -69,6 +69,8 @@ section {
   li {
     text-align: left;
     text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
 
   .field {
@@ -76,6 +78,13 @@ section {
     padding: 5px;
     background-color: #F6F6F6;
     border: none;
+  }
+
+  select.field {
+    background-color: white;
+    border: 0;
+    height: 30px;
+    border: 1px solid #DDDDDD;
   }
 
   .gradient-button {
@@ -89,17 +98,6 @@ section {
 
 #suggest-section {
   padding-bottom: 0;
-}
-
-li {
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
-select {
-  background-color: $color-option-background;
-  border: 0;
-  height: 30px;
 }
 
 .paragraph-content-spacer {
@@ -128,9 +126,9 @@ select {
   }
 
   img {
-      padding-right: 10px;
-      width: 22px;
-      height: 22px;
+    padding-right: 10px;
+    width: 22px;
+    height: 22px;
   }
 }
 
