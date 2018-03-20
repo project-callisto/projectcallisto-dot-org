@@ -27,7 +27,7 @@ section {
 }
 
 .more-contact {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 
   .row {
     max-width: 630px;
@@ -36,6 +36,10 @@ section {
     @media (min-width: $max-width-lg) {
       display: flex;
     }
+  }
+
+  .row > div {
+    padding: 10px 20px;
   }
 
   .row > div:first-of-type {
@@ -48,8 +52,8 @@ section {
     }
   }
 
-  .row > div {
-    padding: 10px 20px;
+  .row > div:last-of-type > p:last-of-type {
+    margin: 0;
   }
 
   .gradient-button {
@@ -157,8 +161,4 @@ section {
     width: 22px;
     height: 22px;
   }
-}
-
-a.big-link {
-  padding-bottom: 0;
 }
