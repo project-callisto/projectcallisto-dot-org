@@ -250,6 +250,18 @@ ul.navbar-collapse {
 #newsletter {
   background-color: $color-gray-darker;
 
+  ::placeholder {
+      color: $color-white;
+  }
+
+  :-ms-input-placeholder {
+      color: $color-white;
+  }
+
+  ::-ms-input-placeholder {
+      color: $color-white;
+  }
+  
   .email {
     border: 0;
     background-color: #30353B;
