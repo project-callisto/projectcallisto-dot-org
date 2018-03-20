@@ -22,6 +22,10 @@
     }
 }
 
+.main-header p {
+    max-width: 42%;
+}
+
 article {
   @include paragraph-content-spacer;
   @include spacer-with-underline;
