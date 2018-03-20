@@ -16,7 +16,11 @@
     width: 90%;
   }
 
-  @media (min-width: $min-width-lg) {
+  @media (min-width: $min-width-lg) and (max-width: $min-width-xlg) {
     width: 630px;
+  }
+
+  @media (min-width: $min-width-xlg) {
+    width: 800px;
   }
 }

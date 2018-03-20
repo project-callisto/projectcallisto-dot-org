@@ -10,10 +10,12 @@ $max-width-xxs: 300px;
 $max-width-xs: 650px;
 $max-width-sm: 767px;
 $max-width-md: 992px;
+$max-width-lg: 1200px;
 
 $min-width-sm: $max-width-xs;
 $min-width-md: $max-width-sm;
 $min-width-lg: $max-width-md;
+$min-width-xlg: $max-width-lg;
 
 // fonts
 $font-sans: "Open Sans", sans-serif;
