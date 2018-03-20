@@ -1,9 +1,22 @@
+@import "_variables.scss";
+
 @mixin spacer-with-underline {
   border-bottom: 1px solid #D6E1E4;
 }
 
 @mixin paragraph-content-spacer {
-  max-width: 630px;
   margin: 0 auto;
   padding: 0 0 40px;
+
+  @media (max-width: $min-width-md) {
+    width: 100%;
+  }
+
+  @media (min-width: $min-width-md) and (max-width: $min-width-lg) {
+    width: 90%;
+  }
+
+  @media (min-width: $min-width-lg) {
+    width: 630px;
+  }
 }
