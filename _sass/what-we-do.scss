@@ -25,6 +25,14 @@
     text-align: left;
   }
 
+  h4 {
+    line-height: 26px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: $font-main;
+  }
+
   .value-prop-item {
     align-items: flex-start;
     display: flex;
