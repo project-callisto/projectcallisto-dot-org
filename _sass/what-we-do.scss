@@ -46,16 +46,6 @@
   }
 }
 
-.quote-section {
-  blockquote {
-    font-weight: 300;
-  }
-
-  cite {
-    font-weight: 900;
-  }
-}
-
 @media (max-width: $max-width-md) {
   *[class*='col-md'] {
     padding-top: 10px;

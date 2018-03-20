@@ -42,12 +42,16 @@ section.expanded-section {
 .quote-section blockquote {
   padding: 0;
   border: none;
+  font-weight: 300;
 }
 
 .quote-section cite {
-  font-size: 1em;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 26px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 900;
+  font-family: $font-playfair;
 }
 
 .gradient-button {
