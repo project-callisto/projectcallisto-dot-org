@@ -197,7 +197,12 @@
     }
 
     h4 {
-	font-size: 25pt;
+	font-size: 25px;
+	line-height: 33px;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-weight: 900;
+	font-family: $font-playfair;
     }
 }
 
@@ -249,6 +254,7 @@
 
 .card-title {
     padding-top: 20px;
+    margin-bottom: 8px;
     font-family: $font-main;
     font-weight: 800;
 }
