@@ -11,14 +11,18 @@
 @import "footer.scss";
 @import "work-with-us.scss";
 #wteac {
-  ul {
-    list-style-type: circle;
-    margin-left: 20px;
-  }
+// //  ul {
+//     list-style-type: circle;
+//     margin-left: 20px;
+//   }
   p {
     text-align: left;
   }
 }
 #wteacBackground {
     background-image: url(../../images/Assets/Quote_background.png);
+}
+#joinUsCTA {
+  //margin-left: 20px;
+  margin-bottom: 35px;
 }
