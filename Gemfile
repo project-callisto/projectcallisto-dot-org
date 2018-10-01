@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.3.4'
+ruby '2.5.1'
 
 gem 'github-pages', group: :jekyll_plugins
 gem 'jekyll-redirect-from'
