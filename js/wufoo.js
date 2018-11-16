@@ -1,4 +1,8 @@
 $(document).ready(function() {
+  $('#bars').click(function() {
+    $('#bottomNav').slideToggle(300);
+  });
+
     if ($(".foli1")) {
         // Setup checkboxes (hide them)
         $(".demo-checkbox").hide();

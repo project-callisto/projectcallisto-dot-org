@@ -1,3 +1,138 @@
+// New CSS 2018
+#navWrapper {
+  width: 100%;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+#topNav {
+  width: 100%;
+  height: 25px;
+  background: #464D55;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 85px;
+  box-sizing: border-box;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: 'Raleway';
+}
+#topNavWrapper {
+  display: flex;
+}
+.topNavItem {
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+#bottomNav {
+  width: 100%;
+  height: 50px;
+  padding: 0 75px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Raleway';
+
+  img {
+    width: 37px;
+  }
+}
+#botNavBrand {
+  display: flex;
+  align-items: center;
+}
+#brandLogo {
+  padding-left: 10px;
+  color: #1C2E36;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: 'Montserrat';
+}
+#botNavItems {
+  display: flex;
+}
+.botNavItem {
+  color: #124F69;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.56px;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
+.mobileLinks {
+  display: none;
+}
+
+// Desktop
+@media (min-width: 768px) {
+  #bottomNav {
+    display: flex !important;
+  }
+}
+
+// Early Break
+@media (max-width: 886px) {
+  .botNavItem {
+    padding: 10px;
+  }
+}
+
+// Mobile
+@media (max-width: 768px) {
+  #topNav {
+    padding: 0 30px;
+    background: #fff;
+    color: #124F69;
+    height: 60px;
+    justify-content: space-between;
+
+    img {
+      width: 37px;
+    }
+  }
+  #topNavWrapper {
+    display: none;
+  }
+  .topNavItem {
+    display: none;
+  }
+  #bottomNav {
+    height: auto;
+    flex-direction: column;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    display: none;
+  }
+  #botNavItems {
+    flex-direction: column;
+  }
+  .botNavItem {
+    padding: 20px;
+  }
+  #botNavBrand {
+    display: none;
+  }
+  .bar {
+    width: 18px;
+    height: 3px;
+    margin: 3px;
+    background: #124F69;
+    border-radius: .3em;
+  }
+  .mobileLinks {
+    display: block;
+  }
+}
+
+// Old CSS
 .main-header {
   padding: 15% 10% 3.86%;
   align-items: left;
