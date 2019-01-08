@@ -13,3 +13,7 @@ plugins:
 
 whitelist:
   - jekyll-redirect-from
+
+# Social Info
+twitter_username: callisto
+share_image:      https://projectcallisto.org/images/Assets/masthead_2.png
