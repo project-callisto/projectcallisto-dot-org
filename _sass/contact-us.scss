@@ -257,7 +257,7 @@ section {
 }
 // modal
 #modalWrapper {
-  display: none;
+  // display: none;
 }
 #modalBg {
   position: fixed;
@@ -303,5 +303,35 @@ section {
     font-size: 16px;
     padding: 0 30px;
     box-sizing: border-box;
+  }
+}
+
+@media (max-width: 768px) {
+  #contactParagraph1 {
+    align-items: center;
+
+    h3, p {
+      text-align: center !important;
+    }
+  }
+  #contactParagraph2 {
+    align-items: center;
+
+    h3, p {
+      text-align: center !important;
+    }
+  }
+  .sepLine {
+    margin: 0 20px;
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+  }
+  #modalForm {
+    padding: 10px 10px 0 10px;
+  }
+  #modalHeader {
+    p {
+      padding: 0 10px;
+    }
   }
 }
