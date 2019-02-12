@@ -107,7 +107,7 @@ section {
     }
 
     @media (min-width: $min-width-md) {
-      padding: 0 20px;
+      // padding: 0 20px;
     }
   }
 
@@ -189,6 +189,64 @@ section {
     width: 22px;
     height: 22px;
   }
+}
+
+// New additions 2/11/19
+.paragraph-content-spacer {
+  margin-top: 0!important;
+}
+.more-contact {
+  margin-bottom: 0!important;
+  margin-top: 30px;
+}
+.contactParagraph {
+  h5 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+.more-contact-left {
+  padding: 10px 20px;
+  box-sizing: border-box;
+
+  p {
+    font-size: 16px!important;
+  }
+}
+#contactParagraph1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 40px;
+
+  h3, p, a {
+    text-align: left !important;
+  }
+}
+#contactParagraph2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  h3, p, a {
+    text-align: right !important;
+  }
+}
+.modalButton {
+  background: #385C6C;
+  color: #fff;
+  padding: 10px 50px;
+  box-sizing: border-box;
+  font-size: 16px;
+  letter-spacing: 1.66px;
+  font-weight: 500;
+}
+.sepLine {
+  background: #979797;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 25px!important;
 }
 
 @media (max-width: $max-width-md) {
