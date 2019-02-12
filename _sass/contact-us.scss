@@ -257,7 +257,6 @@ section {
 }
 // modal
 #modalWrapper {
-  z-index: 9999!important;
   display: none;
 }
 #modalBg {
@@ -273,6 +272,7 @@ section {
   box-sizing: border-box;
   height: 100vh;
   overflow-y: scroll;
+  z-index: 999!important;
 }
 #modalForm {
   background: #fff;
@@ -280,32 +280,28 @@ section {
   box-sizing: border-box;
   height: max-content;
   margin-bottom: 100px;
+  position: relative;
 }
+#modalClose {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  box-sizing: border-box;
 
-@media (max-width: 768px) {
-  #contactParagraph1 {
-    align-items: center;
-
-    h3, p {
-      text-align: center !important;
-    }
+  &:hover {
+    cursor: pointer;
   }
-  #contactParagraph2 {
-    align-items: center;
+}
+#modalHeader {
+  color: #1C2E36;
 
-    h3, p {
-      text-align: center !important;
-    }
+  h5 {
+    font-weight: 700;
   }
-  .sepLine {
-    margin: 0 20px;
+  p {
+    font-size: 16px;
+    padding: 0 30px;
     box-sizing: border-box;
-    width: calc(100% - 40px);
-  }
-}
-
-@media (max-width: $max-width-md) {
-  .main-header {
-    background-position: 55%;
   }
 }
