@@ -204,6 +204,13 @@ section {
     font-size: 16px;
     font-weight: 600;
   }
+  button {
+    border: none;
+
+    &:hover {
+      background: #555;
+    }
+  }
 }
 .more-contact-left {
   padding: 10px 20px;
@@ -219,7 +226,7 @@ section {
   align-items: flex-start;
   margin-bottom: 40px;
 
-  h3, p, a {
+  h3, p {
     text-align: left !important;
   }
 }
@@ -228,7 +235,7 @@ section {
   flex-direction: column;
   align-items: flex-end;
 
-  h3, p, a {
+  h3, p {
     text-align: right !important;
   }
 }
@@ -247,6 +254,54 @@ section {
   width: 100%;
   margin-bottom: 20px;
   margin-top: 25px!important;
+}
+// modal
+#modalWrapper {
+  z-index: 9999!important;
+  display: none;
+}
+#modalBg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  background: rgba(56,92,108,0.9);
+  display: flex;
+  justify-content: center;
+  padding: 100px 10px 0 10px;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow-y: scroll;
+}
+#modalForm {
+  background: #fff;
+  padding: 40px 40px 0 40px;
+  box-sizing: border-box;
+  height: max-content;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+  #contactParagraph1 {
+    align-items: center;
+
+    h3, p {
+      text-align: center !important;
+    }
+  }
+  #contactParagraph2 {
+    align-items: center;
+
+    h3, p {
+      text-align: center !important;
+    }
+  }
+  .sepLine {
+    margin: 0 20px;
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+  }
 }
 
 @media (max-width: $max-width-md) {

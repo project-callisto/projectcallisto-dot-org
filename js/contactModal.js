@@ -1,3 +1,6 @@
 $(document).ready(function() {
-  alert('working!');
+  $('#suggestButton').click(function() {
+    alert('worked!');
+    $('#modalWrapper').toggleFade(300);
+  });
 });
