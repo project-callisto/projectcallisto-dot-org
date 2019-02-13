@@ -31,4 +31,9 @@ $(document).ready(function() {
       });
     }
   });
+
+  // const path = window.location.pathname;
+  // if (path === '/what-we-do') {
+  //   $('#wwdNavItem').addClass('active-link');
+  // }
 });
