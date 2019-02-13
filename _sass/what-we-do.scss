@@ -46,6 +46,29 @@
   }
 }
 
+#whatWeDoPage {
+  section {
+    text-align: left!important;
+  }
+  ul {
+    list-style: disc!important;
+    padding-left: 25px!important;
+  }
+  #cxCTAButtons {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+#createAccountLinkCX {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  #cxCTAButtons {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+  }
+}
 @media (max-width: $max-width-md) {
   *[class*='col-md'] {
     padding-top: 10px;
