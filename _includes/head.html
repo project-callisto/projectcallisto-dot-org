@@ -19,5 +19,13 @@
     <script src="https://donorbox.org/install-popup-button.js" type="text/javascript" defer></script>
 
     <script> window.DonorBox = { widgetLinkClassName: 'custom-dbox-popup' } </script>
-
+    <script type="text/javascript">
+      // redirect if URL ends in a '/'
+      const path = window.location.pathname;
+      const lastChar = path[path.length -1];
+      if (lastChar === '/') {
+        const newPath = path.slice(0, -1);
+        window.location.replace(newPath);
+      }
+    </script>
 </head>
