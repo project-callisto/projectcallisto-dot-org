@@ -1,4 +1,12 @@
 // New CSS 2018
+.active-link {
+  background: linear-gradient(116.54deg, #ca9475 0%, #f7dac4 50.3%, #c69274 100%) left bottom transparent no-repeat;
+  background-size: 100% 3px;
+}
+
+.active-link-bold {
+  font-weight: 900;
+}
 #navWrapper {
   width: 100%;
 
@@ -63,7 +71,8 @@
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 1.56px;
-  padding: 5px 20px;
+  padding: 5px 0px;
+  margin: 0 20px;
   box-sizing: border-box;
 }
 .mobileLinks {
@@ -71,7 +80,7 @@
 }
 
 // Desktop
-@media (min-width: 768px) {
+@media (min-width: 890px) {
   #bottomNav {
     display: flex !important;
   }
@@ -85,7 +94,7 @@
 }
 
 // Mobile
-@media (max-width: 768px) {
+@media (max-width: 890px) {
   #topNav {
     padding: 0 30px;
     background: #fff;
