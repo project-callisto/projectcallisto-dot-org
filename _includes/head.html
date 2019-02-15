@@ -23,7 +23,7 @@
       // redirect if URL ends in a '/'
       const path = window.location.pathname;
       const lastChar = path[path.length -1];
-      if (lastChar === '/') {
+      if (lastChar === '/' && path !== '/') {
         const newPath = path.slice(0, -1);
         window.location.replace(newPath);
       }
