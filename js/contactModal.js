@@ -5,7 +5,7 @@ $(document).ready(function() {
   });
   $('#mailingListButton').click(function() {
     $('#modalWrapper').fadeToggle(100);
-    $('#modalTitle').text('JOIN OUR CALLISTO EXPANSION WAITINGLIST');
+    $('#modalTitle').text('JOIN OUR CALLISTO EXPANSION WAITING LIST');
   });
   $('#modalClose').click(function() {
     $('#modalWrapper').fadeToggle(100);
