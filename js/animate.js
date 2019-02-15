@@ -33,7 +33,6 @@ $(document).ready(function() {
   });
 
   const path = window.location.pathname;
-  console.log(path);
   if (path === '/what-we-do') {
     $('#wwdNavItem').addClass('active-link');
   } else if (path === '/who-we-are') {
