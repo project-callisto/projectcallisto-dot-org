@@ -107,7 +107,7 @@ section {
     }
 
     @media (min-width: $min-width-md) {
-      padding: 0 20px;
+      // padding: 0 20px;
     }
   }
 
@@ -191,8 +191,147 @@ section {
   }
 }
 
-@media (max-width: $max-width-md) {
-  .main-header {
-    background-position: 55%;
+// New additions 2/11/19
+.paragraph-content-spacer {
+  margin-top: 0!important;
+}
+.more-contact {
+  margin-bottom: 0!important;
+  margin-top: 30px;
+}
+.contactParagraph {
+  h5 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  button {
+    border: none;
+
+    &:hover {
+      background: #555;
+    }
+  }
+}
+.more-contact-left {
+  padding: 10px 20px;
+  box-sizing: border-box;
+
+  p {
+    font-size: 16px!important;
+  }
+}
+#contactParagraph1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 40px;
+
+  h3, p {
+    text-align: left !important;
+  }
+}
+#contactParagraph2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  h3, p {
+    text-align: right !important;
+  }
+}
+.modalButton {
+  background: #385C6C;
+  color: #fff;
+  padding: 10px 50px;
+  box-sizing: border-box;
+  font-size: 16px;
+  letter-spacing: 1.66px;
+  font-weight: 500;
+}
+.sepLine {
+  background: #979797;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 25px!important;
+}
+// modal
+#modalWrapper {
+  display: none;
+}
+#modalBg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  background: rgba(56,92,108,0.9);
+  display: flex;
+  justify-content: center;
+  padding: 100px 10px 0 10px;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow-y: scroll;
+  z-index: 999!important;
+}
+#modalForm {
+  background: #fff;
+  padding: 40px 40px 0 40px;
+  box-sizing: border-box;
+  height: max-content;
+  margin-bottom: 100px;
+  position: relative;
+}
+#modalClose {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  box-sizing: border-box;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+#modalHeader {
+  color: #1C2E36;
+
+  h5 {
+    font-weight: 700;
+  }
+  p {
+    font-size: 16px;
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 768px) {
+  #contactParagraph1 {
+    align-items: center;
+
+    h3, p {
+      text-align: center !important;
+    }
+  }
+  #contactParagraph2 {
+    align-items: center;
+
+    h3, p {
+      text-align: center !important;
+    }
+  }
+  .sepLine {
+    margin: 0 20px;
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+  }
+  #modalForm {
+    padding: 10px 10px 0 10px;
+  }
+  #modalHeader {
+    p {
+      padding: 0 10px;
+    }
   }
 }
