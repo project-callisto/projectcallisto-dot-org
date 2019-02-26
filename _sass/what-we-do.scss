@@ -63,6 +63,32 @@
   text-decoration: underline;
 }
 
+
+#wwdUnderPicContent {
+  p {
+    margin-left: 71px;
+  }
+}
+
+#fakeUL {
+  margin-bottom: 25px;
+
+  p {
+    margin-bottom: 7px;
+  }
+  span {
+    margin-right: 10px;
+  }
+}
+.marginIn {
+  margin-left: 15px;
+  display: flex;
+}
+.doubleMarginIn {
+  margin-left: 35px;
+  display: flex;
+}
+
 @media (max-width: 768px) {
   #cxCTAButtons {
     margin-left: 0px!important;
