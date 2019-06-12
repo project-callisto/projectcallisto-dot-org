@@ -16,5 +16,7 @@ $(document).ready(function() {
       return str;
   }
 
-  document.getElementById('yearCount').textContent = inWords(yearsActive);
+    if(document.getElementById('yearCount') !== null) {
+	document.getElementById('yearCount').textContent = inWords(yearsActive);
+    }
 });
