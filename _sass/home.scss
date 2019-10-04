@@ -439,3 +439,31 @@ p.card-title {
     margin-right: 0;
   }
 }
+
+// Page Styling
+#pageWrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 93px 30px 30px 30px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+
+  p {
+    line-height: 2em;
+    font-size: 16px;
+  }
+  h4 {
+    color: #1C2E36;
+    font-family: $font-montserrat;
+  }
+  a {
+    color: #333;
+    text-decoration: underline;
+  }
+}
+#pageContent {
+  width: 100%;
+  max-width: 632px;
+}
