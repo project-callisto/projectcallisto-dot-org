@@ -492,3 +492,86 @@ p.card-title {
     border-radius: 0!important;
   }
 }
+
+
+// Login page
+#loginPageWrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+
+  p {
+    line-height: 2em;
+    font-size: 16px;
+  }
+  h4 {
+    color: #1C2E36;
+    font-family: $font-montserrat;
+  }
+  a {
+    color: #333;
+    text-decoration: underline;
+  }
+}
+#loginPage {
+  width: 100%;
+  max-width: 700px;
+  height: 60vh;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+#loginContent {
+  display: flex;
+
+  p {
+    text-align: center;
+  }
+  button {
+    background: $color-blue-button;
+    color: #fff;
+    height: 45px;
+    border: none;
+    max-width: 300px;
+    width: 100%;
+    letter-spacing: 1px;
+
+    &:hover,
+    &:focus {
+      background: $color-blue-button-hover;
+    }
+  }
+}
+#expansionLogin {
+  border-right: 1px solid #cdcdcd;
+  padding-right: 50px;
+  margin-right: 48px;
+  margin-bottom: 0;
+}
+
+@media (max-width: $max-width-xs) {
+  #loginPage {
+    height: 100%;
+  }
+  #loginContent {
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+  }
+  #expansionLogin {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+  #campusLogin {
+    border-bottom: 1px solid #cdcdcd;
+    padding-bottom: 40px;
+  }
+  #loginContent {
+    text-align: center;
+  }
+}

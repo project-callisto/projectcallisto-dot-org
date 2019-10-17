@@ -13,6 +13,8 @@ $(document).ready(function() {
   } else if (path === '/contact-us') {
     $('#contNavItem').addClass('active-link');
     $('#contNavItemBold').addClass('active-link-bold');
+  } else if (path === '/login') {
+    $('#loginNavItemBold').addClass('active-link-bold');
   } else if (path === '/donate') {
     $('#donNavItem').addClass('active-link');
   }
