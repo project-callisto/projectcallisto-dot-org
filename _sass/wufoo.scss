@@ -52,6 +52,9 @@ select {
   &:focus {
     outline: none!important;
   }
+  &:hover {
+    cursor: pointer;
+  }
 }
 .wufoo label.desc {
   margin-bottom: 5px!important;
