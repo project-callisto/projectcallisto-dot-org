@@ -1,3 +1,131 @@
-.redesigned-theme-2018 input.btTxt {
-  float: none!important;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Open+Sans:300,400,600|Playfair+Display:400,700&display=swap');
+
+#header {
+  font-size: 14px;
+  line-height: 2em;
+  // font-family: 'Open Sans'!important;
+  font-weight: 300!important;
+}
+.wufoo .info h2 {
+  font-family: 'Playfair Display'!important;
+  font-size: 32px!important;
+  font-weight: 700!important;
+  color: #385C6C!important;
+  padding-top: 15px!important;
+}
+li {
+  padding: 0!important;
+}
+.wufoo li.focused {
+    background-color: #fff !important;
+}
+input {
+  padding: 12px!important;
+  border: none!important;
+  background: #f9f9f9!important;
+  margin-bottom: 20px!important;
+
+  &:focus {
+    outline: none!important;
+  }
+}
+textarea.textarea {
+  padding: 12px!important;
+  border: none!important;
+  background: #f9f9f9!important;
+  margin-bottom: 20px!important;
+  width: calc(100% - 25px);
+  box-sizing: border-box;
+
+  &:focus {
+    outline: none!important;
+  }
+}
+select {
+  height: 45px!important;
+  margin-bottom: 30px!important;
+  border-radius: 0!important;
+  border: 1px solid #dedede!important;
+  background: #fff!important;
+  box-sizing: border-box;
+
+  &:focus {
+    outline: none!important;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+.wufoo label.desc {
+  margin-bottom: 5px!important;
+  color: #385C6C!important;
+  text-transform: uppercase;
+  font-size: 8px!important;
+  font-family: 'Montserrat'!important;
+  letter-spacing: 1px!important;
+}
+.wufoo label.desc {
+  font-size: 13px!important;
+}
+.wufoo .info div {
+  font-size: 16px!important;
+  line-height: 2em!important;
+  margin-top: 30px;
+  margin-bottom: 40px!important;
+  font-family: 'Open Sans'!important;
+}
+a {
+  display: none!important;
+}
+#saveForm {
+  background: #385C6C!important;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px!important;
+  font-family: 'Montserrat'!important;
+  letter-spacing: 1px;
+  font-size: 16px;
+
+  &:hover {
+    cursor: pointer;
+    background: #464D55!important;
+  }
+}
+.subfield {
+  display: flex;
+  align-items: center;
+}
+
+#errorLi {
+  background: #c0392b!important;
+  border-radius: 0!important;
+  padding: 10px!important;
+  border: none!important;
+}
+#errorMsgLbl {
+  color: #fff!important;
+}
+form li.error p.error {
+  padding: 7px!important;
+}
+input.checkbox, input.radio {
+  height: 33px!important;
+}
+input.text {
+  width: calc(100% - 25px);
+}
+form li.leftHalf, form li.rightHalf {
+  // width: calc(50% - 50px)!important;
+}
+form li.leftHalf, form li.rightHalf {
+  width: calc(50% - 35px)!important;
+  margin-right: 25px!important;
+}
+@media (max-width: 630px) {
+  form li.leftHalf, form li.rightHalf {
+    width: 100%!important;
+    clear: none!important;
+    float: none!important;
+  }
 }
