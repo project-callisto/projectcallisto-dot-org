@@ -1,0 +1,425 @@
+// #testWrapper {
+//   width: 100vw;
+//   height: 100vh;
+//   position: relative;
+//   background: #fff;
+// }
+.sgPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  position: relative;
+  min-height: calc(100vh - 60px);
+}
+#sgBottomNav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 73px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #124f69;
+  border-top: 1px solid #f9f9f9;
+  border-bottom: 1px solid #f9f9f9;
+  box-sizing: border-box;
+  z-index: 888;
+
+  img {
+    padding: 15px;
+    box-sizing: border-box;
+  }
+}
+.nextSgPage {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #f7dac4;
+  padding-left: 20px;
+  height: 48px;
+
+  img {
+    transform: rotate(180deg);
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+.backSgPage {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #f7dac4;
+  padding-right: 20px;
+  height: 48px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+.sgPageContainer {
+  width: 100%;
+  max-width: 1105px;
+  // height: calc(100vh - 103px);
+  // overflow-y: scroll;
+  // -webkit-overflow-scrolling: touch;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.sgPageContainer::-webkit-scrollbar {
+  display: none;
+  background: transparent;
+  visibility: hidden;
+  width: 0px;
+}
+// Style SG title and PDF download
+.sgHeader {
+  width: 100%;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.sgHeaderStroke {
+  width: 375px;
+  height: 18px;
+  background: linear-gradient(
+    116.54deg,
+    #ca9475 0%,
+    #f7dac4 50.3%,
+    #c69274 100%
+  );
+  opacity: 0.4;
+}
+.sgHeaderText {
+  font-size: 36px;
+  color: #2e3337;
+  letter-spacing: 2px;
+  font-family: 'Sorts Mill Goudy', serif;
+  position: absolute;
+  margin-top: -43px;
+}
+.dapdfv {
+  color: #124f69;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.sgParagraph {
+  color: #464d55;
+  line-height: 30px;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 30px;
+  max-width: 544px;
+}
+.sgParLink {
+  line-height: 25px;
+  font-size: 14px;
+}
+.sgParTitle {
+  font-weight: 600;
+  margin-top: 30px;
+  line-height: 30px;
+}
+.boldSg {
+  font-weight: 500;
+  font-style: italic;
+}
+.sgTitle {
+  color: #2e3337;
+  font-size: 36px;
+  letter-spacing: 2px;
+  font-family: 'Sorts Mill Goudy', serif;
+  margin-bottom: 30px;
+}
+.sgPageSectionOne {
+  display: flex;
+}
+.sgpsoSecond {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  img {
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+}
+.sgpsImageText {
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-family: 'Sorts Mill Goudy', serif;
+  margin-top: 35px;
+  margin-bottom: 60px;
+}
+.bottomText {
+  font-weight: 300;
+  font-style: italic;
+  font-family: 'Sorts Mill Goudy', serif;
+  max-width: 500px;
+  margin-top: 60px;
+}
+.scrollSignifier {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 73px;
+  background: linear-gradient(rgba(255, 255, 255, 0.001), #fff);
+
+  img {
+    animation: down 2.5s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+}
+// Sg content Styling
+.sgFormStroke {
+  width: 100%;
+  padding: 70px 40px 90px 40px;
+  box-sizing: border-box;
+  border: 4px solid #e6c1a7;
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+}
+.blueCircleWrapper {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: calc(100% - 80px);
+  margin-bottom: -52px;
+  display: flex;
+  justify-content: center;
+}
+.blueCircle {
+  height: 100px;
+  width: 100px;
+  background: #124f69;
+  border-radius: 5em;
+}
+.sgContentForm {
+  width: 100%;
+  background: #fff;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 140px;
+  padding: 50px 30px;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  color: #464d55;
+}
+.splitContent {
+  display: flex;
+  width: 100%;
+}
+.sfgcHalf {
+  width: 50%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.highlightText {
+  color: #124f69;
+  text-decoration: underline;
+  line-height: 30px;
+  font-weight: 500;
+}
+.sgStrokeWrapper {
+  position: relative;
+  height: 20px;
+  margin-bottom: 15px;
+}
+.sgStrokeTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-top: -15px;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+.sgStroke {
+  background: linear-gradient(
+    116.54deg,
+    #ca9475 0%,
+    #f7dac4 50.3%,
+    #c69274 100%
+  );
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 20px;
+}
+.splitContent {
+  position: relative;
+}
+.sgSSWrapper {
+  padding: 60px 0;
+}
+.sgSectionSeparator {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(100% - 60px);
+  height: 2px;
+  margin-left: 30px;
+  background: linear-gradient(116.54deg, #ca9475 0%, #f7dac4 50.3%, #c69274 100%);
+  opacity: 0.5;
+}
+.sgSig {
+  font-size: 52px;
+  color: #124f69;
+  font-family: 'Notera';
+  margin-top: 100px;
+}
+
+.sgCenterWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  .sgParagraph {
+    max-width: 772px;
+  }
+}
+.sgCenterSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.centerStrokeWrapper {
+  position: relative;
+  height: 20px;
+  width: 370px;
+  margin: 60px 0 15px 0;
+}
+.centerStroke {
+  width: 370px;
+  height: 20px;
+  background: red;
+  position: absolute;
+  max-width: 370px;
+  background: linear-gradient(116.54deg, #ca9475 0%, #f7dac4 50.3%, #c69274 100%);
+  opacity: 0.3;
+}
+.centerStrokeText {
+  position: relative;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-family: 'Sorts Mill Goudy', serif;
+  margin-top: -16px;
+}
+.centerParagraphWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .sgcfLeft {
+    position: relative;
+  }
+}
+@media (max-width: 768px) {
+  .dashForm {
+    padding: 30px !important;
+  }
+  .recordSafteyWarning {
+    display: none !important;
+  }
+
+  // SG Styling
+  .sgPage {
+    width: 100vw !important;
+  }
+  .sgHeader {
+    margin-bottom: 30px;
+  }
+  .sgPageSectionOne {
+    flex-direction: column-reverse;
+  }
+  .sgpsoSecond {
+    width: 100%;
+    img {
+      padding: 0px;
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+  .sgParagraph {
+    min-width: 100%;
+  }
+  .sgTitle {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+  }
+  .sgHeaderText {
+    font-size: 24px;
+    margin-top: -35px;
+  }
+  .sgHeaderStroke {
+    width: 270px;
+  }
+  .sgpsImageText {
+    display: none;
+  }
+  .bottomNavText {
+    display: none;
+  }
+  .sgContentForm {
+    flex-direction: column;
+    width: 100vw;
+    margin-left: -30px;
+    margin-top: 15px;
+  }
+  .splitContent {
+    flex-direction: column;
+  }
+  .sfgcHalf {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .sgFormStroke {
+    padding: 30px 20px 50px 20px;
+    margin-bottom: 15px;
+  }
+  .blueCircleWrapper {
+    width: calc(100% - 40px);
+  }
+  .hchContentLine {
+    display: none;
+  }
+  .peachCircle {
+    display: none;
+  }
+  .sgSSWrapper {
+    padding: 25px 0;
+  }
+  .sgSectionSeparator {
+    width: 100%;
+    margin-left: 0;
+  }
+  #sgBottomNav {
+    position: fixed;
+  }
+  .sgPageContainer {
+    height: calc(100% - 60px);
+    padding-bottom: 100px;
+  }
+  .scrollSignifier {
+    display: none;
+  }
+}
