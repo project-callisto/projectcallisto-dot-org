@@ -1,9 +1,9 @@
-// #testWrapper {
-//   width: 100vw;
-//   height: 100vh;
-//   position: relative;
-//   background: #fff;
-// }
+@font-face {
+  font-family: 'Notera';
+  src: url('../resources/fonts/notera.ttf');
+  src: format('truetype');
+}
+
 .sgPage {
   display: flex;
   flex-direction: column;
@@ -451,7 +451,7 @@
   margin-top: -100px;
   margin-right: 30px;
 }
-.sgcfLeft {
+#sgcfLeft {
   padding-top: 330px;
 }
 #hfaeTitle {
@@ -544,4 +544,26 @@
   #peachCircle {
     display: none;
   }
+}
+
+// Self Care
+.resourceLinks {
+  .highlightText {
+    line-height: 22px;
+    font-size: 14px;
+  }
+}
+.sgContentForm {
+  position: relative;
+}
+.peachCircle {
+  width: 100px;
+  height: 100px;
+  background: #f7dac4;
+  border-radius: 5em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: -50px;
+  margin-right: 50px;
 }
