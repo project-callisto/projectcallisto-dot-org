@@ -684,3 +684,140 @@
     margin-top: 25px;
   }
 }
+
+// Reporting
+
+.sgParTitleBig {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.peachBox {
+  background: #f7dac4;
+  width: calc(100% + 60px);
+  margin-left: -60px;
+  padding: 80px 70px;
+  box-sizing: border-box;
+  position: relative;
+}
+.blueCircleWrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.blueCircle {
+  width: 100px;
+  height: 100px;
+  border-radius: 5em;
+  background: #124f69;
+}
+.sgSig {
+  font-size: 38px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.sgSSWrapper {
+  padding: 20px 0;
+}
+.reportingStrokeBox {
+  border: 4px solid #e6c1a7;
+  padding: 30px 40px 0 40px;
+  position: relative;
+
+  .sgParagraph {
+    padding-bottom: 60px;
+  }
+}
+.reportingBlueBox {
+  background: #464d55;
+  color: #fff;
+  padding: 40px 60px 80px 60px;
+  position: relative;
+  box-sizing: border-box;
+}
+.blueBoxTitle {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.blueBoxText {
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 14px;
+  line-height: 30px;
+}
+.peachCircleWrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -35px;
+}
+.peachCircle {
+  width: 75px;
+  height: 75px;
+  border-radius: 5em;
+  background: #f7dac4;
+}
+.centerStrokeWrapper {
+  width: 600px;
+  margin-bottom: 0;
+}
+.centerStroke {
+  width: 600px;
+  max-width: 600px;
+}
+.headerWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+#afterReporting {
+  background: #fff;
+  margin-top: -16px;
+  position: relative;
+  width: 400px;
+  text-align: center;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+#perpForInterview {
+  background: #fff;
+  color: #464d55;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .peachBox {
+    margin-left: -30px;
+    padding: 60px 30px;
+    margin-top: -60px;
+    margin-bottom: 80px;
+  }
+  #afterReporting {
+    width: 235px;
+  }
+  .reportingBlueBox {
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    padding: 60px 30px;
+    margin-bottom: -60px;
+  }
+  .centerStrokeWrapper {
+    margin: 60px 0 30px 0;
+    text-align: left;
+  }
+  .centerStroke {
+    display: none;
+  }
+}
