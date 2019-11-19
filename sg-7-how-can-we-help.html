@@ -1,0 +1,110 @@
+---
+layout: default
+css: /css/sg.css
+title: How Callisto Can Help | Callisto
+permalink: /how-callisto-can-help
+---
+
+<style media="screen">
+  .sgcfRight {
+    width: 60%;
+    position: relative;
+  }
+  .sgcfLeft {
+    width: 40%;
+  }
+  .sgStroke {
+    width: 250px;
+  }
+  .hchContentLine {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 67px;
+    height: 86%;
+    width: 2px;
+    background: linear-gradient(
+      116.54deg,
+      #ca9475 0%,
+      #f7dac4 50.3%,
+      #c69274 100%
+    );
+    opacity: 0.4;
+  }
+  .buttonWrapper {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
+
+<div class="sgPage">
+  <div class="sgPageContainer">
+    <div class="sgHeader">
+      <div class="sgHeaderStroke"></div>
+      <div class="sgHeaderText">The Survivor's Guide</div>
+    </div>
+    <a href="/assets/sg/Web_SurvivorsGuide.pdf" download><div class="dapdfv">Download a PDF Version</div></a>
+    <div class="sgTitle">VII. How Callisto Can Help</div>
+    <div class="sgPageSectionOne">
+      <div class="sgpsoFirst">
+        <div class="sgParagraph">Callisto is a non-profit organization that creates technology to combat sexual assault and coercion. If you have experienced sexual assault or professional sexual coercion, you can create an entry of your incident in Callisto. Your entry will never be seen by anyone, including Callisto, unless another person names the same perpetrator. If there is a match, you will be connected to an Legal Options Counselor who will safely and privately help you navigate all of your options to take action.</div>
+        <div class="sgParagraph bottomText">Callisto users are six times more likely to report and three times more likely to seek emotional and medical support. Since 2015, Callisto has identified serial perpetrators in 10% of matching records. In school year 2017-2018, 15% of records entered into the matching system were matched.</div>
+      </div>
+      <div class="sgpsoSecond">
+        <div class="">
+          <img src="../images/sg/comp.svg" alt="">
+        </div>
+      </div>
+  </div>
+  <div class="sgContentForm">
+    <div class="splitContent">
+      <div class="sgcfRight sfgcHalf">
+        <div class="hchContentLine"></div>
+        <div class="sgStrokeWrapper">
+          <div class="sgStroke"></div>
+          <div class="sgStrokeTitle">How Callisto Works</div>
+        </div>
+        <div class="sgParagraph boldItalic">Using Callisto is an easy and safe way to feel empowered after experiencing rape, sexual assault, or professional sexual coercion. We help you find the right options to take action in a way that feels best for you.</div>
+        <div class="sgParTitle">Here's how it works:</div>
+        <div class="sgParagraph">• Once you have activated your account, you can create an entry that documents your experience of sexual misconduct. You will be asked to name your perpetrator, including their unique identifiers (such as social media URLs, phone numbers, and emails) so that we can detect a match.</div>
+        <div class="sgParagraph">• All of the information is encrypted and secure. You can learn more about our privacy on our <div routerLink="/privacy-by-design"><span class="highlightText">encryption</span> page.</div></div>
+        <div class="sgParagraph">• If someone else names the same perpetrator, a match will be identified and your entry information will then be shared with a Callisto Legal Options Counselor. The Legal Options Counselor will then reach out to you by your preferred contact method.</div>
+        <div class="sgParagraph">• An Legal Options Counselor is an attorney, vetted by Callisto, who will advise you of your rights and will help you navigate your options for taking action. All conversations with the Legal Options Counselor are protected under attorney-client privilege, so you can ensure your privacy is protected.</div>
+      </div>
+      <div class="sgcfLeft sfgcHalf">
+        <div class="sgParTitle">Callisto Has Considered:</div>
+        <div class="sgParTitle">Your privacy is crucial.</div>
+        <div class="sgParagraph">We collaborate with thought-leaders and experts in cryptography to develop a system that allows for complete privacy from end to end. Read more about our encryption method on <a href="https://www.projectcallisto.org/callisto-cryptographic-approach.pdf"target="_blank"><span class="highlightText">our white paper</span></a>.</div>
+        <div class="sgParTitle">Designed for survivors, by survivors.</div>
+        <div class="sgParagraph">Callisto team members understand the experiences of sexual assault and professional sexual coercion. Our trauma-informed platform relies on input from experts in law and psychology to make your experience as comfortable as possible.</div>
+        <div class="sgParTitle">You have agency over your experience.</div>
+        <div class="sgParagraph">There is no one “right” path for you to take, and our Legal Options Counselors are here to help you find the best one for you. Options may include taking no action for now, connecting with the other victim, confronting the perpetrator, going to human resources, filing legal charges, going to the press, or other choices.</div>
+      </div>
+    </div>
+    <div class="buttonWrapper">
+      <button mat-button class="btn primary-button med-button" routerLink="/matching">ADD A MATCHING ENTRY</button>
+    </div>
+  </div>
+  <div class="scrollSignifier">
+    <img src="/assets/sg/down_arrow.svg" alt="">
+  </div>
+  <div id="sgBottomNav">
+    <a class="backSgPage" href="/professional-sexual-coercion">
+      <img src="../images/Assets/chev-left.svg" alt="">
+      <div class="bottomNavText">VI. NAVIGATING PROFESSIONAL COERCION</div>
+    </a>
+    <div></div>
+    <!-- <div class="nextSgPage" routerLink="/matching">
+      <div class="">ADD A MATCHING ENTRY</div>
+      <img src="/assets/chev-left.svg" alt="">
+    </div> -->
+  </div>
+</div>
+</div>
+
+<section id="newsletter">
+  {% include mailchimp.html %}
+</section>
