@@ -3,7 +3,16 @@
   src: url('../resources/fonts/notera.ttf');
   src: format('truetype');
 }
+a {
+  color: #00758F;
+}
+#sgBottomNav a {
+  color: #124F69;
 
+  &:hover {
+    text-decoration: none;
+  }
+}
 .sgPage {
   display: flex;
   flex-direction: column;
@@ -13,7 +22,7 @@
   min-height: calc(100vh - 60px);
 }
 #sgBottomNav {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -417,9 +426,5 @@
   }
   .sgPageContainer {
     height: calc(100% - 60px);
-    padding-bottom: 100px;
-  }
-  .scrollSignifier {
-    display: none;
   }
 }
