@@ -1,5 +1,4 @@
 $(window).scroll(function() {
-  console.log($(window).width());
   if ($(window).scrollTop() + $(window).height() + $('#footer').height() + 130 >= $(document).height()) {
     if ($(window).width() > 994) {
       var dif = $(document).height() - ($(window).scrollTop() + $(window).height());
