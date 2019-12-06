@@ -19,6 +19,14 @@
     line-height: 2em;
     font-size: 16px;
   }
+  ul {
+    list-style-type: disc;
+    padding-inline-start: 40px;
+  }
+  li {
+    padding-bottom: 10px;
+    box-sizing: border-box;
+  }
 }
 #ppContent {
   width: 100%;
