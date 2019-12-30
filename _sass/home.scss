@@ -614,3 +614,8 @@ p.card-title {
 .flex {
   display: flex;
 }
+
+// Greenhouse
+#grnhse_app {
+  min-height: calc(100vh - 400px);
+}
