@@ -148,6 +148,13 @@
 
 .header-left {
   width: 40%;
+  // h2, p {
+  //   color: $color-blue-button!important;
+  // }
+  // .white-button {
+  //   background: $color-blue-button;
+  //   color: $color-white !important;
+  // }
 }
 
 .header-right {
@@ -606,4 +613,9 @@ p.card-title {
 }
 .flex {
   display: flex;
+}
+
+// Greenhouse
+#grnhse_app {
+  min-height: calc(100vh - 400px);
 }
