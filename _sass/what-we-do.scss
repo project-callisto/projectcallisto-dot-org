@@ -1,4 +1,8 @@
 /* What We Do page styling */
+#newMailchimp {
+  margin-top: 70px;
+  display: flex;
+}
 
 #what-banner {
   background-image: url("../images/What_We_do_2.jpg");
@@ -55,8 +59,8 @@
     padding-left: 25px!important;
   }
   #cxCTAButtons {
-    margin-left: -15px;
-    margin-right: -15px;
+    display: flex;
+    margin: 50px -15px 15px -15px;
   }
 }
 #createAccountLinkCX {
